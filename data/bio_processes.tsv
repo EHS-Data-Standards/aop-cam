@@ -1,0 +1,566 @@
+wiki_id	uuid	source	source_id	name
+65536	15c68a93-43cb-492a-a748-9cc324678109	MESH	D006965	hyperplasia
+65537	41bdec3a-7026-40fc-80a0-8858fdcb4c83	MESH	D006528	hepatocellular carcinoma
+12425	766123b7-77df-43af-ab23-d7c793e36cf5	GO	GO:0008283	cell proliferation
+21436	5c6e612e-18e2-47cd-b66d-f781845bd9f9	GO	GO:0008137	NADH dehydrogenase (ubiquinone) activity
+65538	cc4c6311-2356-4152-a18c-4ec879509f8e	GO	GO:0006120	mitochondrial electron transport, NADH to ubiquinone
+65539	40d8989f-2f6e-41b4-bfdc-9676f675ce66	MESH	D057165	Proteostasis deficiencies
+41775	fa91e79c-d39c-4e0d-8a70-56fc2d14a885	MP	MP:0001847	brain inflammation
+41361	e736a42e-db7c-48ab-919f-869b5c3976fb	MP	MP:0003244	loss of dopaminergic neurons
+6345	310a360c-41a2-409e-b771-1418fa425506	GO	GO:0035076	ecdysone receptor-mediated signaling pathway
+27328	afadf62f-465d-4285-afb3-3287bfee1038	GO	GO:0008255	ecdysis-triggering hormone activity
+5826	7a3710fe-3062-4085-a31b-91af719e1813	GO	GO:0010467	gene expression
+13161	b2c531dd-d003-4a4e-b820-9cd509ecf80e	GO	GO:0002790	peptide secretion
+10081	c818c987-2227-4eaa-93ca-c50b6f06a5f2	GO	GO:0019226	transmission of nerve impulse
+10087	4f2a63aa-1dfa-4142-b5c6-2290ff678026	GO	GO:0006936	muscle contraction
+2334	3aa56903-a4b0-4ca4-943b-65aa0ced02e0	GO	GO:0006031	chitin biosynthetic process
+65540	e60b79dd-8903-4ce4-a2bb-6ed0d309f048	MESH	D009026	mortality
+16935	1449ba77-e503-4aba-8529-00401b09a75e	GO	GO:0035624	receptor transactivation
+65541	2fe52534-3db7-4ba3-8522-f95131caea71	MESH	D007662	ketosis
+43257	81bca756-d5b3-4968-b3cd-ec5aedce853c	MP	MP:0002118	abnormal lipid homeostasis
+44792	b0ccdbdd-db58-4a52-8110-37db80d447fe	MP	MP:0001262	decreased body weight
+2835	fad62e13-2586-4741-afdd-6486a64c9a44	GO	GO:0030163	protein catabolic process
+27390	9fb9d994-d82c-4a6d-8c9e-043cf80b3920	GO	GO:0048019	receptor antagonist activity
+20292	4f5ec54e-361a-4e5e-b1f5-19f995fa2772	GO	GO:0003714	transcription corepressor activity
+3701	daf6076f-71b3-4152-a40b-4968ff436d18	GO	GO:0006635	fatty acid beta-oxidation
+4247	68473c18-b18a-48a0-bdd8-bffa94be8dd0	GO	GO:0006703	estrogen biosynthetic process
+65542	354f9f83-bbee-4750-948f-017670d29f7b	MESH	D005298	fertility
+9918	473496c6-743b-4d82-a7e9-6a3392927cf3	GO	GO:0009566	fertilization
+9956	23db8174-5e42-4fb3-b049-e529ecbb27f5	GO	GO:0042698	ovulation cycle
+20652	0028363b-1618-4cd9-8c4c-fc587d6435a9	GO	GO:0070330	aromatase activity
+759	4dc9e4ce-8ebf-4f3b-858a-ca88849ee0f7	GO	GO:0009299	mRNA transcription
+10077	1b09cda9-d678-4223-b6b5-16c935f1ea51	GO	GO:0023052	signaling
+44237	000f64b6-ebc9-47f3-ac12-13d63cebe1c3	MP	MP:0000032	cochlear degeneration
+19894	ab497691-60c0-45e7-8c34-271a3782411c	GO	GO:0010817	regulation of hormone levels
+43503	585a11e4-ef03-4883-887a-942c1f74c087	MP	MP:0005475	abnormal circulating thyroxine level
+22673	cc6aa13c-75a9-4c48-9eb5-6f602471d569	GO	GO:0015020	glucuronosyltransferase activity
+20307	5e93434e-19fa-4600-aabb-7201782a8104	GO	GO:0003824	catalytic activity
+11375	99e6048f-fa66-47c2-ba05-8a011ac083c8	GO	GO:0007420	brain development
+6075	ba0ed8a9-b485-4509-853a-d15c1a73b580	GO	GO:0007268	chemical synaptic transmission
+16796	9637fb54-9e38-41ed-87c5-884c4fe6671f	GO	GO:0010468	regulation of gene expression
+595	75d95854-b7af-4faa-8a1f-60e332ad52fe	GO	GO:0008152	metabolic process
+26172	b3243b4e-f864-491b-b9ae-7670f102cdc3	GO	GO:0022851	GABA-gated chloride ion channel activity
+19923	10df0fc9-57b3-4a69-9152-e0af3187fdbb	GO	GO:0051899	membrane depolarization
+51268	d5996942-a74d-4b57-8e07-45b729cab109	NBO	NBO:0000025	seizures
+27395	f621aff0-2601-4bb7-95fc-e031e2909631	GO	GO:0050811	GABA receptor binding
+19927	b50ab0ae-7f4c-43a1-8da6-01f9beefb19e	GO	GO:0060079	excitatory postsynaptic potential
+26153	3d0dc858-bb7d-4782-af4c-ab6913f90822	GO	GO:0004972	NMDA glutamate receptor activity
+41024	3ad60379-85d2-42bc-9b38-af54acbc3e2f	MP	MP:0002229	neurodegeneration
+14537	1c83b75d-2c27-481b-b915-03d2218170c3	GO	GO:0006816	calcium ion transport
+13159	c8f0d247-df3c-4c3d-9b5a-f823d357b555	GO	GO:0046903	secretion
+7928	503ce1be-f4ad-4bc9-ab8a-c3ee8f76eaf8	GO	GO:0008219	cell death
+527	82604560-e66c-4ed0-b0b1-a7684287cf7e	GO	GO:0007612	learning
+541	c6ca4136-0835-4a9a-ba67-9c52443293e5	GO	GO:0007613	memory
+7215	2ceb1377-49ae-410f-8cbd-5c15bf6ff802	GO	GO:0048813	dendrite morphogenesis
+6911	01cfbbdf-bc93-4f7a-afed-7ec22c75270f	GO	GO:0007416	synapse assembly
+6072	abd0f665-d7af-4713-97c3-a11d248f523e	GO	GO:0099536	synaptic signaling
+8295	f5790eb0-b6df-4bc8-b7bc-10d694315374	GO	GO:0014047	glutamate secretion
+25992	e77cb6b5-9ca9-45ea-8e6f-81637700251a	GO	GO:0004883	glucocorticoid receptor activity
+6373	b885d0e3-d311-47c4-bb29-7cca4a64cfe4	GO	GO:0007249	I-kappaB kinase/NF-kappaB signaling
+65543	8fb427e6-3263-47c7-acd9-925da587ff2a	GO	GO:0002534	cytokine production involved in inflammatory response
+2858	2a92a831-2d0c-4556-b462-bf0e2b3436ec	GO	GO:0007252	I-kappaB phosphorylation
+65544	cea31e74-0611-4e66-bc18-2e7b62135131	MESH	D004198	Disease Susceptibility
+13581	25ee1ee6-b757-4be0-aff5-7accbefba9e0	GO	GO:0044414	suppression of host defenses
+65545	dad47a68-aa32-4f54-bf93-8841daf0f2e9	MESH	D009154	mutation
+1317	c246e476-2336-4d97-bd37-4bbac6c0ce56	GO	GO:0006305	DNA alkylation
+1286	a452938e-d8fa-4a7f-a405-6e7226ac77d6	GO	GO:0006281	DNA repair
+24067	8c4c3196-bb2f-44e3-86e4-deccb75e4939	GO	GO:0003990	acetylcholinesterase activity
+49169	7ae71e13-5620-4027-bb74-1869ed4d5313	MP	MP:0001954	respiratory distress
+47759	8b31c32b-b8f1-4a56-924d-280adc4ac213	MP	MP:0001393	ataxia
+47806	0a4f3bb7-d29f-4c08-91e1-52e99ca88259	MP	MP:0001399	hyperactivity
+47774	004bef2b-cd5f-4cfc-8786-e7e8bd76784b	MP	MP:0000753	paralysis
+65546	97462469-c3fd-4e3c-be7e-bcc92df0a2ce	PCO	PCO:0000008	population growth rate
+46844	4df7d42e-d1b5-482b-8f8b-2157cacb78c3	MP	MP:0003674	oxidative stress
+87	445ae638-cece-4a1b-a542-ff782f5d7df0	GO	GO:0002263	cell activation involved in immune response
+13374	4d1f287c-6d32-4abe-bb74-5b67c223c5a3	GO	GO:0002526	acute inflammatory response
+65547	e01acf39-4ed0-4d5b-bbf5-20c0ab266029	GO	GO:0035357	peroxisome proliferator activated receptor signaling pathway
+14670	dedfe84a-5126-416a-abc1-c0caf8601b3d	GO	GO:0006839	mitochondrial transport
+4633	1c1c9e73-71a3-45ae-9349-43a336a47997	GO	GO:0061370	testosterone biosynthetic process
+4242	17847fe7-04f3-4096-8c34-e5a00b60a79c	GO	GO:0042446	hormone biosynthetic process
+6279	1f8660da-6277-47f5-82d3-e4e181c11003	GO	GO:0016055	Wnt signaling pathway
+10749	0ab82ffa-17c9-481c-9920-a6d1fdf8aa86	GO	GO:0032502	developmental process
+20302	6b8fb649-a464-4205-a4fa-5c2c2afbb7b5	GO	GO:0004882	androgen receptor activity
+25996	29974f37-19bb-42ea-8601-3163e070550b	GO	GO:0004874	aryl hydrocarbon receptor activity
+27348	ce4691e6-9a7d-45b8-b141-d866ce2ac69e	GO	GO:0017162	aryl hydrocarbon receptor binding
+27876	49c1512c-c759-448f-a4b9-a682c9ddd061	GO	GO:0046983	protein dimerization activity
+46924	278b1771-f614-4918-8d34-6ec1d9b23e32	MP	MP:0001544	abnormal cardiovascular system physiology
+12258	42577069-b0b5-4a0a-82df-bc276aff379a	GO	GO:0072358	cardiovascular system development
+50479	bf07c3f4-5fad-4974-bf21-643c4f80f919	MP	MP:0008762	embryonic lethality
+8215	16fb267a-632f-4412-912e-0dfdddede2a3	GO	GO:0009306	protein secretion
+52322	9712cd59-19f4-4d39-87f5-945c4163c0f8	VT	VT:1000294	egg quantity
+14610	8073cbbd-73bd-4e66-b642-a91be3402f63	GO	GO:0006898	receptor-mediated endocytosis
+8022	2354395e-46e9-4d54-9b41-0d32fb0be847	GO	GO:0001555	oocyte growth
+8157	b4a4a4b6-e66c-4321-9971-74f5fc227eb1	GO	GO:0048599	oocyte development
+24788	55d38118-2f03-42e3-9f62-8e32f3a7285c	GO	GO:0005388	calcium-transporting ATPase activity
+797	8671f817-8034-40e4-b3dd-1952010e6326	GO	GO:0006754	ATP biosynthetic process
+17033	f73fac3a-ad3d-4acd-b700-e92fc2f349a9	GO	GO:0060291	long-term synaptic potentiation
+4892	74ecd099-2b18-45c9-82b6-6bb27ed35f49	GO	GO:1903409	reactive oxygen species biosynthetic process
+14461	4ce36101-4f8b-4178-8baa-bbd111ce893a	GO	GO:0006810	transport
+8230	0ca98135-ecf2-4e9d-8337-ad326773a465	GO	GO:0050663	cytokine secretion
+13373	881aaab9-d4f5-40a7-8acf-443a03c53932	GO	GO:0006954	inflammatory response
+21702	32662ad9-86c4-4c59-bb9e-7e15887a06b8	GO	GO:0004666	prostaglandin-endoperoxide synthase activity
+14590	a4910f05-6765-4c8e-bcb5-56930ac199d7	GO	GO:0015701	bicarbonate transport
+9974	9145bc51-8c8c-4e96-b8cb-860c669a13ca	GO	GO:0044703	multi-organism reproductive process
+25994	e8ebf09f-9fd4-4269-b86b-5c7183bc9f62	GO	GO:0030284	estrogen receptor activity
+26239	74f0b1a2-3cd5-40c2-b0fe-a81ee7c87cea	GO	GO:0048018	receptor agonist activity
+65548	05cbde0d-dceb-49e0-8beb-9ddebaccbd84	MESH	D007674	Kidney Diseases
+497	4dd79b2b-4daa-4f89-802b-a131f25dbc45	GO	GO:0019098	reproductive behavior
+10416	3b2e15c7-1c51-45fe-acab-ebaee6081690	GO	GO:0002164	larval development
+3531	d7c30c1a-e241-4e2e-9882-fb6b78fc2779	GO	GO:0006788	heme oxidation
+2834	c4a0a21d-194a-43e8-b144-75020ffb09e3	GO	GO:0042541	hemoglobin biosynthetic process
+27736	c9e876d1-79aa-4944-a8e2-17dbb957aa29	GO	GO:0030492	hemoglobin binding
+42669	a3b7aafb-d832-4ca0-94ea-22408aed5c1f	MP	MP:0010019	liver vascular congestion
+39800	f6153b9c-a7de-40e9-bf8f-0d24155ba2c5	HP	HP:0001410	Decreased liver function
+20409	194e39af-861a-4ba5-95bd-dc6740b2b2c1	GO	GO:0004517	nitric-oxide synthase activity
+65549	5cb464c2-67c9-4e0f-9f40-41c632d76635	MI	MI:2141	hepatotoxicity
+12457	c8cb13ef-e01c-4df1-908d-4206087957c8	GO	GO:0072574	hepatocyte proliferation
+42159	669cd217-468f-43f3-ab33-481fa6314da2	MP	MP:0003606	kidney failure
+17424	9e1ee9a7-70ad-49f7-b4d7-35eaa1acda04	GO	GO:2000193	positive regulation of fatty acid transport
+6168	2d065801-39f3-400d-bd79-fe1ba4ec8537	GO	GO:0032933	SREBP signaling pathway
+22383	e8dafe1e-91d4-41ea-93ae-2d722d98e16c	GO	GO:0004312	fatty acid synthase activity
+4402	ff9c0dc6-519d-4567-a192-3cbb810a791f	GO	GO:0006633	fatty acid biosynthetic process
+20757	34842f24-9fc4-451f-a6cc-719eb0502d69	GO	GO:0003857	3-hydroxyacyl-CoA dehydrogenase activity
+39556	b33ac874-3c1d-4c87-a883-f7d34d38bbab	HP	HP:0001397	Hepatic steatosis
+42633	711dcef3-89c4-4f9e-a5e1-04266c27c2c4	MP	MP:0003333	liver fibrosis
+2999	e542af91-76f6-4a83-bd61-efe6d43f1923	GO	GO:0008213	protein alkylation
+7666	8b7aa9ab-bc21-4336-85ae-437a52f882fa	GO	GO:0035733	hepatic stellate cell activation
+4784	09c4c83c-955d-4c0c-88a6-446e173eea8f	GO	GO:0032964	collagen biosynthetic process
+65551	00681e69-1057-4ae6-bab7-65269458561b	MESH	D012130	Respiratory Hypersensitivity
+7653	20477f23-0de5-4a2d-9cbc-aa701c12f3e0	GO	GO:0001775	cell activation
+6988	f6ea3a6b-9773-4682-8f3a-e80d8fdfd869	GO	GO:0002396	MHC protein complex assembly
+372	88f83050-7dee-4b40-8efc-ca245b494dfe	GO	GO:0042110	T cell activation
+26992	ca6af326-a4f2-429c-b044-c9c4fcd7a60c	GO	GO:0005515	protein binding
+8282	bde6864f-e718-4086-a14e-b9628a84b897	GO	GO:0090195	chemokine secretion
+160	ded8c56a-3102-4fc1-8f8f-51362e18faf4	GO	GO:0006956	complement activation
+7660	42969e68-22e5-47c3-b300-a99e47c00d75	GO	GO:0032980	keratinocyte activation
+8054	805cc625-1ddd-49b1-99e3-9ea75a43d1fb	GO	GO:0019725	cellular homeostasis
+7931	ab7a72f0-d09d-404f-81f1-e599d7d0621a	GO	GO:0006915	apoptotic process
+21576	8bb28c82-3535-4a1e-8e07-7c02fba5c486	GO	GO:0004447	iodide peroxidase activity
+2658	7fbeb0b1-3d27-497a-a984-8d27aa4d0174	GO	GO:0006590	thyroid hormone generation
+526	b57e8336-d7e8-419d-8b7e-0275d9348bfd	GO	GO:0007611	learning or memory
+10276	dd365dc4-0bed-4d47-a015-443304da8a8f	GO	GO:0050890	cognition
+65552	beda1621-d8b5-4c82-8f6c-eed36a770bbc	GO	GO:0043184	vascular endothelial growth factor receptor 2 binding
+11282	ef5045a9-fe73-43d5-8000-748032349af5	GO	GO:0001525	angiogenesis
+12062	4ac129ea-4f77-4a7d-9327-10e9775e6d59	GO	GO:0003158	endothelium development
+10181	920714b2-c9f2-4b7f-8932-68de5e2913ea	GO	GO:0008015	blood circulation
+10750	192a94cf-648f-4d5d-8ff5-b79590974d53	GO	GO:0009653	anatomical structure morphogenesis
+41661	b8e04eac-1e20-48e3-b73c-860394dbc32d	MP	MP:0011267	abnormal excitatory postsynaptic current amplitude
+26151	7cdb8be3-7982-4825-980c-2f2b048177e2	GO	GO:0004970	ionotropic glutamate receptor activity
+65553	212de366-627e-4671-bb87-756b3c3b0da1	MESH	D012744	sex ratio
+46979	87eda785-243e-453b-98a8-216644c1f908	MP	MP:0001914	hemorrhage
+29413	3fa0126d-74c1-425b-b986-d853bc0c0cab	HP	HP:0000112	Nephropathy
+14574	80aa86a1-7d3e-4bc9-8b8d-ddcae8ced278	GO	GO:0015705	iodide transport
+41354	dc525315-d41d-494d-8238-95aa4b546146	MP	MP:0002882	abnormal neuron morphology
+26535	d1a3d901-1324-4f14-b3f4-4525ee18ea3c	GO	GO:0008507	sodium:iodide symporter activity
+12550	ca362cbd-e8e1-47c7-afa7-12b0a0846aa8	GO	GO:0015908	fatty acid transport
+4697	3f1744bb-bee3-48c7-8d82-9713cb89d25a	GO	GO:0019432	triglyceride biosynthetic process
+4240	8c32274e-c177-4b5b-b1d0-9b5f69b990a5	GO	GO:0009058	biosynthetic process
+25871	b13b2846-9baf-40b4-a3e7-dac3c8c26337	GO	GO:0003989	acetyl-CoA carboxylase activity
+9645	77fbad71-7765-4d95-a8d2-e89a242f4b06	GO	GO:0022414	reproductive process
+2	5a77a788-287a-4a02-b6a9-85ec3bade297	GO	GO:0000003	reproduction
+9952	f7aebf94-2db8-4ee2-8179-d5eb91895137	GO	GO:0030728	ovulation
+52508	5b5c96b4-94ad-4d2b-a06f-c732e81c81aa	VT	VT:0002673	sperm quantity
+12030	ed802f37-d06b-4f13-9a79-81fe98f28697	GO	GO:0048856	anatomical structure development
+41559	abe14104-c2e2-47fb-b8d4-df54b57d840b	MP	MP:0003633	abnormal nervous system physiology
+44997	92e8e50d-83f8-44da-880f-807ab083ea33	MP	MP:0013603	abnormal fetal Leydig cell differentiation
+28985	320755c1-44d2-4939-894f-5e9eee7de49f	HP	HP:0008715	Testicular dysgenesis
+4730	982338f2-950f-4bb6-881b-98cd196075bd	GO	GO:0006695	cholesterol biosynthetic process
+13155	32524605-5595-440c-8a2f-f8a1336357aa	GO	GO:0042953	lipoprotein transport
+12577	afdb4a19-5a7b-447f-b9a0-522b60766da2	GO	GO:0032367	intracellular cholesterol transport
+4727	ea80a9ed-455f-46fa-844f-4ee483498bb1	GO	GO:0006694	steroid biosynthetic process
+15944	a38c1abd-1b7b-4fba-a61d-9a6b21162eaf	GO	GO:0050810	regulation of steroid biosynthetic process
+6540	817a811f-7ad5-4b01-9677-c3ad73156c9b	GO	GO:0007010	cytoskeleton organization
+4728	2abfbbab-a997-4e0c-be7e-cc70ca4294ba	GO	GO:0006704	glucocorticoid biosynthetic process
+20674	11f4463e-2b5f-497c-ad65-925d6b81c579	GO	GO:0004500	dopamine beta-monooxygenase activity
+49210	c9c771c1-509c-42ce-be34-01dd6faee06e	MP	MP:0001921	reduced fertility
+2674	886ab505-7255-4872-b193-51ede0a6da99	GO	GO:0042421	norepinephrine biosynthetic process
+8298	d3a70a73-e36b-4dbc-92ac-fef51aa89273	GO	GO:0046879	hormone secretion
+17079	5794662f-353b-48c2-8562-9fa56d371300	GO	GO:0033684	regulation of luteinizing hormone secretion
+49248	eeb5b904-26e4-416d-93ed-bf87d3faa433	MP	MP:0001928	abnormal ovulation
+9953	32c20fd8-50bd-4f46-8518-83cbb207f875	GO	GO:0035037	sperm entry
+46624	eade27fb-395d-4ef0-89b1-1a8c02a2878c	MP	MP:0004023	abnormal chromosome number
+16567	20e38c90-1b40-4086-99a3-352a9eded3a8	GO	GO:0044026	DNA hypermethylation
+44998	f9034b48-4e42-442d-8a10-55a8ddc2e892	MP	MP:0013604	abnormal adult Leydig cell differentiation
+26165	398a390c-596a-40c8-b880-8f546906bfae	GO	GO:0015464	acetylcholine receptor activity
+576	49398a39-28dd-486c-b552-ee3dcd2121a2	GO	GO:0060756	foraging behavior
+65554	26d66180-d1bb-4b61-9551-f8683e16bcc3	MESH	D056631	colony collapse
+26952	4cca8819-ef46-4859-b5bc-c0ed083cd2f6	GO	GO:0005488	binding
+27431	ddadfcc5-6fc8-4faa-aea7-5fb3c40cc80d	GO	GO:0005516	calmodulin binding
+47945	82960403-4f22-4274-94a6-04a063239b09	MP	MP:0001386	abnormal maternal nurturing
+51056	55971696-5db4-4ca4-89b5-ad52b9aa0c22	NBO	NBO:0000051	thermoregulation behavior
+13433	9ae81631-06c4-4afb-ab16-9e038dbdf91e	GO	GO:0009611	response to wounding
+11416	27d9a623-7121-430c-9593-388362826736	GO	GO:0007568	aging
+43704	49d2a365-1546-46d3-98d5-15f38559bdbf	MP	MP:0004889	increased energy expenditure
+65555	0f63ac27-c676-4234-915a-4edc780bc18c	MESH	D013312	Stress, Physiological
+65556	9c84fa71-d748-4ceb-a2b8-c0a3ac1c803d	MESH	D001066	Appetite
+48946	20421241-83e8-4723-9bf1-91c5a523998b	MP	MP:0002418	increased susceptibility to viral infection
+21088	018c4d44-aed6-4f0a-911b-a88d009343f8	GO	GO:0046562	glucose oxidase activity
+4715	aa205e11-226d-4b43-95eb-568d46e79af8	GO	GO:0050665	hydrogen peroxide biosynthetic process
+51257	e82daf7f-7057-41dd-b5a6-c09286e81591	NBO	NBO:0000079	feeding behavior
+65571	f1848558-d094-4d0e-be0f-9f1f330b7c43	MESH	D012380	role
+28875	35dce43d-fe96-4825-a6b2-aa11b44491a6	GO	GO:0030549	acetylcholine receptor activator activity
+28872	32212cbd-1c38-4704-aa42-aee6a366c50c	GO	GO:0030545	receptor regulator activity
+28750	d68dc1c9-4b43-4b5d-a1ca-25e7c543cfa0	GO	GO:0019871	sodium channel inhibitor activity
+19906	1a062020-efc2-419c-a224-db8eaf5ad7cb	GO	GO:0001508	action potential
+50836	e4967b06-f819-4f7c-92b5-2710814cf290	NBO	NBO:0000371	aquatic locomotion
+585	04d7a24d-26d9-44e1-9926-98e4b54ec95a	GO	GO:0002120	predatory behavior
+51962	670ffddf-13ae-4c17-84e0-7fc01a74d4ab	VT	VT:0005372	life span trait
+43405	72c10953-c9d7-4cca-aff9-249cbe733b62	MP	MP:0005039	hypoxia
+28749	fcf0673c-59a3-46a9-b44e-e76f3180c402	GO	GO:0019870	potassium channel inhibitor activity
+8341	f45fd446-ebc5-4526-bc47-2e88d00c1ed7	GO	GO:0007269	neurotransmitter secretion
+12536	50efb550-dd23-4827-917c-b4856c3dc1f5	GO	GO:0098810	neurotransmitter reuptake
+12537	22f268ca-d399-4fe3-bb11-748d4e75e1f6	GO	GO:0051610	serotonin uptake
+10728	d649bf31-4a11-4dad-9a4b-725945090cdd	GO	GO:0050881	musculoskeletal movement
+50819	307f8e6a-fa22-4f3c-b921-ad850d61b736	NBO	NBO:0000071	fossorial locomotion behavior
+12333	30e155b4-fd97-490c-bcbd-41539bdcb294	GO	GO:0040011	locomotion
+8193	51b839d2-b21e-49ec-bfdc-bf14366181c3	GO	GO:0001820	serotonin secretion
+50874	ef0417f4-2452-47c2-b45f-470e2054ea93	NBO	NBO:0000018	fear/anxiety related behavior
+48050	e8a7249b-9f10-4238-b1c9-a04d31851431	MP	MP:0014039	abnormal sheltering behavior
+17124	5c09285b-9ad6-4bea-ac11-4029a2abc818	GO	GO:0043179	rhythmic excitation
+26097	d0727ab6-00ba-429a-862e-5113a4766115	GO	GO:0004969	histamine receptor activity
+4395	16ee8083-7bea-4eb4-a7e1-eada8502f787	GO	GO:0001516	prostaglandin biosynthetic process
+50997	5c8bd5a2-eb7e-467a-b0d4-2a6559d7636e	NBO	NBO:0000280	attraction-related behavior
+8315	6147ba5d-c1dd-4962-831d-a82775771e85	GO	GO:0071834	mating pheromone secretion
+25991	37747367-2134-4aba-9672-75bd3b422f52	GO	GO:0003707	steroid hormone receptor activity
+7590	1cbefe34-550c-4d8e-aded-9243c4fcd204	GO	GO:0008315	G2/MI transition of meiotic cell cycle
+65557	21e4cf71-3e5d-4c19-a214-471e98a9b1c6	GO	GO:1902426	deactivation of mitotic spindle assembly checkpoint
+7869	3245afcd-d77d-4705-9873-a75930e70bc4	GO	GO:0007059	chromosome segregation
+26412	e4c8b3ab-d4ab-47ad-98d7-72cd77667790	GO	GO:0005216	ion channel activity
+65558	6422cc01-6e63-40e4-9a90-6a9d2fefa5b6	MESH	D001145	Arrhythmias, Cardiac
+12450	2f65fbdf-c4d3-4a2a-806f-81b00ed39aa7	GO	GO:0050673	epithelial cell proliferation
+65560	88637c32-0d2c-4171-bcbc-5e73c52b86fa	MESH	D002292	Carcinoma, Renal Cell
+27445	0b6a18e2-79d1-4c2c-ac7b-d6660d3ae690	GO	GO:0015631	tubulin binding
+5948	6605bc6a-13cb-42a0-9886-5e6f4974201c	GO	GO:0007019	microtubule depolymerization
+5920	2b4cac02-ad3e-4c57-8d65-25cf761bb48e	GO	GO:0007051	spindle organization
+5988	d7775ccf-fd00-4b29-99f6-e6321b312783	GO	GO:0051305	chromosome movement towards spindle pole
+40012	38312aad-52eb-4be2-a2b2-494ff220676a	MP	MP:0002009	preneoplasia
+33	a1f2c478-d279-45db-bdf9-26f871071651	GO	GO:0001909	leukocyte mediated cytotoxicity
+21935	b103d51d-d16d-4f9d-a1fc-4f65f515cce6	GO	GO:0004738	pyruvate dehydrogenase activity
+5126	753f515c-7e6f-4353-b4ea-19b657c51399	GO	GO:0045333	cellular respiration
+65559	1cb8b37e-b4c1-4db3-acf8-e563d96266cf	MESH	D006984	hypertrophy
+27031	0d38d0c4-d228-49a5-bf98-4db39f03449c	GO	GO:0005102	receptor binding
+44990	0d89c8b3-868f-4a39-b9e9-b6d60d72b003	MP	MP:0001152	Leydig cell hyperplasia
+40010	bb2cbe65-0ec5-457c-9135-29670b1ecf1f	MP	MP:0002006	neoplasm
+6077	bbbb54ed-4a20-474f-84d2-7227f87b8c9a	GO	GO:0001963	synaptic transmission, dopaminergic
+8174	7aceccc5-27b0-4675-b948-fd44b0ab7fa2	GO	GO:0042701	progesterone secretion
+49369	8d8936cc-389e-4ec3-846c-27a6a688d732	MP	MP:0009092	endometrium hyperplasia
+26416	530da2d9-38ec-4c04-9133-55110bc4b949	GO	GO:0005254	chloride channel activity
+14567	f57c23b8-67e6-4af5-97be-1f4850569fba	GO	GO:1902476	chloride transmembrane transport
+19933	e5a6bb0e-8f90-4ffe-8aa0-5e1ae2a0c5bd	GO	GO:0060081	membrane hyperpolarization
+21605	6ea1c6dd-6d10-4056-9a23-6b27403fad64	GO	GO:0003868	4-hydroxyphenylpyruvate dioxygenase activity
+46108	ef5da695-dd6a-4c7f-8c65-c6f4329cad18	MP	MP:0005493	stomach epithelial hyperplasia
+42085	863711fe-bee0-47a0-afdd-bb8baa2a81f6	MP	MP:0004968	kidney epithelium hyperplasia
+41892	6051e0f8-fb53-4785-910a-07345d60b386	MP	MP:0011625	cystolithiasis
+20868	490a302b-7a21-4797-ad45-84f7256b8b35	GO	GO:0042282	hydroxymethylglutaryl-CoA reductase activity
+12576	e14d8b3b-9529-4bce-a744-879c0b55e09d	GO	GO:0030301	cholesterol transport
+28673	121f153d-8a46-4691-870e-d035b677aa2f	GO	GO:0051380	norepinephrine binding
+65562	bf4463af-8f93-4cfd-a916-4a27125c8378	MESH	Q000633	toxicity
+10212	6ca8a634-0805-4b56-92fa-e1c9b5c614c8	GO	GO:0003094	glomerular filtration
+53529	c46161a7-7867-4147-88b6-ed9bcbe5cd9e	VT	VT:0005524	kidney plasma flow trait
+10205	936ea4d8-eb74-4725-94b8-d3396f88b90c	GO	GO:0070293	renal absorption
+43671	c951dfb6-f496-4714-9c21-c8d9ec524483	MP	MP:0005332	abnormal amino acid level
+65563	2bfdf548-6402-4d69-8ac7-c43fad0bc1fc	MESH	D004106	Dilatation
+41928	6fe2ea83-3edb-4f72-9e06-2d3947121ef5	MP	MP:0011899	podocyte vacuolization
+7998	3a91249f-52f6-499e-92fd-787410a4deff	GO	GO:0048102	autophagic cell death
+65561	e38273f4-102e-47cd-b82f-4ef281780de9	MI	MI:0613	function
+23851	b3932978-c856-41f9-8a34-92318eab32dc	GO	GO:0004620	phospholipase activity
+39558	99b49a22-1586-4750-b95e-c0f2a538a57c	HP	HP:0001414	Microvesicular hepatic steatosis
+42652	8afbee27-f407-49b2-9b85-2395c9240c74	MP	MP:0014045	Mallory bodies
+43961	392e1860-6320-45e4-85e0-fb3dbd88bc7d	MP	MP:0005654	porphyria
+8109	48567fd0-bc1a-4e77-803a-aa7fe9029b98	GO	GO:0051453	regulation of intracellular pH
+65564	6a62ef97-7324-4de0-b25a-748c598939a5	MESH	D001284	atrophy
+8010	0808fb6b-d38c-4f15-9851-852e384117e0	GO	GO:0070265	necrotic cell death
+42054	8e4e173d-16a8-4790-83ba-d75e9b2b0c48	MP	MP:0004154	renal tubular necrosis
+14609	05a32c65-ecad-47f0-8287-1c43cbbcaf86	GO	GO:0006897	endocytosis
+6830	34d39881-6885-4815-bff5-e8dc870a8ada	GO	GO:1903008	organelle disassembly
+65565	9f7fabd7-4e20-4554-9c45-7d04970d277b	GO	GO:0005006	epidermal growth factor-activated receptor activity
+5319	2552480b-3c27-46c8-9dcc-8353e8a83937	GO	GO:0016310	phosphorylation
+1827	497fe677-4d8c-4500-80f4-3b248cdd74d1	GO	GO:0006412	translation
+52259	052dd388-5fc4-4a2d-a957-6d0c5d7e5934	VT	VT:0002327	respiratory function trait
+3077	1af89954-866c-44ad-b9d4-7b0e385f16ba	GO	GO:0010731	protein glutathionylation
+6886	625aaeef-a06a-4f1d-8621-1d80a7056cb0	GO	GO:1903009	proteasome complex disassembly
+2128	a61888e9-4b19-47f7-b305-d5cef59a4bf7	GO	GO:0006809	nitric oxide biosynthetic process
+10171	1341908d-58f0-4a11-a029-2b4ea50b2046	GO	GO:0042311	vasodilation
+47010	a0f5e6b0-de6e-4c96-a441-6def7f8bd617	MP	MP:0004878	increased systemic vascular resistance
+46927	3d71b077-15a0-4e54-a023-d385200ee742	MP	MP:0000231	hypertension
+43729	a3306fdb-d278-4599-a9e3-66926971fdd7	MP	MP:0008469	abnormal protein level
+8325	14f1ad21-8de5-4150-9023-ae3319dca854	GO	GO:0032275	luteinizing hormone secretion
+65567	0c00a4bb-832c-4398-bf94-8ec7b78e7a34	MI	MI:0254	genetic interference
+65577	1b49eb55-e7b2-45e0-9a5b-5d9229c28d80	IDO	IDO:0000610	Immunosuppression
+10374	57b0aee3-7b14-4e7a-a22d-32afb8fc0b8c	GO	GO:0032623	interleukin-2 production
+10384	aa52de62-b49b-4506-8761-9e238a2b3215	GO	GO:0032633	interleukin-4 production
+43533	5e8dcdad-85e7-43d4-8e9c-594a5804adba	MP	MP:0005473	decreased triiodothyronine level
+11152	a771cef7-e7c8-480d-9a41-5092c63e75af	GO	GO:0048798	swim bladder inflation
+19930	563b6d73-db36-4251-b60f-cbd86dff173e	GO	GO:0060080	inhibitory postsynaptic potential
+17065	d97f61ac-0191-4922-8e79-568f4fa76508	GO	GO:0050805	negative regulation of synaptic transmission
+8705	b8a6011b-9ce0-4f15-82d8-2a45de50d2f3	GO	GO:0045444	fat cell differentiation
+12431	2307803e-8483-4b72-bfe8-c27c80706a8c	GO	GO:0010463	mesenchymal cell proliferation
+27056	af9903f9-0f82-4f96-ab6e-f87ebe698372	GO	GO:0031698	beta-2 adrenergic receptor binding
+26095	0210ca13-eb98-4805-8727-5dc7f2cae5ab	GO	GO:0004941	beta2-adrenergic receptor activity
+10145	67efab3d-6e47-4d72-bba8-aa0666d3b2a0	GO	GO:0044557	relaxation of smooth muscle
+8326	e8e8eaf8-9db6-4895-b092-89d1abf2146b	GO	GO:0046884	follicle-stimulating hormone secretion
+5713	87a09558-97f7-459b-b932-babead32a3fb	GO	GO:0006629	lipid metabolic process
+65566	2b687bfb-5ecc-4943-a3f1-b89689383e59	MESH	D008679	Metaplasia
+28929	b95decb4-fa89-4892-b4c0-4f39b549692f	HP	HP:0012114	Endometrial carcinoma
+49259	8199e63d-8aa7-4f3c-8a82-b3b6c8b60b73	MP	MP:0009006	prolonged estrous cycle
+49270	f4418ba0-6bd4-4231-97d9-175d8caf62f5	MP	MP:0009017	prolonged estrus
+45365	ca42130d-f4f2-4a61-85f6-cd09d5c8a3ba	MP	MP:0000630	mammary gland hyperplasia
+40295	dce8cbda-b56c-4c04-8da5-06147bd471fb	MP	MP:0010307	abnormal tumor latency
+33114	6a328135-aa61-4b3a-b004-3895f4fe48e0	HP	HP:0002893	Pituitary adenoma
+8289	259bb3c6-dfcd-4612-875d-7c9d85affeb9	GO	GO:0070459	prolactin secretion
+38952	851546c8-dcc2-4ece-abb5-cd341fd9ae1c	HP	HP:0100001	Malignant mesothelioma
+175	9f7d3a25-fa2c-405a-857b-3cf95de20c71	GO	GO:0002221	pattern recognition receptor signaling pathway
+176	54110afa-54ff-4e0f-b9ca-5a74f3499ce9	GO	GO:0002224	toll-like receptor signaling pathway
+180	3ce82892-21a3-4078-b5ea-bcbceaf80f29	GO	GO:0034142	toll-like receptor 4 signaling pathway
+338	9ec28eb5-dda2-42aa-84ef-02836557e29e	GO	GO:0042116	macrophage activation
+10424	a8af6094-c246-4764-9f61-dcb9cc40ded4	GO	GO:0007552	metamorphosis
+65570	0a81322f-f98c-404f-9b1a-c177beac33ca	MESH	D007511	ischemia
+20029	60e9394c-d736-43f5-8d48-d44950b8c19b	GO	GO:0007599	hemostasis
+13435	4b4e51f1-1096-4cbd-ba51-88bbd33c3090	GO	GO:0042060	wound healing
+65572	3fa9dec2-bcb5-4924-bb04-f7c3a2d45955	MI	MI:1139	carboxylation reaction
+9640	ff77fc19-e3a9-4790-b99f-cd42b922ad3e	GO	GO:1990748	cellular detoxification
+50353	0d429d15-87dd-44e6-8e21-afea3a84ad3b	MP	MP:0001577	anemia
+5422	0fb9a64c-a878-4f51-acaa-c8af134a6481	GO	GO:0042373	vitamin K metabolic process
+43561	f6cb0087-e3e1-4744-8b8a-5e73cd04355c	MP	MP:0003031	acidosis
+46972	daea315b-82e0-44e8-85d3-458e9642e8ba	MP	MP:0010128	hypovolemia
+52048	2d40d1a5-22b5-4fc7-9f62-b90475b9b1d1	VT	VT:1000152	wellness/fitness trait
+26346	38f50b6b-8159-41b4-aa5e-783d77571608	GO	GO:0017077	oxidative phosphorylation uncoupler activity
+49857	1cb42c5c-0cf7-44e0-8797-b6ef8264a7e9	MP	MP:0000066	osteoporosis
+65573	a8904873-2042-4ee6-af7e-fefa2c6e0bfd	MESH	D061205	vascular calcification
+3389	c5bbc2aa-7dac-42d5-84f6-8d6e085ed025	GO	GO:0043687	post-translational protein modification
+9040	ce643963-5967-4061-9ef6-51ac8b361601	GO	GO:0048469	cell maturation
+27325	e5ae914b-5c42-4f10-977b-80f6e16c4a8e	GO	GO:0005184	neuropeptide hormone activity
+13635	14251371-1e70-4e87-bb6c-0a28e40b69f2	GO	GO:0060004	reflex
+27399	77f4e370-00b1-4cc3-a22c-f603d9e3b7ec	GO	GO:0030331	estrogen receptor binding
+12451	04644d12-cd41-4e6e-899c-e6f8f7b9dd90	GO	GO:0001935	endothelial cell proliferation
+7713	ea70bb4b-4e08-4887-b1e5-75df5c9bc2ce	GO	GO:0043542	endothelial cell migration
+7694	b3c343c1-c6fc-4465-8d88-cf7584196e3c	GO	GO:0048870	cell motility
+6386	33e73279-997e-49c9-84a5-7045bf98f045	GO	GO:0019932	second-messenger-mediated signaling
+52306	0c21931f-2f7b-4129-9a1c-88efa7f83ea0	VT	VT:1000189	offspring quantity
+25452	77322ca6-213a-4cac-8ede-28dd88bb936b	GO	GO:0061505	DNA topoisomerase II activity
+65575	aab68141-558e-43da-9970-6d74f2954102	MESH	D014178	Translocation, Genetic
+6438	3ce0e571-cf0a-44a5-9154-ae47fbed08dc	GO	GO:0016043	cellular component organization
+7423	55fad767-dce8-4bf9-9427-db98be7ff8f5	GO	GO:0007009	plasma membrane organization
+8722	2574a114-30ba-408c-8105-07856f9c6b84	GO	GO:0001837	epithelial to mesenchymal transition
+4403	1b465ca0-9a0a-4275-bba9-c334a4c09003	GO	GO:0006636	unsaturated fatty acid biosynthetic process
+25798	cf86a248-6c2f-466f-96c0-4ccbaf531fcd	GO	GO:0004363	glutathione synthase activity
+22955	ffa8d3b7-8eda-40f7-80a1-a99a1d7029fe	GO	GO:0004364	glutathione transferase activity
+1792	cf4d02d7-3d4f-407f-babe-5eb541bccbe2	GO	GO:0006750	glutathione biosynthetic process
+10425	11e13754-60e2-4cc8-916f-01cc4dee411a	GO	GO:0009790	embryo development
+28760	b60f9037-f9a6-4b31-82bf-3a36cd7e0cdf	GO	GO:0004857	enzyme inhibitor activity
+16602	d3091d77-7164-470d-869f-ab0adae89fca	GO	GO:0031399	regulation of protein modification process
+19749	ae19abc0-d859-4783-8566-19f340054ff0	GO	GO:0051726	regulation of cell cycle
+28983	3d497132-d387-444c-996f-e1302cf42064	HP	HP:0000029	Testicular atrophy
+43476	b5a2d51d-1954-418b-8566-222b1419a6a6	MP	MP:0010069	increased serotonin level
+51810	965838e7-71c9-4ac4-9187-f5c0c125134d	VT	VT:0010499	calcium amount
+6078	9e642a17-1b9a-4a2f-aff9-b293ec0e8411	GO	GO:0035249	synaptic transmission, glutamatergic
+26383	6665ec60-03c1-4103-8bad-3c368d70ae58	GO	GO:0005248	voltage-gated sodium channel activity
+65579	9791be26-678d-4e71-99ef-e96ce8ce6533	RBO	RBO:00015021	energy deposition event
+65578	d3d6033a-4121-4795-aee7-bb6008d245ad	NCI	NCI:C25830	DNA Strand Break
+33444	64cfe8a2-0e70-48c8-9639-ea8ff780b77f	HP	HP:0003002	Breast carcinoma
+9162	1f9d83e6-9758-4b5e-aaf0-bfb34b0cfd1e	GO	GO:0034599	cellular response to oxidative stress
+97	421429f3-f476-4759-b194-8d0455794706	GO	GO:0002281	macrophage activation involved in immune response
+13375	1d5bb43b-6d96-459c-af79-412ca00377c7	GO	GO:0006953	acute-phase response
+37150	eacf98e0-cfa5-405d-a2dd-bfea1f315c86	HP	HP:0002621	Atherosclerosis
+12308	6fb76a29-3550-4842-b171-38ae171af082	GO	GO:0040007	growth
+46689	988db1d4-c58e-4cce-831f-a312890f9ef9	MP	MP:0006042	increased apoptosis
+37385	80c86b4f-5e71-4353-a7b7-5263c523ae4b	HP	HP:0001695	Cardiac arrest
+28308	4851650d-b90e-495a-8e85-b7a03c3544a1	GO	GO:1901691	proton binding
+19921	6ee38b9e-438b-4d15-a35b-b8e80eb7e3d1	GO	GO:0051881	regulation of mitochondrial membrane potential
+24792	e1737697-fb6a-48b0-9f4e-560abfca9b95	GO	GO:0005391	sodium:potassium-exchanging ATPase activity
+6758	26b1d5f2-82c7-4f47-a6a3-e12aa45794b5	GO	GO:0031052	chromosome breakage
+38482	5f1b1254-ca07-40ea-8f6e-c1295432e288	HP	HP:0011924	Decreased activity of mitochondrial complex III
+8475	46d9a431-635b-4054-956e-6bd1925a091e	GO	GO:0030154	cell differentiation
+26022	58dd5b6e-141e-4698-97fa-a62988843385	GO	GO:0004908	interleukin-1 receptor activity
+101	880d96a8-b419-457c-8eff-570e6b9ec25c	GO	GO:0002286	T cell activation involved in immune response
+27092	2e418f5b-e24b-45b6-a9b8-ebeefc1f2a24	GO	GO:0031789	G-protein coupled acetylcholine receptor binding
+32195	55712850-fd91-4630-b583-95e7a5f3d648	HP	HP:0011185	EEG with focal epileptiform discharges
+51288	599ee3c7-2bb1-4a06-9234-072756dcfff7	NBO	NBO:0000703	secondary generalized seizure
+28702	f0081767-2ff7-4c91-bd26-717851374c89	GO	GO:0016209	antioxidant activity
+12211	de8bd3cf-83c9-488e-b96a-5c540cdce5a1	GO	GO:0048513	animal organ development
+19243	4f66338d-8825-4ec9-a43f-fa3b4489d2dc	GO	GO:1901031	regulation of response to reactive oxygen species
+54039	df63257e-6c7f-4bc1-878a-e34dc3f7599f	VT	VT:0002090	vision trait
+4272	ad501b56-ecda-40ef-be40-e7d174eeadb9	GO	GO:0002138	retinoic acid biosynthetic process
+19280	27f704a7-e169-456f-b719-796e3bd1793a	GO	GO:2001038	regulation of cellular response to drug
+8287	da3c37e5-341d-4d76-b914-4ad6b7831bdb	GO	GO:0061355	Wnt protein secretion
+18279	97ac13c6-3f77-4c1e-b87d-61a0b2bc453d	GO	GO:1904863	regulation of beta-catenin-TCF complex assembly
+12616	be9e788d-d85b-4291-99b4-c1457e65f376	GO	GO:0006909	phagocytosis
+9161	f63006c6-82e8-493b-999b-b982bcf3180b	GO	GO:0042769	DNA damage response, detection of DNA damage
+46894	fb122893-0d52-4c00-b2a5-cfbb81780b53	MP	MP:0008866	chromosomal instability
+44128	32d53a27-399a-43e6-9ecb-ac3864044055	MP	MP:0008058	abnormal DNA repair
+38821	a02ac3ad-0169-420f-8d32-f2ba19e1ecf3	HP	HP:0100526	Neoplasm of the lung
+40242	18d7b7fd-3c06-47b4-99f4-11ac9464d463	MP	MP:0008014	increased lung tumor incidence
+6341	6330a4d3-8ac6-4901-b02c-7a8d0aa19309	GO	GO:0030521	androgen receptor signaling pathway
+20214	fccf0462-42f7-4661-b56e-d6e72e86052d	GO	GO:0051098	regulation of binding
+2913	3c216e2c-45a4-4b30-9d90-bf60d3463821	GO	GO:0006470	protein dephosphorylation
+20084	6e5d3e3d-09f4-4cbd-85ca-d5358dee0445	GO	GO:0043392	negative regulation of DNA binding
+16969	ce5ab8a2-2335-4c03-89a3-e573d4f199f4	GO	GO:0043122	regulation of I-kappaB kinase/NF-kappaB signaling
+23725	5dfb1e5b-c28e-49ab-829c-2efd26ce7399	GO	GO:0004180	carboxypeptidase activity
+14358	13c9e30d-9f95-4fba-bf18-5abdf4d052af	GO	GO:0034394	protein localization to cell surface
+7505	2e9eb851-b1e2-4e68-ab87-896b39c36f8e	GO	GO:0061025	membrane fusion
+14620	a3554b5e-850a-4286-ae5b-89fd808e1fc8	GO	GO:0075509	endocytosis involved in viral entry into host cell
+15082	d699906f-4720-4063-b4ab-2c92cf82455c	GO	GO:0046718	viral entry into host cell
+15029	0d127045-7bee-4900-b3e6-5a7fbdd261ff	GO	GO:0039694	viral RNA genome replication
+15031	b724b044-ffad-43fb-8d1c-d1f577144dfc	GO	GO:0039690	positive stranded viral RNA replication
+15022	af0bf98f-67e7-4c65-a385-fbf9fe2f7f89	GO	GO:0019074	viral RNA genome packaging
+15034	8a09c07e-ac19-4e09-9733-3ff80778837f	GO	GO:0019081	viral translation
+6237	49ce6c14-ff3b-4087-a0bb-b70a7e4fcd4d	GO	GO:0060337	type I interferon signaling pathway
+9433	efb40cf0-1ede-48e6-9900-d219af2ef433	GO	GO:0071360	cellular response to exogenous dsRNA
+4246	7adf19a6-9738-483b-a460-e08befb29790	GO	GO:0006702	androgen biosynthetic process
+28897	51f57308-5506-46d4-bd2e-1138a0b2d775	HP	HP:0008669	Abnormal spermatogenesis
+3	f8ae32bf-ad8a-4194-bb7a-d153dd9f67eb	GO	GO:0019953	sexual reproduction
+52309	d48ef132-90be-43ba-88db-a064419741a3	VT	VT:1000181	viable offspring quantity
+5535	d2e4d687-defa-4840-b38d-af0d8984e471	GO	GO:0034440	lipid oxidation
+3208	5c94ef57-1c8d-4dc7-876c-7448c93c8559	GO	GO:0018158	protein oxidation
+11580	474fded9-9a58-4b8c-ac71-dc32eb8348f7	GO	GO:0031101	fin regeneration
+6171	95cd3be4-ffab-4e13-8192-a2da0fa215fb	GO	GO:0007166	cell surface receptor signaling pathway
+8478	799626fd-81b0-4712-818d-14f5a35fad26	GO	GO:0001649	osteoblast differentiation
+8496	d0179fab-5096-43bd-b357-619efba8ce15	GO	GO:0030316	osteoclast differentiation
+9795	44be460b-0352-4222-ac84-0fffca27128e	GO	GO:0001541	ovarian follicle development
+9799	44dc9426-52d1-47e5-9450-8690ea44f3e0	GO	GO:0008584	male gonad development
+9683	bfb93bad-37fa-43ce-8fa4-d5bc2785f2e7	GO	GO:0046661	male sex differentiation
+10647	980e5908-23f3-42c5-bf54-240c127673b2	GO	GO:0018990	ecdysis, chitin-based cuticle
+22668	97e2877f-1512-43d7-bed0-48301a332dcf	GO	GO:0004100	chitin synthase activity
+11644	1a635818-875f-45c0-8425-9200961b0e23	GO	GO:0042335	cuticle development
+11426	4a7b691d-511b-436e-a00a-622010ab4218	GO	GO:0010842	retina layer formation
+50022	078ad946-8a0f-4b3b-99a5-bd90605909bc	MP	MP:0001297	microphthalmia
+20716	863c6bbf-c25d-4bac-98b8-01a4bb6fdd44	GO	GO:0004129	cytochrome-c oxidase activity
+44170	2e72b116-f248-4235-9b88-ba3b33f7f701	MP	MP:0013027	wounding
+7020	56577ab0-894d-42e9-9d48-015d362489d9	GO	GO:0044546	NLRP3 inflammasome complex assembly
+13405	38be76e5-7aa4-4965-853b-ae439a49bf21	GO	GO:0000302	response to reactive oxygen species
+13376	c53097f9-6c52-47bf-af1a-93130b75fcd1	GO	GO:0002544	chronic inflammatory response
+19207	5b482e9a-5e79-49d6-9dbf-66c9044f75f8	GO	GO:0002676	regulation of chronic inflammatory response
+10386	d9b04267-4dd8-41ea-907a-868f8b5e4234	GO	GO:0032635	interleukin-6 production
+10361	2bc6bbb2-a0dc-4c5d-a206-62ff02a6a6e4	GO	GO:0032611	interleukin-1 beta production
+8285	f32103f2-316c-455d-bbc8-c15ecc48fa02	GO	GO:1990774	tumor necrosis factor secretion
+39068	ecb66727-c6f5-4e46-88be-efa0e76254b4	HP	HP:0012649	Increased inflammatory response
+38140	7457be74-c43c-4599-ad3d-83f22026bece	HP	HP:0003281	Increased serum ferritin
+20741	c4b4f7d8-e5f4-4ce0-8ffe-58c50a26871f	GO	GO:0004457	lactate dehydrogenase activity
+38370	bbc0e5fa-714a-45f9-87c3-c1b70d7364b2	HP	HP:0011227	Elevated C-reactive protein level
+37718	8cb60484-a3aa-4018-b6ab-bd9370260ee7	HP	HP:0001888	Lymphopenia
+42726	66f2db0f-6627-4ff9-be05-f4963604e826	MP	MP:0001860	liver inflammation
+37941	3f9c6530-3611-441e-8950-c30c8b8cf39d	HP	HP:0004936	Venous thrombosis
+19019	427f91be-6b83-40f8-bc03-bacce1ef203b	GO	GO:0042730	fibrinolysis
+3508	bd71ed5d-5163-47ca-ab06-b3e94d73bd46	GO	GO:0072378	blood coagulation, fibrin clot formation
+43913	08f51a5f-a959-4c3a-8bcc-2c17c2c1f878	MP	MP:0002551	abnormal blood coagulation
+6434	92b4f6e1-f92d-4a5f-99a9-613cfe5c9243	GO	GO:0010496	intercellular transport
+18638	f6d59a98-7821-4789-a2fb-ae16b49fea8a	GO	GO:0051918	negative regulation of fibrinolysis
+19018	d2782e33-fba7-4a67-a005-8ce653869143	GO	GO:0030195	negative regulation of blood coagulation
+46941	5cd71e3c-20ca-4803-9247-17d971c48d97	MP	MP:0003070	increased vascular permeability
+46943	2ffe3149-a962-4865-8bcd-8435fdc7240f	MP	MP:0001863	vascular inflammation
+6722	808c222b-df2c-41e0-9411-830c73748df1	GO	GO:0007127	meiosis I
+23197	105b0a37-033c-476c-b31b-64d9438dfcf6	GO	GO:0004713	protein tyrosine kinase activity
+11625	c5d73bea-26bf-4447-ae15-16465ae16e43	GO	GO:0030916	otic vesicle formation
+10266	05d1ba66-9bbd-4fcf-a8dd-b4f137643c59	GO	GO:0007605	sensory perception of sound
+38662	50f1cd87-fc6f-4bba-89c3-d205a84ee480	HP	HP:0012262	Abnormal ciliary motility
+52255	969eeda0-3b29-492f-bc03-1e1fa6060860	VT	VT:0001947	mucociliary clearance trait
+41698	f991e0e3-e5d6-487d-a575-1e0a44fd10c6	MP	MP:0003990	decreased neurotransmitter release
+41671	5f612df1-d3bc-45ba-821f-1e85095593d6	MP	MP:0002916	increased synaptic depression
+12411	09d8a51a-4f0a-4c74-89d7-186c1b9ec401	GO	GO:0019076	viral release from host cell
+43454	3bbe2b8c-c425-43b6-b993-30396ad79f81	MP	MP:0005133	increased luteinizing hormone level
+8337	5be785e0-61ee-486a-821f-2217370ef798	GO	GO:0035937	estrogen secretion
+6061	22713304-1e67-4357-aac6-16012e008ae7	GO	GO:0038002	endocrine signaling
+26423	623c7518-0439-477b-b432-476f7207cb1c	GO	GO:0005272	sodium channel activity
+33622	b595bf7e-e291-4704-9581-480ce3a779fc	HP	HP:0030339	Decreased circulating gonadotropin level
+6340	6651c639-ee3e-49e7-9949-5ef1752510bc	GO	GO:0030520	intracellular estrogen receptor signaling pathway
+38421	e96681d9-5558-42e4-bba4-42ae6b77c759	HP	HP:0000855	Insulin resistance
+21146	415b9616-884b-49b2-bf23-1a984d00040e	GO	GO:0000104	succinate dehydrogenase activity
+1134	9a4f99ad-c39c-4bc6-a409-228d4600430b	GO	GO:0046443	FAD metabolic process
+5083	1d8892c7-5d27-42a6-8282-a122a4b8c604	GO	GO:0006105	succinate metabolic process
+5135	435817ed-5381-4750-9bc1-8e1fcb703a24	GO	GO:0022904	respiratory electron transport chain
+16927	f1ff2270-7840-4962-ab49-af1a8280ea89	GO	GO:0010469	regulation of receptor activity
+14418	3dc800d1-bb79-40b3-ac04-b8911544c92b	GO	GO:0000060	protein import into nucleus, translocation
+44642	5b61c056-5e2d-402f-a570-9d1e771279c1	MP	MP:0009888	palatal shelves fail to meet at midline
+29952	c653b152-3280-4e76-b693-df706fb0969e	HP	HP:0000175	Cleft palate
+44676	f0127107-978a-464f-8c7b-bdcb5f3329d0	MP	MP:0005170	cleft upper lip
+14332	917dba5e-d25a-46a3-9564-9aa3418d4d51	GO	GO:0061512	protein localization to cilium
+7977	eccc64ca-5c2e-41d3-9017-02ca4a5be2c0	GO	GO:0072577	endothelial cell apoptotic process
+19950	f029e807-ac5c-4f1a-b9f1-b946507dbb0b	GO	GO:0033484	nitric oxide homeostasis
+10703	08c0f91f-8a4f-4dd3-943b-4b7b04f1339c	GO	GO:0001974	blood vessel remodeling
+8009	f2d9bd71-dcb3-4da4-b030-72a033287eb9	GO	GO:0036475	neuron death in response to oxidative stress
+6573	aa66d226-f0d4-4174-a42f-e918823915c9	GO	GO:0098974	postsynaptic actin cytoskeleton organization
+7216	5ce76c12-85f2-4396-af78-b65edf714358	GO	GO:0060997	dendritic spine morphogenesis
+20175	ca6c057a-289a-4773-9cda-73ccae007b85	GO	GO:1904621	regulation of actin-dependent ATPase activity
+17112	a5055bc6-c59a-44dd-a938-f006e663dea5	GO	GO:0031914	negative regulation of synaptic plasticity
+32449	d1caefea-1f07-46d4-898a-6aff748276a6	HP	HP:0000726	Dementia
+17069	6bba35f6-50fb-4553-85c7-b0c05c629097	GO	GO:0060292	long term synaptic depression
+41648	6239c0ca-a959-4b61-bf31-535bc5ccaeab	MP	MP:0002207	abnormal long term potentiation
+11731	a33c3352-70dd-4421-ac07-72d1a4c4b40e	GO	GO:0048568	embryonic organ development
+2853	09a68ae9-d959-4f81-98d2-c3ddccb42605	GO	GO:0036211	protein modification process
+50213	0beed18d-a1fb-4e17-bd89-a28fbb54c2a1	MP	MP:0009859	eye opacity
+12053	9478cc5d-7c9f-4ded-8658-cc5165e9262d	GO	GO:0030282	bone mineralization
+17221	172042a4-ff96-473f-8675-f10c829f153d	GO	GO:0045780	positive regulation of bone resorption
+49565	3e40ea49-d3e6-4dce-a7a7-9e6e89b7c63c	MP	MP:0002998	abnormal bone remodeling
+49832	8bde0d15-3e88-414b-bcd9-d1b7b8158280	MP	MP:0010879	decreased trabecular bone volume
+49872	d0290ce2-3429-4fda-9ff5-19452b417b2e	MP	MP:0000063	decreased bone mineral density
+8546	6f5c154d-5f34-4c76-9d17-68043cf3c64d	GO	GO:0022008	neurogenesis
+41561	d988f058-b417-419a-b8f2-d5bdeca38cc3	MP	MP:0000921	demyelination
+8011	9e50a12b-4f69-4645-bb50-f45016d8dc93	GO	GO:0070997	neuron death
+43694	048b54eb-86ee-4dbc-8c0d-c2a7ed043fa8	MP	MP:0012603	abnormal glutathione level
+28110	e48edade-4a62-4c6a-830a-40d7a2f3e724	GO	GO:0043295	glutathione binding
+23115	51ba23a6-e8a5-4f21-9f3c-538c63344b59	GO	GO:0016301	kinase activity
+23552	fdba490e-d585-41d7-8351-d55fea4426a3	GO	GO:0008146	sulfotransferase activity
+12597	74967be9-aa0f-4db9-a3e6-4a0ad9389257	GO	GO:0035938	estradiol secretion
+14306	fdb3fd9d-d989-4034-925f-58d708a35173	GO	GO:0036010	protein localization to endosome
+183	77bf56f2-b064-4528-baad-9e4d50a25e48	GO	GO:0034154	toll-like receptor 7 signaling pathway
+179	a9f0e1d3-2657-4aaa-b640-d74bab3c53eb	GO	GO:0034138	toll-like receptor 3 signaling pathway
+13607	a53f828e-d185-4fd1-9145-1bdb2cc3adcb	GO	GO:0046775	suppression by virus of host cytokine production
+170	226f2b6c-af28-43f7-9fc8-4f502015e11b	GO	GO:0009616	virus induced gene silencing
+13617	a34c7687-58f4-4c51-8652-b4fdd7dcf545	GO	GO:0075528	modulation by virus of host immune response
+13113	76abade3-139c-4b85-9937-6d609c9b145a	GO	GO:0006606	protein import into nucleus
+749	9495fba3-9ee0-401f-aa6b-8864f0d46e6c	GO	GO:0001172	transcription, RNA-templated
+14663	6e1c516d-1359-4842-995c-c0328b3f7201	GO	GO:0046784	viral mRNA export from host cell nucleus
+15023	7ec21344-ee4a-44ff-972b-cfb8f3c3266a	GO	GO:0019075	virus maturation
+12414	625701d0-1780-4570-8cae-dc1f5f0f9b07	GO	GO:0046761	viral budding from plasma membrane
+12400	eab76ec0-4d09-4068-b028-c92c7ca9a756	GO	GO:0019089	transmission of virus
+28979	7d5dd09e-c4c6-40e3-b72f-4cb76560223e	HP	HP:0000035	Abnormality of the testis
+54145	319b65af-07b0-4f91-a2b1-d27ff05cae8c	VT	VT:0001835	antigen presentation trait
+1353	dc48c82a-0012-4355-a55d-3f52b71f55be	GO	GO:0035822	gene conversion
+82	7cd6073a-0a95-42ac-b412-27e780b5d089	GO	GO:0002206	gene conversion of immunoglobulin genes
+53	39fc4b1f-2869-48a1-8654-43d70aefb91f	GO	GO:0002376	immune system process
+112	08098409-022f-4a25-994f-883352c9f51e	GO	GO:0002312	B cell activation involved in immune response
+39103	b7b3ef58-b369-4285-b3d7-93c0b451fd52	HP	HP:0002608	Celiac disease
+440	b8aa53e3-c6e9-4cd8-af1a-e20e648e57d1	GO	GO:0072678	T cell migration
+423	37a156c5-0058-4363-8a84-0a8b6f7ed011	GO	GO:0036336	dendritic cell migration
+11774	77748531-2d7a-4906-92aa-32a5cb877b17	GO	GO:0048645	animal organ formation
+14788	a577187c-8359-4c73-9bcf-3137e7e8ab3f	GO	GO:0019915	lipid storage
+14471	0d236d32-71a9-491a-a5bd-294f69e31651	GO	GO:0097369	sodium ion import
+43144	fcfcae91-5728-476b-b07e-349bb537c6fa	MP	MP:0005634	decreased circulating sodium level
+54361	67c2d3a9-f2dc-4568-8a57-a21edfa6492a	VT	VT:3000004	blood viscosity trait
+32986	a960ef6d-a97b-457f-a979-e0cdf0ec92b1	HP	HP:0007305	CNS demyelination
+43836	c33cddd8-2433-4048-8d7c-e93dcbc9b01d	MP	MP:0005567	decreased circulating total protein level
+43837	38711d53-4b7c-4d39-a09c-141ef3bcc393	MP	MP:0005568	increased circulating total protein level
+43278	7ea354dc-1dc1-4b08-baeb-ec026633201f	MP	MP:0000182	increased circulating LDL cholesterol level
+16942	ee8807f0-a85f-49e2-aae5-2965d753718a	GO	GO:0060765	regulation of androgen receptor signaling pathway
+43493	953711f8-b541-4be2-86ef-f8286d354617	MP	MP:0005182	increased circulating estradiol level
+29149	368e86e0-a4d1-498b-a7af-830e02b7eacd	HP	HP:0008209	Premature ovarian failure
+8057	71b0adf3-9970-49ae-93c4-4a54637efbe5	GO	GO:0045454	cell redox homeostasis
+5680	c780cd3f-c078-40d7-b16d-c65cde30576d	GO	GO:0006006	glucose metabolic process
+44147	231fafe6-3e70-4f85-812b-2d700817e1d7	MP	MP:0013245	abnormal lipid metabolism
+455	42e207e8-5bfa-47ee-b51d-5b9bc8851be3	GO	GO:0007610	behavior
+7999	d3f510db-a581-4a3a-b7c7-b30ec6c984b7	GO	GO:0070268	cornification
+26204	78a9f47f-50b5-464a-9412-626cb6867e30	GO	GO:0099589	serotonin receptor activity
+6318	08de1afe-3aa0-498b-88c3-2701f644529a	GO	GO:0007210	serotonin receptor signaling pathway
+38511	d566fcfe-4702-4161-948b-2d13e2a3039c	HP	HP:0100598	Pulmonary edema
+14217	f42ff6f8-dc85-4be8-9363-2d6332f4f8bc	GO	GO:1990834	response to odorant
+39111	2c01c923-f84e-4ffc-86e8-50d5b6f5546a	HP	HP:0010987	Abnormality of cellular immune system
+5797	b8f964f6-485d-4fd8-a37d-d5c1d973fa48	GO	GO:0055114	oxidation-reduction process
+6286	2a713562-8134-47b2-813e-74190f970419	GO	GO:0007186	G-protein coupled receptor signaling pathway
+1822	0c98869d-e52b-4031-a9a8-07da145e1772	GO	GO:0043043	peptide biosynthetic process
+12733	0ed45133-00aa-4bd5-8903-26c7818afc4b	GO	GO:0070327	thyroid hormone transport
+10157	c5b2e054-4567-434f-9149-4ea136aef027	GO	GO:0043114	regulation of vascular permeability
+20235	3e0ceaba-3edd-44b5-a46a-6140e9b9c2d1	GO	GO:0051101	regulation of DNA binding
+6065	294cb69c-bf9c-4aab-bcab-931e2b8a3c9b	GO	GO:0060638	mesenchymal-epithelial cell signaling
+9721	347e4a06-c99d-4c62-9711-8c9499b3917e	GO	GO:0035261	external genitalia morphogenesis
+49530	5bb5d38f-2231-4a57-9f53-b2beb84974bb	MP	MP:0008940	delayed balanopreputial separation
+15861	9c958ce3-94d6-48b8-b1ec-61102d1ea407	GO	GO:0090030	regulation of steroid hormone biosynthetic process
+32958	22be5eeb-b5ab-4393-b8bc-b5bfcd36665f	HP	HP:0007354	Amyotrophic lateral sclerosis
+49380	35a61dfd-fe12-49d0-8007-7946f6728b82	MP	MP:0004904	increased uterus weight
+39498	9b19b27d-b906-439f-ab83-af6c7b1727b5	HP	HP:0012852	Hepatic bridging fibrosis
+49543	03096de1-deee-41fb-b259-d61d787dc0f6	MP	MP:0003936	abnormal reproductive system development
+9800	0ca237a1-843a-473f-ba0f-70ce1ff72088	GO	GO:0008585	female gonad development
+9677	c4cde57a-5666-41b2-86f4-fafe4f67501e	GO	GO:0030237	female sex determination
+5131	558e7109-45fa-4183-a5ca-b16c7f42fece	GO	GO:0019684	photosynthesis, light reaction
+5133	5ccea492-f489-4ffa-a92c-a62aeb4c972c	GO	GO:0009767	photosynthetic electron transport chain
+5731	55536ccc-a5c2-418d-9269-68d561acd81a	GO	GO:0015977	carbon fixation
+9807	ffd7e3a2-6d36-48a3-a8fd-41ec847c1362	GO	GO:0048316	seed development

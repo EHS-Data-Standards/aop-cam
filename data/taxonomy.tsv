@@ -1,0 +1,358 @@
+wiki_id	uuid	source	source_id	name
+69	77fb1f93-bae3-4b73-8ada-5ee08e38b1a5	NCBI	10116	rats
+459	61078077-f903-48a7-834b-9c6768e935d5	common toxicological species	WCS_9606	human
+74	2028cfa9-ef71-42f6-9a59-22cc0e2ab348	NCBI	10118	Rattus sp.
+31	cde0912b-5a36-4800-a276-77871ced2f45	NCBI	10090	mouse
+68	efa1ed6f-1870-4c71-8c59-e7682534496c	NCBI	10116	rat
+682	840197e2-3c27-4898-92fe-837dc73ab416	common ecological species	WCS_7227	Drosophila melanogaster
+3856	8dc55b81-3cc6-4667-8c90-8181ca62774f	NCBI	6239	Caenorhabditis elegans
+522	44a36bb9-e09f-470c-b932-7d7eeb0798c6	common ecological species	WCS_7955	zebrafish
+6340	3daacc30-e1a2-49ee-b24e-ec07b63091bc	NCBI	9541	Macaca fascicularis
+45	bade906b-3b89-4fcf-8d08-9062232d93aa	NCBI	10095	mice
+4578	a23a138b-1b56-4fb9-9bee-944e29b82fb6	NCBI	7375	Lucilia cuprina
+656	4b491454-5f0d-4415-89c4-d3c2032e9751	common ecological species	WCS_35525	Daphnia magna
+720890	58bf76fe-1c38-4324-b8ed-27d85e066283	ApacheUser	WikiUser_5	insects
+525	09f6e671-3097-41e2-99c7-f6e16334d8e7	common ecological species	WCS_35525	crustaceans
+720919	96a29ff7-7068-40f9-ae41-6b6131064a4e	NCBI	6656	Arthropoda
+1	6761570f-5992-43ef-bb8f-d06e694b8aad	NCBI	9606	Homo sapiens
+30	d4fca39d-bdc9-4a94-b2f1-7ae81da6fdfe	NCBI	10090	Mus musculus
+623	80b31b76-4c68-4595-aa52-00e0b6272b94	common ecological species	WCS_9014	Colinus virginianus
+71	e7fc663b-e069-49c9-981f-8987e09cbe86	NCBI	10117	Rattus rattus
+2965	11fef912-1bb7-4d92-831d-ff686456b44a	NCBI	4932	Saccharomyces cerevisiae
+2971	d123d604-a659-4896-8b3e-51f58ddc06f1	NCBI	4932	yeast
+646	a88c2825-28dd-491b-b74f-13d1dcbbb9b7	common ecological species	WCS_90988	Pimephales promelas
+66	4c43a360-a260-4a47-be60-778eec0e5219	NCBI	10116	Rattus norvegicus
+515	045aeefe-70ea-45d3-b44a-035a5b353bc7	common ecological species	WCS_90988	fathead minnow
+5084	6004d7ce-22f5-402d-89a2-8f1acbb76db1	NCBI	8078	Fundulus heteroclitus
+720916	771368a2-a42a-42f8-a1a8-33887c5b8055		WikiUser_28	Vertebrates
+720936	65a95876-a117-48e3-8f49-301142971fb8	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=186623&lvl=	186623	Actinopteri
+720924	a03afa69-72db-433a-b204-f96877c78dfa	NCBI	8292	Amphibia
+720925	f00c0f22-51a6-40a9-b2a5-22aed164727d	NCBI	8782	Aves
+720939	2d817501-812e-40f5-9911-2dd3a6db35f1	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=7777&lvl=	7777	Chondrichthyes
+720934	42c25906-48a6-4879-a651-fb8e2a1eb08a	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=1338366&lvl=	1338366	Cladistia
+720945	ca5f8995-ef7c-47f5-8a45-9f4ae291b3e7	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=7894&lvl=	7894	Coelacanthiformes
+720951	46ed30d6-d3af-45d3-af2c-f7ab6663b023	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=1294634&lvl=	1294634	Crocodylia
+720975	d604f809-65ef-454d-8075-246f539af731	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=7878&lvl=	7878	Dipnomorpha
+720995	29cfc800-ca8c-4a5c-83ad-5bcfa63a9a57	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=8504&lvl=	8504	Lepidosauria
+720977	209dfe8a-e6a1-45a1-ad2b-45b55c5f6ec5	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=40674&lvl=	40674	Mammalia
+720969	31adf544-7417-4bad-9213-e84cb86188c7	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=117565&lvl=	117565	Myxini
+721008	27ac9df6-22f1-45d3-9c29-a55225012ad2	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=2841271&lvl=	2841271	Testudinata
+4963	1f3e03ce-6b70-4a5c-af59-0ff17ce81d89	NCBI	7955	zebra fish
+720886	08a4cd79-bb23-4dde-b397-e732fa4a46aa	Wikiuser: Cyauk	WikiUser_1	human, mouse, rat
+720902	0a146bdb-e0a7-4848-b8ed-219a25a29efb		WikiUser_17	mammals
+478	9bddb02e-7d7c-4d6a-92b9-f3f2577c2f41	common ecological species	WCS_9031	chicken
+596	280b9c4d-7e7d-4f9d-b686-6abcb44307df	common ecological species	WCS_8355	Xenopus laevis
+6612	cd57f525-05af-4bd2-a0e6-19d92d33cb13	NCBI	9823	Sus scrofa
+465	04e30a28-d0c3-4fd1-b3fb-f6bab59323ee	common ecological species	WCS_8355	African clawed frog
+4639	e412d755-1306-429e-a5ca-b8243ed9dcd0	NCBI	7460	honeybee
+686	5ce93422-6a48-424b-bcd6-02e4c5066250	common ecological species	WCS_6396	eisenia fetida
+551	6963b59f-f3b7-4adb-8583-eb715b45cb62	common ecological species	WCS_7227	fruit fly
+10	8ab791a4-6d36-47c7-a72d-b5fc29bc15d4	NCBI	9615	dogs
+85	304ab5c3-056f-4edb-8585-47ff2fc2cd9c	NCBI	10141	guinea pig
+493	c2980150-36fa-4348-aec4-3b46486bdf43	common ecological species	WCS_93934	Japanese quail
+5953	b73c793d-647d-47db-8253-f5a5a5304c3f	NCBI	9014	bobwhite quail
+720913	c5b527df-3a67-44a2-8562-22d04d2e512e	Wikiuser: Cyauk	WikiUser_25	human and other cells in culture
+557	3c0a1183-7324-4dce-a777-5c6b8fd8cdca	common ecological species	WCS_160004	gastropods
+720899	59de73b9-abb4-44a1-9805-028a783f2f50	Wikiuser: Ftschudi	WikiUser_14	Monkey
+460	238e3303-37ee-423c-8d9d-4f41e829f4fc	common toxicological species	WCS_9606	humans
+16	7df69653-98e0-40cf-9c5d-0b992fa8e2e0	NCBI	9685	cat
+35905	41492ef0-3977-43bf-9e8c-2e68e06ad0be	NCBI	70699	Monkey sp.
+5098	5f88eab4-3a15-4c03-bc0a-af47c3cd42bd	NCBI	8090	medaka
+6804	6c557a92-5d49-421e-8036-8d06b126544f	NCBI	10036	Syrian golden hamster
+6702	ef348a16-a22e-433b-8aef-2af959be3b7c	NCBI	9913	cow
+5097	adfcb4b0-2232-4dd4-b3c3-e3445f5ad14b	NCBI	8090	Oryzias latipes
+720910	e8eebc1d-2dca-4c85-897c-b5528ccb27d7		WikiUser_22	all species
+635009	11056871-28d6-41c0-8873-aa0f4a328aab	NCBI	1211424	Metapenaeus monoceros
+32569	a5c6e902-7921-430d-8285-790a42d327be	NCBI	63990	Philosamia ricini
+28362	0005491d-c8ec-41f1-a211-c155e0caec4d	NCBI	58519	Rana cyanophlyetis
+5134	faaa1a49-0dcf-4d50-9751-7dd2a62301d1	NCBI	8127	Tilapia mossambica
+609	6835421b-f594-4198-a362-a6c6971ad2de	common ecological species	WCS_9031	Gallus gallus
+720914	e40abcbb-02f7-4f1c-9c08-3536be24a03d	ApacheUser	WikiUser_26	rodents
+12741	708cde46-46d9-42ce-bde9-affd640d124a	NCBI	36500	salmonid fish
+4962	0e32e6e6-8b46-477e-8462-e9154e94c37d	NCBI	7955	zebra danio
+82885	2b4c755a-fe55-42e4-ae61-4b29f0c29a98	NCBI	143350	Pagrus major
+4917	9eec168a-553d-4b34-81e7-ded695468016	NCBI	7904	Acipenser transmontanus
+16309	366ebbcc-67a7-4251-947c-a5e6bcbf22eb	NCBI	41871	Acipenser fulvescens
+512	dc6e8dde-6523-4531-a3ac-f1375bb8074c	common ecological species	WCS_8022	rainbow trout
+5028	dc002bc8-434e-472c-b0ae-e07dbb40118b	NCBI	8030	Salmo salar
+5303	23fa2b50-168e-4cde-8518-7807f9cb2120	NCBI	8296	Ambystoma mexicanum
+610	f93229f2-ad1a-4b70-a4fe-d3ff9a48ae9c	common ecological species	WCS_9054	Phasianus colchicus
+624	a41b9b0c-c317-4773-a33f-5c276f4cf5f8	common ecological species	WCS_93934	Coturnix japonica
+11777	02e16681-30c0-4d1d-9691-48ee601b67da	NCBI	34823	Microgadus tomcod
+720917	af8d4c37-3031-46d2-9bc0-7fd872feb283		WikiUser_29	Invertebrates
+653	ed0f4040-f480-403f-8f62-96fbb6f26bf9	common ecological species	WCS_7955	Danio rerio
+479	9da3c085-509d-438e-afaa-1905d386cfe1	common ecological species	WCS_9054	Ring-necked pheasant
+480	39e39545-4022-463d-9209-fd70d334e028	common ecological species	WCS_9103	turkey
+26817	6dcc84bb-37e2-4557-8b34-a342cd7f4de1	NCBI	56350	American kestrel
+720908	49d666d7-0588-4bc9-a0ae-8b90f1df6bb5		WikiUser_20	Double-crested cormorant
+720909	20ec1f7b-55cb-41d1-a114-922830c43f9a		WikiUser_21	Eastern bluebird
+643	bad781cb-01d0-4179-9edd-22758fe4da74	common ecological species	WCS_8022	Oncorhynchus mykiss
+720891	ae3ae9e2-edc0-41db-ba3e-2b1eb6b60db6	ApacheUser	WikiUser_6	fish
+720972	fb1017b3-5141-4364-9809-80c388bf32f0	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=117569&lvl=	117569	Hyperoartia
+720998	c68801ac-df48-4817-bcbe-fefe638d37d7	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=6101&lvl=	6101	Anthozoa
+720986	431eab53-acc6-4299-ab7a-e6f291a9332c	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=119089&lvl=	119089	Chromadorea
+721012	c35e5bed-b971-4e37-8927-5a982f278525	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=186623&lvl=	186623	Oviparous Actinopteri
+721013	e85bd844-66e8-4709-8acc-2b6dbb2f17be	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=8292&lvl=	8292	Oviparous Amphibia
+721014	1df09e0d-813c-436d-bb43-9cbde9e1f9c2	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=7777&lvl=	7777	Oviparous Chondrichthyes
+721015	8a5243cb-6e3b-4828-b9be-17efc880c9c6	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=8504&lvl=	8504	Oviparous Lepidosauria
+6110	e4e6ca0a-8411-44f7-8a99-82b0b8ffd631	NCBI	9258	Ornithorhynchus anatinus
+6113	a5f2412e-6c0a-417d-9911-4706970305bc	NCBI	9261	Tachyglossus aculeatus
+720932	8bae1de0-bb50-457f-bb41-365b5bbc8c94	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=6854&lvl=	6854	Arachnida
+721005	ad6695a6-fc7f-475b-8d85-a4482160aac0	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=7588&lvl=	7588	Asteroidea
+720935	6f95b278-8a56-4d3e-a0e5-2c3abdfaca7f	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=6544&lvl=	6544	Bivalvia
+721010	a0d2d131-72fa-47c2-94b8-647a89a4c949	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=6658&lvl=	6658	Branchiopoda
+720940	1b7ea64e-23d5-4b0c-98de-cef2dd281615	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=6605&lvl=	6605	Cephalopoda
+721004	3f44b62d-13b5-47f5-ab5b-6cbf2230e1d9	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=30001&lvl=	30001	Collembola
+720950	467881ef-328d-4a60-9c3d-eb5203f39c60	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=35069&lvl=	35069	Crinoidea
+721002	22e7b706-4e5f-4567-8324-0ed00b64c95d	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=7625&lvl=	7625	Echinoidea
+720987	b4da41b2-f450-4c5e-a3ea-4a4a2d0f2705	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=119088&lvl=	119088	Enoplea
+720929	26d90f24-95e7-45dd-8b8b-d048a1decc91	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=10220&lvl=	10220	Enteropneusta
+720964	f9d7da75-5a06-4676-a92e-ef2efc63da84	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=6448&lvl=	6448	Gastropoda
+720991	5d18b00d-fea9-4917-90a7-ec34057a84b1	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=42813&lvl=	42813	Gordioida
+720949	5f6a1201-d6eb-42d1-8433-71be3e2e3eff	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=3701028&lvl=	3701028	Hexanauplia
+720979	c000d146-f644-4f5a-b64f-c7a337311c56	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=80999&lvl=	80999	Homoscleromorpha
+720944	40c16697-b2d4-403f-9953-369058532c35	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=6074&lvl=	6074	Hydrozoa
+720971	b45a19bd-ed04-4761-958f-6215d68bcf3b	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=50557&lvl=	50557	Insecta
+720973	6c746557-5a71-4e00-85e2-b5cfde0b79d8	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=2682552&lvl=	2682552	Leptocardii
+720937	4f552e1f-8a30-4c42-acae-903feb5d617e	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=115361&lvl=	115361	Lingulata
+720976	d88572ed-768f-4ece-a8f4-0c2ce878a27e	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=6681&lvl=	6681	Malacostraca
+720970	6558d48e-a8c0-4483-963d-a4fa7855147e	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=6844&lvl=	6844	Merostomata
+720985	dac33c15-a9b9-4860-a9be-e76121f2510e	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=6670&lvl=	6670	Ostracoda
+720996	9563dadc-28c9-448c-9e6a-607e6ebf425d	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=6218&lvl=	6218	Pilidiophora
+720993	38fa7542-38a6-4060-8c2d-cee6ee3b44fb	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=6341&lvl=	6341	Polychaeta
+720942	ba3f4edf-b04c-4d7e-a926-a0bd59b9f761	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=6650&lvl=	6650	Polyplacophora
+721000	6bda89ed-6bb1-4611-98e9-c0a7b73ef5b8	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=57294&lvl=	57294	Pycnogonida
+721006	24f3e676-9ede-41e4-b9b7-4ede5701fb01	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=6142&lvl=	6142	Scyphozoa
+720933	48b8dbee-e70a-4ace-95e8-e3f0079dcaf8	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=116172&lvl=	116172	Thecostraca
+720992	4cc9b45f-8738-4a42-ba8f-e90b571312e3	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=3043701&lvl=	3043701	Uniplacotomia
+721016	41b3d9aa-5a20-48ab-b891-c6dd13a30d29	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=6101&lvl=	6101	Oviparous Anthozoa
+721017	54e27336-91ec-41b8-b575-7b48b8d0fbe0	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=6854&lvl=	6854	Oviparous Arachnida
+721018	a402b4b9-13ae-47e6-867a-0c429c2cf310	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=6544&lvl=	6544	Oviparous Bivalvia
+721019	a156cdc2-1c6a-4028-a3ad-70d9e1ca638f	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=50557&lvl=	50557	Oviparous Insecta
+720980	f7fd2bc2-b2d3-4aa0-9b12-f9be51381bbe	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=31265&lvl=	31265	Acoela
+720958	38c9f3f5-589b-41b1-b42e-519780c8c80b	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=1399768&lvl=	1399768	Basidiobolomycetes
+720965	7cd64cbe-accb-45e8-867c-fc9436a24084	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=3166&lvl=	3166	Chlorophyceae
+720989	9e16bb2e-c452-4cc3-b69f-4cf8a9d24c7f	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=451435&lvl=	451435	Chytridiomycetes
+720953	c3163550-b96a-4ff0-83e3-fd2e840e138d	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=2864&lvl=	2864	Dinophyceae
+720997	1613bdd9-2894-44a1-a7fd-5cbb55fe34a5	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=2816136&lvl=	2816136	Eurotatoria
+720957	428f7083-3f4f-407f-9fa9-ea7dc7c6ad4a	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=214506&lvl=	214506	Glomeromycetes
+720952	0530a9eb-d765-4ec3-8da2-62b0fd37091a	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=3398&lvl=	3398	Magnoliopsida
+720966	b4d1e14a-94cb-4361-b3b1-6623f6e8420f	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=75966&lvl=	75966	Trebouxiophyceae
+707	61228ad1-70a2-4182-897d-0b15948df696	common ecological species	WCS_4472	Lemna minor
+571	47e6a61f-44c1-44dd-91cd-881c4522e36c	common ecological species	WCS_63659	green algae
+720907	db8b7fa5-78d4-4a26-9797-bb67ca836b16	ApacheUser	WikiUser_19	rodentia
+467	506c97c2-8290-4bd3-9891-b30a457112f0	common ecological species	WCS_8404	northern leopard frog
+303	3105ec33-934f-4524-9304-a522e84a5f90	NCBI	435440	Rattus sp. ABTC 43906
+439	43fddc9f-97f2-4587-aad5-d548cca5e373	NCBI	1090580	Mus sp. 09ZR5#43
+720894	bb36a59d-b117-4a70-b2fd-b18bb274a6cc	ApacheUser	WikiUser_9	Hamster
+458	2ff273ff-ad72-4492-ad25-84a845e31068	common toxicological species	WCS_9615	dog
+6613	b6296b0c-db1d-4982-93b5-c8a4892d7d67	NCBI	9823	pigs
+541788	ee0f764a-e431-484a-9969-29e3ea90c258	NCBI	1002698	Mammalia sp. AVB-2011
+298	34de53e7-f5bb-44de-a9ca-4696918691b2	NCBI	435435	Rattus sp. ABTC 42503
+280	2dff74d1-fd5c-48e2-b953-c22ca043abad	NCBI	310402	Mus sp. 2000082
+720889	aed7da70-0957-4fcf-bf63-f3c7328ae494	Wikiuser: Blandesmann	WikiUser_4	Human, rat, mouse
+720911	c2e6bc3f-6953-4ef3-9353-893b5758d78c	ApacheUser	WikiUser_23	chickens, ducks, turkeys
+6201	366ac89d-dca1-4fdf-9948-afc069a677e7	NCBI	9395	tree shrew
+6807	6ba2c051-11af-4d52-bfb4-c047da851afb	NCBI	10036	Syrian hamsters
+5971	d870fb7b-01dc-421c-9dc5-7c5d05b3d54f	NCBI	9031	chickens
+462	a584f50d-74bf-4cfe-8893-3fa612947265	common ecological species	WCS_9913	domestic cattle
+6614	e46bedc4-e7da-4756-b8b3-d58774bce38d	NCBI	9823	swine
+17	98d073b6-091c-4fa0-9e94-a0ea5fcd5a55	NCBI	9685	cats
+6352	d0301eda-2ff0-4709-9179-a65e4e5aed4f	NCBI	9544	rhesus monkeys
+528670	ea6c0a23-ae4b-4d01-9e2d-9b289bce791b	NCBI	976298	Primates sp. BOLD:AAA0001
+720912	f0761330-bc79-4104-b7c8-7d5b8015e86e	Wikiuser:Migration	WikiUser_24	Pig
+295975	ab9d018d-ff3e-4f86-a5fd-99917e5e7cc8	NCBI	451443	Xenopus (Silurana) n. sp. tetraploid-1
+142643	6f609030-99ed-48c4-bb4f-4f17b7917c59	NCBI	224340	Xenopus (Silurana) epitropicalis
+290347	12c0d294-e68e-468b-a72b-7d39c1b69cc6	NCBI	443947	Xenopus laevis laevis
+513	dc2ba640-c662-42aa-9ac8-0c480db1e8be	common ecological species	WCS_7957	goldfish
+720887	302e50fd-3efb-4a61-b970-af783b98df86	ApacheUser	WikiUser_2	Honey bee
+23763	bb6c81a0-9e5f-4a52-ab95-f49735d77a5d	NCBI	52641	Gammarus pulex
+3761	d300a764-299e-4889-8963-e4692af299ba	NCBI	6087	Hydra attenuata
+720888	69bdd80b-6001-457a-b89b-c93ad3ab3186	ApacheUser	WikiUser_3	hydra
+10172	5df824c5-453d-403a-9a80-a7f10bb8fd23	NCBI	31229	Helix lucorum
+720893	dbf902b1-4a8a-41e7-a8b1-2710bb230687	ApacheUser	WikiUser_8	Melibe leonine
+565	fa6ec280-471e-493e-814a-3af9092c8432	common ecological species	WCS_396373	bivalves
+9012	9a4d4f09-20d7-44b1-aaba-e451b009033a	NCBI	29158	Mytilus galloprovincialis
+720892	a457b2db-cda9-4b33-890c-77f82b7ca4a1	ApacheUser	WikiUser_7	tritonea diomedea
+3999	14a9b84e-4371-4c4d-957d-99c1554371a1	NCBI	6523	Lymnaea stagnalis
+53702	3894f81a-3c33-414a-ab56-e8fcb8c64389	NCBI	96915	Lampsilis fasciola
+23761	17dc580d-5209-4ad6-85b5-7d3c39ffd0b6	NCBI	52640	Echinogammarus marinus
+76128	b38084d8-6b41-487a-82e5-403d2b22a950	NCBI	132113	Bombus impatiens
+720895	da980638-9ac4-41f2-8314-0c69e9e33680	ApacheUser	WikiUser_10	chaetanaphothrips orchidii
+18687	591db700-aec2-4dfd-a38d-a84e5a066324	NCBI	46012	Radopholus similis
+45091	94a385dd-29da-4545-86d4-6cef636cc862	NCBI	83647	Orius insidiosus
+720896	529b5999-e63c-4e33-99bd-9848da0d66d9	ApacheUser	WikiUser_11	hymenoptera
+4343	1d1bfc79-f946-4172-80a8-f00ad236ec9e	NCBI	7113	Helicoverpa zea
+720897	c0e5d3d4-87a8-4a04-b71e-9982edb8272c	ApacheUser	WikiUser_12	lepidoptera
+123451	d7de5721-01bd-4ef8-92f1-fd2d35a25660	NCBI	198433	Liriomyza trifolii
+720898	605268fa-eb92-4d06-8e55-174dbeff194e	ApacheUser	WikiUser_13	orius isidiosus
+11646	ea12b974-ccd3-4c3f-a714-f6c5ef61a6d2	NCBI	34664	Acyrthosiphon kondoi
+720900	b96c74a7-d92c-4749-af32-490ad8fc693a	ApacheUser	WikiUser_15	Sprague-Dawley
+12139	851633a8-978d-4c6e-857e-16b641c953df	NCBI	35669	herring gull
+23765	2aab470a-e3df-408a-bc36-8390156c9bf6	NCBI	52644	Haliaeetus leucocephalus
+621	943ef7bf-0002-4ea1-93b0-fadd2f4c938b	common ecological species	WCS_56072	Ardea herodias
+5879	aec4b0ee-4cb0-4167-8c0e-e42005cd8422	NCBI	8901	Nycticorax nycticorax
+487	c1ab06e0-d262-42a0-986a-c2c6c45d5d45	common ecological species	WCS_56262	osprey
+720901	c134d12b-f4cf-4f64-b689-1b72c32f929f	ApacheUser	WikiUser_16	Common Starling
+5921	6e43c8e4-66d4-4da2-9287-6ff25b9d7384	NCBI	8966	Gyps coprotheres
+12642	1710944f-ad04-4d1e-8aa6-c0470aba0278	NCBI	36247	Gyps fulvus
+17296	fc3d2422-cfdb-4e3f-bb45-d171fb20da32	NCBI	43491	Gyps bengalensis
+17295	33f7e081-dd3d-4fe6-a7f4-34380b3317ba	NCBI	43490	Gyps africanus
+12643	757439b5-0786-4b57-a076-3bdd7ad42f63	NCBI	36248	Gyps himalayensis
+622	255655ad-4bfb-401e-b415-3cadb8c2d897	common ecological species	WCS_8959	Aegypius monachus
+222050	1e7c8983-c44d-4ce5-9ad5-7314a3e61394	NCBI	341451	Gyps indicus
+461	faebad44-4ded-433a-b98d-a2f9fc702414	common toxicological species	WCS_9986	rabbit
+6472	450e6c3e-63f2-4941-a188-68dbb7cff4fa	NCBI	9669	Mustela furo
+593	504fc66a-2386-446d-ba67-09ecea7b2a33	common ecological species	WCS_9913	Bos taurus
+24	639f923c-31ca-494b-9e60-99823b68a5f3	NCBI	9986	Oryctolagus cuniculus
+20344	563a5a14-7ec3-4f91-93be-9a45a84cee9a	NCBI	48416	Zoarces viviparus
+137984	f07f1ab2-eda5-4d92-a09d-5dfa60b29a3b	NCBI	217509	Carassius carassius
+5083	4628898a-40e2-4b4d-890f-1d61b8f2b801	NCBI	8078	Atlantic killifish
+48819	61af3e74-f730-4cba-936f-5c9f0a05253f	NCBI	89462	Bubalus bubalis
+6410	90de856f-178f-4703-b097-095b9ea9d5c8	NCBI	9598	Pan troglodytes
+7371	7a936921-b81a-4173-9b18-cf0269f8a61e	NCBI	13616	Monodelphis domestica
+5391	7900bdd6-d4fa-48ad-8c91-7ea38ffb8ea6	NCBI	8364	Xenopus tropicalis
+6349	f8e52869-8b04-4eb9-a46a-aaf053c352bd	NCBI	9544	Macaca mulatta
+611	8702eb78-7cda-4670-aafb-d3b7141d59e9	common ecological species	WCS_9103	Meleagris gallopavo
+9	13ec8991-9f1c-481a-ad49-8663a96759ca	NCBI	9615	Canis lupus familiaris
+6731	4eb0ad5f-5b49-4507-8209-0946331d8677	NCBI	9940	Ovis aries
+6182	ff81dbb5-59a8-44fa-b309-aa5238ab82f2	NCBI	9365	Erinaceus europaeus
+6343	c71d6d0f-1147-4bba-9a2b-f6bbd6d63288	NCBI	9541	cynomolgus monkey
+145	7784bab8-b7b7-4c8a-badc-f8a48a389b27	NCBI	60742	Mus musculoides
+5137	839b92c6-c2aa-423a-a487-9170653a3a66	NCBI	8128	Oreochromis niloticus
+36006	9e933a93-f161-416d-94b7-f70d239f4c25	NCBI	70862	teleost fish
+5259	5b99091f-7cd9-4d09-9c3a-3a2227817478	NCBI	8237	bluefin tuna
+7255	ce7b2804-90cd-40b7-9aae-f68fc4b16bbc	NCBI	13489	Dicentrarchus labrax
+5182	56db2fc0-41d8-4b25-bd3c-549688c1089d	NCBI	8167	Perca flavescens
+6732	0c152dfa-3578-4c0a-a38f-06924c09a10b	NCBI	9940	Ovis orientalis aries
+5085	0b0dcf30-c6bd-4c3b-b4cf-dd08473a5b41	NCBI	8078	killifish
+5196	4920a000-45f5-4ddd-b5f8-7654a284dac6	NCBI	8175	gilthead bream
+720922	e396e9ea-2655-4415-8813-a31a4ad1e029	NCBI	33208	Animals
+3858	80fc9afd-5b90-4fb0-b6dc-bcbbb7b1ce7d	NCBI	6239	nematode
+720904	18607655-9175-43f8-abfe-7b2da3a7c878	NCBI	10090	CD-1 mouse
+720905	022091b4-0436-4a7c-8aab-922466bae9f9	NCBI	10116	SD rat
+720906	6c58992a-1778-471e-a22f-34bdec43ce68	NCBI	10116	F344 rat
+5385	b8ad0554-c4b5-4fe0-bd6e-c405f101e9b0	NCBI	8356	Xenopus sp.
+5922	37f78ddc-a42f-4dc8-b64e-3fc4e20a5797	NCBI	8967	Gyps rueppelli
+35029	b6e68338-5abd-4fba-905a-e7137719776f	NCBI	69158	Rodentia spp.
+488	79bb6706-6286-409a-8455-ae281c60a530	common ecological species	WCS_72873	birds
+10150	5ea56e8a-4e56-4e7b-a419-04c0244bc30e	NCBI	31199	Argopecten irradians
+4045	8d281469-c24f-486b-a6c9-d83f2008f3eb	NCBI	6596	Mercenaria mercenaria
+28988	61250903-34d9-4b93-9913-16fe54c2f0d2	NCBI	59239	Arctica islandica
+4037	7202518a-2ca8-4176-888f-74aa89d43d33	NCBI	6584	Spisula solidissima
+19699	2761fecb-8be3-4bab-af4f-88bf18064371	NCBI	47528	Anodonta cygnea
+695	68463e22-f52f-4c2e-b415-6a2a53269b1f	common ecological species	WCS_45954	Dreissena polymorpha
+657	24d6c43c-ad84-446d-836a-83abd8afbf0b	common ecological species	WCS_6669	Daphnia pulex
+1530	5f73cbd3-a7f6-4424-a465-020ab64bafdd	NCBI	3708	Brassica napus
+1522	97e9c397-551a-4f46-a4c1-0632cdd13846	NCBI	3702	thale-cress
+1101	cb09a570-f46e-4c6b-852c-999985eac297	NCBI	3349	Scotch pine
+887	9ec7a849-dc94-4aad-b060-0ab14d40ba08	NCBI	3055	Chlamydomonas reinhardtii
+555	f46685a4-40b3-4d06-aad9-b548a9d4528d	common ecological species	WCS_6396	common brandling worm
+6701	d3e1cf45-6225-45cd-b805-4102e399f417	NCBI	9913	bovine
+5357	f7656c13-eb56-4bb5-8056-9954e6a5d743	NCBI	8330	Cynops pyrrhogaster
+5010	b5c65068-4f82-47d0-96d3-d17e31c04e8e	NCBI	8018	Oncorhynchus keta
+35028	4a9c4b53-4d46-4eed-91d7-21a8c7f58cd3	NCBI	69158	Rodentia sp.
+15992	4fa08f9f-31b2-4e1a-86f6-f220c388ceb5	NCBI	41457	Skeletonema pseudocostatum
+131780	bf997a5d-fc9c-4e78-add1-62295c89e171	NCBI	208873	Myriophyllum spicatum
+491531	37f4a64f-b108-40d9-92bb-c4d2f273ac9b	NCBI	906914	Chlamydomonas reinhardtii CC3269
+785	23104ce0-199b-4fd3-a356-7df3a83b7412	NCBI	2850	Phaeodactylum tricornutum
+719	228643c6-4837-4c83-a981-91de863b8913	common ecological species	WCS_3702	Arabidopsis thaliana
+709	f15ad04d-f4e1-4c6c-9281-e5ff4b3127c3	common ecological species	WCS_4530	Oryza sativa
+708	d55b7662-1589-450b-8504-47e2a08a5839	common ecological species	WCS_4470	Lemna gibba
+16472	0278bf7b-1ccd-4a06-ab1d-356a5a5dc0d2	NCBI	42068	Pneumocystis jiroveci
+3600	8da64a03-11d7-4d99-9970-3dac28ca82f9	NCBI	5833	Plasmodium falciparum
+6747	ef335baf-7864-47bf-8cae-a667ffff6cf5	NCBI	9974	Manis javanica
+8	bb3865a4-cf4a-4ab8-891c-fa1b94ef0385	NCBI	9615	Canis familiaris
+6803	0bc78904-8006-47c5-abdf-812d14cec121	NCBI	10036	Mesocricetus auratus
+6473	a54af6db-90eb-494d-aebe-0ce8e8f76893	NCBI	9669	Mustela putorius furo
+13	e4ecc1d2-28f2-47bd-be45-209fb8ae47fe	NCBI	9685	Felis catus
+6468	883797d2-d116-432b-a113-8987812b60b1	NCBI	9666	Mustela lutreola
+594	c01b08bf-aa29-4b37-b4d0-e831817ed17f	common ecological species	WCS_452646	Neovison vison
+6487	34e5dee2-6b6e-481b-9b65-361a75f9a2d0	NCBI	9694	Panthera tigris
+6469	1fcf580d-274d-4004-896f-db2a82d45dc5	NCBI	9666	mink
+6350	dc048151-d1ba-4b4f-b03f-9400f4d7b21e	NCBI	9544	rhesus macaque
+720918	0ec13562-6eda-42b8-bb5d-80c5382ad5dc	NCBI	30483	Order carcharhiniformes
+14397	a0de434a-2ba8-41e9-a454-f255a754ee16	NCBI	39108	Murinae gen. sp.
+358690	96faf90d-3375-4d47-bb59-bcbeb9f82897	NCBI	565004	Paracyclopina nana
+511	e406440b-5efa-4ca5-a8b7-f66f065872e2	common ecological species	WCS_74940	Chinook salmon
+7257	c8621e19-7c6b-41c6-b2ab-7e9ba4e5c84f	NCBI	13489	European sea bass
+11846	1a1ce793-6fe4-4cbd-9e3f-e836d84ca468	NCBI	34903	red-eared slider
+139657	84e46f98-a82d-4ec7-89b5-3ab0ec8e7dd1	NCBI	219752	Odontesthes bonariensis
+5560	606cde9d-40b5-4f5d-950d-19eea902b904	NCBI	8508	Sphenodon punctatus
+27367	5bab8310-36c2-4905-9e76-4efcf15b5e6f	NCBI	57251	Strigops habroptilus
+5564	e2f0c29e-6917-4244-bade-1cd1749a5ec4	NCBI	8524	Lacerta vivipara
+4347	c0f3da0a-acf4-4d28-be3b-9bf9fadb63dd	NCBI	7116	Pieris brassicae
+678	c4f3434f-c1f1-4298-aa89-e0555d220b42	common ecological species	WCS_7165	Anopheles gambiae
+4308	b9eee9b6-d2dd-4205-af71-01d7713d9770	NCBI	7070	Tribolium castaneum
+4342	6bae89bb-d046-45a7-ae7f-5eb2aac41673	NCBI	7111	Trichoplusia ni
+4359	12abcf30-dc9f-4848-9379-fef9ee718987	NCBI	7123	Hyalophora cecropia
+12064	35f59fb4-b9e5-454a-b1ba-b72aeb71ed70	NCBI	35572	Bradysia hygida
+25770	7568b1c5-c89b-42db-a09f-a7acbae6ca7c	NCBI	55057	Mamestra brassicae
+100846	39b2506a-c985-4d9b-9373-89edaa7ba40d	NCBI	168631	Chilo suppressalis
+4254	a6b660dc-4bdc-4bbc-a604-d33c7770a87f	NCBI	7004	Locusta migratoria
+61230	2bf604e4-e982-4f70-b12b-41ce17f730e5	NCBI	108931	Nilaparvata lugens
+196502	8846b794-64b9-432b-b922-ce27601d7293	NCBI	307491	Aphis glycines
+37017	b1482da3-37dc-4e4a-954a-4d371025e065	NCBI	72036	Lepeophtheirus salmonis
+21762	398cb016-28a4-46f4-a3e7-fb8f0c3153a6	NCBI	50023	Panonychus citri
+118968	f56a4548-2bcc-4eef-bb51-0f77ac7f1222	NCBI	192188	Grapholita molesta
+159670	84060611-9a17-4b5b-9086-b1649d23a8f9	NCBI	248899	Ectropis obliqua
+92679	bc5e7963-d90b-48c3-8e81-be10afea2ac1	NCBI	158387	Tigriopus japonicus
+4324	b7f31970-4333-4602-b130-808bc1cabc75	NCBI	7091	Bombyx mori
+46388	24f0130a-718f-40a7-b48f-0dc86637f824	NCBI	85549	Artemia salina
+8935	88805593-aaf3-44fe-9af2-ad6534548004	NCBI	29057	Ostrinia nubilalis
+4400	725d0756-dc7a-409d-91ef-4d74994cd65f	NCBI	7166	Anopheles quadrimaculatus
+517	877f6ce3-65ac-4e5f-83f5-6202411f982c	common ecological species	WCS_7998	channel catfish
+1100	dbea1b9f-d023-4e94-90b4-97df187f139c	NCBI	3349	Pinus sylvestris
+84	ce99cd9d-6052-48b6-ac68-89f0b4e9c84d	NCBI	10141	Cavia porcellus
+5452	3cb0aaf5-2791-4b41-85aa-c9fc3cca02ef	NCBI	8400	Lithobates catesbeianus
+6619	38e807da-502a-4438-be6f-1b530cd470e2	NCBI	9825	Sus scrofa domesticus
+3	f71063e4-fad7-4f7c-8715-bf925b82fed3	NCBI	9612	Canis lupus
+604	903a86ef-a522-4971-ba91-3df3e12a983e	common ecological species	WCS_8400	Rana catesbeiana
+42503	ebf67f76-4bb4-4481-81d0-e37c3e02df94	NCBI	79327	Schmidtea mediterranea
+6351	90a973ed-a9af-450e-9dbd-339373009357	NCBI	9544	rhesus macaques
+6344	04aa583b-1563-4fbb-9a46-b1a6fc357905	NCBI	9541	cynomolgus monkeys
+108	5429bf7f-a59c-44ba-a233-12e03dabd865	NCBI	34880	Nyctereutes procyonoides
+6672	7b952922-eece-4835-a4ac-5ccc1957d0fe	NCBI	9880	Odocoileus virginianus texanus
+6432	4a0738c5-1333-49d4-b973-7ac6241e85f0	NCBI	9627	Vulpes vulpes
+6802	0ff5f722-2d6d-49ed-977f-26a87d7cfa72	NCBI	10036	Golden hamsters
+6475	0ca241e5-edff-4087-8def-4db96d5fecd6	NCBI	9669	ferret
+158002	d1584225-4738-440d-a25b-425439e93443	NCBI	246437	Tupaia belangeri chinensis
+147448	782d4bee-b08a-4912-b9c0-5151f457b469	NCBI	230844	Peromyscus maniculatus bairdii
+9953	3f2f5951-f6f4-445a-badc-38d793ca8d8b	NCBI	30548	Mephitis mephitis
+58846	e35e9bd4-af06-45b7-9f98-0387d4218d41	NCBI	105147	Neotoma cinerea
+6407	f9daf233-569f-4fba-9d8e-0d0cfb345ebe	NCBI	9595	lowland gorilla
+6342	2e9f8307-a9b3-4dd4-bb91-420e638923ab	NCBI	9541	crab eating macaque
+6325	e0aca967-1d9a-488d-913d-bed0149edb38	NCBI	9534	African green monkeys
+6624	2a187bcb-ca2e-482c-9c5b-0f0b149804df	NCBI	9833	Hippopotamus amphibius
+292441	7ffad8a0-b23a-4e54-b5a1-3bd65304ec12	NCBI	447135	bank vole
+159	9fc3b960-3182-4ae8-b056-b8f4b73392fd	NCBI	61383	Lynx canadensis
+21	b20fad65-129e-4761-a1e7-1cdb2ed33f29	NCBI	9696	Puma concolor
+274349	3849e96e-0016-4d5f-ac80-df43cdeb4b65	NCBI	419130	Panthera tigris jacksoni
+94	029be0a4-5a4f-4ede-ad84-f4719101cb89	NCBI	29064	Panthera uncia
+30743	f11a51e0-0d12-4d32-909c-43d804e45dfc	NCBI	61388	Prionailurus viverrinus
+6478	e03924ba-d032-4658-bec2-1c416ee5d178	NCBI	9678	Crocuta crocuta
+52104	25759f06-41b5-4316-90aa-7354269b13bf	NCBI	94180	Arctictis binturong
+6666	14216550-4540-47dc-ba38-ada524cd954d	NCBI	9874	Odocoileus virginianus
+463	bf0f3192-9061-4a2b-84fb-28cc3ce5bb25	common ecological species	WCS_452646	American mink
+6454	f0f9f19b-352d-4830-85a1-ddba3c6a7fa4	NCBI	9651	Nasua nasua
+6481	e9a9160d-45e1-48bc-95fc-b85dfda6b067	NCBI	9689	Panthera leo
+22	a84cb103-a229-429c-b86b-3420c715b96b	NCBI	9986	European rabbit
+6897	8eb69cee-7c4f-4d91-8caf-195219456b69	NCBI	10185	Castor fiber
+296845	0ae5c7b1-5551-4f2e-a291-3c26c25db6ab	NCBI	452597	Aonyx cinereus
+13300	48d3b1f6-fbef-4ff0-810b-2ed7b1068e2f	NCBI	37347	Tupaia belangeri
+6664	23a88755-254e-4737-b0ed-22e907a588cb	NCBI	9872	Odocoileus hemionus
+28033	f4b375d1-9946-434b-8188-7b373939ce76	NCBI	58060	Cynopterus brachyotis
+6265	d508cf97-2d94-44bc-9505-c46176b33523	NCBI	9483	common marmoset
+6373	63b935ab-e01e-44c3-9425-daa5b89a8df8	NCBI	9555	baboon
+123	12763d2d-8acf-4efe-9c18-20c20c5d33d6	NCBI	39442	Mus musculus musculus
+3889	321ee306-bb1a-40f6-a7d6-6eaf0f9a33c2	NCBI	6287	canine heartworm nematode
+15986	2eacbf9f-db76-4b65-832f-95f6e83dc5c5	NCBI	41446	Sebastiscus marmoratus
+6806	4af25754-e356-4189-96fa-fa637a72847f	NCBI	10036	Syrian hamster
+26	ce90102e-4080-47de-a2ba-d806de2fce3c	NCBI	9986	rabbits
+625611	d981a6a4-6a6d-4b38-a2a5-99c0d5e973b0	NCBI	1186497	Insecta sp. BOLD:AAN5199
+1791	bddf5e75-3546-42e6-a9b4-078e8d491525	NCBI	3888	Pisum sativum
+17918	5e8945b2-beb3-4de7-9c64-b219f6837483	NCBI	44689	Dictyostelium discoideum
+36269	53832578-d609-4e43-bcde-d9848681042b	NCBI	71170	earthworms
+720926	29498e94-be4d-483d-8895-03389da62eaf	NCBI	9347	Placental Mammals
+140	78c402ec-69f8-45ce-84d2-a282a56e9415	NCBI	60556	Oryctolagus sp.
+720928	6b9fe08f-2438-4508-8c14-0ae18eae0ac4	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=8504&lvl=	NCBI	Reptilia

@@ -1,0 +1,28 @@
+# curie_map:
+#   AOPWIKIBA: "https://aopwiki.org/vocabularies/biological-actions/"
+#   PATO: "http://purl.obolibrary.org/obo/PATO_"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   skos: "http://www.w3.org/2004/02/skos/core#"
+#   orcid: "https://orcid.org/"
+# mapping_set_id: https://w3id.org/EHS-Data-Standards/aop-cam/mappings/aopwiki-action-to-pato
+# mapping_set_description: >-
+#   Maps the 11 biological action values in the AOP-Wiki controlled vocabulary
+#   (as exported in the nightly XML dump's biological-action elements; subject
+#   ids use AOP-Wiki's own source_id for each action) to PATO quality terms,
+#   for use as the direction/quality component of Key Event nodes in the
+#   aop_cam schema. All PATO ids and labels verified against the PATO release
+#   current on the mapping_date, via OAK (sqlite:obo:pato).
+# license: https://creativecommons.org/publicdomain/zero/1.0/
+# mapping_date: 2026-11-09
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	author_id	mapping_date	confidence	comment
+AOPWIKIBA:1	increased	skos:exactMatch	PATO:0002300	increased quality	semapv:ManualMappingCuration	orcid:0000-0002-8719-7760	2026-11-09	1.0	Generic directional quality; pair with the process/object term for the full EQ reading.
+AOPWIKIBA:2	decreased	skos:exactMatch	PATO:0002301	decreased quality	semapv:ManualMappingCuration	orcid:0000-0002-8719-7760	2026-11-09	1.0	Generic directional quality; pair with the process/object term for the full EQ reading.
+AOPWIKIBA:7	functional change	skos:closeMatch	PATO:0001509	functionality	semapv:ManualMappingCuration	orcid:0000-0002-8719-7760	2026-11-09	0.8	AOP-Wiki means a direction-neutral change in functionality; PATO has no "altered functionality", so the bearer quality is the closest fit.
+AOPWIKIBA:4	abnormal	skos:exactMatch	PATO:0000460	abnormal	semapv:ManualMappingCuration	orcid:0000-0002-8719-7760	2026-11-09	1.0
+AOPWIKIBA:11	pathological	skos:exactMatch	PATO:0001869	pathological	semapv:ManualMappingCuration	orcid:0000-0002-8719-7760	2026-11-09	1.0
+AOPWIKIBA:3	occurrence	skos:closeMatch	PATO:0000467	present	semapv:ManualMappingCuration	orcid:0000-0002-8719-7760	2026-11-09	0.8	AOP-Wiki uses "occurrence" for an event that happens at all; "present" is the nearest PATO quality.
+AOPWIKIBA:9	disrupted	skos:closeMatch	PATO:0000937	disorganized	semapv:ManualMappingCuration	orcid:0000-0002-8719-7760	2026-11-09	0.8	PATO has no "disrupted"; disorganized is the nearest quality for disrupted structure or process.
+AOPWIKIBA:8	morphological change	skos:closeMatch	PATO:0000051	morphology	semapv:ManualMappingCuration	orcid:0000-0002-8719-7760	2026-11-09	0.7	Direction-neutral change in morphology; PATO has no "altered morphology", so the bearer attribute is used.
+AOPWIKIBA:10	arrested	skos:exactMatch	PATO:0000297	arrested	semapv:ManualMappingCuration	orcid:0000-0002-8719-7760	2026-11-09	1.0
+AOPWIKIBA:5	delayed	skos:exactMatch	PATO:0000502	delayed	semapv:ManualMappingCuration	orcid:0000-0002-8719-7760	2026-11-09	1.0
+AOPWIKIBA:6	premature	skos:exactMatch	PATO:0000694	premature	semapv:ManualMappingCuration	orcid:0000-0002-8719-7760	2026-11-09	1.0

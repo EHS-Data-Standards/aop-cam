@@ -1,0 +1,503 @@
+wiki_id	uuid	source	source_id	name
+149862	2f6abfb7-93f6-4da4-a6ff-38c91c91a4db	PR	PR:000031316	NADH-ubiquinone oxidoreductase chain 1
+2382	658ab1f4-75e2-467c-9f71-ce834eb3a93b	GO	GO:0005739	mitochondrion
+54798	35ab2547-ebfc-4944-8eb8-279766894c6d	CHEBI	CHEBI:36080	protein
+60590	a1d34154-b35e-4bd3-bcbc-ffa3e185e69b	CL	CL:0000129	microglial cell
+61466	68c98df9-b616-4909-af13-7410e11c1921	CL	CL:0000127	astrocyte
+262141	8ca7b173-7bab-4a57-b537-f812d708d177	MESH	D020734	Parkinsonian disorders
+568	8328aa9d-c5d9-4914-bce8-dd4d57208fb9	GO	GO:0008230	ecdysone receptor holocomplex
+262142	0925bcbc-0f8d-48bd-bfb1-3a8c911b0527	MESH	C061375	Eip75B protein, Drosophila
+171291	67e2eea6-a280-46b7-a63b-8d622bcb35fa	PR	PR:P33244	nuclear hormone receptor FTZ-F1 (fruit fly)
+172355	7807f7f1-07bb-495e-9135-f1b722d57456	PR	PR:Q9VCW0	cardioactive peptide (fruit fly)
+60366	50959fde-6264-4368-8cad-5819c6cab4ad	CL	CL:0000100	motor neuron
+39248	41f7d15a-ad20-42ca-9434-98d5eb52cb05	CHEBI	CHEBI:17029	chitin
+110555	872fdfba-3182-4410-b56a-a3e05f0b457f	PR	PR:000013056	peroxisome proliferator-activated receptor alpha
+52287	f7939af7-7562-4cdb-8e22-4524e8bdb550	CHEBI	CHEBI:73693	ketone body
+262143	eacdc4af-f8be-4730-be9a-9438b415a99e	MESH	D009124	muscle protein
+103354	5d0e0297-7e39-40a2-97d8-a287ea32b6a5	PR	PR:000011048	nuclear receptor corepressor 2
+103346	0bd8e0aa-ab75-497e-a620-26a82f4d50be	PR	PR:000011047	nuclear receptor corepressor 1
+12559	965e13f1-72e9-4ea5-a5fa-240bfe1bf95b	CHEBI	CHEBI:16469	17beta-estradiol
+262148	a5677211-4a05-465f-a16d-8f9a8ce57b2c	MESH	D005298	fertility
+179484	3195b509-774c-4b30-a21a-ae227cf0c227	UBERON	UBERON:0001305	ovarian follicle
+81162	636cd68e-1fd8-4104-815c-5fc5385e1c36	PR	PR:000006100	aromatase
+105039	b268d479-4fb1-4e2b-a4da-44ec344f60d2	PR	PR:000011397	nuclear receptor subfamily 1 group I member 2
+43542	1aef9172-c036-4866-a91e-404fa323e391	CHEBI	CHEBI:30660	thyroxine
+64026	3d19d157-3f7f-4ed1-b867-54b38504ff5b	PR	PR:000001325	beta-1,3-glucuronyltransferase
+182870	749afc2c-a00e-4c38-ab16-537b43586783	UBERON	UBERON:0002421	hippocampal formation
+3769	fb88b8f8-5fbe-4c0d-85f3-070e984f666a	GO	GO:0045202	synapse
+59255	37820477-456f-4560-9b8c-8943feaa81e1	CHEBI	CHEBI:17996	chloride
+89195	d0f29f5e-ef87-4e62-ac48-0976f7a21512	PR	PR:000007766	gamma-aminobutyric acid receptor subunit alpha-1
+89199	211f4d76-1f46-4e57-8e5e-92ecbd1266da	PR	PR:000007770	gamma-aminobutyric acid receptor subunit alpha-5
+89200	d47dfe29-bdf3-4c77-af35-6c03c317add6	PR	PR:000007771	gamma-aminobutyric acid receptor subunit alpha-6
+1682	b7e0fe49-e7c7-4384-8c97-9b2bf171e6cb	GO	GO:0017146	NMDA selective glutamate receptor complex
+59386	d233ee3c-50a4-4928-b91b-b7f8b8584f40	CHEBI	CHEBI:39124	calcium ion
+134745	ef6a1be7-798a-4572-8a7d-0cd15896b763	PR	PR:000004716	brain-derived neurotrophic factor
+3510	b594dfa3-d97f-4ac2-a2ef-e068f578d852	GO	GO:0030425	dendrite
+18343	5ac0aca2-e816-48bc-b092-64a5a375a4aa	CHEBI	CHEBI:14321	glutamate(1-)
+105066	c75a755b-94de-47eb-9a46-541dd2e59813	PR	PR:000011406	glucocorticoid receptor
+64988	96476bef-f7d0-4835-bbca-08fe8e001608	PR	PR:000001753	transcription factor NF-kappa-B subunit
+60744	a2dd698f-ffab-4abf-a334-e125fd958f19	CL	CL:0000542	lymphocyte
+68283	0de47053-8b4a-4817-9537-86fe7d5245b5	PR	PR:000003292	NF-kappa-B inhibitor
+178170	df26a167-c706-42fd-acbd-35a967ecab31	UBERON	UBERON:0002405	immune system
+30552	a0918172-ecf8-4847-a462-380714d864ef	CHEBI	CHEBI:16991	deoxyribonucleic acid
+69396	791068f4-1e00-43ce-9ae0-c75b11849edf	PR	PR:000003626	acetylcholinesterase
+21580	1d177270-aa20-4317-b1d1-ef1086781fc6	CHEBI	CHEBI:15355	acetylcholine
+262167	32c53c47-aa28-4e4d-bfa8-fbfdc0bfbb53	PCO	PCO:0000001	population of organisms
+262147	656ebaab-f2e9-4b9e-9ed3-6dbc4a651028	PR	PR:000015715	STAR
+11839	6f0a79e8-d015-4246-b68f-c981d8d05c91	CHEBI	CHEBI:16113	cholesterol
+11848	677efa5e-cad1-48a9-b703-6ae2f2a6d03e	CHEBI	CHEBI:17347	testosterone
+128565	2e9712ca-8749-45a9-b389-ea1616108284	PR	PR:000016757	translocator protein
+186425	2526e77c-d806-40ee-8881-9d3f634b7d29	UBERON	UBERON:0003135	male reproductive organ
+1622	0f32fa1c-dafd-49e1-92ed-2d9a9932b4b8	GO	GO:1990909	Wnt signalosome
+72336	eca760d7-ccc3-412e-8b47-b952c74d86db	PR	PR:000004191	androgen receptor
+70472	b5978968-a99a-4634-bf03-4fa2ed375223	PR	PR:000003858	aryl hydrocarbon receptor
+72780	1d10f966-2f02-4476-9a2f-397f98c2c3c1	PR	PR:000004303	aryl hydrocarbon receptor nuclear translocator
+178180	5eb85f43-b057-42b8-abb3-b8a536ef2f11	UBERON	UBERON:0004535	cardiovascular system
+112477	279c4f4b-7214-4c02-86d3-16548a8daa61	PR	PR:000013428	prostaglandin G/H synthase 2
+262149	9333b6f1-a6a4-4304-9b67-a6f1c875e43b	MESH	D014819	vitellogenins
+59020	619d1d4c-1294-4201-9d3d-051a425dcd36	CHEBI	CHEBI:81568	Luteinizing hormone
+59021	9b0efada-8989-43e3-9abb-6350b42667f9	CHEBI	CHEBI:81569	Follicle stimulating hormone
+1795	8f21fae2-72f7-486e-adbf-2ecbdd0fd8ca	GO	GO:0090534	calcium ion-transporting ATPase complex
+3007	a895eb01-09e4-4753-8aa4-5a6e062c7ef1	GO	GO:0005746	mitochondrial respiratory chain
+28472	5c1a5576-d367-4f92-8594-4ae6ca4ef014	CHEBI	CHEBI:15422	ATP
+59217	36df2ffa-e9b1-4a64-9f9f-3a64c47c9750	CHEBI	CHEBI:16480	nitric oxide
+59215	7d32607a-8518-48d9-a113-ffbc9e9f4f84	CHEBI	CHEBI:26523	reactive oxygen species
+69046	dd99b7df-f048-488c-a3c3-79d771e9dbb8	PR	PR:000003549	bile salt export pump
+105023	61579a1c-3fec-4c48-b6c0-b5ca99624daf	PR	PR:000011396	bile acid receptor
+185766	ce3777b1-612c-4b6e-b617-5695171d8504	UBERON	UBERON:0001970	bile
+207770	66b9b07c-11bb-4ba4-af18-79ed4ed6f727	FMA	FMA:84050	Cytokine
+262150	bc217880-f549-47cd-8195-9b588916ed03	MESH	D002779	cholestasis
+112464	b80a7675-2df3-4868-a6ec-4e8e7df736f1	PR	PR:000013427	prostaglandin G/H synthase 1
+51220	fef63634-2e29-40e6-b0dd-04e65c33895f	CHEBI	CHEBI:15551	prostaglandin E2
+19046	26a28b2b-3c3e-4cdc-b4b8-e0c1621d904b	CHEBI	CHEBI:17544	hydrogencarbonate
+178233	dfb9e5fd-af92-41d3-bc3d-3ee6f5aa6b82	UBERON	UBERON:0005079	eggshell
+86199	8296751a-3c8f-4660-af54-0c054972bf7f	PR	PR:000007204	estrogen receptor
+186415	2259c052-508b-4874-958a-7ffa9920a153	UBERON	UBERON:0003133	reproductive organ
+91782	99cccb02-6b5c-46a9-9c2b-5d8d95c84f1e	PR	PR:P69905	hemoglobin subunit alpha (human)
+262151	0db01515-2bd6-45b6-8221-1f1d3a2b1b0e	MESH	D006461	hemolysis
+262152	f677d8da-7c12-44d9-8090-bca63ded35ab	CHEBI	CHEBI:35703	xenobiotic
+89147	bf9f39bc-681b-4cca-aa8c-02523a4dfd96	PR	PR:000007749	glucose-6-phosphate 1-dehydrogenase
+61342	41478fda-d756-4824-9036-59582de7f415	CL	CL:0000232	erythrocyte
+262153	f7961f9d-260f-4299-9191-4a296591481e	MESH	D006486	hemosiderosis
+262154	bb786d09-bc53-48a3-b1bf-56582ed00699	MESH	D008708	Methemoglobinemia
+54889	d1222376-7bd9-4552-ad23-ed783d6d32e0	CHEBI	CHEBI:35143	hemoglobin
+262155	fa10ce51-1b7a-4e5a-b4cb-cc76786c18c3	MESH	D003490	Cyanosis
+27749	e83f6d4f-ad68-4b67-9af9-0773ad71b8db	CHEBI	CHEBI:39185	thiamethoxam
+262156	85e16b2c-c406-4d73-b4ed-6ced53dd1477	CHEBI	CHEBI:25212	metabolite
+104604	2a25d7c9-f479-421b-85d9-2cc89f83ad79	PR	PR:000011326	nitric oxide synthase, brain
+262157	09a7fb39-d689-4004-bafc-c0b679f42df4	MESH	D006528	hepatocellular carcinoma
+143067	e7a05f58-64a4-43d7-b4ba-c8bd060f2d0d	PR	PR:000001168	5-hydroxytryptamine receptor 2C
+105008	8076976a-513b-4236-b70f-83d5755d6e74	PR	PR:000011394	oxysterols receptor LXR-beta
+105017	79fe37b9-b679-4334-850a-77ed5cebada8	PR	PR:000011395	oxysterols receptor LXR-alpha
+66083	4d87e93e-da52-4a75-8307-86980815d325	PR	PR:000001905	platelet glycoprotein 4
+13679	929147f4-2fea-40cb-8c77-69bb6bd4d370	CHEBI	CHEBI:35366	fatty acid
+100356	5f125f93-d99a-4e21-9ed7-f4333d8cb104	PR	PR:000010460	carbohydrate-responsive element-binding protein
+139868	f50c4648-4854-4034-b8a3-450cca5b96c2	PR	PR:000015611	sterol regulatory element-binding protein 1
+86966	ab7dfc78-c6f3-4413-972b-1cc30a7dcfcb	PR	PR:000007348	fatty acid synthase
+118038	7199c9cd-9271-479b-be8b-ae3f5ed839ea	PR	PR:000014497	acyl-CoA desaturase
+15118	27d495c3-8b74-471b-979f-4702dd13efd3	CHEBI	CHEBI:17855	triglyceride
+262158	09a0ce1b-ac37-42b1-8893-ee8243db3f0e	MESH	D005234	fatty liver
+110557	38ab470f-617c-4085-9bad-fbeac7f1b152	PR	PR:000013058	peroxisome proliferator-activated receptor gamma
+15	d814779a-ef29-4570-bf98-d3b086d0867e	GO	GO:0016020	membrane
+24	1765a273-62fb-431c-8d7c-f8bb5ea920a1	GO	GO:0005886	plasma membrane
+110556	ff7163f6-6fc4-47be-ab00-f95c11249622	PR	PR:000013057	peroxisome proliferator-activated receptor delta
+93114	ad3ac63d-5eec-4f8d-a2ae-5d18f319d969	PR	PR:000008774	3-hydroxyacyl-CoA dehydrogenase type-2
+61687	0c58baf8-c9e2-4080-940d-99119ff253cd	CL	CL:0000422	mitogenic signaling cell
+60084	0f936f9a-2772-4aa5-8862-be71b4e46abc	CL	CL:0000182	hepatocyte
+262171	480adecf-4a75-4d88-808b-1e1aca92e856	MESH	D000236	Adenoma
+262172	d6f43243-4e02-494d-847d-a67c58e0ab8f	MESH	D002277	Carcinoma
+185043	e7ea9f25-2b35-43cb-8dad-021dc3da1baa	UBERON	UBERON:0002107	liver
+59919	f316244d-8524-494e-bb61-1725ad19c4be	CL	CL:0000632	hepatic stellate cell
+262159	c928f7c8-58fa-438a-863c-2ab9743e599a	CHEBI	CHEBI:3815	collagen
+60745	a6936c53-0372-4706-bd11-d98118c1d0a4	CL	CL:0000084	T cell
+60825	4dd12514-4939-463c-a46b-12b7ce8fbc48	CL	CL:0000813	memory T cell
+262160	bccbee03-3553-434a-9d5d-7158171ff469	CHEBI	CHEBI:59739	electrophilic reagant
+207771	c9556ef8-59e4-4893-86db-5787643a63b5	FMA	FMA:241981	Chemokine
+207779	f478ef99-9abc-49c9-bf70-bd4a6b1b6edd	FMA	FMA:86578	Interleukin
+262161	61b0ffac-c040-482b-9225-c69e4e5b31fe	MESH	D008107	Liver Diseases
+189364	20df2c64-4ff0-4819-bf23-7d69eeee940d	FMA	FMA:63179	Liver cell
+61732	02b249e6-edb0-482d-afbc-df953d4d8c10	CL	CL:0002196	hepatic oval stem cell
+61069	b1dfac55-3cf8-48da-8444-9a90473cae69	CL	CL:0002538	intrahepatic bile duct epithelial cell
+262162	1128f00c-d420-484b-beac-3b13b8156bcb	MESH	D001650	Bile Duct Neoplasms
+127939	687037fc-9301-49d6-a994-a8b0aa1fd443	PR	PR:000016584	thyroid peroxidase
+59279	25df7ab2-e49b-4d32-8738-9f969f7d3c0c	CHEBI	CHEBI:60311	thyroid hormone
+66509	39f0925c-70e9-4f83-8867-28d1de4f7cbe	PR	PR:000002112	vascular endothelial growth factor receptor 2
+66510	318d66d0-e10d-4cfd-9562-345d2614d245	PR	PR:000007563	vascular endothelial growth factor receptor 1
+185743	87fc6673-acbd-4161-8ba4-3fa3798da66d	UBERON	UBERON:0000178	blood
+262163	48076753-7a40-4c58-bace-819ef23a84dd	UBERON	UBERON:0035753	capillary plexus
+207883	ad2369c6-1650-4394-8c45-c8e5b373ad71	FMA	FMA:67194	Nuclear deoxyribonucleic acid
+67559	3c702d3f-a7d9-4fd3-a66e-215837048dee	PR	PR:000003035	cellular tumor antigen p53
+190	5172aa3b-b8bd-4be3-9c22-5448847e33ae	GO	GO:0032591	dendritic spine membrane
+1681	7d9bf432-9abc-4bf5-8e80-7e0025f76873	GO	GO:0008328	ionotropic glutamate receptor complex
+178256	5f34b969-fb6b-443a-beed-8b5170d5155c	UBERON	UBERON:0005777	glomerular basement membrane
+59232	f157907c-1014-4422-af53-0bf2b6442063	CHEBI	CHEBI:16382	iodide
+121166	93eccd5f-5cef-4893-9f82-bd771f2be462	PR	PR:000015171	sodium/iodide cotransporter
+54918	87663d2f-c1fc-4a41-9622-64a927a88f32	CHEBI	CHEBI:39027	very-low-density lipoprotein
+107834	c0aa9644-68ef-4f2f-903c-5e37d6b30958	PR	PR:000012416	phosphoenolpyruvate carboxykinase, cytosolic [GTP]
+97220	f113bce2-f746-4ed3-a824-6a2fe80cf645	PR	PR:000009744	low-density lipoprotein receptor
+54917	e3bc93c2-ee5d-4b50-8b3a-e774d7b986e1	CHEBI	CHEBI:39026	low-density lipoprotein
+81172	358ede67-d704-4aba-bc23-817e548bd8c4	PR	PR:000006101	cytochrome P450 1A1
+105040	ce8cb308-e2e9-4051-9d23-0e4b7965c08c	PR	PR:000011398	nuclear receptor subfamily 1 group I member 3
+69266	35c50b58-0347-40f9-b4d0-f0d527d2cb2a	PR	PR:000003596	acetyl-CoA carboxylase 1
+92562	13c7d8e7-b428-45f6-97db-d59000d756e7	PR	PR:000008654	hepatocyte nuclear factor 4-alpha
+88526	53ffd9a9-4cd8-49fc-b190-7c517695fef0	PR	PR:000007603	hepatocyte nuclear factor 3-beta
+79733	81b5975d-a951-41bd-86c1-8dfa50e2f1bc	PR	PR:000005835	carnitine O-palmitoyltransferase 1, liver isoform
+92493	8f48465f-b81b-450a-bff2-53fcf662ce6f	PR	PR:000008638	hydroxymethylglutaryl-CoA synthase, mitochondrial
+103766	f47032ba-feef-4dbd-823b-7978118d99c0	PR	PR:000011170	nuclear factor erythroid 2-related factor 2
+105002	12472d1d-6007-47c7-a778-ae9c218af859	PR	PR:000011391	nuclear receptor subfamily 0 group B member 2
+93136	b048c787-de33-400c-abea-1dcadd82bd83	PR	PR:000008778	17-beta-hydroxysteroid dehydrogenase 14
+262164	bc270296-f70e-43a6-8038-7490bb750739	PR	PR:000003392	microsomal triglyceride transfer protein large subunit MTTP
+72028	13c4656e-0632-4b70-b891-8ab8d6d2a95f	PR	PR:000004145	apolipoprotein B-100
+140161	53dc5112-670c-4ae7-b1f6-5a00f9a2f1e1	PR	PR:000003912	RAC-beta serine/threonine-protein kinase
+56115	c50a0cfd-5c04-4d77-8ade-b5086e9b0bba	CHEBI	CHEBI:26333	prostaglandin
+59765	cf0a9860-9ed3-4e46-afc6-b4290fbe3250	CL	CL:0000019	sperm
+178144	fcefb97e-842b-46c3-a16b-de06f8c18652	UBERON	UBERON:0001016	nervous system
+12041	852f319e-e034-4639-9375-e1f102192936	CHEBI	CHEBI:16827	corticosterone
+105055	2cae4e54-4783-4528-ae57-413719a3db04	PR	PR:000011405	COUP transcription factor 2
+262165	9eca45c8-a8d1-44d6-9165-434ab8316da0	MESH	D005326	fetal proteins
+54914	e45c35ce-6b10-42ad-9aa3-5eb361d73817	CHEBI	CHEBI:6495	lipoprotein
+59980	a72dfb93-a543-4686-a1a1-ee42f1f4bd1d	CL	CL:0000178	Leydig cell
+12040	5865c7d8-34db-47f7-a9fc-626d9adbae53	CHEBI	CHEBI:24261	glucocorticoid
+81839	097283a8-37d4-4306-9d3a-67adae3fc942	PR	PR:000006294	dopamine beta-hydroxylase
+44310	9da8e81b-938a-4a7a-a4d5-4a23fc40d0af	CHEBI	CHEBI:18357	(R)-noradrenaline
+88487	65dfeb77-ace7-423a-bfd0-0ad6a632ba94	PR	PR:P01101	proto-oncogene c-Fos (mouse)
+262166	c1fcdea1-06b8-496f-8b45-8e6222c41860	MESH	D007987	Gonadotropin Releasing Hormone
+2340	abebb2e3-e176-4c44-8a53-cdf512dc26bf	GO	GO:0060473	cortical granule
+3430	03c1d1c8-38af-4b5d-a5cf-6e0e8006036e	GO	GO:0060387	fertilization envelope
+207655	f749729e-fffb-47f5-827c-8cbd64e78914	FMA	FMA:61796	Nicotinic acetylcholine receptor
+75598	0571d4cd-704f-4ac1-b093-edb78c5d7b7e	PR	PR:000004978	calmodulin
+207884	a2f51ea4-f1a8-4d32-b944-7f62b0f4e821	FMA	FMA:67199	Mitochondrial deoxyribonucleic acid
+35121	76ac88aa-eb1f-45e3-a762-efb96085a94c	CHEBI	CHEBI:16217	D-glucono-1,5-lactone
+59216	e70e45da-1752-4504-be85-44aeb82160c0	CHEBI	CHEBI:16240	hydrogen peroxide
+66515	75df4062-176e-4105-8e1e-8b9f8df87301	PR	PR:000002095	sodium channel protein type 1 subunit alpha
+262144	acd8dd1b-6574-4d84-be6f-f43618c510a4	MESH	D054537	atrioventricular block
+262145	3528742e-cc26-4178-ba71-646e0e5ce495	MESH	D001919	decreased heart rate
+262168	87c97ac7-edd9-4d1e-81f8-6289bfbcc876	MESH	C565682	Amputation, Congenital
+262169	057707f6-552d-440e-b1c4-489316782e02	PR	PR:Q12809	potassium voltage-gated channel subfamily H member 2 (human)
+121204	16b6218c-e137-4f5d-b532-dd6d4af4c3ed	PR	PR:000015189	sodium-dependent serotonin transporter
+187230	6ac3df83-501a-4624-b206-a0244e8f2d45	UBERON	UBERON:0003978	valve
+60069	426db8ac-bb37-435d-a2d8-99dc946d0812	CL	CL:0011110	histaminergic neuron
+262170	5297b861-7065-418e-8d0f-cb9ca0cae0a4	MESH	D000758	anesthesia
+145658	1b316712-ce8f-4c1e-bde2-dfb0ecf08f70	PR	PR:000001423	histamine H2 receptor
+48929	f4df6c39-7292-4690-bdb6-81557c398d32	CHEBI	CHEBI:15553	prostaglandin F2alpha
+59282	82798931-a672-4ce0-bfbc-97fc28711957	CHEBI	CHEBI:26013	pheromone
+12000	38834424-ff5d-4213-b163-5e05aaaf4644	CHEBI	CHEBI:26764	steroid hormone
+19402	c3807939-c590-45c3-9dc5-84da8bd267d1	CHEBI	CHEBI:58165	3',5'-cyclic AMP(1-)
+98639	d13005de-bea5-4bad-9c88-0431214370fe	PR	PR:Q9VNE1	MAD2 like protein (fruit fly)
+65303	ee83d652-27fa-447c-bae9-cd90109f8796	PR	PR:000001978	ATP-sensitive inward rectifier potassium channel 1
+159891	0c7e566f-1f39-4317-96e2-e6460eaeb0ea	PR	PR:P02761	major urinary protein (rat)
+61295	c1e8e97b-e915-4556-b154-c0c8f8d7b877	CL	CL:1000507	kidney tubule cell
+139711	3531aad4-5924-442f-8510-940b08f46e23	PR	PR:000028799	tubulin
+1018	f5ef2364-262f-47b4-8e68-aca9225eeea2	GO	GO:0045298	tubulin complex
+3091	ce8894e7-a6d4-40dd-bba1-ee6a48bb0b41	GO	GO:0005874	microtubule
+2490	675de405-5cf9-4744-9e38-33d54f0e2030	GO	GO:0005819	spindle
+2464	b84e47a2-fcb3-4610-a280-ad407e64dcf8	GO	GO:0005694	chromosome
+262173	8c9a6084-9373-4b6a-bba6-fc166ac6cc84	MP	MP:0003902	abnormal cell mass
+136984	7108105e-5ea3-466d-85a6-0a508f812b0a	PR	PR:000023575	pyruvate dehydrogenase [ubiquinone]
+262174	1a6be692-30dc-4366-90bc-932c7d46e4ba	PR	PR:Q63065	Pyruvate dehydrogenase (acetyl-transferring)] kinase isozyme 1, mitochondrial (rat)
+61237	03562d1c-7e31-44d7-86ca-dd42f4ab63da	CL	CL:0002328	bronchial epithelial cell
+59931	371ef7a1-1761-4713-8175-f438c1aa92be	CL	CL:0000158	Clara cell
+59870	429ed0d7-b1fd-4941-970f-5b4486a9948f	CL	CL:0002258	thyroid follicular cell
+59019	ff0bfa8c-f2eb-427e-9632-ab8a6dda62f8	CHEBI	CHEBI:81567	Thyroid stimulating hormone
+59030	5a99854a-d3e3-4113-aaa6-c937ba44e624	CHEBI	CHEBI:81580	Prolactin
+12167	37a91dd7-bdea-439f-a4b6-12b67194aabf	CHEBI	CHEBI:17026	progesterone
+59894	7248605a-035e-412a-9aec-fe2c4264dd52	CL	CL:0002656	glandular cell of endometrium
+59793	5594c9e6-06d2-4cf4-8bd6-d93f0f9bc8e3	CL	CL:0000150	glandular epithelial cell
+172050	1ba6470e-f6bb-4775-bd19-bd8f7368bdcc	PR	PR:Q94900	glutamate-gated chloride channel (fruit fly)
+262175	001187ca-f1b9-41de-97be-d982d3d767c3	PCO	PCO:0000003	population quality
+92968	666ba04d-65c5-46c6-9693-119ff821a455	PR	PR:P32755	4-hydroxyphenylpyruvate dioxygenase (rat)
+43343	c7271da5-3db2-43b0-801e-1e30e9220602	CHEBI	CHEBI:18186	tyrosine
+61143	43434d17-e0d1-4631-b341-8b2274815cf8	CL	CL:0000575	corneal epithelial cell
+262176	579480fa-809e-49bb-9b88-b3bca2ef391e	MESH	D010212	papilloma
+61061	11ed79d8-e551-4a75-98f5-6cc796bd61bb	CL	CL:0000066	epithelial cell
+61299	86b774cd-7fa9-4279-be8a-7a68271ca117	CL	CL:1000494	nephron tubule epithelial cell
+262177	1d73510e-831a-47cc-a9fb-79070bd03012	MESH	D002137	Calculi
+61165	0aaded9d-d5f1-4a9e-be1a-4b266872b88e	CL	CL:0000731	urothelial cell
+262179	c92f950f-8cd1-4604-971a-7822c8bcb18f	MESH	D064828	Prolyl hydroxylases
+262178	94062ab4-4f06-4e47-a564-9b0216597bbe	PR	PR:G5EGD2	hypoxia-inducible factor 1 (Caenorhabditis elegans)
+92274	e313db8c-27d1-4810-94f8-a41c9b9246e8	PR	PR:000008555	hypoxia-inducible factor 1-alpha
+81164	11ea4a0b-ccaa-417f-9dc0-19c862234811	PR	PR:000038849	aromatase isoform 1
+92491	7eda0754-1b26-4720-ba38-aa183092e249	PR	PR:000008636	3-hydroxy-3-methylglutaryl-coenzyme A reductase
+17855	dabf5206-c599-43a1-900d-88b887cb1ef5	CHEBI	CHEBI:25350	mevalonate
+13368	cef76b3d-1bfe-4e90-a4e1-c8e3e7e8d266	CHEBI	CHEBI:17002	cholesteryl ester
+178131	5556cdd1-4efc-4eab-9d09-e24e8a5e18bd	UBERON	UBERON:0000079	male reproductive system
+143224	cef01654-6cc8-4b27-8761-0389a50253f9	PR	PR:000001186	alpha-2A adrenergic receptor
+185808	bb562b06-3963-4806-b05e-bf5f6646e9e0	UBERON	UBERON:0002113	kidney
+59311	83b0be58-70be-4a13-8ea1-81d06e30f3ce	CHEBI	CHEBI:29101	sodium(1+)
+26666	35ac7d4f-9930-4f37-82c6-397851a279f2	CHEBI	CHEBI:16737	creatinine
+188139	b21f9335-67e4-4e69-849a-64e2a7799a61	UBERON	UBERON:0009773	renal tubule
+109505	5695cc56-2f89-477f-a1aa-662909423d3b	PR	PR:Q53H76	phospholipase A1 member A (human)
+207295	7c7b716e-aa99-4880-b101-6490c012d5dd	FMA	FMA:67514	Lipid bilayer of wall of lysosome
+2395	69f180a2-5496-45d6-a82e-7526e22c284b	GO	GO:0005764	lysosome
+28090	e77b657a-211a-48bf-bd50-7a1835ff62d7	CHEBI	CHEBI:27258	uroporphyrinogen
+130199	c6378390-5fd2-43d9-86cc-113f0e563e74	PR	PR:000017134	uroporphyrinogen decarboxylase
+27970	9fd07143-a536-4ae6-96ce-1b2f58424cca	CHEBI	CHEBI:26214	porphyrins
+81182	2ee42ecb-1ab7-4ff3-8aa6-15fe987f0f08	PR	PR:000006102	cytochrome P450 1A2
+173780	7288bc16-7970-46e5-a420-ff9e1467d12c	PR	PR:P79761	cytochrome P450 1A5 (chicken)
+184496	9ea81ac6-70d6-46d0-9d1a-73e89214b865	UBERON	UBERON:0001997	olfactory epithelium
+60451	9056f512-d6e3-4627-a0b4-70137f77eeec	CL	CL:0000077	mesothelial cell
+262180	96beb18d-5c88-408f-92aa-f402325f7c39	MESH	D008679	Metaplasia
+182660	35b86f4a-a068-498a-88a4-f1eb0381d64f	UBERON	UBERON:0005386	olfactory segment of nasal mucosa
+120454	f50129e9-84a5-49a0-8cb4-40d3cddbc586	PR	PR:000014993	solute carrier family 22 member 6
+28366	f1d3268a-65a8-4cb2-b61b-43797eb4f48d	CHEBI	CHEBI:27226	uric acid
+59507	304ed762-8211-43c0-bf1d-008fbc431152	CHEBI	CHEBI:26216	potassium atom
+262181	e416bcab-9d2c-4b3c-9443-8f25767839da	MESH	D001145	Arrhythmias, Cardiac
+262182	09588451-070c-4ed5-b37a-cab6e1c381c3	MESH	D009369	Neoplasms
+117	1e9fbdce-f145-45e8-b6ab-bda6809aa55f	GO	GO:0005765	lysosomal membrane
+60643	e67c6f84-b8d0-4591-af2e-68f04d2bb80b	CL	CL:0000738	leukocyte
+65287	4458e5dc-60ae-4ee1-ab3e-3b90b552bdce	PR	PR:000006933	epidermal growth factor receptor
+149942	c0602214-1b04-4ec9-9590-2d91145b4f1f	PR	PR:000031343	mucin-5AC
+59794	ec1118aa-1db3-4394-9374-bda0bb0560e4	CL	CL:0000160	goblet cell
+104625	e4f94d37-1b45-4231-a171-01e014845a39	PR	PR:000011328	nitric oxide synthase, endothelial
+59524	c39cef36-81cb-4cc8-9e93-e7b3d1bf3df7	CHEBI	CHEBI:32460	cysteine residue
+89647	60e9c469-c318-4b99-80c3-51ff9fa30d3d	PR	PR:000007893	GTP cyclohydrolase 1
+27813	308cdaf9-7566-4891-947d-6d92c5a32a28	CHEBI	CHEBI:15372	5,6,7,8-tetrahydrobiopterin
+179540	6af9a733-a9e1-4f6e-b1ac-37839b09ea67	UBERON	UBERON:0001981	blood vessel
+140156	01729edf-039d-41ff-a5e3-9d4cc5342e71	PR	PR:000029189	AKT kinase
+130760	73a10139-4996-4df9-918d-e382c1817abd	PR	PR:000017284	vascular endothelial growth factor A
+128786	e8c7e7b0-9db1-44ae-b476-ef938bbe7a33	PR	PR:000016801	transthyretin
+58897	0fceeac6-ca25-4f51-8dfd-1f8b8b01c1ae	CHEBI	CHEBI:80304	Metastin
+67698	d93f0060-a8eb-4715-bc57-700a571ca694	PR	PR:000003112	NFAT protein
+103741	882debc5-bb0c-4897-92b2-4fcae709a076	PR	PR:000011161	NFAT activation molecule 1
+64584	9deea734-6795-4969-b6d9-e4ab45881f6c	PR	PR:000001379	interleukin-2
+64660	bbac4591-c56c-4ca0-b372-72dcaf19ecaf	PR	PR:000001391	interleukin-4
+88134	3685af45-fd3b-463b-ade0-c2533998999b	PR	PR:000007535	FK506-binding protein 15
+262183	88700323-c8e0-4917-93c3-b50080747767	TAIR	TAIR:AT5G64350	FKBP12 (Arabidopsis thaliana)
+82870	f2b20c1c-049e-4d1c-8383-afd16d06cb93	PR	PR:000006481	type II iodothyronine deiodinase
+43800	97e07be5-1305-4b7a-b3b0-03ad56fa1bec	CHEBI	CHEBI:28774	3,3',5'-triiodothyronine
+188650	8e1889b3-3922-4e86-8d9a-6922c4be648b	UBERON	UBERON:2001278	posterior chamber swim bladder
+188649	4307c12e-c104-474e-a88d-066b7feba5c6	UBERON	UBERON:2001277	anterior chamber swim bladder
+82853	8d1c1c3e-337a-457c-892e-02dbd563906e	PR	PR:000006480	type I iodothyronine deiodinase
+1689	60c1ef0e-5337-44d6-8591-3fd1770937c2	GO	GO:1902710	GABA receptor complex
+157418	0702d479-e42b-4488-95a7-d99312a75abd	PR	PR:000036194	eukaryotic protein
+60972	2b863e2d-2911-457c-9aa2-c792774b2e4d	CL	CL:0008019	mesenchymal cell
+146789	fcf015dc-3b5c-4e55-b0bb-f423428c5ca8	PR	PR:Q3U4N7	IGF-like family receptor 1 (mouse)
+262185	ee62ebaa-1957-4256-84f4-148159ce1d18	MESH	D005354	Fibrosarcoma
+262186	16abad43-6da1-456d-8315-7e4e8d99a710	MESH	D008080	liposarcoma
+262187	b3de39e8-86bb-4181-baa0-b31a8cc35db5	MESH	D006394	hemangiosarcoma
+143334	1b6b23ad-253c-4d53-855c-0cec04e0aa35	PR	PR:000001193	beta-2 adrenergic receptor
+60159	c7ce3d95-857a-489d-9025-aa71e4622d67	CL	CL:0000192	smooth muscle cell
+180376	ea872b15-4ca5-41e1-a08e-f39fd84860ce	UBERON	UBERON:0001135	smooth muscle tissue
+262188	208a6a6e-dd81-4d09-b063-3ba7ad598e64	MESH	D007889	leiomyoma
+12558	9b722579-4710-4b26-bd2a-95ec14ae8de7	CHEBI	CHEBI:23965	estradiol
+61585	52bb5e58-f18e-44ea-801e-5857a3afa07d	CL	CL:0002132	stromal cell of ovary
+188200	c3b40f50-4a07-4ea5-96ee-1d6a0893651a	UBERON	UBERON:0004911	epithelium of female gonad
+262189	c113d228-de7a-428a-8843-d2bef71d40b8	MESH	D016586	Granular Cell Tumor
+76337	7620dec8-bb4f-475e-9e6d-4485de78e8e4	PR	PR:000005110	cholecystokinin
+59853	aa34188a-a015-4a41-bcad-e3dcdbc0ff01	CL	CL:0000622	acinar cell
+119950	a2f2fd9f-bf22-4709-9a0c-3d7aa1115c2b	PR	PR:000014896	homeobox protein SIX1
+189672	c5f8716c-75c4-4139-adec-0dc68677ca1d	FMA	FMA:66769	Squamous cell
+181571	e5ba2490-f8d3-49ea-a2a1-7ba6919fe0b4	UBERON	UBERON:0004811	endometrium epithelium
+262190	47d264d7-3863-49c1-8981-0f038f5e2db0	MESH	D018196	adenosquamous carcinoma
+59273	b57d87c9-a321-43f7-ba13-753e0ab83703	CHEBI	CHEBI:50114	estrogen
+142757	6d3c43f9-666c-4b24-8b9b-7a614cbd41d4	PR	PR:000013246	prolactin
+59923	1fb2622d-9eb6-451c-b446-a9294e080a8d	CL	CL:0000439	prolactin secreting cell
+60073	25a20c3f-b092-42b4-88ee-c7ac74d8e194	CL	CL:0000700	dopaminergic neuron
+182683	4a3a124a-ac55-4902-9758-45c55ad61048	UBERON	UBERON:0001911	mammary gland
+179229	2af13a1f-0294-4ca0-b760-afc5e6f55eb6	UBERON	UBERON:0000977	pleura
+181489	d3b8640d-6e52-463e-881e-60c0c583b88f	UBERON	UBERON:0001136	mesothelium
+262191	c364beaf-7d00-4d42-8d90-1fddb31027ae	MESH	D008654	mesothelioma
+63522	201a0b74-7511-49bf-bf86-d5a638f7e0b6	PR	PR:000001096	Toll-like receptor
+63546	3900ede8-b320-42db-926a-a177e13de007	PR	PR:000001155	Toll-like receptor 4
+61779	208b81b1-10f2-4b4b-b399-230ef80398a7	CL	CL:0009002	inflammatory cell
+60559	ad0361c5-d0dd-4118-ae8c-f7cfd63451da	CL	CL:0000235	macrophage
+262192	5b96ac65-e212-409f-a09f-3aa0263dd9fe	MESH	D019562	Viral load
+86741	65036501-523d-4cbd-8535-1f19b8023c2f	PR	PR:000007299	prothrombin
+86759	07f8a7c4-b4ae-4df7-b6d3-c1e582b04745	PR	PR:P70375	coagulation factor VII (mouse)
+86771	c800cf35-73de-41b1-ae2f-6aafeafb4ba8	PR	PR:P16294	coagulation factor IX (mouse)
+86713	d73cbdfb-9a66-4c13-bf90-8a7446519d88	PR	PR:O88947	coagulation factor X (mouse)
+59498	fb7333c8-d698-4bc2-8071-394eb86bd240	CHEBI	CHEBI:33284	nutrient
+262193	81e3f027-71aa-4392-991d-e1eb8ebb3f18	MESH	D001779	blood coagulation factors
+59497	41f19b87-ecd4-43d2-afc6-f861489c94b5	CHEBI	CHEBI:28384	vitamin K
+262194	2fc78de4-0166-4684-a381-c8f3bbe7ee79	MESH	D064417	Vitamin K Epoxide Reductases
+186160	0093ad16-0139-43f4-86af-67c846578614	UBERON	UBERON:0000062	organ
+262195	bb055ef9-6f76-43f6-9d97-586adb89bcb3	UBERON	UBERON:0002049	vasculature
+146902	7d409957-e081-4922-be99-8460065a3267	PR	PR:000030444	osteocalcin
+100020	8750ecec-e21b-4480-98df-d5188745992d	PR	PR:P19788	matrix Gla protein (mouse)
+94637	0fc3ab1c-b8d7-451a-af64-e88961eb373b	PR	PR:Q6PHW0	iodotyrosine deiodinase 1 (human)
+43799	ba7bd653-d1d8-43d9-9e84-75c98817212f	CHEBI	CHEBI:18258	3,3',5-triiodo-L-thyronine
+82877	4c68dc83-f1e4-4850-8317-154d2fa19ed7	PR	PR:000006482	type III iodothyronine deiodinase
+120629	55469968-7933-4d8f-8f30-b2698d187fec	PR	PR:000015039	pendrin
+84271	ae3c7c20-2590-494f-af5a-636ea3075eba	PR	PR:000006727	dual oxidase 1
+61819	b3e72aa3-55b6-4c1d-b527-0863e1ceb773	PR	PR:000000001	protein
+61059	29314e7f-16c7-444d-a56b-45150df98fc6	CL	CL:0000300	gamete
+262196	61ff74b6-24a1-4527-836d-dbcbe5968e56	MESH	C82476	spawning
+63100	379397c8-dc29-43c7-a623-268e4961d113	PR	PR:000001065	transient receptor potential cation channel TRPV1
+178435	15e67ddc-d644-4554-893e-f16fef8efe37	UBERON	UBERON:0001759	vagus nerve
+58901	4488dc4a-e6b2-4440-b204-5cc59b5056dd	CHEBI	CHEBI:80308	Substance P
+178428	3089403e-6e4d-40b3-9799-19adad67eda0	UBERON	UBERON:0001645	trigeminal nerve
+262197	4a155c3d-47a3-4abf-aef3-074f5e5a4c1d	MESH	D003371	cough
+262198	2e0fe977-a18b-4ec1-b810-370cd0db3f03	MESH	D012130	Respiratory Hypersensitivity
+262199	c7c27ff5-f277-49dd-835c-a783ba228dc4	MESH	D004417	Dyspnea
+178133	c112ea25-afa3-44e6-824b-9ac37cca15a9	UBERON	UBERON:0001004	respiratory system
+58928	1be0b6b7-a77e-486a-ae04-9865a6d635d5	CHEBI	CHEBI:80337	Calcitonin gene-related peptide 1
+262201	8b6ed889-0d3b-4eb4-b7db-54cce54f77bd	MESH	D012912	sneezing
+40217	91244163-fdb5-4937-a71f-60bb99099239	CHEBI	CHEBI:80311	Neurokinin A
+43826	3bee370f-48bc-46a2-86ed-773df25ec599	CHEBI	CHEBI:16865	gamma-aminobutyric acid
+126216	070e3591-2988-4318-9289-edba42edfdb8	PR	PR:000016261	serotransferrin
+262202	f6d00bea-b818-4479-8642-cb45e856f7b7	MESH	D001943	Breast Neoplasms
+2691	e4a15c14-a990-4d34-9884-450c37d3fd52	GO	GO:0031012	extracellular matrix
+8210	13af97d4-1ee6-4601-9f4c-be2498202b01	CHEBI	CHEBI:24943	juvenile hormone
+171192	63454eaa-0938-402d-9105-f32b48a220a0	PR	PR:P23023	protein doublesex (fruit fly)
+187698	707f5102-20d2-43d6-82b5-bc9367307542	UBERON	UBERON:0003101	male organism
+262203	9bdd4a22-dfcb-42ed-bbb8-f17d9cf2d7ed	MESH	D020387	Food Chain
+214484	c000768d-f3c2-48ad-af37-470abad7d64f	FMA	FMA:66768	Epithelial cell
+262204	e9da95bb-b150-412c-9c58-0c503232d744	MESH	D019255	NADPH Oxidase
+67674	41615ad8-f93e-4f16-9af8-5d8d8a5725b0	PR	PR:000003106	map kinase p38
+138341	29c8e7eb-17da-4be2-b1fa-2227b64839fb	PR	PR:000025748	Janus kinase
+66370	cb4c28a4-bb6b-4d30-abcf-ac2f0ac564c6	PR	PR:000001933	signal transducer and transcription activator STAT
+62154	10846865-bd26-4b90-ab04-968ec096cf79	PR	PR:000000046	TGF-beta
+262205	e9ec8ae9-6f10-4574-a2a6-722f8e334e5a	PR	PR:000021564	sterol regulatory element-binding protein 2 proteolytic cleavage product
+14559	02817478-d05c-4e6a-b855-494432e6288c	CHEBI	CHEBI:27208	unsaturated fatty acid
+91322	4371aaa4-4cee-411a-86b6-fd3b40c15e8e	PR	PR:000008293	glutathione synthetase
+142610	cefe21e6-710c-4928-9542-8bdb28cb7b9f	PR	PR:000029945	glutathione S-transferase
+40913	ddc24187-4b24-4d45-98a4-a4234bf81938	CHEBI	CHEBI:16856	glutathione
+262206	6ae777c2-dfb5-494b-bd29-a221db562dd3	MESH	D048031	JNK Mitogen-Activated Protein Kinases
+175930	b916157b-3622-4ec1-bd89-e96f54dd0742	PR	PR:O16850	forkhead box protein O (Caenorhabditis elegans)
+91870	40e0e23e-bd4b-4ef5-820c-fb4fdab589e2	PR	PR:000008478	histone deacetylase 1
+54824	499302ee-e286-40f8-9769-5eeb7ce6c051	CHEBI	CHEBI:15358	histone
+140170	2150c054-f32d-43a5-8191-8f24ed966c5c	PR	PR:000029191	cell cycle-related cyclin
+208216	47d0745c-756c-4980-9728-24b28dd05ec9	FMA	FMA:7210	Testis
+61043	5713a24b-5c74-4e50-bfa2-fb99b8359617	CL	CL:0000017	spermatocyte
+2	86a6fa5a-b305-4bee-a046-a30c34e17533	GO	GO:0005576	extracellular region
+29638	7ac55198-02b3-42a7-82d7-28b049d2fb8b	CHEBI	CHEBI:28790	serotonin
+59319	ccaefd96-aad4-4018-8f19-bdab16a24feb	CHEBI	CHEBI:29108	calcium(2+)
+18344	bb0a38f5-9bfd-45ca-9601-ad580a8d1271	CHEBI	CHEBI:29985	L-glutamate(1-)
+207882	43d9c0c9-2328-4d81-8335-2636b92b8583	FMA	FMA:74412	Deoxyribonucleic acid
+949	ee43f370-4bea-44a8-ab44-d63a3cd0142a	GO	GO:1990150	VEGF-A complex
+130802	abea2ea3-9c50-470b-9c24-4daa1a71744b	PR	PR:000017294	von Hippel-Lindau disease tumor suppressor
+262207	89f20267-15f6-49ca-ac89-afefa2a055e3	N/A	N/A	Acute phase proteins
+187673	86cf3354-214a-4fe7-a2f1-c375218b60b6	UBERON	UBERON:0000468	multicellular organism
+179437	4dc21641-20f3-42d2-adb6-d4ea9e51fdd4	UBERON	UBERON:0000948	heart
+7	2dd5472b-f40d-4c57-9206-a1d036a48d3e	GO	GO:0005623	cell
+1793	b66700cc-5601-42bd-9008-f93484167504	GO	GO:0005890	sodium:potassium-exchanging ATPase complex
+1044	caee3f61-36bf-4a6f-9ca1-4bb4e009df46	GO	GO:0005750	mitochondrial respiratory chain complex III
+64493	2fbc5cdf-b63b-4f0d-9ef8-fb03211eba7c	PR	PR:000001363	interleukin-1 receptor type I
+144066	4be8ceb4-3ba1-493e-a987-ca7a2debc682	PR	PR:000001488	muscarinic acetylcholine receptor
+60289	c64bbfb7-8e81-481c-8ad4-4c0d5c0076bc	CL	CL:0000540	neuron
+182412	febfc912-3892-4aea-9ae2-0d3a8e3d37d2	UBERON	UBERON:0000955	brain
+61435	71a2dc43-bfa9-4514-be86-dc48d9ef2f73	CL	CL:0001035	bone cell
+12297	d5e9be58-ace0-45da-b743-6f6cd97c4ff8	CHEBI	CHEBI:79436	17beta-Hydroxy-2-oxa-5alpha-androstan-3-one
+186416	7134019b-5d0d-4a24-a697-b392c237bab1	UBERON	UBERON:0000991	gonad
+186164	e5a29a77-b4c4-4309-9231-dd69cca1b2c5	UBERON	UBERON:0000970	eye
+70804	105d2e6a-2efe-479e-9cf4-211a9acfa6ea	PR	PR:000003920	retinal dehydrogenase 1
+7035	dbcf1719-9ee6-4de6-858e-14ff43e11c9e	CHEBI	CHEBI:15367	all-trans-retinoic acid
+148495	3243b058-99a0-4a93-80e6-41c10d458eec	PR	PR:000030936	protein-serine O-palmitoleoyltransferase porcupine
+596	a849b1e8-2c71-4c44-bc8a-bd22461c213f	GO	GO:1990907	beta-catenin-TCF complex
+2949	68b06a35-a495-4fb7-8b46-f02bc9553321	GO	GO:0090734	site of DNA damage
+2117	935f9a02-7fa3-4f1a-b7bb-9dab583111ac	GO	GO:1990391	DNA repair complex
+185040	c822bb1f-128f-4eff-b2b7-b97db6ece26e	UBERON	UBERON:0002048	lung
+200740	13ecdfb3-14cb-43bc-9c62-c7cc5cdf63ea	FMA	FMA:264621	Musculature of male perineum
+214412	1bee28d0-41be-423b-955b-93130f89fdf6	FMA	FMA:67343	Ovum
+138353	080948cd-631d-4edb-a6a1-f5cc5fb07d80	PR	PR:000009198	tyrosine-protein kinase JAK3
+353	c7838539-05f9-49d0-92fc-3b95485cbafd	GO	GO:0032993	protein-DNA complex
+69365	ee3de85e-fe12-4b9e-a5f2-b02f21c66f9d	PR	PR:000003622	angiotensin-converting enzyme 2
+127160	961fdf0a-4bf8-4141-b513-a02d23966f16	PR	PR:000016456	transmembrane protease serine 2
+174338	21c1aaf8-db2a-4301-a58f-f338a4334d78	PR	PR:P07711	cathepsin L1 (human)
+3228	e9afb222-9736-44f9-af71-8cfe369253b7	GO	GO:0019015	viral genome
+177055	72cdf812-dfca-4724-8a3c-ec59dc3e0e7c	PR	PR:000036197	viral protein
+2015	ad1ea279-fa4a-46ea-9f45-706b4de271f4	GO	GO:0031381	viral RNA-directed RNA polymerase complex
+2455	be77d9d5-30aa-4a16-a127-1ec8184e9498	GO	GO:0072516	viral assembly compartment
+3237	1d272a50-fe43-4730-9a53-9d6bd2272dbe	GO	GO:0019024	ssRNA viral genome
+138989	de13fe77-ceab-4e30-b70e-0f79af3d8a63	PR	PR:000024938	interferon alpha
+139049	0b5e24be-ceb7-43ef-8eea-b757f07a97f2	PR	PR:000024939	interferon beta
+3235	72239330-9110-4703-a9c1-122a5b780cbb	GO	GO:0019022	RNA viral genome
+12573	9880bc7a-1d06-4fd6-af50-36642237ed89	CHEBI	CHEBI:34133	11-Keto-testosterone
+214415	aaefab61-c870-455c-b8b9-627ae6b9e382	FMA	FMA:67338	Mature sperm cell
+14637	46b16e9d-0b6b-4455-964b-49578e2c0b28	CHEBI	CHEBI:26208	polyunsaturated fatty acid
+61729	882dd965-0e53-40a7-9a03-5533e5ba419c	CL	CL:0000354	blastemal cell
+59977	d0bcc99e-a5ea-42a7-9941-a256e5e7e251	CL	CL:0000501	granulosa cell
+188670	6470205c-f0db-460b-8ae3-2627a661d990	UBERON	UBERON:2005272	immature gonad
+178218	594aefdb-fdd2-4c64-b9de-56ff1460061c	UBERON	UBERON:0001002	cuticle
+182418	f1774c6e-beac-4cba-a723-44db544684ff	UBERON	UBERON:0000966	retina
+211922	37f8f968-0b48-401c-8377-a3a95674c2f0	FMA	FMA:46472	Nose
+1037	7b67c49e-c992-4f70-a21a-5bd9de0dffea	GO	GO:0072559	NLRP3 inflammasome complex
+64676	800de9f9-1ea0-4b6d-b0ac-e99adfa7d34e	PR	PR:000001393	interleukin-6
+63478	7e44e11d-09ee-4b32-a7b3-551ea53ce7f6	PR	PR:000001136	interleukin-1 beta
+62996	dc0a4f63-db4f-4c44-9936-71cb2b09180c	PR	PR:000000134	tumor necrosis factor alpha
+59154	111b7ebb-e143-478b-adb4-2f28e3547c9b	CHEBI	CHEBI:82594	Ferritin
+80010	87af0811-e1eb-4300-81e9-5084ccd59954	PR	PR:000005897	C-reactive protein
+60060	15058892-5426-4d25-955e-7fe8765f804a	CL	CL:0000233	platelet
+41229	032f4923-93c0-4a4e-b6e4-53abd73f5970	CHEBI	CHEBI:5054	Fibrin
+60465	d2d11831-dcf2-4aae-ab60-f878baaca006	CL	CL:0000071	blood vessel endothelial cell
+60207	0ac83d84-acad-414b-848a-92745e3c8245	CL	CL:0000669	pericyte cell
+61050	113fbae2-a16d-4872-bc9e-193c24b0bd28	CL	CL:0000023	oocyte
+67426	4465cdd6-9d2d-4466-bf91-b5ebc55908b9	PR	PR:Q6EWH2	tyrosine-protein kinase fyna (zebrafish)
+2230	177eb039-ec25-41fa-817d-3a453e466f79	GO	GO:0031514	motile cilium
+61083	a6f01740-f3ed-41ca-9d0e-2efe80833bba	CL	CL:0000073	barrier epithelial cell
+185784	cfaf356b-0650-4172-a72f-6be8d675fcd7	UBERON	UBERON:0035963	epithelial lining fluid
+88611	525d2494-2c6f-46e5-961b-38cd287ffd81	PR	PR:000007628	forkhead box protein J1
+60394	894fdb06-1c76-41ba-925f-6d470c447df9	CL	CL:0000117	CNS neuron (sensu Vertebrata)
+1077	634f9d46-11ae-424f-9327-328f71316e10	GO	GO:0070531	BRCA1-A complex
+123608	2eeee677-b59d-48cc-80b8-959800e9ca8d	PR	PR:000015718	StAR-related lipid transfer protein 3
+123612	8f8b1308-97f2-41a8-ae98-4b43edbb8365	PR	PR:000015719	StAR-related lipid transfer protein 4
+123615	2fcb654d-57f4-43ca-a05f-a0ee05db00dc	PR	PR:000015720	StAR-related lipid transfer protein 5
+123619	d9301dc7-4d18-49f4-ad85-c280c21cf1da	PR	PR:000015721	StAR-related lipid transfer protein 6
+207595	49d77275-1997-4c01-878c-b6fd95e01de3	FMA	FMA:83376	Estrogen
+12557	35b64d86-83ce-45d6-b977-47fb1490eab4	CHEBI	CHEBI:17263	estrone
+2101	dd0a446d-1361-4446-bfcf-c9afc2392329	GO	GO:0001518	voltage-gated sodium channel complex
+178138	7a1894a4-3fbd-4ecc-90f2-51b4c0ee7535	UBERON	UBERON:0001009	circulatory system
+178115	ba2c8b63-d68d-4416-9191-8e1715befda9	PR	PR:000027727	estrogen receptor alpha complex
+1870	8585edf3-ab6e-4e7f-b935-0f0e4cb8602d	GO	GO:0045281	succinate dehydrogenase complex
+59218	78339a8c-5a13-47a6-9a6f-18a5c02f76b9	CHEBI	CHEBI:18421	superoxide
+145637	c8b18c53-4662-48e1-a4b9-88f55e706f11	PR	PR:000015288	smoothened
+90251	704de42d-7de7-4bcb-8b0d-13b49faf324e	PR	PR:000008026	zinc finger protein GLI1
+90258	a92913de-b995-4809-863f-54a71383011c	PR	PR:000008027	zinc finger protein GLI2
+184036	3aedf805-62fc-4e25-b670-6aa473a7fdfa	UBERON	UBERON:0005620	primary palate
+183888	f37350e5-9df4-437b-9757-193c319246fd	UBERON	UBERON:0001716	secondary palate
+119722	d897ef00-b31d-479b-a2a4-dc8216a0e4e5	PR	PR:000014841	sonic hedgehog protein
+181510	38b0f096-3553-4bc5-a333-6f74404c2767	UBERON	UBERON:0001986	endothelium
+81859	9c732405-b472-4111-aca0-f6c27d73a332	PR	PR:000006296	drebrin
+2495	2457cd6e-b320-46a3-aeb0-f7d65853b716	GO	GO:0015629	actin cytoskeleton
+59280	412f0554-fad4-4344-8b21-b78a51aad35c	CHEBI	CHEBI:25512	neurotransmitter
+2496	a51bb1ec-d0e2-4a19-b1ea-94d23188b0bd	GO	GO:0098871	postsynaptic actin cytoskeleton
+179443	cec9b55a-078d-48b3-8474-3eb8219991be	UBERON	UBERON:0000989	penis
+215960	58f23496-76b2-4d45-8f40-6ed79392c2e3	FMA	FMA:58241	Lens
+66782	bee4e269-6d6f-4030-b377-ba3becfb843e	PR	PR:000002193	apoptosis regulator BAX
+39526	b5ffe8e2-4e47-4b89-9f8e-9da09d6add39	CHEBI	CHEBI:24335	glutathione conjugate
+59996	6a38a902-1c76-4f35-831c-dc4274c28962	CL	CL:0011111	gonadotropin releasing neuron
+154843	c367e6f9-1099-4fce-a965-e989a8ca4608	PR	PR:000032783	estrogen sulfotransferase
+215534	2b8973df-1e73-4d7c-804b-d678e7e5be83	FMA	FMA:86488	Glandular part of endometrium
+52	db0a53b9-a9ca-43f2-9bcc-2f0d4374359b	GO	GO:0030665	clathrin-coated vesicle membrane
+177523	c9e63fbf-7f30-4e00-9921-76de4f3fd3da	PR	PR:000049750	influenzavirus hemagglutinin
+40	bdee20ef-7737-47be-85f5-00a2a56806e0	GO	GO:0012506	vesicle membrane
+177478	c25d5b24-2e79-4d82-9cad-a51089db6f04	PR	PR:000044794	influenzavirus NS gene translation product
+3230	cd637fee-fff7-4298-a7ee-dcbd83af6f4a	GO	GO:0019017	segmented viral genome
+207410	8678cdf3-319f-45cf-b0bd-f1827729e6ac	FMA	FMA:84795	Human leukocyte antigen complex
+1661	d985741e-467b-4d49-a8e6-958ac646a3ce	GO	GO:0042105	alpha-beta T cell receptor complex
+725	763a0318-9a41-4af2-9c6a-1debbd02211d	GO	GO:0019815	B cell receptor complex
+60848	a3be0c4d-4023-4bef-8323-5b115fd08bd9	CL	CL:0000236	B cell
+61208	8a19f758-90d7-42fc-bf78-fef51a639653	CL	CL:0002563	intestinal epithelial cell
+61694	dcf47c27-378a-43ad-804b-16095811ea32	CL	CL:0000145	professional antigen presenting cell
+179483	204b3f4c-ee0c-46fe-bb85-ee21c637e723	UBERON	UBERON:0001301	epididymis
+179294	dbcbd5db-76aa-44d0-85a2-ad52e61b34a2	UBERON	UBERON:0000057	urethra
+186383	a7309fbf-c8b6-4e74-9b5f-4cf2d0249d09	UBERON	UBERON:0002535	gill
+185748	788a7cae-1d9c-4dfb-94fa-1bfca8efee3a	UBERON	UBERON:0001969	blood plasma
+110107	a02425f7-1df4-4a66-ae9b-61b09d9f16af	PR	PR:000012946	neuropathy target esterase
+5947	e3ca8b62-7e2e-47dc-aa18-387d23681f88	CHEBI	CHEBI:60479	lysophosphatidylcholine
+61479	e16181d4-bd68-49be-a4c0-67a2eeaf89c7	CL	CL:0000128	oligodendrocyte
+94146	fae17d2e-9e40-4317-80c7-fc03809a8044	PR	PR:000009056	insulin-induced gene 1 protein
+139870	87976f2f-196d-49f4-b0dc-2df322f7e270	PR	PR:000015612	sterol regulatory element-binding protein 2
+13490	96c4eccf-9482-470c-acb7-45ae0df88d95	CHEBI	CHEBI:47774	low-density lipoprotein cholesterol
+200741	1eee4bf4-e458-4670-910c-9b9c65337c4a	FMA	FMA:264623	Musculature of female perineum
+107936	f3e30b4a-14df-42a4-bcd4-3f05d6a43a08	PR	PR:000012440	proprotein convertase subtilisin/kexin type 9
+181561	cef58300-dd8c-456f-8085-ef65333ddc86	UBERON	UBERON:0001344	epithelium of vagina
+194306	82c8bc27-836f-43d3-ab10-f255e2a68ba2	FMA	FMA:86594	Surface of brain
+143022	5b95c3a8-56da-4309-a0f8-1eb7d5595c1d	PR	PR:000001161	5-hydroxytryptamine receptor 1A
+63644	df9981b2-63ea-48a4-afe9-a00066fe641d	PR	PR:000001290	B7-related protein
+60746	aebee87d-5632-4eb9-8158-14e115d70a37	CL	CL:0000789	alpha-beta T cell
+60789	f3874d99-61a3-4a25-a6cf-50ed5f70d78f	CL	CL:0000906	activated CD8-positive, alpha-beta T cell
+143197	a9986a39-2f16-44c1-963f-568c782330ef	PR	PR:000001183	alpha-1A adrenergic receptor
+120257	6d08e701-4053-45a3-ac05-8550603cbba9	PR	PR:000014950	monocarboxylate transporter 8
+59272	0af17588-01c1-4280-995b-b7602ca811b3	CHEBI	CHEBI:50113	androgen
+64384	c5054552-8e55-4e79-9e8a-7a45c407c143	PR	PR:000001449	fibroblast growth factor receptor 2
+87780	a271e5cf-6309-4aa0-a9ac-94fa96f673c7	PR	PR:000007480	fibroblast growth factor 10
+87863	d3454be8-4671-41be-9e26-af644b4ffe46	PR	PR:000007489	fibroblast growth factor 2
+181436	9c58a0f0-8965-4088-a0c5-145fadc066a1	UBERON	UBERON:0011374	prepuce
+181437	2a150f35-ad06-47ff-84b5-c202760a3375	UBERON	UBERON:0001332	prepuce of penis
+60567	e0be12c0-6325-4637-b264-96de963ba0c7	CL	CL:0000091	Kupffer cell
+182421	1f86250c-7469-4629-ac0f-9a1edc6d072e	UBERON	UBERON:6003623	adult central nervous system
+187605	eda43f86-cee3-4c9a-b16a-bd76a07854a6	UBERON	UBERON:0009853	body of uterus
+1224	5b8492fc-caa3-4e8c-8f6f-2235dced03b8	GO	GO:0009523	photosystem II
+1510	255f5387-f6e2-4698-87c8-b7c8313ac12a	GO	GO:0009544	chloroplast ATP synthase complex
+2417	6f091512-1891-4bf5-ad1e-ec8e6bc77461	GO	GO:0009507	chloroplast

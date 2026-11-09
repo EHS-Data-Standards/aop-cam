@@ -1,0 +1,758 @@
+stressor_id	uuid	name	chemical_ids
+Stressor:222	ca35c5bb-64f8-4999-a415-07b7401acb21	MPP+	
+Stressor:50	7d369c3a-7f11-4a0e-a6d1-8856062d5f53	Rotenone	Chemical:21248
+Stressor:850	81943ffe-183c-42ae-be5e-2f3d62f61b45	Deguelin	Chemical:200231
+Stressor:851	502b26a3-c0f1-4e11-ba70-e6a29d5f4178	Pyrimidifen	Chemical:57925
+Stressor:418	660f4ff2-95bd-48e3-a1e5-c9cfca197f3f	Fenpyroximate	Chemical:32557
+Stressor:852	dd858598-2efc-42d7-b36e-552d664397ab	Tebufenpyrad	Chemical:34223
+Stressor:167	787173cb-c017-48ec-93dc-b3e9449fe8c4	1',2'-dihydrorotenone	Chemical:41227
+Stressor:419	3596b9d3-88f6-4e7b-8c94-6130d97e649e	Pyridaben	Chemical:32573
+Stressor:664	59677920-5330-49ac-ac8a-968025d8c5b2	Uranium	Chemical:42522
+Stressor:717	8475b724-cd76-4503-9def-38b805d6b415	Nanoparticles and Micrometer Particles	
+Stressor:335	9200537c-5519-4685-a3f8-c01efb62a580	Cadmium	Chemical:23940
+Stressor:526	aafe1a72-e990-4ad6-a850-ed75574d6df1	SARS-CoV	
+Stressor:624	934d2ec4-901c-4a7b-ad2e-5c79eab879eb	Sars-CoV-2	
+Stressor:240	3eb19373-6937-4694-99dd-2774166829d6	Chemical	
+Stressor:378	89c3ab2a-8606-4ef5-b37c-5b3686e40e65	Virus	
+Stressor:625	f2840360-2e7c-4c15-8be3-ee1e8980a8cc	bacteria	
+Stressor:164	ba031671-eef5-4f63-b291-73455c840d4c	Tebufenozide	Chemical:34948
+Stressor:241	e9bcb2ed-a871-42cc-a562-dca9bf9bc752	20-hydroxyecdysone	Chemical:40388
+Stressor:242	f369afb2-0e34-4581-83f2-dcdff85a4163	Ponasterone A	Chemical:40595
+Stressor:238	66333341-fce8-40b9-baf0-61016819a2d6	Methoxyfenozide	Chemical:32628
+Stressor:239	c6b96fd0-0c59-40aa-b09d-b5f33dfaca8d	Halofenozide	Chemical:32619
+Stressor:243	130d4314-7240-49ba-8e89-390405ed68a5	Chromafenozide	Chemical:57976
+Stressor:244	83bd2ca7-e971-41a7-9286-8d95e4489d22	Cyasterone	
+Stressor:245	3dea2469-1b76-4aaa-ae00-dfd626e10765	Makisterone A	
+Stressor:246	656ce548-837a-48cd-a17f-c069508f6001	Inokosterone	Chemical:164756
+Stressor:247	fa7cdd6e-9899-41b9-a108-6979a15d081a	Ecdysone	
+Stressor:248	341c3c4f-a4b0-449e-afb9-b9ff335a80b4	RH-5849	
+Stressor:593	0760c453-4595-43c3-917a-1827bd52c95d	Polyoxin D	
+Stressor:368	47eb3fc9-4367-43b2-bde5-8f56b683f2cd	Nikkomycins	Chemical:58436
+Stressor:151	e4b5fbed-23ea-45f5-bc9f-e13dfd9e5cea	GW6471	
+Stressor:237	b35219a0-3b1e-443d-8cc0-bba637a97da3	Nitrotoluenes (hypothesized binding)	
+Stressor:300	ee982165-d80f-4f1f-8ad3-30c1b83b4140	PPARalpha antagonists	
+Stressor:37	508d83b0-767a-4f1d-9a2a-5ad4daf3a66c	Methimazole	Chemical:20820
+Stressor:48	b67e3680-f20d-4335-9886-99825f8c235c	Propylthiouracil	Chemical:21209
+Stressor:66	fed5d823-29aa-4ee1-838c-c9b02cb2e114	Perchlorate	Chemical:24252
+Stressor:269	1ccd1571-d010-4ff3-b3ba-11811ebb8c32	Iodine deficiency	
+Stressor:110	29ef931b-76b8-4b8d-8c17-5c302c15023f	Picrotoxin	Chemical:45605
+Stressor:112	29123376-8df7-47e3-8d9e-8a8b18755981	Lindane	Chemical:20686
+Stressor:115	9d167a6c-84e3-4c93-b724-272e6bd5be15	Dieldrin	Chemical:20453
+Stressor:344	41a995de-ba4e-4254-894c-0876a139efd6	Heptachlor	Chemical:20679
+Stressor:345	b11768db-f24b-420f-a7c0-eb1dcaaca38d	Endosulfan	Chemical:20560
+Stressor:113	7ddbc54b-a17c-4621-8385-9c1afdc8e938	RDX	
+Stressor:111	7025afda-1fc7-4c0a-950f-a0413ecfeb96	Fipronil	Chemical:34609
+Stressor:120	dcb7aa2a-24d6-492b-b185-745d470b91f6	Alpha-endosulfan	
+Stressor:152	8ad9809e-8022-4a65-b1c5-ef84d57ce37a	Penicillin	
+Stressor:59	68f68aca-48b3-41dd-858c-c08d60d8464a	Lead	Chemical:24161
+Stressor:489	6163772d-fdd3-4a23-aa5f-d5707abf7b85	IL-1 receptor antagonist（IL-1Ra）(Anakinra)	
+Stressor:490	bac99710-a05a-4f8e-869e-9c8143e1a772	anti-IL-1b antibody (Canakinumab)	
+Stressor:491	356f3481-b99e-4032-9adc-4932ff9a467b	soluble IL-1R (Rilonacept)	
+Stressor:16	5c41703e-0025-448a-93fb-c04e4e7c8ec0	Diethyl nitrosamine	Chemical:21028
+Stressor:17	78b3f677-124e-4778-a9a5-1f6d3f35fb4b	Diethyl sulfate	Chemical:24045
+Stressor:18	01443fad-1926-48d8-9978-5d948f3da591	Dimethyl nitrosamine	Chemical:21029
+Stressor:19	e08b2823-91c1-441a-88d6-b98510aa3fa1	Dimethyl sulfate	Chemical:24055
+Stressor:22	986190a6-058c-4507-a615-82df67b239da	Ethyl methanesulfonate	Chemical:25309
+Stressor:23	8af4bcbf-7e0f-4763-9322-c68a8fe561f0	Ethyl nitrosourea	Chemical:20593
+Stressor:24	a13de573-12d2-43ff-9eb5-208f859bfecb	Ethyl-N'-nitro-N-nitrosoguanidine	Chemical:20592
+Stressor:28	1b62aa2d-aa9c-443e-b4ad-0de260bf223a	Isopropyl methanesulfonate	Chemical:31497
+Stressor:38	9ecf7928-925b-487c-b4dc-5375899af53a	Methyl methanesulfonate	Chemical:20845
+Stressor:39	2027d5f8-6371-46b0-8a14-316dea8bafac	Methyl-l-N'-nitro-N-nitroguanidine	Chemical:20846
+Stressor:451	4c9dcd10-3a1a-4a56-9e6f-9b7b5527c75d	Ionizing Radiation	
+Stressor:43	7694f98b-45de-4192-85b7-e844818066a5	Organophosphates	Chemical:21100|Chemical:31906
+Stressor:80	2c3c6330-0970-4835-9d97-861c75f044f4	N-methyl Carbamates	
+Stressor:40	111ab21b-f4cb-494c-aa2f-19b1f8920723	Methylmercuric(II) chloride	Chemical:20813
+Stressor:35	5836eed3-4eeb-41b2-a6c7-4ca2f0d0ac3c	Mercuric chloride	Chemical:20811
+Stressor:336	88f9f9e0-0466-46e0-9159-a499a1789481	Acrylamide	Chemical:20027
+Stressor:381	ddb87ebb-d166-475f-9069-196cc5006e8a	Mercury chloride	Chemical:858724
+Stressor:57	5ff2680d-100b-46de-9fd6-68d08ac4aba7	Acetaminophen	Chemical:20005|Chemical:20006|Chemical:20007
+Stressor:142	d4ee61d8-8c8f-4c0e-91ef-ac2bf013d854	Chloroform	Chemical:20306
+Stressor:552	be7d4005-6dcb-4bb0-85ae-ac2e5ba3a146	furan	Chemical:20646
+Stressor:718	95708236-61b2-45a3-9dca-259bb2328822	Platinum	
+Stressor:720	aa11130e-781e-4ff6-9cb4-9ee310586b77	Aluminum	Chemical:40273
+Stressor:36	4f2f4f09-695d-4dbf-87d0-c8e928acf70b	Mercury	Chemical:24172
+Stressor:635	fad6a601-78aa-4269-af28-ba49de873dea	Arsenic	Chemical:23886
+Stressor:711	b8410711-e3a4-482d-a9c7-c734f44a2e84	Silver	Chemical:24305
+Stressor:721	7faa6609-de65-4c60-bb2d-ccfdaba5c3e6	Manganese	Chemical:24169
+Stressor:722	e8f57e89-810b-4066-886c-1fecf688a35d	Nickel	Chemical:20925
+Stressor:723	e59a474d-5e93-4095-ae80-6f9437d7d856	Zinc	Chemical:35012
+Stressor:224	fce0e5af-decb-4403-99a0-6e9588d2c064	nanoparticles	
+Stressor:65	3958a4d9-89b1-4d12-b563-272ad1a6ea72	Di(2-ethylhexyl) phthalate	Chemical:20607
+Stressor:64	db6494ad-3b4e-4c6a-8e7f-82b8d9cc434a	Mono(2-ethylhexyl) phthalate	
+Stressor:607	22121d3e-eb66-4526-b971-5481fc7b596e	Stressor:205 pirinixic acid (WY-14,643)	
+Stressor:191	e54d16d8-166c-4b94-a146-55b6fd6cc1a0	Clofibrate	Chemical:20336
+Stressor:206	0ca7930f-6d95-48e3-afa2-3662cf998f11	Nafenopin	Chemical:20911
+Stressor:207	c9b58aa0-e56b-46b1-887c-28955f176d58	ciprofibrate	Chemical:20331
+Stressor:208	5e9462a6-75e1-48aa-8ab2-ff6de47299fd	Gemfibrozil	Chemical:20652
+Stressor:175	b4c4b18f-5ad5-4966-9945-fd90c6a900ce	PERFLUOROOCTANOIC ACID	
+Stressor:210	f8ba6402-cde0-48f6-a9da-48b3246e1602	Bezafibrate	Chemical:29869
+Stressor:211	f5d5d683-c90a-4bd1-a918-38878eff3d8e	Fenofibrate	Chemical:29874
+Stressor:555	1c538bb6-9aff-4179-9aa9-97282a71f140	Simvastatin	Chemical:23581
+Stressor:580	aff0f890-42a7-404b-a62d-271ac439423b	Bicalutamide	Chemical:22678
+Stressor:560	b0eb8a9f-316e-4ba2-a505-387da068b3a0	Cyproterone acetate	Chemical:20366
+Stressor:559	be8bbb7a-ef9c-4c59-8114-8415dbbd48bb	Epoxiconazole	Chemical:40372
+Stressor:137	c080d64e-91b4-479e-8c2b-e06579b9bada	Flutamide	Chemical:32004
+Stressor:558	7a901728-2b54-46b5-83bc-c5932db20a4f	Flusilazole	Chemical:24235
+Stressor:47	4daf1224-b42d-4a19-94d0-f7d67a66334d	Prochloraz	Chemical:24270
+Stressor:287	8d0021fd-0b0c-4e53-a433-b306ff97ee8a	Propiconazole	Chemical:24280
+Stressor:581	00c16f90-577d-4aeb-a9e2-b0b51882a1ea	Stressor:286 Tebuconazole	
+Stressor:557	d0361bc6-9d48-44c0-98e4-3d9bf9b5580e	Triticonazole	Chemical:32655
+Stressor:136	de198824-d618-4a63-9cbd-95e19d3b147d	Vinclozalin	
+Stressor:58	abc14754-4a7e-4146-bb97-900cfa53931f	Mercaptobenzole	
+Stressor:286	4a2e6c89-2914-4d2d-b193-2bc8932c7ad9	Tebuconazole	Chemical:32113
+Stressor:556	e111e2ca-f854-470a-8e6d-6debaa3ec413	Vinclozolin	Chemical:22361
+Stressor:249	262af8dc-c8b2-4bb9-8868-56b953c940d1	2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD)	
+Stressor:62	cdb07269-2f10-4535-bddb-e4235956353d	Benzidine	Chemical:20137
+Stressor:147	33fb6f16-ccf7-42e2-9ebe-9547482f913a	Dibenzo-p-dioxin	Chemical:20410
+Stressor:148	2878bcea-a809-4a8e-9684-adfd68b8e47d	Polychlorinated biphenyl	
+Stressor:149	4a3ed617-12ff-493e-9635-63345b26c32c	Polychlorinated dibenzofurans	
+Stressor:150	4e903b9b-4826-4957-a458-2cead37b5e9a	Hexachlorobenzene	Chemical:20682
+Stressor:250	601d4d35-5aa4-4bef-a8c7-f2a8e0bf3a2b	Polycyclic aromatic hydrocarbons (PAHs)	
+Stressor:346	0151f1a4-be88-43a3-aac6-3f233dbf9347	Stressor:147 Dibenzo-p-dioxin	
+Stressor:347	0fb9710d-7e15-46b0-812d-1092928f5be7	Polycyclic aromatic hydrocarbons	Chemical:44043
+Stressor:284	02e29071-6336-40f0-bfa9-6b40e5c992de	Aristolochic acid	Chemical:40969
+Stressor:285	dce258e3-8844-49b3-afe1-53b6c928d8b1	Doxorubicin	Chemical:21480
+Stressor:5	5038cd44-bced-408f-b6c7-427b68357d8a	17beta-Trenbolone	Chemical:34192
+Stressor:52	e9bf26af-44c5-4288-a6a2-4f1f7c184bda	Spironolactone	Chemical:34186
+Stressor:267	bb9141f6-4e15-4f49-9a30-5f37d0ee5120	5alpha-Dihydrotestosterone	Chemical:22364
+Stressor:379	b94301fb-a5a5-4cce-8d06-3135867284bb	Tris(1,3-dichloropropyl)phosphate - TDCPP	Chemical:26261
+Stressor:268	f70c9359-28e6-401e-9e55-e2a3293be2d7	n/a	
+Stressor:26	f7d28162-7c8f-4684-a772-10e40ad075d7	Fadrozole	Chemical:34141
+Stressor:32	1ca208c5-a10e-4174-a114-7c56e401d361	Letrozole	Chemical:23202|Chemical:34141
+Stressor:30	2b0a712b-070c-4250-aff6-cf5b7327c519	Lead(II)	
+Stressor:8	f4d43635-0517-4a11-9965-252d6ffe24fa	Aceytlsalicylic acid	Chemical:20108
+Stressor:15	26a1febc-3687-462d-9006-0b925668eb47	Diclofenac sodium	Chemical:37208
+Stressor:27	632844fb-9494-4462-9b0a-31e7188f1582	Indomethacin	Chemical:20740
+Stressor:41	318e4866-f8a5-45ad-b801-b97bda992f5c	Naproxen	Chemical:40686
+Stressor:82	5c982219-cdd1-48bd-8d72-ecb7ca4cd922	Ibuprofen	Chemical:20732
+Stressor:83	0f08c16a-9718-410f-beb1-ba6e322e17d8	Emamectin benzoate	Chemical:34566
+Stressor:84	2a78f14f-a15c-4281-a0ea-ca9fe8c1a5a7	1-Chloro-4-nitrobenzene	Chemical:20281
+Stressor:85	31c6ebb7-c7f0-4945-a9f7-d17c267a1231	169590-42-5	
+Stressor:86	3654de22-d5b2-478e-b8f7-aa1eb8a73bf2	Celecoxib	Chemical:22777
+Stressor:87	972f3869-7ec5-4fe8-a51a-479b89275c8b	3-(Difluoromethyl)-1-(4-methoxyphenyl)-5-[4-(methylsulfinyl)phenyl]-1H-pyrazole	
+Stressor:88	e96affb0-1289-461f-804c-cb9d0507a1e0	Tetraconazole	Chemical:34956
+Stressor:89	24624d11-d57c-47e7-91fe-e77a795bd2cf	2058-46-0	
+Stressor:90	f5a3ab0b-0488-4da5-b3dd-f9f2d801256e	Oxytetracycline hydrochloride	Chemical:21097
+Stressor:91	dc8f6b96-ee8f-4098-a836-c7cdc2333338	Sodium (4-fluoro-2-{[(1S)-1-phenylpropyl]carbamoyl}phenyl)(quinolin-8-ylsulfonyl)azanide	
+Stressor:70	5270452d-1a4d-4fcb-b691-bdbe55b2f236	Troglitazone	Chemical:23719
+Stressor:304	02ef2f63-fb0d-4590-8d21-bbfc3fbc334e	Tributyltin	Chemical:40709
+Stressor:46	6c43e8d2-36ce-4f6c-9206-93530523b5b0	Phenanthrene	Chemical:24254
+Stressor:10	2f143d47-a0ec-4c0b-9330-4866542b44eb	Benzo(k)fluoranthene	Chemical:23909
+Stressor:205	f00d9388-a200-49bd-ba3e-c8ad30657c30	pirinixic acid	Chemical:20290
+Stressor:11	20efcd47-9926-43d4-97d6-4f17b34ffdca	Bis(2-ethylhexyl) phthalate	Chemical:20607
+Stressor:618	aa574375-7ae5-4ef9-af5a-52d863ba64ac	Wy-14,6423	
+Stressor:260	670c19bd-a83f-4251-940e-3837423cf1f0	Phthalates	
+Stressor:259	69204aa1-1a96-4644-8d08-c038bc101e7c	Perflourinated chemicals	
+Stressor:133	5962a279-9f08-472f-b526-47514c13a613	Phenobarbital	Chemical:21122
+Stressor:407	9ed3a555-bef7-413b-a2f3-aea3bf15f832	Epidermal growth factor	Chemical:40469
+Stressor:9	7d86f3d9-6456-4f83-aaf3-e666de7e04c9	Allyl Alcohol	Chemical:20044
+Stressor:13	d57b5710-6227-492e-aaee-b1f08fb7a0ee	Carbon tetrachloride	Chemical:20250
+Stressor:60	52fd2118-f4af-4786-89d1-805db352cac5	Retinol	Chemical:23556
+Stressor:63	e09ad730-588e-4ff0-ae3b-d53d67b49731	Thioacetamide	Chemical:21340
+Stressor:747	e58ba115-46e3-4ed0-b07a-fe9c9119bd44	Toluene diisocyanate	Chemical:24341
+Stressor:71	bc6d430f-8d57-45cc-a11f-b3af6da47364	1-CHLORO-2,4- DINITROBENZENE	Chemical:23101
+Stressor:20	23f1be88-9d43-43e2-a0e1-46eb6a38fad8	Dioxin and dioxin-like compounds	Chemical:21315|Chemical:20005
+Stressor:6	c98875e2-7f42-4918-8cfc-31259f37bc4d	2(3H)-Benzothiazolethione	
+Stressor:7	7a184ca9-5e20-4af6-80b6-5f02b72729f1	2-mercaptobenzothiazole	Chemical:20807
+Stressor:25	d6a7d54b-d4c6-49f3-bcbf-805793faa02c	Ethylene thiourea	Chemical:20601
+Stressor:34	f5576ea3-4626-4915-9367-ad7748429210	Mercaptobenzothiazole	Chemical:20807
+Stressor:49	d85c9f1b-ccf9-4ab2-ac4b-cceec650d071	Resorcinol	Chemical:21238|Chemical:69197
+Stressor:53	ce4debd9-be1b-4077-ac17-bad6cff1a1e8	Thiouracil	Chemical:21347
+Stressor:56	89150259-1a24-4b34-8292-ee0d414a738e	Ethylenethiourea	Chemical:20601
+Stressor:72	80796d33-85a4-4728-bba4-ed91204fcdb3	Amitrole	Chemical:20076
+Stressor:73	37080ff6-c8e2-484b-b55d-00104a5c19c3	131-55-5	
+Stressor:74	0efcb54c-bb6a-4990-8429-29954d6c262a	2,2',4,4'-Tetrahydroxybenzophenone	Chemical:41306
+Stressor:75	3e90d81f-5644-4465-b8bc-22ceb59b2f6a	Daidzein	Chemical:22310
+Stressor:76	97bc11f5-cb09-43bc-bfef-c199159a1aab	Genistein	Chemical:22308
+Stressor:77	b68e3a3c-2ecb-4c1d-92a9-fcd3a6f174c6	4-Nonylphenol	Chemical:33836
+Stressor:78	89ba348a-282f-4865-afd6-9d7beb31b889	4-propoxyphenol	
+Stressor:79	8c7ce2d5-1c62-4ad6-b821-25dd2ac34437	Sulfamethazine	Chemical:21290
+Stressor:55	08ce57df-78bd-4279-875f-378d8aaa4941	Vatalanib	Chemical:46919|Chemical:46492
+Stressor:169	73fa942d-6b09-488a-9fa4-f96dfa4ec95e	Sunitinib malate Sunitinib (INN)	
+Stressor:61	083d1248-804f-4205-8cd8-e84bb76f38f9	Aflatoxin B1	Chemical:20035
+Stressor:21	388ecae4-ac09-4068-8599-5127f11a95ec	Domoic acid	Chemical:274180
+Stressor:67	f559821f-3e47-4e37-b8a4-4890b27c606e	Nitrate	Chemical:24217
+Stressor:68	2ae108eb-80dd-4fcb-9cea-bbe4a8d45ca7	Thiocyanate	Chemical:47763
+Stressor:69	71932b26-d9d1-4ef8-b5c1-d369651591ae	Dysidenin	
+Stressor:81	5e5a775e-781a-4712-a9c3-c6271c56fdc9	Aryltrifluoroborates	
+Stressor:219	3c142b94-a621-49af-b6b1-110ec97d1bc8	Econazole	
+Stressor:220	45bcc30d-7838-4ae9-9620-cc94bb8e610b	5-(N,N-hexamethylene) amiloride (HMA)	
+Stressor:221	1ea2643b-2aa3-44b4-bd30-92e57492914f	Small molecules: ITB3, ITB4, ITB5, ITB9	
+Stressor:261	b8853879-daf4-478d-a825-3e034cade3f5	Tetrabromobisphenol A	Chemical:26081
+Stressor:168	7e49e619-08cb-421e-bb09-6b2b6bc168f7	2-Imidazolidinimine, 1-[(6-chloro-3-pyridinyl)methyl]-N-nitro-, (2E)-	
+Stressor:92	c450ee40-6ef5-4db5-8eb9-b6755a2c09b3	Carbamazepine	Chemical:22731
+Stressor:93	bdb708e3-6120-4328-a4a6-91594d2133aa	Topiramate	Chemical:23688
+Stressor:94	1792accf-5ccd-452a-97a8-82f99d2e42d8	Tetrodotoxin	
+Stressor:95	52870219-9c0d-4544-b2dc-e88d4ed94071	Amiodarone	Chemical:22592
+Stressor:96	1f31a17c-026a-41f0-94e3-64cc10c7c03e	Phenytoin	
+Stressor:97	cce1aae6-7700-494b-a27d-5aa7e418a9f6	Valproate	
+Stressor:98	65ce06dd-becc-422e-9f24-dc36e1ba7fee	Zonisamide	Chemical:46023
+Stressor:99	ce2dd74c-9e31-4feb-95d4-3682f91130c6	Lidocaine	Chemical:45166
+Stressor:117	a6c1b458-4ef8-4425-83b4-8547bf43742e	Chlorpromazine	Chemical:22808
+Stressor:118	deb0f869-f7f8-4e8d-8241-fc605be04d9b	Verapamil	Chemical:41152
+Stressor:103	c6cdcee3-4ea9-42a2-9882-92940b44171e	Cypermethrin	Chemical:23998
+Stressor:104	85bc3fd2-10e7-4cf6-8d96-823d997f4f40	Permethrin	Chemical:22292
+Stressor:105	5896e0b0-be96-4276-abac-4f9eed7dbb5a	Esfenvalerate	Chemical:32667
+Stressor:106	0ff7934b-ddcb-456e-92b6-9f10f3ad9ab8	Tralomethrin	Chemical:24343
+Stressor:107	da6ccff0-975e-4ecb-86f8-9e8c76b6cb89	Bifenthrin	Chemical:20160
+Stressor:108	f7e31e9c-d799-4b85-9e91-67d571028d67	Cyfluthrin	Chemical:35957
+Stressor:109	f5680d6a-0c91-4d9b-983e-8448cbb8c573	Lambda-Cyhalothrin	Chemical:32559
+Stressor:202	6c0477ca-fc3f-4503-867b-1ab849ab3e95	Fluoxetine	
+Stressor:203	57ec5bef-b3c4-4a47-9ee3-ac2b8a5f858d	Fluvoxamine	Chemical:44002
+Stressor:724	d33322a8-72c9-4015-a266-760d8872d517	Gold	Chemical:64697
+Stressor:716	199f9df8-0673-47da-b1d3-2eeacf728e31	Cisplatin	Chemical:24983
+Stressor:121	aa6416f5-b00d-4948-b45a-89223f686c22	D-limonene	Chemical:20778
+Stressor:132	87c2b2ec-0666-4f1c-8c38-ae7e196e28f3	Hydrocarbons, various	
+Stressor:124	0a53c62e-36e4-480b-b389-d2a061df85d5	Colchicine	Chemical:24845
+Stressor:469	cb11b988-566b-44d7-a8f6-f2b4c1dd9e0b	Vinblastine sulfate	Chemical:47853
+Stressor:128	a2620c72-527d-41ba-ae19-d05e2efcfdcc	Benomyl	Chemical:23900
+Stressor:127	2cc37283-4354-400c-9dcd-8df35ef72140	Nocodazole	Chemical:31800
+Stressor:125	9a3337fc-26b8-467f-87b0-95734084642a	Podofilox	Chemical:45645
+Stressor:126	6d8bbaf2-96d6-41be-83be-2d70a28878d9	518-2-5	
+Stressor:129	7a196404-2fe8-4ee4-b411-d7e5a0939d7b	Carbendazim	Chemical:24729
+Stressor:130	9ef70546-6610-4a07-aa16-c484985d3486	Thiabendazole	Chemical:21337
+Stressor:131	4169e81b-50ef-4180-979f-236572e81646	Vincristine	Chemical:32278
+Stressor:510	01a3d40b-c6e8-43d9-b79a-d6a504ff2786	colchemid	
+Stressor:511	88900c0d-fedd-4722-9412-b7f3097a7d7d	Colcemid	Chemical:20342
+Stressor:512	b01f99ef-10fb-4c2b-b310-f36927f825e7	2-Methoxyestradiol	Chemical:40938
+Stressor:513	cd45d2da-ee15-4385-873d-0f867f3dd953	Podophyllotoxin	
+Stressor:218	ec2e55b0-f7cf-4c3b-9fdc-6e7928725c83	metofluthrin	Chemical:34738
+Stressor:251	61b1519a-0b5b-4c25-9969-17b4e87ec47f	TCPOBOP	
+Stressor:406	aa8997ea-394e-4247-874b-aae055ea23ac	CITCO	Chemical:40761
+Stressor:134	44cd6ac5-5f3f-45c3-82f8-0248339627d5	Dichloroacetic Acid	Chemical:20428
+Stressor:138	569949d5-8fbc-48d8-a866-04f900885f24	Bromocriptine	Chemical:22687
+Stressor:140	65c180f2-01d5-4fcc-b111-504205f0e87c	Nitisinone	
+Stressor:141	67bb45ff-36d8-4812-b9c7-44120ec52c3b	Tembotrione	Chemical:47037
+Stressor:139	2cb654ff-7c85-4526-b6be-6ea5aff19669	Propylene oxide	
+Stressor:144	b7863439-785c-4c20-9027-4b7005353faa	Thiamethoxam	Chemical:34962
+Stressor:146	55d03ce5-3162-4bfa-b66b-1a3f314fe591	SACCHARIN, CALCIUM SALT	
+Stressor:549	446e7d2c-6c0c-4355-b3d4-4ea18e89d268	Atorvastatin	Chemical:29868
+Stressor:713	22b7554c-a49b-4720-bd61-387bc7cd428a	Chromium	Chemical:31022
+Stressor:153	4b705409-975a-4816-ac90-a5b41341cb13	Vinyl acetate	Chemical:21431
+Stressor:154	627e7e75-65fe-46b2-9a40-248ee7a238d1	Ethyl acetate	Chemical:22001
+Stressor:155	48dd894b-8a0a-4613-bd8a-ca4e53d4bb55	Propyl Acetate	Chemical:21901
+Stressor:181	0817dc48-92b2-4b22-bc44-f3e9b09f830b	Ketoprofen	Chemical:20771
+Stressor:182	359bdb4b-68c8-431f-b383-091a4faa71bf	Phenylbutazone	Chemical:21136
+Stressor:183	575c4df2-7709-4090-9a57-f4509957ba4d	Amlexanox	
+Stressor:184	3ce13062-260e-4ed2-9c7a-877536185f2a	Oxaprozin	Chemical:45118
+Stressor:185	7d691c0e-86ad-43c4-a981-03607d6de8bc	Nitazoxanide	Chemical:33757
+Stressor:186	c8548485-618b-43df-a654-5c983cdaa647	Ketorolac Tromethamine	Chemical:45597
+Stressor:187	88566c91-a4e8-4dfe-ae57-14f94730f734	Telmisartan	Chemical:23636
+Stressor:188	bc7c54d6-3a1d-4ca8-afc2-df1b91e144d9	Diflunisal	Chemical:22932
+Stressor:189	020a0fa9-d853-453c-b102-7468daf24e2b	Mefenamic acid	Chemical:23243
+Stressor:225	34d0e947-8bef-4d17-9a4e-726c247eacf8	ROS	
+Stressor:226	1c3d3585-1776-4957-b0d5-7e3f6bfce09e	o-methyl-serine dodecylamide hydrochloride (MSDH)	
+Stressor:228	9ed722a1-47ca-4ec8-a53f-f2236993f0ed	3-aminopropanal	
+Stressor:229	d463316b-6bde-4e90-9488-c6984297d058	artesunate	Chemical:42681
+Stressor:389	4e56a30d-c529-4db1-8fe2-8af568e09932	Chloroquine bis(phosphate)	Chemical:44681
+Stressor:390	881ce341-7037-4872-a8bb-e2d6cef98231	Norfloxacin	Chemical:37680
+Stressor:391	7c8ef9c0-0df6-4d2d-b659-2f65dff71baa	Ciprofloxacin	Chemical:22824
+Stressor:303	13a63d14-31e4-4f53-ba78-1887a96c3c92	Reactive oxygen species	
+Stressor:645	ae538b33-056a-4de4-87d1-a61d76d7f06c	Cigarette smoke	Chemical:35038
+Stressor:319	3677c842-2940-4e1e-828a-7b24f313f6aa	Acrolein	Chemical:20023
+Stressor:454	33be49a4-44ad-4883-9ec9-d933fe9eafcf	Hydrogen peroxide	Chemical:20715
+Stressor:657	8a2894b2-cd88-4593-bb5b-3b2b6fb72835	Nicotine	Chemical:20930
+Stressor:509	0f2d3d61-c3da-427b-8d95-d547bc4534cd	benzo[a]pyrene	
+Stressor:528	4e168613-6a61-46a7-8fcc-689d03f573fa	PM 2.5	
+Stressor:668	b38c3cd8-8ea1-49c3-b7eb-cf7b49a82f9d	Wood smoke	
+Stressor:414	c4531656-b18c-465c-96de-0d92032abdd2	2,3-Butanedione	Chemical:21583
+Stressor:318	a1ab90f9-f56d-404c-b8e5-a6ac8aa5b88a	Carbon nanotubes	
+Stressor:655	c9de5bb5-e8f5-4328-b0ff-e35efcf7ba9d	Ozone	Chemical:21098
+Stressor:670	ee86f200-fd4f-4e55-aeef-fec44d1b4469	1,2,5,6,9,10-Hexabromocyclododecane	Chemical:27527
+Stressor:661	57667690-5a7e-4cc6-bf9f-5eb66e732c36	Nitric oxide	Chemical:20938
+Stressor:667	6ef8e78d-d0f3-45e1-9daa-a2c99ac487df	Diesel engine exhaust	Chemical:24043
+Stressor:660	98bf0fd1-1228-4e94-871c-251c0c2db60c	PM10	
+Stressor:256	532b1642-00ee-4917-9b38-7292bc044acd	Polychlorinated dibenzodioxins	
+Stressor:160	238139e8-a48f-4c1d-b833-4076eae1483a	Halogenated phenols	
+Stressor:257	7cf102aa-e2f6-48be-b0f1-1227eb8650dd	Polybrominated diphenyl ethers	
+Stressor:258	3fafd806-32ee-4559-94b2-7626c42239fb	Isoflavones	
+Stressor:262	222ed3ae-bdd2-4472-a4fa-b6b65404fb23	Clonixin	Chemical:46121
+Stressor:263	ea74067d-3e1d-4469-b487-29c5150e0345	Meclofenamic acid	Chemical:48559
+Stressor:264	1d52121f-1bf7-4957-bb16-b00f962b37b1	2,6-dinitro-p-cresol	
+Stressor:265	af10ea4c-1240-4610-bc3d-c8a8aca697ae	Triclopyr	Chemical:32497
+Stressor:162	44226b4e-842e-44cf-a82c-e8aeebfe8c01	1,2,4-triazole	
+Stressor:163	75f9f4ff-9645-44ff-9325-2b108d674dfb	Tacrolimus (also FK506)	Chemical:46354
+Stressor:294	a4f3da05-1b14-4679-bbfa-3bf86dbc6dc2	Cyclosporin	
+Stressor:529	2eb38b08-dadb-43f7-ba3d-f2a468dbf333	Pimecrolimus	Chemical:46674
+Stressor:530	36795166-6cbf-43ad-80af-89aea354c106	Gossypol	Chemical:23110
+Stressor:531	6647e537-5a69-4d0b-a8c5-7436b5274194	Kaempferol	Chemical:20768
+Stressor:532	99a028a4-32ed-44df-9c81-3cffe3c46caf	Dodecylbenzene sulfonate	
+Stressor:533	134246a7-c607-40b0-85ce-d1c049aab5d6	Dibefurin	
+Stressor:534	3db30fc9-4d73-4032-a7ae-ad702bc766e4	Ascomycin	
+Stressor:535	2c640326-ec69-48ec-9416-ac998bc8f32e	1,5-dibenzoyloxymethyl-norcantharidin	
+Stressor:540	8c40c60f-5eef-401d-b8ba-50b39d06deb0	1,2:5,6-dibenzanthracene	
+Stressor:541	9f4dd2f4-4eb2-4cc8-a633-5c53dd576e44	psychosocial stress	
+Stressor:492	369546a1-9ea4-4cc2-93ae-87aff1c8ab86	Dexamethasone	Chemical:20384
+Stressor:536	6e712152-3801-4eb6-b579-9a70a57b35c5	Azathioprine	Chemical:20119
+Stressor:537	139af197-bc69-4851-8ed3-edf5aec1e0bd	Methotrexate	Chemical:20822
+Stressor:538	2b8f00ba-6d33-415d-af99-8066c8c36c32	Benzo(a)pyrene	Chemical:20139
+Stressor:539	0f449d0d-e35c-49ed-85fe-0a2b19405331	Urethane	Chemical:21427
+Stressor:293	fefd0322-d89e-4c08-a609-51728ec3ff49	Tacrorimus	
+Stressor:212	8fccc6ad-9dc6-405a-984a-f68614e13a84	iopanoic acid	Chemical:23159
+Stressor:170	c1cb59c9-3b36-49b7-be07-4850f53e66c9	thiazopyr	Chemical:32488
+Stressor:171	592ebe12-06fc-4cf7-baa3-6e64857feed1	Pyrethrins and Pyrethroids	
+Stressor:172	ea46e10b-85c4-4928-9c80-dd502138a0a2	Tamoxifen	Chemical:34187
+Stressor:173	e8d069f7-2e57-44c6-b1ff-aab91f755431	Raloxifene	Chemical:23550
+Stressor:174	c0b5c87b-0511-4288-b04e-2a4391818d72	Fulvestrant	Chemical:22369
+Stressor:734	5f70db1c-3aab-421a-a6ee-c7cf7e499d25	Clomiphene citrate (1:1)	Chemical:20337
+Stressor:176	9ef002f2-eca3-4ed1-a4d8-09f1fc07c9e5	Diethylstilbestrol	Chemical:20465
+Stressor:177	6758c842-4762-4064-b4dc-53f7958b55e4	atrazine	Chemical:20112
+Stressor:178	a6cbc879-2009-4fca-91ab-56ea8a67fb21	Haloperidol	Chemical:34150
+Stressor:179	58fa85b0-2ccc-4668-b699-7737f38ca9bd	Reserpine	Chemical:21237
+Stressor:337	b5c04a5c-7fde-43a1-8118-5bf0269387b3	Bleomycin	Chemical:30862
+Stressor:338	1290f6c1-1040-417a-93fe-3cf7fb270f9f	Carbon nanotubes, Multi-walled carbon nanotubes, single-walled carbon nanotubes, carbon nanofibres	
+Stressor:584	a7137b25-7a92-47fa-81d5-776031961887	Stressor:48 Propylthiouracil	
+Stressor:190	4dd2c1fd-7549-4597-91f3-c28ce02b01a4	flunixin meglumine	Chemical:45584
+Stressor:192	97d9db56-9c57-4c27-91e3-fd352185f785	Meloxicam	Chemical:20803
+Stressor:193	421da458-9e3d-4d07-b5af-31f3312dbe97	nimesulide	Chemical:37250
+Stressor:194	e4b529cb-066c-48be-9a5e-5b18a10c552b	Carprofen	Chemical:45871
+Stressor:195	c9177c98-35c1-4260-bff4-98e750536348	Warfarin	Chemical:23742
+Stressor:196	48300207-4e2d-4b61-b2aa-42967dd90dc1	coumachlor	Chemical:41797
+Stressor:197	2ea3f662-3be6-4631-ab55-886b8d582f7b	coumatetralyl	Chemical:41799
+Stressor:198	e52160d2-dca0-4226-96e5-e0aa30c97995	chlorophacinone	Chemical:32348
+Stressor:199	af950a44-e278-4024-a1b2-65ec1ed91da1	diphacinone	Chemical:32378
+Stressor:200	dad765cc-8b7a-495b-bd59-72245a56ee99	pindone	Chemical:25930
+Stressor:201	f0944b3a-f948-46a0-9385-2653f84584cd	3-[3-(4'-bromo[1,1'-biphenyl]-4-yl)-3-hydroxy-1-phenylpropyl]-4-hydroxy-2-benzopyrone	
+Stressor:235	6504dcbb-a045-48fa-be5e-de297248cec1	Dibenzo[B,F][1,4]Oxazepine	
+Stressor:236	2679b1b5-bf8a-453f-bc46-017285e98f1f	2-Chlorobenzalmalononitrile	
+Stressor:452	129483c1-432b-46a4-b10d-2ae746fb5ea2	Estrogen	
+Stressor:213	abd0f7f5-9f67-45ff-95ad-495249519fef	fenoxycarb	Chemical:32393
+Stressor:214	1b9dee40-50b8-4448-be99-f8d64398e5a4	DIOFENOLAN	Chemical:41884
+Stressor:215	03a9e950-3234-473e-b831-8b664068ac3d	pyriproxyfen	Chemical:32640
+Stressor:216	db7150dc-bdcb-4116-b305-36fcb6445ae5	(7S)-Hydroprene	Chemical:35784
+Stressor:217	9804b578-a3f0-462a-b1f0-e3bb277fd643	kinoprene	Chemical:32624
+Stressor:223	6ee4ea8f-3ddb-499a-9320-0a334a9a6c47	Etoposide	Chemical:23035
+Stressor:279	8950d976-4cc7-4721-a3f1-1f1daf4c351b	Bioflavonoids	
+Stressor:280	54c61b12-7b55-4fd1-87d8-4f64437c9e04	Chlorpyrifos	Chemical:20458
+Stressor:281	b5cf3037-2c60-496d-83fa-316cbf007099	etoposide quinone	
+Stressor:233	b48102cd-b571-4634-bc09-07f1518e0790	sertraline	Chemical:23577
+Stressor:234	50783c2a-f7bb-4636-9608-d430317dc783	norfluoxetine	
+Stressor:252	4a5f2e57-860c-4ec1-9ec7-9aa108991d0e	Silver nanoparticles	
+Stressor:253	e879e9dd-3dbb-4a4d-bcc3-347ab60fab4b	UV-activated Titanium dioxide nanoparticles	
+Stressor:254	935688fd-5c07-4850-99c2-405c07050b7d	Silica nanoparticles	
+Stressor:255	89604932-8987-43ae-8644-1c73df63d37b	Graphene oxide nanoparticles	
+Stressor:681	e9a34dba-9a3c-4acc-88e7-525a0d449317	Prototypical stressor	
+Stressor:340	cbdf5546-15b6-4694-8d40-4496d1ec3bf6	Methoxyacetic acid	Chemical:31591
+Stressor:341	c3935643-d17f-484e-822b-966f93fa3225	Butyrate	Chemical:40432
+Stressor:342	92ff49cd-6673-4c5d-a679-4cd8ebeebb52	Trichostatin A	Chemical:37063
+Stressor:401	28abe349-826f-4e96-bcd8-e55a0d021a56	Valproic acid	Chemical:23733
+Stressor:402	ab8f68a4-a2eb-457f-860e-c3268c5f5471	Suberoylanilide hydroxamic acid	Chemical:41133
+Stressor:403	f007c053-e749-4d08-affe-fd5736e99f24	MS-275	Chemical:41068
+Stressor:404	9f83a17f-16f3-40b8-bcfa-7251fb239691	Apicidin	Chemical:274182
+Stressor:644	252eb59e-21ff-4876-8450-24113f74f1de	Rocilinostat / Ricolinostat	
+Stressor:270	34d3a0b1-8dca-4224-9240-8278915a3c3e	SSRI (Selective serotonin reuptake inhibitor)	
+Stressor:272	abb29a19-3d69-4720-b78b-ab5c3180c98e	Increase cortisone levels (induced by stress)	
+Stressor:273	689e33fe-c7c0-41eb-99bf-194fd5352901	Gamma radiation	
+Stressor:459	48660830-35c3-49d2-9d5f-6c2842a7dd4c	Topoisomerase inhibitors	
+Stressor:460	63fe733a-678e-46e1-9dc4-0ceaeac60984	Radiomimetic compounds	
+Stressor:275	614524b0-300a-4b90-8601-ad918164c8f6	NonSteroidal Anti-Inflammatory Drugs (NSAID)	
+Stressor:276	1d546b44-a9a3-4f4e-b4c7-d0fef9171456	Helicobacter pylori	
+Stressor:282	eccff018-a1e0-4538-94f6-44a8dc55a2f3	Ketoconazole	Chemical:29879
+Stressor:288	56902805-485d-414a-a707-1cbc412af9b9	Tioconazole	Chemical:46619
+Stressor:289	4debdc89-9356-4398-815f-6ed839ff1d7b	Miconazole	Chemical:23319
+Stressor:290	533ee4c0-ca5c-47ab-b345-da7979579e90	Fluconazole	Chemical:20627
+Stressor:291	5b51331f-8488-4a2c-9832-2c200f5e9140	Voriconazole	Chemical:46485
+Stressor:292	6b674f19-f463-4b6a-b995-20c887b79f1d	Clotrimazole	Chemical:29871
+Stressor:296	50505651-bd03-420f-ab3c-7c7d840784f7	>85 known Cyp2E1 substrates	
+Stressor:360	de3b2c2f-4b38-433e-af20-26a34463c449	Ethanol	Chemical:20584
+Stressor:553	9b8d8073-650b-4a57-96a1-bd9ecc02ebcc	acetone	Chemical:21482
+Stressor:554	4d220f4e-b2a3-41a1-954e-ac934ef50e22	too many stressors to list	
+Stressor:295	3345502b-b442-4938-b945-b389f580da8a	serotonin transporter activation	
+Stressor:297	2f33f31e-1f81-4b1b-b9de-aa29c58ede0a	NSAID (Nonsteroidal anti-inflammatory drug) inhibits PTGS1	
+Stressor:298	46c058d9-6e80-4b31-93d8-5e71b51f8f9c	NSAID (Nonsteroidal anti-inflammatory drug) inhibits PTGS2	
+Stressor:299	72cb8b11-8592-4443-b0df-7ee5a4ec45bb	Helicobacter pylori infection	
+Stressor:301	e9f1a0bd-52dd-48ec-a6ab-5b22ea9c572b	NFE2/Nrf2 repression	
+Stressor:376	859a124d-7f56-4295-9297-32f5e2dceb98	Lipopolysaccharride	Chemical:36695
+Stressor:377	92a4c14c-ebc8-4dfd-af34-907c87e46423	Insoluble nano-sized particles	
+Stressor:307	471303b3-20f6-4a26-84f2-76d13bcbaedf	Sodium metam	
+Stressor:308	d82c76a2-eea6-4709-a88d-b2810b326380	Dimethyl dithiocarbamate	
+Stressor:309	b241f780-9537-4106-8080-ecb7b40057f0	Thiram	Chemical:21332
+Stressor:310	de7894a5-ca73-4e75-8926-9e8c8ee8a8d1	Disulfiram	Chemical:21322
+Stressor:311	220627e5-6b6c-49aa-be3c-c9df3b77c963	Ferbam	Chemical:20624
+Stressor:312	a84fff9b-4187-42b6-b26e-dbd8405f432b	Dazornet	
+Stressor:313	3b24a2af-5ebd-4218-9d15-64594769fd40	Pyrolidine dithiocarbamate	
+Stressor:314	4795173f-4a1c-406e-9559-6f51e425a7c8	Mancozeb	Chemical:34695
+Stressor:33	1688cb35-37c4-4379-a1b8-cc581eb082d7	Maneb	Chemical:20794
+Stressor:315	9134e07a-2429-4563-b40e-3d6bc591dede	Nabam-sodium	Chemical:20603
+Stressor:316	62d552b3-5a4c-4b05-a472-f0169fa0d36c	Ziram	Chemical:21464
+Stressor:317	b26698bb-27ec-463e-a3e0-438e3f3d5502	Zineb	Chemical:21465
+Stressor:321	dcdefb57-c6eb-41e7-992c-6b7af7514840	3,5-Dichlorophenol	Chemical:25006
+Stressor:180	82c6252c-101f-4bdc-9077-59e2ca249f69	2,4-Dinitrophenol	Chemical:20523
+Stressor:601	bcbf9284-04e0-4739-8486-7469aadf6526	Carbonyl cyanide-p-trifluoromethoxyphenylhydrazone	
+Stressor:602	abdf836b-e9bb-4f6b-8bd5-a1b78f5a43aa	Carbonyl cyanide m-chlorophenyl hydrazone	
+Stressor:600	bb7f2916-b607-4ea1-a2eb-dc1378f2f98e	Pentachlorophenol	Chemical:21106
+Stressor:603	3b9c6c49-e2d1-466e-ba49-7c7ae1f4e3dd	Triclosan	Chemical:32498
+Stressor:605	3e1281e6-155f-48ef-82fe-e4c99a03a62c	Emodin	Chemical:25231
+Stressor:606	5830eae1-d503-4c65-ba35-401a8e8c11da	Malonoben	Chemical:42106
+Stressor:322	1afb8957-97da-44a7-8cb3-6584c8476d61	Tenofovir	Chemical:40132
+Stressor:323	357b23d6-392f-440c-9885-0dc61d449e3e	Tenofovir disoproxil fumarate	Chemical:50426
+Stressor:324	b65d5a27-289c-4ea6-88c5-c90d99cd7b53	Adefovir	Chemical:46214
+Stressor:325	238b5102-dae9-44cd-acfe-7f9318d51e33	Adefovir dipivoxil	Chemical:46487
+Stressor:326	45425d96-6fb3-4aec-9a3a-0c585090c31c	Cidofovir	Chemical:43734
+Stressor:327	5fb7e7c3-6a6b-4e53-b870-d6db6d520015	Aminoglycosides	
+Stressor:328	1bd1054d-0299-4a31-a7f9-7c22ae9c1c12	Gentamicin	Chemical:34642
+Stressor:329	3543a66f-2fed-4c17-8f65-a9da39603bff	Tobramycin	Chemical:23680
+Stressor:330	77ca7bef-26b2-491d-b235-4e1be7b5be88	Vancomycin	Chemical:42664
+Stressor:331	0f035018-c96b-4e4d-9bda-36c3204940de	Polymyxin B	Chemical:48467
+Stressor:332	8d26bb46-bd17-46e6-8cad-2cff93b8b4ce	Colistin	Chemical:40663
+Stressor:333	202159d0-afa7-4772-8b06-2a3972f4931f	Albumin	Chemical:40409
+Stressor:334	ac890dda-e9bc-4782-aa57-e1f2e662a6b5	low molecular weight proteins	
+Stressor:350	09976c95-1ba8-40cb-bc72-8504da0afa41	Enflurane	Chemical:20562
+Stressor:351	89d03b5a-60b3-4ce6-a7ab-3bdbcd221b63	Halothane	Chemical:25371
+Stressor:352	9aca8da4-1ae8-4ad5-aa3a-0ea220278c93	Isoflurane	Chemical:20752
+Stressor:353	4287c80f-a65a-4856-b391-e1597be658bb	Methoxyflurane	Chemical:25556
+Stressor:354	0948378d-58df-462b-9635-3edebf8b24ae	Sevoflurane	Chemical:46614
+Stressor:355	d9c85eb8-1117-4430-953d-de76ec2ac4f8	Chemical:584015 (1-~13~C)Aniline	
+Stressor:356	30b575e3-1a7b-4ad6-819b-d74c977a4986	Chlorzoxazone	Chemical:22813
+Stressor:357	d62eb64c-2743-4e7c-bf15-f705e89d3162	Titanium oxide (TiO)	Chemical:65253
+Stressor:358	e45fecad-ca49-46a0-8310-98fa235448bd	Isoniazid	Chemical:20755
+Stressor:348	729ab5aa-b3a9-44c4-a83c-828068ae3c5a	2,4-Dithiobiuret	Chemical:34968
+Stressor:361	0110ad77-5a9c-48b6-992c-fc21780a1ea1	2,5-Hexanedione	Chemical:30138
+Stressor:362	a63f06f7-1258-4ba8-abf9-7b2e7b33cb05	Styrene	Chemical:21284
+Stressor:363	ca61d58c-56ab-4b4e-9f52-8abe780167dc	4-Hydroxy Nonenal	
+Stressor:364	e7140561-26ee-4c6a-aab1-f5216b434414	Acrylonitrile	Chemical:20029
+Stressor:365	16603abb-f118-42e7-a525-1132961da8b9	Nitrogen mustard	Chemical:20975
+Stressor:366	815957e3-c6f5-4bf9-a86d-d2f78a9ce8ec	Acetyldehyde	
+Stressor:380	d2ac765b-0927-4d94-b49e-71aa0d0f6c8c	Calcium channel blockers	
+Stressor:382	b2e54c90-5716-4711-b497-7e76c5992a70	Nifedipine	Chemical:25715
+Stressor:383	cd7a6821-51f2-48a4-ae04-e4c25e707f9d	Amlodipine	Chemical:22596
+Stressor:384	4d9d0a8f-80c8-4126-84c8-05d4b0d5b520	Felodipine	Chemical:23042
+Stressor:385	3a8c3927-7d77-479d-b298-6d36d325761d	Nisoldipine	Chemical:23371
+Stressor:386	6c1f4dae-4545-45ca-a42d-eb8b2f987f4c	Nimodipine	Chemical:23370
+Stressor:387	2f23ed78-ba30-4564-aaa0-4d718b07f445	Nitrendipine	Chemical:23373
+Stressor:388	dd7e5361-468e-4d09-9c19-443a5f1c4038	Diltiazem	Chemical:22940
+Stressor:604	ad9962eb-8ec3-4a3b-9d84-36dc181d81a9	Dinoseb	Chemical:20207
+Stressor:430	28bcd3b3-a74a-441c-9df9-1174c46838c8	Arsenite	Chemical:74007
+Stressor:743	6e491195-75e3-4385-8be6-96d9e822a18c	Niclosamide ethanolamine	
+Stressor:744	95376468-ea07-49e9-a8c2-31fb69749642	Oxyclozanide	Chemical:177312
+Stressor:395	78b319fe-6242-4b46-bfcd-3db865e09706	Antimycin A	Chemical:32325
+Stressor:420	92af388c-e9b7-422b-b03e-6f7c5174a061	Benzbromarone	Chemical:22652
+Stressor:397	5fbc8b40-a01d-424a-9b1c-1c23e66bdf05	KCN	Chemical:24268
+Stressor:421	26344b8d-ca8c-45f3-b6a4-a33dad0a0789	Nefazodone	Chemical:23357
+Stressor:422	f2656985-e15f-44e8-8fe6-a880cd5f9601	Metformin	Chemical:23270
+Stressor:423	d1366bf0-1d75-47ea-a7e8-371d35b66680	Entacapone	Chemical:46439
+Stressor:424	a2b54d73-f51d-4792-8920-8985f9f6364b	Oligomycin	Chemical:40570
+Stressor:425	56d07f1c-2972-458f-a9a7-6c1508248265	Aurovertin	
+Stressor:518	5f782eb1-192d-41e7-a59d-bc6e0e95fd40	anti-IL-1b antibody (Gevokizumab)	
+Stressor:486	4b7f3c7c-d4fa-4d78-a050-adbcb95002e6	minocycline	Chemical:45033
+Stressor:609	49d5dc84-1a64-4597-9e3c-3a4c5f0f6ef1	Belnacasan (VX-765)	
+Stressor:611	356bbef5-0b7e-462a-850e-d9de7fb573ec	Pralnacasan (VX-740, HMR3480)	
+Stressor:488	2543e9f6-6cc0-452f-bfe0-83aa21b5fd46	cinnamic aldehyde	
+Stressor:637	0ee72a0c-d188-4b75-874a-a75ad0240535	Dimethyl fumarate	
+Stressor:612	87f292bf-5c28-42cf-92f5-78bfec0fe8ad	curcumin	Chemical:31077
+Stressor:614	72f26be9-2005-4ec2-87dd-5772e0edea05	iguratimod	Chemical:48971
+Stressor:638	27f56384-a5c8-46eb-9b92-1152bbd17dcd	(-)-Epigallocatechin gallate	Chemical:29889
+Stressor:616	792f7a95-8d5b-4305-a33c-e718fa7d2244	TAK-242	
+Stressor:617	c5247cf7-0160-4e50-9ce2-6ce0c776462e	IRAK4 inhibitors	
+Stressor:636	0cf7abb4-fe64-42ee-8b21-8d7afc504ef4	Dehydroxymethylepoxyquinomicin (DHMEQ)	
+Stressor:615	273a90a8-6d00-4519-bcf3-6159d80deb3c	epigallocathechin gallate	
+Stressor:426	833bff61-8631-4782-aed5-b70bd929db96	SC-839	
+Stressor:427	842e6393-f33b-4038-9dac-b2e4d3b1eb05	Beta-carboline	
+Stressor:428	0377ee96-bdfa-41c4-bd02-e82010221f77	BMS 345541	Chemical:203243
+Stressor:429	8b807726-678c-4e1c-8b09-a7819eb71aaa	Parthenolide	Chemical:40579
+Stressor:431	64a2d3a5-e999-4638-b11c-f2d75170b03a	Sulindac	Chemical:23624
+Stressor:432	95774ddf-6abe-47d1-9f9f-a129df3ae520	Aspirin	Chemical:20108
+Stressor:433	1227dfe2-2237-4ead-b1f3-34c83cb34caa	Phenethyl isothiocyanate	Chemical:21120
+Stressor:434	5e64498a-d774-499a-b88e-22a10b020403	Sulforaphane	Chemical:36732
+Stressor:408	f8c8647b-3e94-4a25-a5af-f1ab78d65b29	Epothilone A	Chemical:332288
+Stressor:409	a7d24968-130e-49da-869a-4dd60828325a	Epothilone B	Chemical:46862
+Stressor:410	c02eaf87-5874-4d70-8cf7-88614f42712c	Paclitaxel	Chemical:23413
+Stressor:411	2d288a8a-e792-49ca-9960-56a2dbe98740	Zampanolide	
+Stressor:412	962719fa-6137-4f0c-9f29-528d1a0ff8c3	Discodermolide	
+Stressor:413	c5ee0711-6cb0-4735-8eea-e7de0d481b2d	2,3-Pentanedione	Chemical:51435
+Stressor:415	2142cb58-567d-497d-adf4-f0322d69cc31	Light (290-700 nm)	
+Stressor:440	10b358b2-1d12-47ee-a431-ff7e1db0693d	Photoreactive chemicals	
+Stressor:499	c2ac5d26-4cd3-4d53-a1e7-641bd6b83157	Photoactivated chemicals	
+Stressor:416	3782e1b6-6de4-47a7-9a26-4cccce9bbd58	Tunicamycin	Chemical:36730
+Stressor:417	52ba3880-2d69-445d-8628-5431ca12872a	Amphomycin	
+Stressor:672	1de4a795-0c9e-45fd-a6d7-6e98cfde7b22	Food deprivation	
+Stressor:441	0593ec50-e8ff-44d7-9821-160e71865f6f	finasteride, dutasteride, epristeride	
+Stressor:442	ee1497fe-4cab-4025-815e-1c0aa203bbb2	5-Azacytidine	Chemical:20116
+Stressor:443	46a9cb36-f031-4d72-ad86-2add191776b2	Decitabine	Chemical:30432
+Stressor:444	5b2169ad-fd78-423c-9f85-bcca299d90bf	Sinefungin	Chemical:207689
+Stressor:445	926fdfc4-97a7-403d-a03b-8ed3c4e8bb4e	Psammaplin A	
+Stressor:446	9a3ef21c-0f09-4783-8940-e6130f04faa2	Hydralazine hydrochloride	Chemical:44645
+Stressor:447	e405c76a-15e3-4c77-b159-cf5074b5365c	Zebularine	
+Stressor:448	fb348528-1c1c-42a0-a64a-73c95742d748	RG 108	
+Stressor:449	b0e5d9ae-283b-40f3-a806-f2404001ebe8	Temozolomide	Chemical:43714
+Stressor:450	63ef945f-164d-4020-b0ed-917da59a818d	1-phenyl 2-thiourea	
+Stressor:453	5e3a35f2-02e3-48b0-b0ae-512b3741d06b	Other DNA damaging agents	
+Stressor:455	7470e551-2f29-4b33-9114-3f78b7f8c278	Potassium bromate	Chemical:20195
+Stressor:456	a15b576f-12bf-4f19-a281-9cfa3380c427	Cadmium chloride	Chemical:20226
+Stressor:457	f9343ea4-15e1-4e8a-9de1-a4281f65a079	tert-Butyl hydroperoxide	Chemical:24693
+Stressor:514	62f5f730-f860-41a9-9ec5-5b63776bfc17	Hydroquinone	Chemical:20716
+Stressor:515	a95ed66b-f98f-4e65-8ebe-9a937fb1c1cc	4-Nitroquinoline 1-oxide	
+Stressor:458	d73cd3ef-cd0c-47e3-97a5-3f625ed15521	Sodium arsenite	Chemical:20104
+Stressor:461	7896c879-823e-4ef3-a6a9-6cfb23b0300f	Disulphiram	
+Stressor:462	41bbebbe-f306-4225-bc83-afaf2571c76e	Diethylaminobenzaldehyde	
+Stressor:463	a34cafb9-3e2a-4746-a5b3-f29bdc721c15	Citral	
+Stressor:464	b99975f6-b8a2-470d-bdcd-88fd2424e6b0	Paclobutrazol	Chemical:24242
+Stressor:465	fbd37c09-1104-48ee-bf74-4172b1cd53ec	nitrofen	Chemical:20970
+Stressor:466	d0b30edd-2ca2-4677-b3b3-000655961b50	4-biphenyl carboxylic acid	
+Stressor:467	7a835a7a-3048-4d62-ba1a-3ddd94151911	Bisdiamine	
+Stressor:468	44e1d071-68c5-470f-a723-dd8a04f09b15	SB-210661	
+Stressor:682	f3e6eecc-4f81-419c-b034-37a0fc539d30	WIN18,466	
+Stressor:683	e59c99bc-659c-4f61-9c09-56a37008f55e	(~13~C,~15~N_2_)Cyanamide	Chemical:745933
+Stressor:684	6d1e6351-8dc5-45b5-b2da-24de8f86302a	Molinate	Chemical:24206
+Stressor:685	162d44a0-7267-42a5-b023-8ec78437a20e	Pebulate	Chemical:21199
+Stressor:686	c29d0b8e-02e4-440a-bff3-8a5415e7d7ac	Vernolate	Chemical:24376
+Stressor:687	468dc809-67ba-4220-a6e2-bcb9ca7f3add	Butylate	Chemical:23936
+Stressor:688	ba74d853-b4c1-48de-81d8-2c7088120fcc	Tri-allate	Chemical:24344
+Stressor:689	ad197c2a-cbfa-410a-b685-9d072fdf58c7	Cycloate	Chemical:32356
+Stressor:470	070a229b-216e-4b37-9311-fd0e80602d00	Wnt	
+Stressor:471	0d088493-f64e-46d0-bb8f-5999cf57f0b0	WNT2	
+Stressor:522	01abb1d8-7773-4abf-94d0-642adecbbf83	Porcupine	
+Stressor:523	adb97734-b505-4172-986e-20c577eade12	Wntless	
+Stressor:571	f2806b68-a6fb-4d8d-ba1f-8ed05a14bb2b	ferric nitrilotriacetate	
+Stressor:542	a41e1c37-ce63-4147-9b2f-5df3699c5283	Radiation	
+Stressor:493	62427fa3-08d8-4779-a0bc-9e3142e1072c	Aminooxyacetic acid	Chemical:214756
+Stressor:494	70624824-8089-43fd-a5eb-3ce76d2b077b	S-(4-Carboxybutyl)-D,L-homocysteine; 5-(3-Amino-3-carboxypropyl)sulfanyl-pentanoic acid	
+Stressor:677	7aee87ad-c079-4a16-bcde-6c1a6c4e65ff	Serum	Chemical:41123
+Stressor:678	6933c4f7-d460-4e94-97f1-4e922a7a986d	Impregnation products	
+Stressor:679	0d11f4e7-575d-46cb-a74a-fc8afe102996	Meconium	
+Stressor:680	52ad59e5-9ef8-479e-aea8-005c7db59fb6	Cholesterol	Chemical:22401
+Stressor:500	a7b3fa29-8c54-43c5-b381-bb35aab590e9	High aspect ratio material	
+Stressor:725	bcfb3a95-5316-4195-a150-dd6fbef21187	All-trans retinoic acid	
+Stressor:145	f32e5a58-38d7-4339-89e0-c838c243b47a	Finasteride	
+Stressor:561	fdacb012-2d08-4729-a1f8-a13a97a1d102	Butylparaben	Chemical:20209
+Stressor:562	31616bbb-22e1-408d-a2c6-b29ba532bd9f	p,p'-DDE	Chemical:20374
+Stressor:563	fa5f5670-4603-4e5c-9d45-1d960ab2aa4e	Fenitrothion	Chemical:32613
+Stressor:564	16b6cff6-348e-48be-88c1-fdcbba3b018a	Linuron	Chemical:24163
+Stressor:565	6916d209-eb05-4163-8bb6-beef691dccf6	Procymidone	Chemical:33923
+Stressor:566	1fbf341b-a6f7-49f8-b674-a1caac38e066	di-n-hexyl phthalate	
+Stressor:567	7b010e4f-d993-4ef7-88e5-b4fc5297f114	Dicyclohexyl phthalate	Chemical:25021
+Stressor:568	7503070d-f711-4cab-b33a-1f3b1c4bc079	butyl benzyl phthalate	
+Stressor:569	4f7fe82c-52a3-459b-9a13-4f9e1a1ed587	monobenzyl phthalate	
+Stressor:570	6a66f545-3e1e-4830-a2c3-13d217559733	di-n-heptyl phthalate	
+Stressor:14	d2cc258c-f7dc-4dc9-887e-99d750d12fb0	Dibutyl phthalate	Chemical:21781
+Stressor:505	d1da6728-fb18-4bec-a378-d56fcf7b8113	Progesterone,estrogen,melatonin,Letrozole	
+Stressor:506	52f1333c-a726-4e36-aebb-7ff6f1ca1e88	glucocorticoids	
+Stressor:507	55295450-243b-4c95-a7e2-4a5d26f6114e	Cetrorelix	Chemical:40996
+Stressor:508	3267a374-8f4c-4e13-bbaa-b7e9d175767a	Interleukin-6	Chemical:41050
+Stressor:519	ae5fbfa4-93f2-4b02-a4cc-dbc10799caa2	Imiquimod	Chemical:41047
+Stressor:520	0a0c3958-4d99-4554-a821-599c1501d729	Resiquimod	Chemical:40603
+Stressor:521	a078e190-8d7b-4684-ad63-c9d97365e48e	Bisphenol A	Chemical:20182
+Stressor:4	194c3fbe-ef83-4270-aa49-690209abd081	17beta-Estradiol	Chemical:20573
+Stressor:582	789b1fd9-49d9-4dd3-88f8-dbb7b238f380	Propylpyrazoletriol	
+Stressor:583	cc6bbf85-204f-4c72-8793-2512149aae0c	4-Hydroxytamoxifen	Chemical:37094
+Stressor:585	42cdd251-55a0-4e23-af36-6a05efc9406c	PF-06651600 (CAS No：1792180-81-4),	
+Stressor:586	227064b0-0e45-4ba8-98d9-367160330924	RB1	
+Stressor:587	5b9e8856-4592-43da-bfb1-7df70826fadc	PF-06651600 (CAS No：1792180-81-4), RB1	
+Stressor:588	729443ed-a2d7-47be-81c6-5cfe464d21f6	Nʹ-((4-Oxo-4H-chromen-3-yl)methylene)nicotinohydrazide Pimozide	
+Stressor:589	db0629f3-9094-4f23-a985-2c9c0285a37f	Nʹ-((4-Oxo-4H-chromen-3-yl)methylene)nicotinohydrazide	
+Stressor:590	fc1956b4-5f64-4a44-a1f7-1be456704ff7	Tofacitinib  (CP690,550)	
+Stressor:591	050fcd4e-367c-4a24-97f4-614aa49ca15f	Cyclosporin, FK506, Basiliximab, PFOA (perfluorooctanoic acid)	
+Stressor:550	cfaef33f-6da2-4e21-9303-84df7282c197	Streptozocin	
+Stressor:551	3abf3028-b666-4880-a39c-f30e167c53e3	Losartan	Chemical:23227
+Stressor:621	b3abb03d-c1cc-47ad-a6d3-d5a40a7d53a0	DX600	
+Stressor:622	d67f50ab-b10c-470a-870d-aea1fb9e34ef	cationic polyamidoamine dendrimer (nanoparticle)	
+Stressor:699	42c07dbb-ee43-4a80-840c-e9ed9d3ca7fe	Influenza Virus	
+Stressor:620	781ff346-384e-42e6-9593-d8ff4789f847	HCoV-NL63	
+Stressor:631	f09e4051-8aed-4b73-8f7a-668d11a4a083	Danger Associated Molecular Patters (DAMPs)	
+Stressor:632	031869c2-0639-4663-9dd4-dd790a1984e3	Pathogen Associated Molecular Patterns (PAMPs)	
+Stressor:628	90744099-a31a-4109-a0f0-f6bbcc606145	cell free mitochondrial DNA (mtDNA)	
+Stressor:633	d64ed088-2411-4dda-b834-824fffc8a8de	Stressor:624 SARS-CoV-2	
+Stressor:543	bc24565c-0bf7-4bf6-a54a-0866ad18e79d	beta-Sitosterol	Chemical:22481
+Stressor:44	bc27807d-f778-4b18-9ac9-c9aaa9d12700	Paraquat	Chemical:34799
+Stressor:274	35bba340-794d-423f-95dd-9df77cbe514f	Ultraviolet B radiation	
+Stressor:675	1500dd41-498c-474b-adaa-ed0d8912c572	Heavy metals (cadmium, lead, copper, iron, nickel)	
+Stressor:573	e0e6f609-f8b4-49f6-b173-75c9c1d3c098	Beclomethasone dipropionate monohydrate	Chemical:227831
+Stressor:367	a713aee2-70ac-4e49-9542-0b68446238ad	Diuron	Chemical:20446
+Stressor:741	e6ba94a4-381d-4069-92b2-d7bd6295dc43	DCA	
+Stressor:742	2dccd80e-ae03-463d-a071-037b7e2039a0	DCPMU	
+Stressor:847	ffc2d4ee-3e1e-4afa-a987-232054e1d450	Muristerone A	
+Stressor:598	60faa64f-b72f-47b1-adbf-266ad3eecf8e	Exemestane	Chemical:23037
+Stressor:599	62ba9cc9-f301-4d30-bb4c-a6297059f11e	Stressor:292 Clotrimazole	
+Stressor:572	2893fcdb-d1bc-4bea-b58b-fa00309f8198	N-(5-Hydroxytricyclo[3.3.1.13,7]dec-2-yl)-α,α-dimethyl-4-[5-(trifluoromethyl)-2-pyridinyl]-1-piperazineacetamide	
+Stressor:545	4a95c297-2333-4b89-8c87-3323fa3f6094	Carbenoxolone	Chemical:22733
+Stressor:578	8005ed9a-e3b4-4e95-8a6c-5cfecd717213	Glycyrrhizin	Chemical:47006
+Stressor:579	e934eedf-6d25-4d51-b241-7565c985841c	PF915275	
+Stressor:574	4c30aa3b-60b0-4548-afbd-81943af62d32	Metyrapone	Chemical:23314
+Stressor:575	3fc13e59-ad4f-4a4b-94fa-2c4e82b71573	Lysodren, Mitotan, Mitotane	Chemical:425146
+Stressor:576	648b1a80-e460-4492-a501-dfcc617b68d9	Etomidate	Chemical:23033
+Stressor:577	fe747e53-c845-4b94-bcde-4f2172271884	Osilodrostat(LCI699)	
+Stressor:369	695624b0-8cae-4275-8b2c-03d2f9800ba5	Polyoxin B	Chemical:58329
+Stressor:595	81e4217c-e095-4ee8-bd84-eadb9976a510	Captan	Chemical:20243
+Stressor:594	4eed580f-2c42-4c6f-804e-b18e73ce2f87	Captafol	Chemical:20242
+Stressor:596	3014f153-3e83-434d-8a83-da26b9ece11c	Folpet	Chemical:21385
+Stressor:626	978456d7-6288-4e87-97f2-9ebef8a202ed	fungi	
+Stressor:630	cddefeec-80f1-46bf-a6ba-06740d0e7279	Chemical:33664 17-Methyltestosterone	
+Stressor:639	84c507ca-fa28-48d6-8d7c-cc3b84fc60a6	Methyldihydrotestosterone	
+Stressor:640	f4cf604e-e704-436e-8bf1-51d2c5ef2da5	11-Keto-testosterone	Chemical:36499
+Stressor:629	1e04545b-ffed-4cdc-8f42-dbd955f1f3b8	unmethylated CpG motifs (DNA;RNA;ODN)	
+Stressor:634	58051cc6-2cf2-4f4b-b6fa-f6c406aa2156	nanomaterials	
+Stressor:749	71438e25-8efa-4c53-8938-c4aa26ed7415	Titanium dioxide nanoparticles	
+Stressor:750	36260a7a-2241-4c93-afbc-b8f09cafda0d	Iron nanoparticles	
+Stressor:548	c04ff655-5368-44bf-bd1d-5148de7cc492	Triphenyl phosphate	Chemical:21952
+Stressor:665	0cddc4d0-a655-47fa-a43c-4c770df02504	Bis(2,4,6-trimethylphenyl)-lambda~2~-germane--selenium (1/1)	Chemical:556604
+Stressor:641	1bc8c9f8-947e-4533-ad28-1f40c9166ca6	Rosmarinic acid	
+Stressor:642	9b9a69e5-68fa-49bc-977f-0cbc55e7e87e	Saracatinib	Chemical:191355
+Stressor:643	439237e5-8993-443c-8465-9d4884783676	Staurosporine	Chemical:41131
+Stressor:694	8ede9efb-0d99-44c4-a612-39648b828204	Liarozole	Chemical:48277
+Stressor:695	e0d3acbf-5dc4-41f6-a7f4-670b60594039	(R)-Talarozole	Chemical:236074
+Stressor:696	8795a38f-5720-48cd-bdcb-e652acad1e21	Stressor:282 Ketoconazole	
+Stressor:653	afe9c773-74ce-44e3-bdd0-b8211a0006d6	su5402	Chemical:415361
+Stressor:697	1beaf4cf-76b1-4712-a143-9a2cd0c28696	all-trans-Retinoic acid	Chemical:21239
+Stressor:690	858cc653-23f3-441f-8426-1cc74e61fab0	Itraconazole	Chemical:23180
+Stressor:691	9e0f15c3-408b-4e97-b2d2-7c0f294b6101	Candesartan cilexetil	Chemical:20239
+Stressor:692	cce88faa-106e-42ef-8190-61be792259f8	Montelukast	Chemical:23334
+Stressor:693	eb4a2460-e339-4007-8a37-383e377abc6f	Repaglinide	Chemical:23552
+Stressor:646	03ec520f-8a44-4e17-bc40-34c2e89645e7	high fat diet	
+Stressor:647	c45c1d9c-e7ba-4353-89c4-f222dfac0d0b	physical inactivity	
+Stressor:271	c1deb473-f03a-4070-94a9-3004cf09f098	Mental stress	
+Stressor:648	8370b072-b0a4-4d9b-aada-693f78e90d58	work stress	
+Stressor:649	3e83c065-bdb8-4124-87aa-564b27af8e90	Paraoxon	Chemical:24046
+Stressor:650	5dc7859b-7357-4ef4-9492-0301b054edac	Methyl parathion	Chemical:20855
+Stressor:651	74bf7bf6-0fd4-4eb1-bf9d-2fc5167a8d99	Ethyl Parathion	
+Stressor:306	49010989-f2d7-4e4c-a461-f4c6a97b85db	Multi-walled carbon nanotubes	
+Stressor:671	57aefc3f-10e6-4c20-a0df-f96120c329af	Asbestos fibers	Chemical:30740
+Stressor:305	eaa2487a-edde-4d0f-8f4a-31d6981f9709	Single walled carbon nanotubes	
+Stressor:474	8f694273-6722-4f03-b89f-f616be9c605d	BIO (6-bromoindirubin-3’-oxime)	
+Stressor:473	53e5610e-d3ea-424b-9822-e9c5bfe18033	CHIR99021	
+Stressor:475	ea094620-b892-4afb-8c70-0d5a2846eae7	Kenpaullone	
+Stressor:476	c37a5e61-2549-47b7-b678-51fc441b6aea	SB216763	
+Stressor:477	db2d3634-e4c5-47da-8e70-ac90a6f322c2	TWS119	Chemical:429550
+Stressor:478	ebfd19f6-1916-4f97-ae26-2ad0cdcac841	CHIR98014	
+Stressor:673	c9508bc4-8d85-4028-8e50-2a58711d892a	Nitrogen dioxide	Chemical:20974
+Stressor:656	2ad71918-37cd-48ab-8804-dd23a18bc907	Acetaldehyde	Chemical:39224
+Stressor:674	6003ae5f-6dd4-45c0-8a30-301d75b67dba	Sex hormone	
+Stressor:658	ed16b90d-5949-4403-818b-0d23ee705b03	Sulfur dioxide	Chemical:29672
+Stressor:659	acae0d1d-e8d7-4d4a-b9e5-93f0de1af18a	Formaldehyde	Chemical:20637
+Stressor:662	7de98cab-a429-411e-b4db-85778a1829c3	Irradiation	
+Stressor:698	8f445d2c-93fa-419c-8214-cbafce464268	Diethylhexyl phthalate	
+Stressor:728	582cef2b-c3dd-4c6e-bad5-da9c35fe331d	4-diethylaminobenzaldehyde (DEAB)	
+Stressor:729	ea029e14-6ca8-4b30-8a33-343fa9abc33a	WIN18466	
+Stressor:731	74ed51b8-47a4-43d8-b47e-a8aa70a98b04	All-trans retionic acid	
+Stressor:732	f46ebb1c-cb3e-438f-8003-73140a5af6b4	Vitamin A	
+Stressor:726	0f892966-8f84-4b98-98a5-f98c9c66e31d	BMS-89453	
+Stressor:727	a19ec809-3acc-4d39-9e06-efe71491c89c	WIN18446	
+Stressor:712	a68a0f51-ec81-463c-a534-ca8c271f2fb3	Gold nanoparticles	
+Stressor:715	e57ebc67-d726-4482-b516-1b9abb1bea19	Other heavy metals	
+Stressor:737	509b1223-cc49-49cc-ac07-26995f7a9252	Ethyl alcohol	
+Stressor:738	12e99593-c38e-4623-8bbd-e220c441649f	Uranium, soluble salts	Chemical:24374
+Stressor:745	015e78da-510b-4304-8e40-f725a3a7b224	Fumonisin B1	Chemical:20644
+Stressor:739	06017749-b9c9-4edb-b217-e12ee4f51091	welding fumes	
+Stressor:740	19e6a8c6-3186-47f1-badd-6e713d57f0a5	Carbon black	Chemical:51216
+Stressor:768	6e8832c8-fa02-4b1a-bfd1-36b4ec6e3f70	PCB 126	
+Stressor:746	512a4c81-4d9e-45ae-8eae-03f541c02d8d	Vismodegib	Chemical:236689
+Stressor:752	a32928eb-3be9-445f-847e-bb2d7f78eba8	SANT-1	Chemical:425965
+Stressor:753	42bb82c4-1778-44c6-b094-2ad41ac4299f	SANT-2	Chemical:362255
+Stressor:754	9617467e-fb3e-4537-8a99-d790d4320f46	SANT-3	
+Stressor:755	b1a60801-dbf1-4432-a5f2-7ef6634a8722	SANT-4	
+Stressor:857	7c9929d1-0b38-44c5-8eec-0697a8d06b80	Oxaliplatin	Chemical:36760
+Stressor:858	d0153d09-8246-4436-9e3f-bea17408b728	Carboplatin	Chemical:46742
+Stressor:774	8bcf9cd7-63ed-4ce1-9dd5-a5ac964a1ef2	Boscalid	Chemical:34392
+Stressor:775	49c65261-f745-4315-a51d-0697206a3a8d	Bixafen	Chemical:58134
+Stressor:776	29ad0dbb-538c-40c7-a2af-3ecc37bc33d0	Sedaxane	Chemical:58207
+Stressor:777	a1d7b551-f709-4e91-863d-0dcee8e8df9e	Sodium L-glutamate	Chemical:20906
+Stressor:778	04bab883-9372-4c82-aaac-8b69aa70441a	amyloid beta	
+Stressor:779	31614856-88e5-4b01-9abf-34f2edc27837	lotenone	
+Stressor:833	7112ca65-ceac-4607-aa00-07fade7eb215	N-Methyl-D-aspartic acid	Chemical:41082
+Stressor:758	430a1ba0-740b-4bdd-8100-f9656dc4ebf1	3,3′,5,5′ tetrabromobisphenol A	
+Stressor:759	34e15792-647d-4798-a55d-6262768d0106	NH-375	
+Stressor:760	7a659a8e-8d90-4efb-a6ab-7e5d2be20020	Lei Gong Teng (Common Threewingnut Root)	
+Stressor:761	6d15eb4d-eedd-4857-a878-2e394afa2bf8	Tian Ma (Tall Gastrodia Tuber)	
+Stressor:762	b58754c5-34ca-4f72-a68a-137d5ca64bf1	Deltamethrin	
+Stressor:766	c68d036d-fb7d-42c7-b4d5-8b8a2075d9ef	Chlorpyrifos oxon	Chemical:38666
+Stressor:757	3688bcb2-8c66-4a44-a361-70213c043cd8	GANT 58	
+Stressor:756	b203ed98-002b-4989-baed-cee0abfdc6a0	GANT61	Chemical:329591
+Stressor:767	8250bd90-7b05-44bf-8632-303782324c70	Diethyl maleate	Chemical:20464
+Stressor:780	b1b40112-3730-4e4f-ae48-59db4cf74d80	Polychlorinated biphenyls; mixture of specific PCBs	Chemical:40591
+Stressor:782	356b1306-63cb-4a30-82a4-01afb44973f0	1-Ethyl-1-nitrosourea	Chemical:20593
+Stressor:783	c6371adc-f6fe-44cc-84ea-368c1bcc5ed4	Cyclizine	Chemical:22864
+Stressor:840	636a0574-5136-4615-a757-0770052687fe	Redox status	
+Stressor:769	3edbac30-71d9-4156-9619-04f4fdd72e9a	Polyethylene AS low Mol.Wt.	Chemical:31946
+Stressor:770	9f8d6f0b-ffcf-474d-8291-795245a5e12c	Polyvinyl chloride	Chemical:25940
+Stressor:707	c3241644-d2ea-4ec4-a6e9-c8d0afdc968b	Cisapride	Chemical:22825
+Stressor:706	128acb8b-162c-44fa-984c-f4333a8501fd	Terfenadine	Chemical:23642
+Stressor:788	55362553-704f-4d49-99df-7c87ad330b13	Halogenated Hydrocarbons	
+Stressor:789	519551f0-f96b-49e3-8952-82ada43fa4db	terfenadine	
+Stressor:837	0745851e-8a12-459d-baee-474ed39d7018	Gluten	
+Stressor:838	e5876b1a-16fe-4e26-ab8d-fd5a24f84f3d	Bacterial or viral Infections	
+Stressor:839	9e2718b4-ce80-43ee-99dd-ced3787b98a9	Tissue transglutaminase 2 (TG2) enzyme activity	
+Stressor:771	efba834d-f52b-4e16-958b-a8b93dda811d	Perfluorooctanesulfonic acid	Chemical:31864
+Stressor:772	139d4f23-5dc7-42f5-adff-0ca0f434713b	PPAR agonist	
+Stressor:773	2345deef-d60e-4697-9fc0-1e5060d1babe	Per- and Polyfluorinated Substances (PFAS)	
+Stressor:875	38082e3b-fa7f-4cc1-a2de-29e8188d5a26	17-Methyltestosterone	Chemical:33664
+Stressor:876	d4f9bd36-dc37-46c2-ab0e-75ee2a1a26c7	Testosterone propionate	Chemical:36515
+Stressor:784	4f928d25-85b0-40c7-99fc-c5a897d39427	UV-B and UV-C	
+Stressor:785	1d4c7437-71d5-4f5f-8955-c554604cb2f4	Camptothecin	
+Stressor:546	1f601ac4-6ad2-4101-ba78-ba27809909c9	Malathion	Chemical:20791
+Stressor:786	03e9619e-79c3-4165-9a76-379ad092eb4e	Carbamate pesticides	
+Stressor:787	db313df2-e460-4c97-bb4b-dccbf213ecda	Cholinergic drugs	
+Stressor:790	09ba397e-2fa9-4178-9ee7-46b5e358f181	Flecainide	
+Stressor:791	c5ec2bc7-c07e-4321-aa2c-ce1136fe8034	Bupivacaine	
+Stressor:792	2e1c86b0-0ba1-4eb3-a8d6-6d208528a2d2	Tetracaine	
+Stressor:793	121c49f2-904a-4e6b-8027-4e06a0b2d81e	Saxitoxin	
+Stressor:405	a8f30ddd-7cbc-4e39-8640-b0e779cca657	p,p'-DDT	Chemical:20375
+Stressor:794	3a311a61-898c-4cf6-9b96-a1ce8886b53c	Tetrodotoxin derivatives	
+Stressor:795	35726d3b-edc5-4089-8c93-2f274f5829fd	Isoproterenol	
+Stressor:796	17550ecc-107b-4d06-8e87-b0dbaa144b3e	Epinephrine	
+Stressor:797	56fe514f-3554-406c-bea8-529c9ec8bd32	Norepinephrine	
+Stressor:798	d9365914-57c0-445c-8ac6-51b662348ffd	Theophylline	
+Stressor:799	e89a459f-3ecd-486c-8013-2091986cef0c	Milrinone	
+Stressor:800	2bbd03bd-939e-4fad-bfca-659a943406d0	Sotalol	
+Stressor:801	7298f71f-f3de-466f-8d8b-5c61b0a8b3b4	Dofetilide	
+Stressor:802	8524ae28-c1b6-483b-a57a-82cac6858ba9	ziprasidone	
+Stressor:231	8df22311-9653-4587-acad-486d3c07594b	Fluoroquinolones:	
+Stressor:803	703cc06c-722f-4391-a5f1-5e85d0b45c4e	E-4031	
+Stressor:804	e32dac67-e446-499b-bfe5-abf5d6a7cede	Digoxin	
+Stressor:805	5d9da070-de2c-4379-9640-bba7cca7e80d	Ouabain	
+Stressor:806	f5a7c1c4-b969-4f60-9a8c-e10f88183011	Thapsigargin	
+Stressor:807	521a34b0-a684-4ded-aadc-25586d805920	Enoximone	
+Stressor:808	ae74fff3-5597-433b-b9bc-7cd020d4ed72	Roflumilast	
+Stressor:809	f625e0d2-e25d-4ceb-9a8b-ad8b08ba98e7	Catecholamines	
+Stressor:810	74b668a8-765f-4981-a5e9-338681c016bb	Forskolin	
+Stressor:813	676b3222-2123-46e3-9c67-ebba6332436b	Donepezil	
+Stressor:814	c2f1460f-48c7-4067-a75f-5aa45cb1b90c	Neostigmine	
+Stressor:815	588343bb-8e11-4480-aebf-ce35bc59a2cd	Pyridostigmine	
+Stressor:45	8f657020-6bd7-4b2a-b0a7-343116a7243e	Parathion	Chemical:21100
+Stressor:816	92654c09-4e1a-4e2d-813c-c143402e5484	Diazinon	
+Stressor:817	9865cc4b-eede-49dc-a2ff-ec9a5db72083	Sarin	
+Stressor:818	0c35d238-65a4-4d7e-b13c-b0a1a99b3c5e	Tabun	
+Stressor:819	17a108b5-25a0-471d-86c8-0cf80b944a15	Carbaryl	
+Stressor:820	751c40ad-3da9-496a-a859-49e3919b86f0	Aldicarb	
+Stressor:821	55f8ba38-817f-4a8f-8ac3-d90623ccb336	Physostigmine	
+Stressor:822	e9a706a9-1936-4145-a3ea-6968ec97f01e	Carbofuran	
+Stressor:823	56c9a36c-bb49-4af4-92d5-28fd98a3f1ba	Pilocarpine	
+Stressor:824	147aa465-39f7-4b9f-81cd-fb5061ac1043	Bethanechol	
+Stressor:811	b03b2ca7-c65f-493f-9697-fe91d4dcf169	Ivabradine	
+Stressor:812	75d65a4e-0773-4011-ad64-45c6d527073a	Zatebradine	
+Stressor:825	aa91243b-b8db-4a90-9fa5-258893fd46e7	Isobutylmethylxanthine	Chemical:40549
+Stressor:826	bbb8527d-7c83-45c3-bca8-12b87f168a1b	Aldrin	Chemical:20040
+Stressor:827	bda8a215-219b-4f36-beec-c5377638ca4f	Technical chlordane	Chemical:23954
+Stressor:828	91761b40-95e9-46e2-93c0-1e1a021047ff	Methoxychlor	Chemical:20827
+Stressor:829	2ba9f270-1888-4d85-b20f-da47541c689d	Oxadiazon	Chemical:24239
+Stressor:830	42034e79-cc04-47ba-b83f-95ec1786ea54	Metolachlor	Chemical:22448
+Stressor:831	fd5f4d8f-9a46-44c1-a76f-f38eec08bdf7	Cilobradine	
+Stressor:832	04a2a071-cb1e-4b9e-8c05-5d8f6cd71b34	4-bromo-2-(methylamino)-benzimidazole	
+Stressor:836	25884d0f-f014-4b3d-b887-b6eff151ba23	7,12-Dimethylbenz(a)anthracene	Chemical:20510
+Stressor:834	34896da0-4b0f-4d7d-b94b-fb6ee8559cab	1,1'-Ethane-1,2-diylbis(pentabromobenzene)	Chemical:52732
+Stressor:835	05fe7c60-28ff-4c20-9892-ff044dc3b3d8	3,3',5,5'-Tetrabromobisphenol A	Chemical:26081
+Stressor:855	383943dd-719f-4f96-a69e-ab553df2d945	Metribuzin	Chemical:24204
+Stressor:856	191dd695-c4e6-4f7a-8b72-1c507903d1be	Chlorotoluron	Chemical:52853
+Stressor:846	9f365990-011e-4b34-98bc-96db2eacd33b	Picoxystrobin	Chemical:47542
+Stressor:842	960eebbe-0529-4d78-96b3-ab981ef88e6a	CuO nanoparticles	
+Stressor:843	dfa429d4-8640-43a4-b5a2-09aaf2749071	Elesclomol	
+Stressor:844	87fc1086-87b2-404b-a64a-9b91b364ceba	Wilson's disease	
+Stressor:848	5ed3479f-3136-46cb-ac8e-691af7af0abb	Cucurbitacin B	
+Stressor:849	5f967852-d762-4229-b37a-66db17af83fa	Cucurbitacin D	
+Stressor:853	79838774-62ad-4f4c-978f-dbe65c3a8852	Brusatol	
+Stressor:854	3bad5633-1146-40b4-9806-999af1da346f	ML385	
+Stressor:859	ff58b8c4-d353-4a69-aba2-dd5b24984516	Benzo(b)fluoranthene	Chemical:23907
+Stressor:860	784a2988-dbc5-4219-9730-046875b24e77	Naphthalene	Chemical:20913
+Stressor:861	92f20dac-6ef6-4dfb-ad36-d46eae0cfba5	Anthracene	Chemical:23878
+Stressor:862	bf8b8956-d876-450f-bf72-36de9cda1656	Pyrene	Chemical:24289
+Stressor:863	e91dd5fc-cbc7-4627-a040-63aec899116a	Benz(a)anthracene	Chemical:23902
+Stressor:864	2fcf2394-3e8a-4518-8a58-4c46525ee40b	Chrysene	Chemical:22432
+Stressor:865	f3533e41-3990-477d-8d05-d44487c47ad2	5-Methylchrysene	Chemical:63143
+Stressor:866	aae3e991-92f6-4b8c-a0ec-f24af955589c	3-Methylcholanthrene	Chemical:20862
+Stressor:867	32d05aa6-4739-4fe4-8af8-7d4351876b10	2-Amino-1-methyl-6-phenylimidazo [4,5-b]pyridine	Chemical:37628
+Stressor:868	d3120b3a-86a5-48a2-a372-ba79e8d99c7e	Acenaphthene	Chemical:21774
+Stressor:869	dbd780c0-726d-46c5-94fb-f63e6c3bb23d	Acenaphthylene	Chemical:23845
+Stressor:870	f5d52f00-7eff-4614-8bbe-839e7d6951e9	Fluorene	Chemical:24105
+Stressor:871	da9bf20f-d05d-40d1-b931-a8f1fecdc630	Fluoranthene	Chemical:24104
+Stressor:872	d6f4cbe2-326a-411b-b1e0-ee5796635b79	Indeno(1,2,3-cd)pyrene	Chemical:24153
+Stressor:873	3c23d158-c0dc-4479-a3f4-568eabc004f7	Dibenz(a,h)anthracene	Chemical:20409
+Stressor:874	7fb5003f-267d-4083-ba22-1c738b14f928	Benzo(g,h,i)perylene	Chemical:23908
+Stressor:877	d0f7b396-28b5-45c7-b258-d92c90ca3a0a	Lomitapide	Chemical:171294

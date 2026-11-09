@@ -1,0 +1,12 @@
+wiki_id	uuid	source	source_id	name
+1	85ef38c5-5719-4011-9b1b-ed41b507ee73	WIKI	1	increased
+2	6407d701-57b5-47ac-bd2e-91531d1e0d71	WIKI	2	decreased
+3	8e51782a-34b5-49d8-8ece-4356412ed91a	WIKI	7	functional change
+4	bd46252d-8469-4577-8961-3d861fb5fe27	WIKI	4	abnormal
+5	3306888a-c23c-4357-ad5c-3b08486f4f1a	WIKI	11	pathological
+6	c6bac957-0e20-45a4-9b2d-cdb7776c6ba1	WIKI	3	occurrence
+7	20bf4c73-9276-4b82-9f1e-d4dec9f6232d	WIKI	9	disrupted
+8	bdf38c45-8797-4dd0-b9f6-5f1827d296ca	WIKI	8	morphological change
+9	a9f19dd0-5ddc-4a74-bd14-31a6518a5571	WIKI	10	arrested
+10	1812643f-9393-4169-9855-25657ac76cca	WIKI	5	delayed
+11	f0d46868-67e9-446e-9776-a13c91c52402	WIKI	6	premature

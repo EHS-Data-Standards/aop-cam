@@ -1,0 +1,3351 @@
+aop_id	ker_id	adjacency	evidence	quantitative_understanding
+Aop:1	Relationship:324	adjacent	Moderate	Not Specified
+Aop:1	Relationship:69	adjacent	Moderate	Not Specified
+Aop:1	Relationship:158	adjacent	High	Not Specified
+Aop:3	Relationship:933	adjacent	High	Low
+Aop:3	Relationship:934	adjacent	High	Moderate
+Aop:3	Relationship:904	adjacent	Moderate	Low
+Aop:3	Relationship:905	adjacent	High	Moderate
+Aop:3	Relationship:910	adjacent	High	High
+Aop:3	Relationship:907	adjacent	Moderate	Moderate
+Aop:3	Relationship:906	adjacent	Moderate	Moderate
+Aop:3	Relationship:908	non-adjacent	Moderate	Low
+Aop:4	Relationship:1343	adjacent	High	Not Specified
+Aop:4	Relationship:1344	adjacent	High	Not Specified
+Aop:4	Relationship:1345	adjacent	Moderate	Not Specified
+Aop:4	Relationship:1346	adjacent	Moderate	Not Specified
+Aop:4	Relationship:1347	adjacent	Moderate	Not Specified
+Aop:4	Relationship:3639	adjacent	Moderate	Not Specified
+Aop:4	Relationship:1010	adjacent	Moderate	Not Specified
+Aop:4	Relationship:1002	adjacent	High	Not Specified
+Aop:6	Relationship:1023	adjacent	High	Moderate
+Aop:6	Relationship:1024	adjacent	High	Moderate
+Aop:6	Relationship:1748	adjacent	High	High
+Aop:6	Relationship:880	adjacent	Moderate	Moderate
+Aop:6	Relationship:1749	adjacent	Moderate	Low
+Aop:6	Relationship:883	adjacent	High	Moderate
+Aop:6	Relationship:884	adjacent	Moderate	Low
+Aop:6	Relationship:885	adjacent	High	High
+Aop:7	Relationship:392	adjacent	High	Not Specified
+Aop:7	Relationship:5	adjacent	High	Not Specified
+Aop:7	Relationship:396	adjacent	Moderate	Not Specified
+Aop:7	Relationship:394	non-adjacent	Moderate	Not Specified
+Aop:8	Relationship:2482	adjacent	Not Specified	Not Specified
+Aop:8	Relationship:2478	adjacent	Not Specified	Not Specified
+Aop:8	Relationship:2270	adjacent	Not Specified	Not Specified
+Aop:8	Relationship:312	adjacent	Not Specified	Not Specified
+Aop:8	Relationship:746	adjacent	Not Specified	Not Specified
+Aop:8	Relationship:747	adjacent	Not Specified	Not Specified
+Aop:8	Relationship:749	adjacent	Not Specified	Not Specified
+Aop:8	Relationship:2484	adjacent	Not Specified	Not Specified
+Aop:10	Relationship:666	adjacent	High	High
+Aop:10	Relationship:667	adjacent	High	High
+Aop:10	Relationship:683	adjacent	High	Moderate
+Aop:10	Relationship:684	adjacent	Moderate	Moderate
+Aop:10	Relationship:630	adjacent	High	Moderate
+Aop:12	Relationship:229	adjacent	High	Not Specified
+Aop:12	Relationship:213	adjacent	Moderate	Not Specified
+Aop:12	Relationship:347	adjacent	Low	Not Specified
+Aop:12	Relationship:353	adjacent	Low	Not Specified
+Aop:12	Relationship:365	adjacent	Moderate	Not Specified
+Aop:12	Relationship:208	adjacent	Low	Not Specified
+Aop:12	Relationship:1069	adjacent	High	Not Specified
+Aop:12	Relationship:207	adjacent	Moderate	Not Specified
+Aop:13	Relationship:229	adjacent	High	Not Specified
+Aop:13	Relationship:213	adjacent	Moderate	Not Specified
+Aop:13	Relationship:358	adjacent	Low	Not Specified
+Aop:13	Relationship:347	adjacent	Low	Low
+Aop:13	Relationship:348	adjacent	High	Low
+Aop:13	Relationship:354	adjacent	Low	Low
+Aop:13	Relationship:355	adjacent	Low	Not Specified
+Aop:13	Relationship:356	adjacent	Low	Not Specified
+Aop:13	Relationship:359	adjacent	Low	Not Specified
+Aop:13	Relationship:353	adjacent	Low	Not Specified
+Aop:13	Relationship:357	adjacent	Low	Not Specified
+Aop:14	Relationship:385	adjacent	Not Specified	Not Specified
+Aop:14	Relationship:386	adjacent	Not Specified	Not Specified
+Aop:14	Relationship:387	adjacent	Not Specified	Not Specified
+Aop:14	Relationship:388	adjacent	Not Specified	Not Specified
+Aop:14	Relationship:390	adjacent	Not Specified	Not Specified
+Aop:15	Relationship:24	adjacent	High	Moderate
+Aop:15	Relationship:164	adjacent	High	Moderate
+Aop:15	Relationship:202	adjacent	High	Moderate
+Aop:15	Relationship:25	non-adjacent	High	Moderate
+Aop:15	Relationship:23	non-adjacent	High	Moderate
+Aop:16	Relationship:11	adjacent	High	Moderate
+Aop:16	Relationship:456	adjacent	High	Low
+Aop:16	Relationship:457	adjacent	High	Low
+Aop:16	Relationship:2005	adjacent	High	High
+Aop:16	Relationship:2006	adjacent	Low	Low
+Aop:16	Relationship:433	adjacent	High	Low
+Aop:16	Relationship:2013	adjacent	Moderate	Moderate
+Aop:16	Relationship:451	non-adjacent	Not Specified	Not Specified
+Aop:16	Relationship:450	non-adjacent	Moderate	Low
+Aop:16	Relationship:2007	non-adjacent	Not Specified	Not Specified
+Aop:16	Relationship:452	non-adjacent	High	Moderate
+Aop:16	Relationship:2016	non-adjacent	Low	Low
+Aop:17	Relationship:1765	adjacent	Moderate	Moderate
+Aop:17	Relationship:1766	adjacent	High	High
+Aop:17	Relationship:1685	adjacent	Low	Low
+Aop:17	Relationship:1686	adjacent	High	Moderate
+Aop:17	Relationship:365	adjacent	Moderate	Not Specified
+Aop:17	Relationship:1718	adjacent	Moderate	Not Specified
+Aop:17	Relationship:1687	adjacent	Moderate	Not Specified
+Aop:17	Relationship:1719	adjacent	Moderate	Not Specified
+Aop:17	Relationship:1688	adjacent	Moderate	Not Specified
+Aop:17	Relationship:359	adjacent	High	Not Specified
+Aop:17	Relationship:1690	non-adjacent	High	High
+Aop:18	Relationship:436	adjacent	Moderate	Not Specified
+Aop:18	Relationship:438	adjacent	Moderate	Not Specified
+Aop:18	Relationship:2125	adjacent	High	Not Specified
+Aop:18	Relationship:437	adjacent	Low	Not Specified
+Aop:18	Relationship:405	adjacent	High	Not Specified
+Aop:18	Relationship:369	non-adjacent	Moderate	Not Specified
+Aop:18	Relationship:370	non-adjacent	Low	Not Specified
+Aop:18	Relationship:3205	non-adjacent	High	Not Specified
+Aop:19	Relationship:3397	adjacent	Not Specified	Not Specified
+Aop:19	Relationship:2201	adjacent	Not Specified	Not Specified
+Aop:19	Relationship:317	adjacent	Not Specified	Not Specified
+Aop:19	Relationship:316	adjacent	Not Specified	Not Specified
+Aop:19	Relationship:338	adjacent	Not Specified	Not Specified
+Aop:19	Relationship:266	adjacent	Not Specified	Not Specified
+Aop:21	Relationship:972	adjacent	High	Moderate
+Aop:21	Relationship:1350	adjacent	High	Moderate
+Aop:21	Relationship:1351	adjacent	Moderate	Moderate
+Aop:21	Relationship:1567	adjacent	High	Low
+Aop:21	Relationship:984	non-adjacent	High	Moderate
+Aop:23	Relationship:31	adjacent	Low	Low
+Aop:23	Relationship:143	adjacent	High	Low
+Aop:23	Relationship:302	adjacent	High	Low
+Aop:23	Relationship:5	adjacent	High	Low
+Aop:23	Relationship:252	adjacent	High	Moderate
+Aop:23	Relationship:315	adjacent	High	Moderate
+Aop:23	Relationship:255	adjacent	Moderate	Low
+Aop:23	Relationship:337	adjacent	Moderate	Moderate
+Aop:23	Relationship:94	adjacent	Moderate	Moderate
+Aop:23	Relationship:32	non-adjacent	Moderate	Low
+Aop:23	Relationship:1384	non-adjacent	Moderate	Low
+Aop:23	Relationship:1385	non-adjacent	High	Low
+Aop:23	Relationship:1386	non-adjacent	High	Moderate
+Aop:25	Relationship:45	adjacent	High	Moderate
+Aop:25	Relationship:5	adjacent	High	Moderate
+Aop:25	Relationship:252	adjacent	High	Moderate
+Aop:25	Relationship:94	adjacent	Moderate	Moderate
+Aop:25	Relationship:337	adjacent	Moderate	Moderate
+Aop:25	Relationship:255	adjacent	Moderate	Low
+Aop:25	Relationship:315	adjacent	High	Moderate
+Aop:25	Relationship:1386	non-adjacent	High	Moderate
+Aop:26	Relationship:61	adjacent	High	Not Specified
+Aop:26	Relationship:60	adjacent	Moderate	Not Specified
+Aop:26	Relationship:188	adjacent	Moderate	Not Specified
+Aop:26	Relationship:3493	adjacent	Moderate	Not Specified
+Aop:26	Relationship:212	adjacent	Moderate	Not Specified
+Aop:26	Relationship:3494	adjacent	Low	Not Specified
+Aop:26	Relationship:2009	adjacent	High	Not Specified
+Aop:27	Relationship:248	adjacent	High	Not Specified
+Aop:27	Relationship:319	adjacent	High	Not Specified
+Aop:27	Relationship:108	adjacent	High	Not Specified
+Aop:27	Relationship:3509	adjacent	High	Not Specified
+Aop:27	Relationship:927	adjacent	High	Not Specified
+Aop:27	Relationship:928	adjacent	High	Not Specified
+Aop:27	Relationship:929	adjacent	Moderate	Not Specified
+Aop:27	Relationship:932	adjacent	Moderate	Not Specified
+Aop:27	Relationship:3510	adjacent	High	Not Specified
+Aop:28	Relationship:95	adjacent	Moderate	Not Specified
+Aop:28	Relationship:268	adjacent	Not Specified	Not Specified
+Aop:28	Relationship:136	adjacent	Not Specified	Not Specified
+Aop:28	Relationship:59	adjacent	Moderate	Not Specified
+Aop:28	Relationship:123	adjacent	High	Not Specified
+Aop:29	Relationship:127	adjacent	High	Not Specified
+Aop:29	Relationship:280	adjacent	High	Not Specified
+Aop:29	Relationship:128	adjacent	High	Not Specified
+Aop:29	Relationship:254	adjacent	High	Not Specified
+Aop:29	Relationship:126	adjacent	High	Not Specified
+Aop:29	Relationship:336	adjacent	High	Not Specified
+Aop:30	Relationship:129	adjacent	High	Low
+Aop:30	Relationship:315	adjacent	High	Moderate
+Aop:30	Relationship:255	adjacent	Moderate	Low
+Aop:30	Relationship:337	adjacent	Moderate	Moderate
+Aop:30	Relationship:94	adjacent	Moderate	Moderate
+Aop:31	Relationship:3323	adjacent	Moderate	Not Specified
+Aop:31	Relationship:245	adjacent	High	Not Specified
+Aop:31	Relationship:243	adjacent	High	Not Specified
+Aop:31	Relationship:279	adjacent	Moderate	Not Specified
+Aop:31	Relationship:278	adjacent	High	Not Specified
+Aop:31	Relationship:277	adjacent	High	Not Specified
+Aop:31	Relationship:182	adjacent	High	Not Specified
+Aop:31	Relationship:272	adjacent	Moderate	Not Specified
+Aop:31	Relationship:3324	adjacent	Low	Not Specified
+Aop:31	Relationship:3325	adjacent	High	Not Specified
+Aop:31	Relationship:169	adjacent	Moderate	Not Specified
+Aop:31	Relationship:242	non-adjacent	Low	Not Specified
+Aop:32	Relationship:93	adjacent	High	Not Specified
+Aop:32	Relationship:170	adjacent	High	Not Specified
+Aop:32	Relationship:159	adjacent	High	Not Specified
+Aop:32	Relationship:299	adjacent	High	Not Specified
+Aop:32	Relationship:298	adjacent	High	Not Specified
+Aop:33	Relationship:750	non-adjacent	Low	Low
+Aop:33	Relationship:751	non-adjacent	Low	Low
+Aop:34	Relationship:173	adjacent	Not Specified	Not Specified
+Aop:34	Relationship:66	adjacent	Not Specified	Not Specified
+Aop:34	Relationship:174	adjacent	Not Specified	Not Specified
+Aop:34	Relationship:177	adjacent	Not Specified	Not Specified
+Aop:34	Relationship:175	adjacent	Not Specified	Not Specified
+Aop:34	Relationship:176	adjacent	Not Specified	Not Specified
+Aop:34	Relationship:284	adjacent	Not Specified	Not Specified
+Aop:34	Relationship:77	adjacent	Not Specified	Not Specified
+Aop:34	Relationship:294	adjacent	Not Specified	Not Specified
+Aop:34	Relationship:133	adjacent	Not Specified	Not Specified
+Aop:34	Relationship:110	adjacent	Not Specified	Not Specified
+Aop:34	Relationship:132	adjacent	Not Specified	Not Specified
+Aop:34	Relationship:3162	adjacent	Not Specified	Not Specified
+Aop:34	Relationship:411	adjacent	Moderate	Not Specified
+Aop:36	Relationship:257	adjacent	Moderate	Not Specified
+Aop:36	Relationship:190	adjacent	High	Not Specified
+Aop:36	Relationship:9	adjacent	High	Not Specified
+Aop:36	Relationship:154	adjacent	High	Not Specified
+Aop:36	Relationship:259	adjacent	Moderate	Not Specified
+Aop:36	Relationship:260	adjacent	Moderate	Not Specified
+Aop:36	Relationship:515	adjacent	High	Not Specified
+Aop:37	Relationship:1229	adjacent	High	High
+Aop:37	Relationship:1230	adjacent	High	Moderate
+Aop:37	Relationship:1239	adjacent	High	Moderate
+Aop:37	Relationship:1232	adjacent	High	Moderate
+Aop:37	Relationship:2252	non-adjacent	High	High
+Aop:37	Relationship:2253	non-adjacent	High	High
+Aop:37	Relationship:2254	non-adjacent	High	High
+Aop:38	Relationship:269	adjacent	Moderate	Not Specified
+Aop:38	Relationship:1718	adjacent	High	Not Specified
+Aop:38	Relationship:1763	adjacent	High	Not Specified
+Aop:38	Relationship:1764	adjacent	High	Not Specified
+Aop:38	Relationship:295	adjacent	High	Not Specified
+Aop:38	Relationship:82	adjacent	High	Not Specified
+Aop:38	Relationship:68	non-adjacent	High	Not Specified
+Aop:39	Relationship:2649	adjacent	High	Not Specified
+Aop:39	Relationship:377	adjacent	High	Not Specified
+Aop:39	Relationship:2651	adjacent	Low	Low
+Aop:39	Relationship:379	adjacent	High	Not Specified
+Aop:39	Relationship:1701	adjacent	High	Not Specified
+Aop:39	Relationship:2650	non-adjacent	High	Low
+Aop:40	Relationship:833	adjacent	High	Not Specified
+Aop:40	Relationship:377	adjacent	High	Not Specified
+Aop:40	Relationship:834	adjacent	Moderate	Not Specified
+Aop:40	Relationship:379	adjacent	High	Not Specified
+Aop:40	Relationship:835	adjacent	High	Not Specified
+Aop:41	Relationship:874	adjacent	High	High
+Aop:41	Relationship:995	adjacent	Not Specified	Not Specified
+Aop:41	Relationship:996	adjacent	Not Specified	Not Specified
+Aop:41	Relationship:997	adjacent	Not Specified	Not Specified
+Aop:41	Relationship:172	non-adjacent	High	High
+Aop:41	Relationship:875	non-adjacent	High	High
+Aop:41	Relationship:876	non-adjacent	High	High
+Aop:42	Relationship:309	adjacent	High	Low
+Aop:42	Relationship:305	adjacent	High	Moderate
+Aop:42	Relationship:312	adjacent	Moderate	Moderate
+Aop:42	Relationship:746	adjacent	Moderate	Low
+Aop:42	Relationship:747	adjacent	Moderate	Low
+Aop:42	Relationship:749	adjacent	Moderate	Low
+Aop:42	Relationship:748	adjacent	High	Moderate
+Aop:42	Relationship:366	non-adjacent	High	Moderate
+Aop:42	Relationship:1387	non-adjacent	High	Low
+Aop:42	Relationship:1388	non-adjacent	High	Low
+Aop:42	Relationship:1389	non-adjacent	Moderate	Low
+Aop:42	Relationship:403	non-adjacent	High	Moderate
+Aop:43	Relationship:335	adjacent	High	High
+Aop:43	Relationship:36	adjacent	High	Moderate
+Aop:43	Relationship:125	non-adjacent	Moderate	Low
+Aop:43	Relationship:1036	non-adjacent	High	Moderate
+Aop:46	Relationship:549	adjacent	Moderate	Moderate
+Aop:46	Relationship:550	adjacent	Moderate	Moderate
+Aop:46	Relationship:547	adjacent	Moderate	Not Specified
+Aop:46	Relationship:402	adjacent	High	Not Specified
+Aop:46	Relationship:548	adjacent	Not Specified	Not Specified
+Aop:46	Relationship:346	non-adjacent	Moderate	Low
+Aop:46	Relationship:551	non-adjacent	High	High
+Aop:46	Relationship:345	non-adjacent	Moderate	Moderate
+Aop:48	Relationship:361	adjacent	Moderate	Not Specified
+Aop:48	Relationship:364	adjacent	Moderate	Not Specified
+Aop:48	Relationship:208	adjacent	Moderate	Not Specified
+Aop:48	Relationship:207	adjacent	Moderate	Not Specified
+Aop:48	Relationship:919	adjacent	High	Not Specified
+Aop:48	Relationship:362	adjacent	High	Moderate
+Aop:48	Relationship:363	adjacent	Moderate	Low
+Aop:48	Relationship:365	adjacent	Low	Low
+Aop:48	Relationship:634	adjacent	Moderate	Low
+Aop:48	Relationship:647	adjacent	Low	Not Specified
+Aop:51	Relationship:398	adjacent	Moderate	Not Specified
+Aop:51	Relationship:2125	adjacent	High	Not Specified
+Aop:51	Relationship:438	adjacent	Moderate	Not Specified
+Aop:51	Relationship:3206	non-adjacent	Moderate	Not Specified
+Aop:51	Relationship:461	non-adjacent	Moderate	Not Specified
+Aop:51	Relationship:462	non-adjacent	Moderate	Not Specified
+Aop:54	Relationship:442	adjacent	High	High
+Aop:54	Relationship:872	adjacent	High	High
+Aop:54	Relationship:305	adjacent	High	Moderate
+Aop:54	Relationship:312	adjacent	Moderate	Low
+Aop:54	Relationship:444	adjacent	Moderate	Low
+Aop:54	Relationship:870	adjacent	Moderate	Low
+Aop:54	Relationship:871	adjacent	Moderate	Low
+Aop:54	Relationship:358	adjacent	Low	Low
+Aop:54	Relationship:359	adjacent	High	Low
+Aop:54	Relationship:1503	non-adjacent	Moderate	Low
+Aop:54	Relationship:1506	non-adjacent	High	Moderate
+Aop:54	Relationship:1504	non-adjacent	Low	Low
+Aop:54	Relationship:1505	non-adjacent	Low	Low
+Aop:54	Relationship:448	non-adjacent	Moderate	Low
+Aop:54	Relationship:1507	non-adjacent	Moderate	Moderate
+Aop:57	Relationship:3216	adjacent	High	High
+Aop:57	Relationship:2265	adjacent	High	High
+Aop:57	Relationship:475	adjacent	High	High
+Aop:57	Relationship:495	adjacent	High	High
+Aop:57	Relationship:499	adjacent	High	High
+Aop:57	Relationship:501	adjacent	High	Not Specified
+Aop:57	Relationship:515	adjacent	High	High
+Aop:57	Relationship:505	adjacent	Not Specified	Not Specified
+Aop:57	Relationship:506	adjacent	High	Not Specified
+Aop:57	Relationship:507	adjacent	Not Specified	Not Specified
+Aop:57	Relationship:508	adjacent	Not Specified	Not Specified
+Aop:57	Relationship:19	adjacent	High	Not Specified
+Aop:57	Relationship:1656	adjacent	Moderate	Not Specified
+Aop:57	Relationship:1657	adjacent	High	Not Specified
+Aop:57	Relationship:473	non-adjacent	Moderate	Moderate
+Aop:57	Relationship:503	non-adjacent	Not Specified	Not Specified
+Aop:57	Relationship:509	non-adjacent	Not Specified	Not Specified
+Aop:58	Relationship:476	adjacent	High	High
+Aop:58	Relationship:477	adjacent	High	High
+Aop:58	Relationship:479	adjacent	High	High
+Aop:58	Relationship:174	adjacent	High	High
+Aop:58	Relationship:483	adjacent	High	High
+Aop:58	Relationship:486	adjacent	High	High
+Aop:58	Relationship:487	adjacent	Moderate	Moderate
+Aop:58	Relationship:489	adjacent	High	High
+Aop:58	Relationship:173	adjacent	High	High
+Aop:58	Relationship:490	adjacent	High	High
+Aop:58	Relationship:491	adjacent	High	High
+Aop:58	Relationship:492	adjacent	High	High
+Aop:58	Relationship:493	adjacent	High	High
+Aop:58	Relationship:511	adjacent	High	Not Specified
+Aop:58	Relationship:512	adjacent	High	Not Specified
+Aop:58	Relationship:514	adjacent	Not Specified	Not Specified
+Aop:58	Relationship:515	adjacent	Not Specified	Not Specified
+Aop:58	Relationship:475	adjacent	Not Specified	Not Specified
+Aop:58	Relationship:516	adjacent	High	Not Specified
+Aop:58	Relationship:1659	adjacent	Moderate	Moderate
+Aop:58	Relationship:501	adjacent	High	High
+Aop:58	Relationship:505	adjacent	High	Not Specified
+Aop:58	Relationship:510	non-adjacent	Not Specified	Not Specified
+Aop:58	Relationship:517	non-adjacent	High	Not Specified
+Aop:60	Relationship:501	adjacent	High	Not Specified
+Aop:60	Relationship:524	adjacent	High	Not Specified
+Aop:60	Relationship:518	adjacent	High	Not Specified
+Aop:60	Relationship:520	adjacent	High	Not Specified
+Aop:60	Relationship:529	adjacent	Low	Not Specified
+Aop:60	Relationship:526	adjacent	Low	Not Specified
+Aop:60	Relationship:523	adjacent	High	Not Specified
+Aop:60	Relationship:519	adjacent	High	Not Specified
+Aop:60	Relationship:493	adjacent	High	Not Specified
+Aop:60	Relationship:486	adjacent	High	Not Specified
+Aop:60	Relationship:1658	adjacent	High	Not Specified
+Aop:60	Relationship:505	adjacent	High	Not Specified
+Aop:60	Relationship:190	adjacent	High	Not Specified
+Aop:60	Relationship:515	adjacent	High	Not Specified
+Aop:60	Relationship:1660	non-adjacent	Moderate	Not Specified
+Aop:61	Relationship:532	adjacent	Not Specified	Not Specified
+Aop:61	Relationship:533	adjacent	Not Specified	Not Specified
+Aop:61	Relationship:534	adjacent	Not Specified	Not Specified
+Aop:61	Relationship:535	adjacent	Not Specified	Not Specified
+Aop:61	Relationship:537	adjacent	Not Specified	Not Specified
+Aop:61	Relationship:538	adjacent	Not Specified	Not Specified
+Aop:61	Relationship:896	adjacent	Not Specified	Not Specified
+Aop:61	Relationship:1606	adjacent	Not Specified	Not Specified
+Aop:61	Relationship:1607	non-adjacent	Not Specified	Not Specified
+Aop:62	Relationship:541	non-adjacent	Not Specified	Not Specified
+Aop:62	Relationship:1661	non-adjacent	Not Specified	Not Specified
+Aop:62	Relationship:1662	non-adjacent	Not Specified	Not Specified
+Aop:63	Relationship:685	adjacent	Moderate	Low
+Aop:63	Relationship:687	adjacent	High	Moderate
+Aop:63	Relationship:686	adjacent	Not Specified	Not Specified
+Aop:63	Relationship:675	adjacent	Moderate	Low
+Aop:64	Relationship:1645	adjacent	Not Specified	Not Specified
+Aop:64	Relationship:1646	adjacent	Not Specified	Not Specified
+Aop:64	Relationship:1647	adjacent	Not Specified	Not Specified
+Aop:64	Relationship:1648	adjacent	Not Specified	Not Specified
+Aop:64	Relationship:2125	adjacent	Not Specified	Not Specified
+Aop:64	Relationship:3225	adjacent	Not Specified	Not Specified
+Aop:64	Relationship:1650	adjacent	Not Specified	Not Specified
+Aop:65	Relationship:552	adjacent	High	Moderate
+Aop:65	Relationship:305	adjacent	High	Moderate
+Aop:65	Relationship:312	adjacent	Moderate	Low
+Aop:65	Relationship:203	adjacent	Moderate	Low
+Aop:65	Relationship:384	adjacent	Moderate	Low
+Aop:65	Relationship:403	non-adjacent	High	Moderate
+Aop:72	Relationship:1608	adjacent	Not Specified	Not Specified
+Aop:72	Relationship:1609	adjacent	Not Specified	Not Specified
+Aop:72	Relationship:1610	adjacent	Not Specified	Not Specified
+Aop:72	Relationship:1611	adjacent	Not Specified	Not Specified
+Aop:72	Relationship:1613	adjacent	Not Specified	Not Specified
+Aop:72	Relationship:1614	adjacent	Not Specified	Not Specified
+Aop:72	Relationship:1615	adjacent	Not Specified	Not Specified
+Aop:72	Relationship:1616	adjacent	Not Specified	Not Specified
+Aop:72	Relationship:1617	adjacent	Not Specified	Not Specified
+Aop:72	Relationship:1612	non-adjacent	Not Specified	Not Specified
+Aop:72	Relationship:1618	non-adjacent	Not Specified	Not Specified
+Aop:72	Relationship:1619	non-adjacent	Not Specified	Not Specified
+Aop:72	Relationship:1620	non-adjacent	Not Specified	Not Specified
+Aop:72	Relationship:1621	non-adjacent	Not Specified	Not Specified
+Aop:77	Relationship:581	adjacent	Not Specified	Not Specified
+Aop:77	Relationship:583	adjacent	Not Specified	Not Specified
+Aop:77	Relationship:1144	adjacent	Not Specified	Not Specified
+Aop:77	Relationship:1145	adjacent	Not Specified	Not Specified
+Aop:77	Relationship:1311	adjacent	Not Specified	Not Specified
+Aop:77	Relationship:1310	adjacent	Not Specified	Not Specified
+Aop:77	Relationship:1146	non-adjacent	Not Specified	Not Specified
+Aop:78	Relationship:581	adjacent	Not Specified	Not Specified
+Aop:78	Relationship:582	adjacent	Not Specified	Not Specified
+Aop:78	Relationship:359	adjacent	Not Specified	Not Specified
+Aop:78	Relationship:564	adjacent	Not Specified	Not Specified
+Aop:78	Relationship:565	adjacent	Not Specified	Not Specified
+Aop:78	Relationship:566	adjacent	Not Specified	Not Specified
+Aop:78	Relationship:563	adjacent	Not Specified	Not Specified
+Aop:79	Relationship:581	adjacent	Not Specified	Not Specified
+Aop:79	Relationship:1152	adjacent	Not Specified	Not Specified
+Aop:79	Relationship:1153	adjacent	Not Specified	Not Specified
+Aop:79	Relationship:1145	adjacent	Not Specified	Not Specified
+Aop:80	Relationship:581	adjacent	Not Specified	Not Specified
+Aop:80	Relationship:660	adjacent	Not Specified	Not Specified
+Aop:80	Relationship:661	adjacent	Not Specified	Not Specified
+Aop:80	Relationship:662	adjacent	Not Specified	Not Specified
+Aop:80	Relationship:663	adjacent	Not Specified	Not Specified
+Aop:80	Relationship:573	adjacent	Not Specified	Not Specified
+Aop:80	Relationship:574	adjacent	Not Specified	Not Specified
+Aop:81	Relationship:567	adjacent	Not Specified	Not Specified
+Aop:81	Relationship:568	adjacent	Not Specified	Not Specified
+Aop:81	Relationship:569	adjacent	Not Specified	Not Specified
+Aop:81	Relationship:559	adjacent	Not Specified	Not Specified
+Aop:82	Relationship:565	adjacent	Not Specified	Not Specified
+Aop:82	Relationship:566	adjacent	Not Specified	Not Specified
+Aop:82	Relationship:563	adjacent	Not Specified	Not Specified
+Aop:84	Relationship:570	adjacent	Not Specified	Not Specified
+Aop:84	Relationship:571	adjacent	Not Specified	Not Specified
+Aop:84	Relationship:572	adjacent	Not Specified	Not Specified
+Aop:84	Relationship:573	adjacent	Not Specified	Not Specified
+Aop:84	Relationship:574	adjacent	Not Specified	Not Specified
+Aop:85	Relationship:570	adjacent	Not Specified	Not Specified
+Aop:85	Relationship:575	adjacent	Not Specified	Not Specified
+Aop:85	Relationship:569	adjacent	Not Specified	Not Specified
+Aop:85	Relationship:559	adjacent	Not Specified	Not Specified
+Aop:86	Relationship:576	adjacent	Not Specified	Not Specified
+Aop:86	Relationship:577	adjacent	Not Specified	Not Specified
+Aop:86	Relationship:578	adjacent	Not Specified	Not Specified
+Aop:86	Relationship:579	adjacent	Not Specified	Not Specified
+Aop:86	Relationship:562	adjacent	Not Specified	Not Specified
+Aop:86	Relationship:563	adjacent	Not Specified	Not Specified
+Aop:87	Relationship:581	adjacent	Not Specified	Not Specified
+Aop:87	Relationship:583	adjacent	Not Specified	Not Specified
+Aop:87	Relationship:1145	adjacent	Not Specified	Not Specified
+Aop:87	Relationship:1150	adjacent	Not Specified	Not Specified
+Aop:87	Relationship:1151	adjacent	Not Specified	Not Specified
+Aop:87	Relationship:1311	adjacent	Not Specified	Not Specified
+Aop:87	Relationship:1310	adjacent	Not Specified	Not Specified
+Aop:87	Relationship:1146	non-adjacent	Not Specified	Not Specified
+Aop:88	Relationship:658	adjacent	Not Specified	Not Specified
+Aop:88	Relationship:583	adjacent	Not Specified	Not Specified
+Aop:88	Relationship:1144	adjacent	Not Specified	Not Specified
+Aop:88	Relationship:1145	adjacent	Not Specified	Not Specified
+Aop:88	Relationship:1309	adjacent	Not Specified	Not Specified
+Aop:88	Relationship:1310	adjacent	Not Specified	Not Specified
+Aop:88	Relationship:1146	non-adjacent	Not Specified	Not Specified
+Aop:89	Relationship:658	adjacent	Not Specified	Not Specified
+Aop:89	Relationship:1309	adjacent	Not Specified	Not Specified
+Aop:89	Relationship:1310	adjacent	Not Specified	Not Specified
+Aop:89	Relationship:583	adjacent	Not Specified	Not Specified
+Aop:89	Relationship:1150	adjacent	Not Specified	Not Specified
+Aop:89	Relationship:1151	adjacent	Not Specified	Not Specified
+Aop:89	Relationship:1145	adjacent	Not Specified	Not Specified
+Aop:89	Relationship:1146	non-adjacent	Not Specified	Not Specified
+Aop:90	Relationship:658	adjacent	Not Specified	Not Specified
+Aop:90	Relationship:659	adjacent	Not Specified	Not Specified
+Aop:90	Relationship:359	adjacent	Not Specified	Not Specified
+Aop:90	Relationship:564	adjacent	Not Specified	Not Specified
+Aop:90	Relationship:565	adjacent	Not Specified	Not Specified
+Aop:90	Relationship:566	adjacent	Not Specified	Not Specified
+Aop:90	Relationship:563	adjacent	Not Specified	Not Specified
+Aop:91	Relationship:585	adjacent	High	Not Specified
+Aop:91	Relationship:587	adjacent	Not Specified	Not Specified
+Aop:91	Relationship:588	adjacent	Not Specified	Not Specified
+Aop:91	Relationship:595	adjacent	Not Specified	Not Specified
+Aop:91	Relationship:586	non-adjacent	Moderate	Not Specified
+Aop:91	Relationship:589	non-adjacent	Not Specified	Not Specified
+Aop:91	Relationship:596	non-adjacent	Not Specified	Not Specified
+Aop:93	Relationship:585	adjacent	High	Not Specified
+Aop:93	Relationship:586	non-adjacent	Moderate	Not Specified
+Aop:93	Relationship:588	non-adjacent	Moderate	Not Specified
+Aop:94	Relationship:591	adjacent	Moderate	Not Specified
+Aop:94	Relationship:592	adjacent	Not Specified	Not Specified
+Aop:94	Relationship:585	adjacent	High	Not Specified
+Aop:94	Relationship:594	adjacent	Moderate	Not Specified
+Aop:94	Relationship:593	non-adjacent	Moderate	Not Specified
+Aop:95	Relationship:595	adjacent	High	Not Specified
+Aop:95	Relationship:597	adjacent	High	Not Specified
+Aop:95	Relationship:586	non-adjacent	Low	Not Specified
+Aop:95	Relationship:587	non-adjacent	Not Specified	Not Specified
+Aop:95	Relationship:588	non-adjacent	Not Specified	Not Specified
+Aop:95	Relationship:589	non-adjacent	Not Specified	Not Specified
+Aop:96	Relationship:603	adjacent	Not Specified	Not Specified
+Aop:96	Relationship:604	adjacent	Not Specified	Not Specified
+Aop:96	Relationship:606	adjacent	Not Specified	Not Specified
+Aop:96	Relationship:607	adjacent	Not Specified	Not Specified
+Aop:96	Relationship:605	non-adjacent	Not Specified	Not Specified
+Aop:97	Relationship:1185	adjacent	Not Specified	Not Specified
+Aop:97	Relationship:638	adjacent	Not Specified	Not Specified
+Aop:97	Relationship:1223	adjacent	Moderate	Not Specified
+Aop:97	Relationship:1227	adjacent	Not Specified	Not Specified
+Aop:97	Relationship:1174	adjacent	Not Specified	Not Specified
+Aop:97	Relationship:642	adjacent	Not Specified	Not Specified
+Aop:97	Relationship:1175	adjacent	Not Specified	Not Specified
+Aop:97	Relationship:641	adjacent	Not Specified	Not Specified
+Aop:97	Relationship:1173	adjacent	Not Specified	Not Specified
+Aop:97	Relationship:1177	adjacent	Not Specified	Not Specified
+Aop:97	Relationship:1176	adjacent	Not Specified	Not Specified
+Aop:97	Relationship:1327	adjacent	Not Specified	Not Specified
+Aop:97	Relationship:643	adjacent	Not Specified	Not Specified
+Aop:97	Relationship:1332	adjacent	Not Specified	Not Specified
+Aop:97	Relationship:2634	adjacent	Not Specified	Not Specified
+Aop:97	Relationship:1316	non-adjacent	Not Specified	Not Specified
+Aop:97	Relationship:1317	non-adjacent	Not Specified	Not Specified
+Aop:98	Relationship:643	adjacent	Not Specified	Not Specified
+Aop:98	Relationship:644	non-adjacent	Not Specified	Not Specified
+Aop:98	Relationship:645	non-adjacent	Not Specified	Not Specified
+Aop:98	Relationship:646	non-adjacent	Not Specified	Not Specified
+Aop:99	Relationship:654	adjacent	Not Specified	Not Specified
+Aop:99	Relationship:1061	adjacent	Not Specified	Not Specified
+Aop:99	Relationship:649	non-adjacent	Not Specified	Not Specified
+Aop:99	Relationship:650	non-adjacent	Not Specified	Not Specified
+Aop:99	Relationship:651	non-adjacent	Not Specified	Not Specified
+Aop:99	Relationship:1643	non-adjacent	Not Specified	Not Specified
+Aop:99	Relationship:1644	non-adjacent	Not Specified	Not Specified
+Aop:100	Relationship:670	adjacent	Low	Low
+Aop:100	Relationship:672	adjacent	High	Low
+Aop:100	Relationship:674	adjacent	Moderate	Low
+Aop:100	Relationship:675	adjacent	High	High
+Aop:100	Relationship:673	adjacent	Moderate	Low
+Aop:100	Relationship:671	adjacent	Moderate	Low
+Aop:101	Relationship:679	adjacent	Moderate	Low
+Aop:101	Relationship:674	adjacent	High	Moderate
+Aop:101	Relationship:681	adjacent	Low	Low
+Aop:101	Relationship:682	adjacent	High	Low
+Aop:101	Relationship:678	adjacent	High	Low
+Aop:101	Relationship:675	adjacent	Moderate	Low
+Aop:102	Relationship:689	adjacent	Moderate	Low
+Aop:102	Relationship:690	adjacent	High	Low
+Aop:102	Relationship:691	adjacent	High	Moderate
+Aop:102	Relationship:692	adjacent	High	Low
+Aop:102	Relationship:693	adjacent	High	Low
+Aop:102	Relationship:694	adjacent	Moderate	Low
+Aop:102	Relationship:696	adjacent	High	Low
+Aop:102	Relationship:697	adjacent	High	Low
+Aop:102	Relationship:675	adjacent	Moderate	Low
+Aop:103	Relationship:689	adjacent	Moderate	Low
+Aop:103	Relationship:690	adjacent	High	Low
+Aop:103	Relationship:691	adjacent	High	Moderate
+Aop:103	Relationship:692	adjacent	High	Low
+Aop:103	Relationship:693	adjacent	High	Low
+Aop:103	Relationship:698	adjacent	Low	Low
+Aop:103	Relationship:699	adjacent	Moderate	Low
+Aop:103	Relationship:700	adjacent	High	Moderate
+Aop:103	Relationship:675	adjacent	Moderate	Low
+Aop:104	Relationship:701	adjacent	Not Specified	Not Specified
+Aop:104	Relationship:702	adjacent	Not Specified	Not Specified
+Aop:104	Relationship:703	adjacent	Not Specified	Not Specified
+Aop:105	Relationship:706	adjacent	Not Specified	Not Specified
+Aop:105	Relationship:707	adjacent	Not Specified	Not Specified
+Aop:105	Relationship:708	adjacent	Not Specified	Not Specified
+Aop:105	Relationship:760	adjacent	Not Specified	Not Specified
+Aop:105	Relationship:761	adjacent	Not Specified	Not Specified
+Aop:106	Relationship:714	adjacent	High	Not Specified
+Aop:106	Relationship:715	adjacent	Moderate	Not Specified
+Aop:106	Relationship:737	adjacent	Moderate	Not Specified
+Aop:106	Relationship:738	adjacent	Low	Not Specified
+Aop:106	Relationship:723	adjacent	High	Not Specified
+Aop:106	Relationship:724	non-adjacent	High	Not Specified
+Aop:107	Relationship:1268	adjacent	High	Moderate
+Aop:107	Relationship:1269	adjacent	High	Moderate
+Aop:107	Relationship:773	adjacent	High	Moderate
+Aop:107	Relationship:774	adjacent	High	Not Specified
+Aop:108	Relationship:716	adjacent	Not Specified	Not Specified
+Aop:108	Relationship:762	adjacent	Not Specified	Not Specified
+Aop:108	Relationship:763	adjacent	Not Specified	Not Specified
+Aop:108	Relationship:765	adjacent	Not Specified	Not Specified
+Aop:108	Relationship:766	adjacent	Not Specified	Not Specified
+Aop:109	Relationship:726	adjacent	Not Specified	Not Specified
+Aop:109	Relationship:727	adjacent	Not Specified	Not Specified
+Aop:109	Relationship:728	adjacent	Not Specified	Not Specified
+Aop:109	Relationship:767	adjacent	Not Specified	Not Specified
+Aop:110	Relationship:552	adjacent	Not Specified	Not Specified
+Aop:110	Relationship:305	adjacent	Not Specified	Not Specified
+Aop:110	Relationship:2422	adjacent	Not Specified	Not Specified
+Aop:110	Relationship:2424	adjacent	Not Specified	Not Specified
+Aop:110	Relationship:742	adjacent	Not Specified	Not Specified
+Aop:110	Relationship:743	adjacent	Not Specified	Not Specified
+Aop:111	Relationship:3451	adjacent	Not Specified	Not Specified
+Aop:111	Relationship:731	adjacent	Not Specified	Not Specified
+Aop:111	Relationship:744	adjacent	Not Specified	Not Specified
+Aop:111	Relationship:745	adjacent	Not Specified	Not Specified
+Aop:112	Relationship:732	adjacent	Not Specified	Not Specified
+Aop:112	Relationship:3524	adjacent	Not Specified	Not Specified
+Aop:112	Relationship:3525	adjacent	Not Specified	Not Specified
+Aop:112	Relationship:771	adjacent	Not Specified	Not Specified
+Aop:112	Relationship:772	adjacent	Not Specified	Not Specified
+Aop:113	Relationship:752	adjacent	Not Specified	Not Specified
+Aop:113	Relationship:756	adjacent	Not Specified	Not Specified
+Aop:113	Relationship:758	adjacent	Not Specified	Not Specified
+Aop:113	Relationship:755	non-adjacent	Not Specified	Not Specified
+Aop:113	Relationship:757	non-adjacent	Not Specified	Not Specified
+Aop:114	Relationship:775	adjacent	Not Specified	Not Specified
+Aop:114	Relationship:776	adjacent	Not Specified	Not Specified
+Aop:114	Relationship:777	adjacent	Not Specified	Not Specified
+Aop:114	Relationship:778	adjacent	Not Specified	Not Specified
+Aop:114	Relationship:779	adjacent	Not Specified	Not Specified
+Aop:115	Relationship:780	adjacent	Not Specified	Not Specified
+Aop:115	Relationship:781	adjacent	Not Specified	Not Specified
+Aop:115	Relationship:782	adjacent	Not Specified	Not Specified
+Aop:115	Relationship:783	adjacent	Not Specified	Not Specified
+Aop:116	Relationship:784	adjacent	Not Specified	Not Specified
+Aop:116	Relationship:785	adjacent	Not Specified	Not Specified
+Aop:116	Relationship:786	adjacent	Not Specified	Not Specified
+Aop:117	Relationship:3450	adjacent	Not Specified	Not Specified
+Aop:117	Relationship:773	adjacent	Not Specified	Not Specified
+Aop:117	Relationship:774	adjacent	Not Specified	Not Specified
+Aop:118	Relationship:788	adjacent	Not Specified	Not Specified
+Aop:118	Relationship:789	adjacent	Not Specified	Not Specified
+Aop:118	Relationship:774	adjacent	Not Specified	Not Specified
+Aop:119	Relationship:309	adjacent	Not Specified	Not Specified
+Aop:119	Relationship:305	adjacent	Not Specified	Not Specified
+Aop:119	Relationship:2422	adjacent	Not Specified	Not Specified
+Aop:119	Relationship:2424	adjacent	Not Specified	Not Specified
+Aop:119	Relationship:742	adjacent	Not Specified	Not Specified
+Aop:119	Relationship:743	adjacent	Not Specified	Not Specified
+Aop:120	Relationship:3452	adjacent	Not Specified	Not Specified
+Aop:120	Relationship:3227	adjacent	Not Specified	Not Specified
+Aop:120	Relationship:794	adjacent	Not Specified	Not Specified
+Aop:120	Relationship:731	adjacent	Not Specified	Not Specified
+Aop:121	Relationship:795	adjacent	Not Specified	Not Specified
+Aop:121	Relationship:796	adjacent	Not Specified	Not Specified
+Aop:121	Relationship:797	adjacent	Not Specified	Not Specified
+Aop:121	Relationship:798	adjacent	Not Specified	Not Specified
+Aop:122	Relationship:799	adjacent	High	Low
+Aop:122	Relationship:800	adjacent	Moderate	Low
+Aop:122	Relationship:801	adjacent	High	Moderate
+Aop:122	Relationship:5	adjacent	High	Moderate
+Aop:122	Relationship:252	adjacent	High	Moderate
+Aop:122	Relationship:315	adjacent	High	High
+Aop:122	Relationship:255	adjacent	Moderate	Not Specified
+Aop:122	Relationship:337	adjacent	Not Specified	Not Specified
+Aop:122	Relationship:94	adjacent	Not Specified	Not Specified
+Aop:123	Relationship:802	adjacent	Not Specified	Not Specified
+Aop:123	Relationship:803	adjacent	Low	Low
+Aop:123	Relationship:800	adjacent	Low	Not Specified
+Aop:123	Relationship:801	adjacent	Not Specified	Not Specified
+Aop:123	Relationship:5	adjacent	Not Specified	Not Specified
+Aop:123	Relationship:252	adjacent	Not Specified	Not Specified
+Aop:123	Relationship:315	adjacent	Not Specified	Not Specified
+Aop:123	Relationship:255	adjacent	Not Specified	Not Specified
+Aop:123	Relationship:337	adjacent	Not Specified	Not Specified
+Aop:123	Relationship:94	adjacent	Not Specified	Not Specified
+Aop:124	Relationship:804	adjacent	High	Not Specified
+Aop:124	Relationship:805	adjacent	Not Specified	Not Specified
+Aop:124	Relationship:808	adjacent	Not Specified	Not Specified
+Aop:124	Relationship:3201	non-adjacent	Not Specified	Not Specified
+Aop:124	Relationship:3202	non-adjacent	Not Specified	Not Specified
+Aop:128	Relationship:305	adjacent	High	Not Specified
+Aop:128	Relationship:2473	adjacent	Low	Not Specified
+Aop:128	Relationship:2474	adjacent	Low	Not Specified
+Aop:128	Relationship:2475	adjacent	Low	Not Specified
+Aop:128	Relationship:810	adjacent	High	Not Specified
+Aop:128	Relationship:813	adjacent	Low	Not Specified
+Aop:128	Relationship:814	adjacent	Low	Not Specified
+Aop:128	Relationship:816	adjacent	Low	Not Specified
+Aop:128	Relationship:829	adjacent	High	Not Specified
+Aop:128	Relationship:830	adjacent	High	Not Specified
+Aop:128	Relationship:831	adjacent	High	Not Specified
+Aop:128	Relationship:832	adjacent	High	Not Specified
+Aop:128	Relationship:817	non-adjacent	Low	Not Specified
+Aop:128	Relationship:818	non-adjacent	Low	Not Specified
+Aop:128	Relationship:819	non-adjacent	Low	Not Specified
+Aop:128	Relationship:820	non-adjacent	Low	Not Specified
+Aop:128	Relationship:821	non-adjacent	Low	Not Specified
+Aop:128	Relationship:822	non-adjacent	Low	Not Specified
+Aop:128	Relationship:823	non-adjacent	Low	Not Specified
+Aop:128	Relationship:824	non-adjacent	Low	Not Specified
+Aop:128	Relationship:825	non-adjacent	Low	Not Specified
+Aop:128	Relationship:826	non-adjacent	Low	Not Specified
+Aop:128	Relationship:827	non-adjacent	Low	Not Specified
+Aop:128	Relationship:828	non-adjacent	Low	Not Specified
+Aop:130	Relationship:836	adjacent	High	Not Specified
+Aop:130	Relationship:837	adjacent	High	Not Specified
+Aop:130	Relationship:3154	adjacent	High	Not Specified
+Aop:130	Relationship:839	adjacent	Low	Not Specified
+Aop:130	Relationship:840	adjacent	Low	Not Specified
+Aop:130	Relationship:841	adjacent	Low	Not Specified
+Aop:130	Relationship:842	adjacent	Low	Not Specified
+Aop:130	Relationship:843	adjacent	Low	Not Specified
+Aop:130	Relationship:844	adjacent	Low	Not Specified
+Aop:130	Relationship:845	adjacent	Low	Not Specified
+Aop:130	Relationship:846	adjacent	Low	Not Specified
+Aop:130	Relationship:3155	adjacent	Low	Not Specified
+Aop:130	Relationship:3156	adjacent	Low	Not Specified
+Aop:130	Relationship:3158	adjacent	Low	Not Specified
+Aop:130	Relationship:3157	adjacent	Low	Not Specified
+Aop:130	Relationship:851	adjacent	Low	Not Specified
+Aop:130	Relationship:852	adjacent	Low	Not Specified
+Aop:130	Relationship:853	adjacent	Low	Not Specified
+Aop:130	Relationship:854	adjacent	Low	Not Specified
+Aop:130	Relationship:855	adjacent	Low	Not Specified
+Aop:130	Relationship:856	adjacent	Low	Not Specified
+Aop:130	Relationship:857	adjacent	Low	Not Specified
+Aop:130	Relationship:858	adjacent	Low	Not Specified
+Aop:130	Relationship:859	adjacent	High	Not Specified
+Aop:130	Relationship:860	adjacent	High	Not Specified
+Aop:131	Relationship:869	adjacent	High	High
+Aop:131	Relationship:868	adjacent	Moderate	Low
+Aop:131	Relationship:865	adjacent	Moderate	Low
+Aop:131	Relationship:1070	adjacent	Moderate	Moderate
+Aop:131	Relationship:866	adjacent	High	High
+Aop:134	Relationship:442	adjacent	High	High
+Aop:134	Relationship:872	adjacent	High	High
+Aop:134	Relationship:305	adjacent	High	High
+Aop:134	Relationship:312	adjacent	High	Low
+Aop:134	Relationship:746	adjacent	Moderate	Low
+Aop:134	Relationship:747	adjacent	Moderate	Low
+Aop:134	Relationship:749	adjacent	Moderate	Low
+Aop:134	Relationship:748	adjacent	Moderate	Low
+Aop:134	Relationship:403	non-adjacent	High	Low
+Aop:136	Relationship:886	adjacent	Moderate	High
+Aop:136	Relationship:887	adjacent	Moderate	Moderate
+Aop:136	Relationship:888	adjacent	Moderate	Moderate
+Aop:136	Relationship:889	adjacent	Moderate	Moderate
+Aop:136	Relationship:894	adjacent	High	Moderate
+Aop:136	Relationship:893	non-adjacent	High	Low
+Aop:136	Relationship:895	non-adjacent	High	High
+Aop:138	Relationship:1131	adjacent	High	High
+Aop:138	Relationship:1132	adjacent	High	High
+Aop:138	Relationship:1134	adjacent	Moderate	Not Specified
+Aop:138	Relationship:1140	adjacent	Not Specified	Not Specified
+Aop:138	Relationship:1141	adjacent	Not Specified	Not Specified
+Aop:138	Relationship:1156	adjacent	Not Specified	Not Specified
+Aop:138	Relationship:1133	non-adjacent	Moderate	Not Specified
+Aop:138	Relationship:3263	non-adjacent	Not Specified	Not Specified
+Aop:138	Relationship:3264	non-adjacent	Not Specified	Not Specified
+Aop:139	Relationship:24	adjacent	High	Moderate
+Aop:139	Relationship:164	non-adjacent	High	Moderate
+Aop:139	Relationship:899	non-adjacent	Moderate	Low
+Aop:139	Relationship:25	non-adjacent	High	Moderate
+Aop:139	Relationship:901	non-adjacent	Moderate	Low
+Aop:141	Relationship:164	adjacent	High	Moderate
+Aop:141	Relationship:899	non-adjacent	Moderate	Low
+Aop:144	Relationship:1775	adjacent	High	Not Specified
+Aop:144	Relationship:993	adjacent	High	Not Specified
+Aop:144	Relationship:363	adjacent	Moderate	Low
+Aop:144	Relationship:1776	adjacent	High	Not Specified
+Aop:144	Relationship:1777	adjacent	High	Not Specified
+Aop:144	Relationship:1778	adjacent	High	Not Specified
+Aop:144	Relationship:295	adjacent	High	Not Specified
+Aop:144	Relationship:82	adjacent	High	Not Specified
+Aop:148	Relationship:2857	adjacent	High	High
+Aop:148	Relationship:986	adjacent	High	High
+Aop:148	Relationship:2858	adjacent	High	Moderate
+Aop:148	Relationship:2859	adjacent	Moderate	Moderate
+Aop:149	Relationship:980	adjacent	Moderate	Low
+Aop:149	Relationship:955	adjacent	High	Moderate
+Aop:149	Relationship:952	adjacent	High	High
+Aop:149	Relationship:953	adjacent	High	High
+Aop:149	Relationship:956	adjacent	High	High
+Aop:149	Relationship:958	adjacent	High	Moderate
+Aop:149	Relationship:982	adjacent	Moderate	Low
+Aop:149	Relationship:983	adjacent	Moderate	Low
+Aop:149	Relationship:988	adjacent	High	High
+Aop:149	Relationship:992	adjacent	High	Moderate
+Aop:149	Relationship:1698	adjacent	Moderate	Low
+Aop:150	Relationship:972	adjacent	High	Moderate
+Aop:150	Relationship:973	adjacent	Moderate	Low
+Aop:150	Relationship:974	adjacent	Moderate	Moderate
+Aop:150	Relationship:975	adjacent	High	Low
+Aop:150	Relationship:976	adjacent	Moderate	Low
+Aop:150	Relationship:1567	adjacent	High	Low
+Aop:150	Relationship:984	non-adjacent	High	Moderate
+Aop:151	Relationship:972	adjacent	Not Specified	Not Specified
+Aop:151	Relationship:973	adjacent	Not Specified	Not Specified
+Aop:151	Relationship:974	adjacent	Not Specified	Not Specified
+Aop:151	Relationship:2407	adjacent	Not Specified	Not Specified
+Aop:151	Relationship:2408	adjacent	Not Specified	Not Specified
+Aop:151	Relationship:2409	adjacent	Not Specified	Not Specified
+Aop:152	Relationship:2245	adjacent	Moderate	Low
+Aop:152	Relationship:2246	adjacent	Moderate	Low
+Aop:152	Relationship:2272	adjacent	Moderate	Low
+Aop:152	Relationship:2270	adjacent	Moderate	Low
+Aop:154	Relationship:1508	adjacent	Moderate	Moderate
+Aop:154	Relationship:1017	adjacent	High	High
+Aop:154	Relationship:1509	adjacent	High	High
+Aop:154	Relationship:1510	adjacent	High	High
+Aop:155	Relationship:1026	adjacent	Moderate	Low
+Aop:155	Relationship:1027	adjacent	Moderate	Low
+Aop:155	Relationship:1028	adjacent	Moderate	Low
+Aop:155	Relationship:2212	adjacent	Moderate	Low
+Aop:155	Relationship:2013	adjacent	Moderate	Moderate
+Aop:155	Relationship:1042	non-adjacent	Moderate	Low
+Aop:155	Relationship:2213	non-adjacent	High	Low
+Aop:156	Relationship:1026	adjacent	Moderate	Low
+Aop:156	Relationship:1035	adjacent	Moderate	Moderate
+Aop:156	Relationship:1034	adjacent	Moderate	Low
+Aop:156	Relationship:2212	adjacent	Moderate	Low
+Aop:156	Relationship:2013	adjacent	Moderate	Moderate
+Aop:157	Relationship:1037	adjacent	Low	Low
+Aop:157	Relationship:1027	adjacent	Moderate	Low
+Aop:157	Relationship:1028	adjacent	Moderate	Low
+Aop:157	Relationship:2212	adjacent	Moderate	Low
+Aop:157	Relationship:2013	adjacent	Moderate	Moderate
+Aop:157	Relationship:1044	non-adjacent	Moderate	Low
+Aop:157	Relationship:2213	non-adjacent	High	Low
+Aop:158	Relationship:1037	adjacent	Low	Low
+Aop:158	Relationship:1035	adjacent	Moderate	Moderate
+Aop:158	Relationship:1034	adjacent	Moderate	Low
+Aop:158	Relationship:2212	adjacent	Moderate	Low
+Aop:158	Relationship:2013	adjacent	Moderate	Moderate
+Aop:159	Relationship:309	adjacent	High	Low
+Aop:159	Relationship:305	adjacent	Moderate	Low
+Aop:159	Relationship:2038	adjacent	Moderate	Moderate
+Aop:159	Relationship:1035	adjacent	Moderate	Moderate
+Aop:159	Relationship:1034	adjacent	Moderate	Low
+Aop:159	Relationship:2212	adjacent	Moderate	Low
+Aop:159	Relationship:2013	adjacent	Moderate	Moderate
+Aop:159	Relationship:366	non-adjacent	High	Low
+Aop:159	Relationship:1039	non-adjacent	Moderate	Moderate
+Aop:160	Relationship:1050	adjacent	Not Specified	Not Specified
+Aop:160	Relationship:1051	adjacent	Not Specified	Not Specified
+Aop:160	Relationship:1052	adjacent	Not Specified	Not Specified
+Aop:160	Relationship:1053	adjacent	Not Specified	Not Specified
+Aop:160	Relationship:1054	adjacent	Not Specified	Not Specified
+Aop:160	Relationship:1055	adjacent	Not Specified	Not Specified
+Aop:160	Relationship:1056	adjacent	Not Specified	Not Specified
+Aop:161	Relationship:1053	adjacent	Not Specified	Not Specified
+Aop:161	Relationship:1056	adjacent	Not Specified	Not Specified
+Aop:161	Relationship:1057	adjacent	Not Specified	Not Specified
+Aop:161	Relationship:1052	adjacent	Not Specified	Not Specified
+Aop:161	Relationship:1058	adjacent	Not Specified	Not Specified
+Aop:161	Relationship:1059	adjacent	Not Specified	Not Specified
+Aop:162	Relationship:2478	adjacent	Not Specified	Not Specified
+Aop:162	Relationship:2270	adjacent	Not Specified	Not Specified
+Aop:162	Relationship:2422	adjacent	Not Specified	Not Specified
+Aop:162	Relationship:2424	adjacent	Not Specified	Not Specified
+Aop:162	Relationship:742	adjacent	Not Specified	Not Specified
+Aop:162	Relationship:743	adjacent	Not Specified	Not Specified
+Aop:163	Relationship:1073	adjacent	High	Not Specified
+Aop:163	Relationship:1074	adjacent	High	Not Specified
+Aop:163	Relationship:1075	adjacent	High	Not Specified
+Aop:163	Relationship:1076	adjacent	High	Not Specified
+Aop:163	Relationship:1077	adjacent	High	Not Specified
+Aop:163	Relationship:1078	adjacent	High	Not Specified
+Aop:163	Relationship:1071	non-adjacent	High	Not Specified
+Aop:163	Relationship:1072	non-adjacent	Moderate	Not Specified
+Aop:164	Relationship:1079	adjacent	High	Not Specified
+Aop:164	Relationship:1080	adjacent	High	Not Specified
+Aop:164	Relationship:1082	adjacent	High	Not Specified
+Aop:164	Relationship:1081	non-adjacent	High	Not Specified
+Aop:164	Relationship:1083	non-adjacent	High	Not Specified
+Aop:165	Relationship:1085	adjacent	High	Not Specified
+Aop:165	Relationship:1087	adjacent	High	Not Specified
+Aop:165	Relationship:1088	adjacent	High	Not Specified
+Aop:165	Relationship:1089	adjacent	High	Not Specified
+Aop:165	Relationship:1086	non-adjacent	High	Not Specified
+Aop:165	Relationship:1090	non-adjacent	Moderate	Not Specified
+Aop:165	Relationship:1091	non-adjacent	Moderate	Not Specified
+Aop:165	Relationship:1092	non-adjacent	High	Not Specified
+Aop:165	Relationship:1093	non-adjacent	High	Not Specified
+Aop:165	Relationship:1094	non-adjacent	High	Not Specified
+Aop:166	Relationship:1098	adjacent	High	Not Specified
+Aop:166	Relationship:1101	adjacent	Not Specified	Not Specified
+Aop:166	Relationship:1095	non-adjacent	Moderate	Not Specified
+Aop:166	Relationship:1096	non-adjacent	Moderate	Not Specified
+Aop:166	Relationship:1097	non-adjacent	Low	Not Specified
+Aop:166	Relationship:1099	non-adjacent	High	Not Specified
+Aop:166	Relationship:1100	non-adjacent	Not Specified	Not Specified
+Aop:167	Relationship:3561	adjacent	High	Not Specified
+Aop:167	Relationship:3562	adjacent	High	Not Specified
+Aop:167	Relationship:3563	adjacent	High	Not Specified
+Aop:167	Relationship:3626	adjacent	High	Moderate
+Aop:167	Relationship:3627	adjacent	High	Moderate
+Aop:167	Relationship:3610	adjacent	Moderate	Not Specified
+Aop:167	Relationship:3608	adjacent	Moderate	Not Specified
+Aop:168	Relationship:1108	adjacent	High	Not Specified
+Aop:168	Relationship:1109	adjacent	High	Not Specified
+Aop:168	Relationship:1111	adjacent	High	Not Specified
+Aop:168	Relationship:1112	adjacent	Moderate	Not Specified
+Aop:168	Relationship:1114	adjacent	High	Not Specified
+Aop:168	Relationship:1110	non-adjacent	High	Not Specified
+Aop:168	Relationship:1113	non-adjacent	High	Not Specified
+Aop:168	Relationship:1115	non-adjacent	High	Not Specified
+Aop:168	Relationship:1116	non-adjacent	High	Not Specified
+Aop:168	Relationship:1117	non-adjacent	Moderate	Not Specified
+Aop:169	Relationship:1108	adjacent	High	Not Specified
+Aop:169	Relationship:1109	adjacent	High	Not Specified
+Aop:169	Relationship:1111	adjacent	High	Not Specified
+Aop:169	Relationship:1119	adjacent	High	Not Specified
+Aop:169	Relationship:1110	non-adjacent	High	Not Specified
+Aop:169	Relationship:1118	non-adjacent	High	Not Specified
+Aop:169	Relationship:1120	non-adjacent	High	Not Specified
+Aop:170	Relationship:1122	adjacent	High	Not Specified
+Aop:170	Relationship:1121	non-adjacent	High	Not Specified
+Aop:170	Relationship:1123	non-adjacent	Moderate	Not Specified
+Aop:170	Relationship:1124	non-adjacent	Moderate	Not Specified
+Aop:170	Relationship:1117	non-adjacent	Moderate	Not Specified
+Aop:171	Relationship:1125	adjacent	High	Not Specified
+Aop:171	Relationship:3261	adjacent	High	Not Specified
+Aop:171	Relationship:1129	adjacent	High	Not Specified
+Aop:171	Relationship:1127	non-adjacent	Moderate	Not Specified
+Aop:171	Relationship:3262	non-adjacent	Moderate	Not Specified
+Aop:171	Relationship:1130	non-adjacent	High	Not Specified
+Aop:173	Relationship:1702	adjacent	Moderate	Moderate
+Aop:173	Relationship:1703	adjacent	Moderate	Low
+Aop:173	Relationship:1704	adjacent	Moderate	Moderate
+Aop:173	Relationship:1705	adjacent	Moderate	Low
+Aop:173	Relationship:1706	adjacent	High	Low
+Aop:173	Relationship:2652	adjacent	High	High
+Aop:173	Relationship:1629	adjacent	High	Low
+Aop:175	Relationship:309	adjacent	High	Moderate
+Aop:175	Relationship:305	adjacent	High	Moderate
+Aop:175	Relationship:366	non-adjacent	High	High
+Aop:175	Relationship:2168	non-adjacent	High	High
+Aop:176	Relationship:442	adjacent	High	Moderate
+Aop:176	Relationship:872	adjacent	High	Moderate
+Aop:176	Relationship:305	adjacent	High	High
+Aop:176	Relationship:2232	non-adjacent	Moderate	Moderate
+Aop:176	Relationship:2168	non-adjacent	High	High
+Aop:177	Relationship:1138	adjacent	Not Specified	Not Specified
+Aop:177	Relationship:1134	adjacent	High	Not Specified
+Aop:177	Relationship:1137	adjacent	Not Specified	Not Specified
+Aop:177	Relationship:1140	adjacent	Not Specified	Not Specified
+Aop:177	Relationship:1141	adjacent	Not Specified	Not Specified
+Aop:177	Relationship:3265	adjacent	Not Specified	Not Specified
+Aop:177	Relationship:3264	adjacent	Not Specified	Not Specified
+Aop:177	Relationship:1156	adjacent	High	Not Specified
+Aop:177	Relationship:1132	adjacent	High	Not Specified
+Aop:177	Relationship:1133	adjacent	Not Specified	Not Specified
+Aop:177	Relationship:3263	adjacent	Not Specified	Not Specified
+Aop:178	Relationship:1154	adjacent	Not Specified	Not Specified
+Aop:178	Relationship:1145	adjacent	Not Specified	Not Specified
+Aop:179	Relationship:1155	adjacent	Not Specified	Not Specified
+Aop:179	Relationship:1145	adjacent	Not Specified	Not Specified
+Aop:180	Relationship:1144	adjacent	Not Specified	Not Specified
+Aop:180	Relationship:1145	adjacent	Not Specified	Not Specified
+Aop:181	Relationship:1145	adjacent	Not Specified	Not Specified
+Aop:182	Relationship:1144	adjacent	Not Specified	Not Specified
+Aop:182	Relationship:1145	adjacent	Not Specified	Not Specified
+Aop:183	Relationship:1157	adjacent	Not Specified	Not Specified
+Aop:183	Relationship:1144	adjacent	Not Specified	Not Specified
+Aop:183	Relationship:1145	adjacent	Not Specified	Not Specified
+Aop:184	Relationship:1151	adjacent	Not Specified	Not Specified
+Aop:184	Relationship:1145	adjacent	Not Specified	Not Specified
+Aop:185	Relationship:1145	adjacent	Not Specified	Not Specified
+Aop:186	Relationship:1161	adjacent	Not Specified	Not Specified
+Aop:186	Relationship:2009	adjacent	Not Specified	Not Specified
+Aop:186	Relationship:1134	adjacent	Not Specified	Not Specified
+Aop:186	Relationship:1140	adjacent	Not Specified	Not Specified
+Aop:186	Relationship:1141	adjacent	Not Specified	Not Specified
+Aop:186	Relationship:3264	non-adjacent	Not Specified	Not Specified
+Aop:187	Relationship:1166	adjacent	High	High
+Aop:187	Relationship:1167	adjacent	High	High
+Aop:187	Relationship:1168	adjacent	High	High
+Aop:187	Relationship:1169	adjacent	High	High
+Aop:187	Relationship:1165	non-adjacent	High	High
+Aop:187	Relationship:1170	non-adjacent	Moderate	High
+Aop:187	Relationship:1171	non-adjacent	Low	Low
+Aop:188	Relationship:1197	adjacent	Low	Low
+Aop:188	Relationship:872	adjacent	High	Moderate
+Aop:188	Relationship:305	adjacent	High	High
+Aop:188	Relationship:2476	non-adjacent	Moderate	Moderate
+Aop:188	Relationship:2168	non-adjacent	High	High
+Aop:189	Relationship:1198	adjacent	Moderate	Low
+Aop:189	Relationship:1164	adjacent	High	Moderate
+Aop:190	Relationship:1199	adjacent	Moderate	Low
+Aop:190	Relationship:2238	adjacent	Moderate	Low
+Aop:190	Relationship:2239	adjacent	Moderate	Low
+Aop:190	Relationship:2240	adjacent	Moderate	Low
+Aop:190	Relationship:2241	non-adjacent	Moderate	Low
+Aop:190	Relationship:2242	non-adjacent	Moderate	Low
+Aop:191	Relationship:1200	adjacent	Low	Low
+Aop:191	Relationship:2243	adjacent	Moderate	Low
+Aop:191	Relationship:2244	adjacent	Moderate	Low
+Aop:192	Relationship:1202	adjacent	Low	Low
+Aop:192	Relationship:305	adjacent	High	High
+Aop:192	Relationship:2168	non-adjacent	High	High
+Aop:193	Relationship:1203	adjacent	Moderate	Low
+Aop:193	Relationship:305	adjacent	High	High
+Aop:193	Relationship:2168	non-adjacent	High	High
+Aop:194	Relationship:1204	adjacent	Moderate	Low
+Aop:194	Relationship:1205	adjacent	Moderate	Low
+Aop:194	Relationship:2237	adjacent	Moderate	Low
+Aop:194	Relationship:2478	adjacent	Moderate	Low
+Aop:194	Relationship:2270	adjacent	Moderate	Low
+Aop:194	Relationship:2479	adjacent	Moderate	Low
+Aop:194	Relationship:2168	non-adjacent	High	High
+Aop:195	Relationship:1212	adjacent	Not Specified	Not Specified
+Aop:195	Relationship:1215	adjacent	Not Specified	Not Specified
+Aop:195	Relationship:643	adjacent	Not Specified	Not Specified
+Aop:195	Relationship:1327	adjacent	Not Specified	Not Specified
+Aop:195	Relationship:1328	adjacent	Not Specified	Not Specified
+Aop:195	Relationship:1320	adjacent	Not Specified	Not Specified
+Aop:195	Relationship:1325	adjacent	Not Specified	Not Specified
+Aop:195	Relationship:1321	adjacent	Not Specified	Not Specified
+Aop:195	Relationship:1333	adjacent	Not Specified	Not Specified
+Aop:195	Relationship:1318	non-adjacent	Not Specified	Not Specified
+Aop:195	Relationship:1337	non-adjacent	Not Specified	Not Specified
+Aop:196	Relationship:1271	adjacent	High	High
+Aop:196	Relationship:1274	adjacent	High	High
+Aop:196	Relationship:1575	adjacent	High	Moderate
+Aop:196	Relationship:1578	adjacent	Moderate	Moderate
+Aop:196	Relationship:1583	adjacent	Moderate	Low
+Aop:196	Relationship:1772	adjacent	Moderate	Moderate
+Aop:196	Relationship:1587	adjacent	Moderate	Moderate
+Aop:196	Relationship:1773	adjacent	Moderate	Moderate
+Aop:196	Relationship:1770	adjacent	Moderate	Moderate
+Aop:196	Relationship:1582	adjacent	Moderate	Moderate
+Aop:197	Relationship:1242	adjacent	Not Specified	Not Specified
+Aop:197	Relationship:1244	adjacent	Not Specified	Not Specified
+Aop:200	Relationship:3528	adjacent	High	High
+Aop:200	Relationship:1247	adjacent	High	High
+Aop:200	Relationship:1248	adjacent	High	High
+Aop:200	Relationship:3529	adjacent	High	High
+Aop:200	Relationship:1250	adjacent	High	High
+Aop:200	Relationship:1251	adjacent	High	High
+Aop:200	Relationship:1252	adjacent	High	High
+Aop:200	Relationship:1266	adjacent	High	High
+Aop:200	Relationship:1267	adjacent	High	High
+Aop:200	Relationship:3530	adjacent	Moderate	High
+Aop:200	Relationship:1295	adjacent	High	High
+Aop:200	Relationship:1296	adjacent	High	High
+Aop:200	Relationship:1297	adjacent	High	High
+Aop:200	Relationship:1298	adjacent	High	High
+Aop:200	Relationship:3266	adjacent	High	High
+Aop:200	Relationship:3267	adjacent	High	High
+Aop:200	Relationship:1301	adjacent	High	High
+Aop:200	Relationship:1302	adjacent	High	High
+Aop:200	Relationship:1303	adjacent	High	High
+Aop:200	Relationship:1304	adjacent	High	High
+Aop:200	Relationship:1305	adjacent	Moderate	Moderate
+Aop:200	Relationship:1306	adjacent	Moderate	Moderate
+Aop:200	Relationship:3531	adjacent	Moderate	Moderate
+Aop:200	Relationship:1308	adjacent	Moderate	Moderate
+Aop:201	Relationship:1261	adjacent	Not Specified	Not Specified
+Aop:201	Relationship:1262	adjacent	Not Specified	Not Specified
+Aop:201	Relationship:1263	adjacent	Not Specified	Not Specified
+Aop:201	Relationship:1264	adjacent	Not Specified	Not Specified
+Aop:201	Relationship:1265	non-adjacent	Not Specified	Not Specified
+Aop:202	Relationship:1634	adjacent	High	Not Specified
+Aop:202	Relationship:1635	adjacent	High	Not Specified
+Aop:202	Relationship:1331	adjacent	High	Not Specified
+Aop:203	Relationship:1322	adjacent	Not Specified	Not Specified
+Aop:203	Relationship:1323	adjacent	Not Specified	Not Specified
+Aop:203	Relationship:1334	adjacent	Not Specified	Not Specified
+Aop:203	Relationship:1335	adjacent	Not Specified	Not Specified
+Aop:203	Relationship:1327	adjacent	Not Specified	Not Specified
+Aop:203	Relationship:1333	adjacent	Not Specified	Not Specified
+Aop:203	Relationship:1336	adjacent	Not Specified	Not Specified
+Aop:203	Relationship:643	adjacent	Not Specified	Not Specified
+Aop:203	Relationship:2635	adjacent	Not Specified	Not Specified
+Aop:203	Relationship:1317	non-adjacent	Not Specified	Not Specified
+Aop:203	Relationship:1318	non-adjacent	Not Specified	Not Specified
+Aop:203	Relationship:1319	non-adjacent	Not Specified	Not Specified
+Aop:204	Relationship:1322	adjacent	Not Specified	Not Specified
+Aop:204	Relationship:1215	adjacent	Not Specified	Not Specified
+Aop:204	Relationship:1326	adjacent	Not Specified	Not Specified
+Aop:204	Relationship:643	adjacent	Not Specified	Not Specified
+Aop:204	Relationship:1327	adjacent	Not Specified	Not Specified
+Aop:204	Relationship:1334	adjacent	Not Specified	Not Specified
+Aop:204	Relationship:1335	adjacent	Not Specified	Not Specified
+Aop:204	Relationship:1336	adjacent	Not Specified	Not Specified
+Aop:204	Relationship:1333	adjacent	Not Specified	Not Specified
+Aop:204	Relationship:1317	non-adjacent	Not Specified	Not Specified
+Aop:204	Relationship:1318	non-adjacent	Not Specified	Not Specified
+Aop:204	Relationship:1319	non-adjacent	Not Specified	Not Specified
+Aop:205	Relationship:3145	adjacent	High	Not Specified
+Aop:205	Relationship:3146	adjacent	High	Not Specified
+Aop:205	Relationship:3147	non-adjacent	Moderate	Not Specified
+Aop:205	Relationship:3148	non-adjacent	Moderate	Not Specified
+Aop:205	Relationship:3149	non-adjacent	High	Not Specified
+Aop:206	Relationship:1353	adjacent	Not Specified	Not Specified
+Aop:206	Relationship:1724	adjacent	Not Specified	Not Specified
+Aop:206	Relationship:1359	adjacent	Not Specified	Not Specified
+Aop:206	Relationship:1721	adjacent	Not Specified	Not Specified
+Aop:206	Relationship:1779	adjacent	Not Specified	Not Specified
+Aop:207	Relationship:3511	adjacent	High	Not Specified
+Aop:207	Relationship:3512	adjacent	High	Not Specified
+Aop:207	Relationship:1362	adjacent	High	Not Specified
+Aop:207	Relationship:3166	adjacent	High	Not Specified
+Aop:207	Relationship:1364	adjacent	High	Not Specified
+Aop:207	Relationship:1365	adjacent	High	Not Specified
+Aop:207	Relationship:1366	adjacent	High	Not Specified
+Aop:207	Relationship:3146	adjacent	High	Not Specified
+Aop:207	Relationship:1368	adjacent	High	Not Specified
+Aop:208	Relationship:1369	adjacent	Not Specified	Not Specified
+Aop:208	Relationship:1370	adjacent	Not Specified	Not Specified
+Aop:209	Relationship:1371	adjacent	Not Specified	Not Specified
+Aop:209	Relationship:1372	adjacent	Not Specified	Not Specified
+Aop:209	Relationship:1373	adjacent	Not Specified	Not Specified
+Aop:209	Relationship:1374	adjacent	Not Specified	Not Specified
+Aop:209	Relationship:1375	adjacent	Not Specified	Not Specified
+Aop:209	Relationship:1376	adjacent	Not Specified	Not Specified
+Aop:209	Relationship:1377	adjacent	Not Specified	Not Specified
+Aop:209	Relationship:1378	adjacent	Not Specified	Not Specified
+Aop:210	Relationship:1379	adjacent	Not Specified	Not Specified
+Aop:210	Relationship:1380	adjacent	Not Specified	Not Specified
+Aop:210	Relationship:1381	adjacent	Not Specified	Not Specified
+Aop:210	Relationship:1382	adjacent	Not Specified	Not Specified
+Aop:210	Relationship:1383	adjacent	Not Specified	Not Specified
+Aop:212	Relationship:1709	adjacent	High	Moderate
+Aop:212	Relationship:1997	adjacent	Moderate	Moderate
+Aop:212	Relationship:1712	adjacent	Moderate	Moderate
+Aop:212	Relationship:1735	adjacent	High	Not Specified
+Aop:212	Relationship:1734	adjacent	High	Not Specified
+Aop:212	Relationship:1715	non-adjacent	High	Moderate
+Aop:212	Relationship:1716	non-adjacent	Moderate	Moderate
+Aop:212	Relationship:2010	non-adjacent	Moderate	Moderate
+Aop:212	Relationship:1717	non-adjacent	Moderate	Moderate
+Aop:213	Relationship:1692	adjacent	High	High
+Aop:213	Relationship:1694	adjacent	High	High
+Aop:213	Relationship:1695	adjacent	High	Low
+Aop:213	Relationship:1696	adjacent	High	Low
+Aop:213	Relationship:1697	adjacent	High	Low
+Aop:214	Relationship:1426	adjacent	Not Specified	Not Specified
+Aop:214	Relationship:1427	adjacent	Not Specified	Not Specified
+Aop:214	Relationship:1428	adjacent	Not Specified	Not Specified
+Aop:214	Relationship:1429	adjacent	Not Specified	Not Specified
+Aop:214	Relationship:1430	adjacent	Not Specified	Not Specified
+Aop:214	Relationship:1431	adjacent	Not Specified	Not Specified
+Aop:214	Relationship:1432	adjacent	Not Specified	Not Specified
+Aop:214	Relationship:1433	adjacent	Not Specified	Not Specified
+Aop:214	Relationship:1434	adjacent	Not Specified	Not Specified
+Aop:214	Relationship:1435	adjacent	Not Specified	Not Specified
+Aop:214	Relationship:1436	adjacent	Not Specified	Not Specified
+Aop:214	Relationship:1437	adjacent	Not Specified	Not Specified
+Aop:214	Relationship:1438	adjacent	Not Specified	Not Specified
+Aop:214	Relationship:1439	adjacent	Not Specified	Not Specified
+Aop:214	Relationship:1440	adjacent	Not Specified	Not Specified
+Aop:214	Relationship:1441	adjacent	Not Specified	Not Specified
+Aop:214	Relationship:1442	adjacent	Not Specified	Not Specified
+Aop:214	Relationship:1443	adjacent	Not Specified	Not Specified
+Aop:214	Relationship:1444	adjacent	Not Specified	Not Specified
+Aop:214	Relationship:1445	adjacent	Not Specified	Not Specified
+Aop:214	Relationship:1446	adjacent	Not Specified	Not Specified
+Aop:214	Relationship:1447	adjacent	Not Specified	Not Specified
+Aop:214	Relationship:1448	adjacent	Not Specified	Not Specified
+Aop:214	Relationship:1449	adjacent	Not Specified	Not Specified
+Aop:214	Relationship:1450	adjacent	Not Specified	Not Specified
+Aop:214	Relationship:3848	adjacent	Not Specified	Not Specified
+Aop:215	Relationship:1452	adjacent	Not Specified	Not Specified
+Aop:215	Relationship:1453	adjacent	Not Specified	Not Specified
+Aop:215	Relationship:1454	adjacent	Not Specified	Not Specified
+Aop:215	Relationship:1455	adjacent	Not Specified	Not Specified
+Aop:215	Relationship:1456	adjacent	Not Specified	Not Specified
+Aop:215	Relationship:1457	adjacent	Not Specified	Not Specified
+Aop:215	Relationship:1458	adjacent	Not Specified	Not Specified
+Aop:215	Relationship:1459	adjacent	Not Specified	Not Specified
+Aop:215	Relationship:1460	adjacent	Not Specified	Not Specified
+Aop:215	Relationship:1461	adjacent	Not Specified	Not Specified
+Aop:215	Relationship:1462	adjacent	Not Specified	Not Specified
+Aop:215	Relationship:1463	adjacent	Not Specified	Not Specified
+Aop:215	Relationship:1464	adjacent	Not Specified	Not Specified
+Aop:215	Relationship:1465	adjacent	Not Specified	Not Specified
+Aop:216	Relationship:1977	adjacent	High	Not Specified
+Aop:216	Relationship:2587	adjacent	Not Specified	Not Specified
+Aop:216	Relationship:1597	adjacent	Not Specified	Not Specified
+Aop:216	Relationship:2588	adjacent	Not Specified	Not Specified
+Aop:216	Relationship:94	adjacent	Not Specified	Not Specified
+Aop:217	Relationship:1473	adjacent	Not Specified	Not Specified
+Aop:217	Relationship:1474	adjacent	Not Specified	Not Specified
+Aop:217	Relationship:1475	adjacent	Not Specified	Not Specified
+Aop:217	Relationship:1476	adjacent	Not Specified	Not Specified
+Aop:217	Relationship:1477	adjacent	Not Specified	Not Specified
+Aop:217	Relationship:1478	adjacent	Not Specified	Not Specified
+Aop:217	Relationship:1479	adjacent	Not Specified	Not Specified
+Aop:217	Relationship:1480	adjacent	Not Specified	Not Specified
+Aop:217	Relationship:1481	adjacent	Not Specified	Not Specified
+Aop:217	Relationship:1482	adjacent	Not Specified	Not Specified
+Aop:217	Relationship:1483	adjacent	Not Specified	Not Specified
+Aop:217	Relationship:1484	adjacent	Not Specified	Not Specified
+Aop:217	Relationship:1485	adjacent	Not Specified	Not Specified
+Aop:217	Relationship:1486	adjacent	Not Specified	Not Specified
+Aop:217	Relationship:1487	adjacent	Not Specified	Not Specified
+Aop:217	Relationship:1488	adjacent	Not Specified	Not Specified
+Aop:217	Relationship:1489	adjacent	Not Specified	Not Specified
+Aop:218	Relationship:1493	adjacent	High	Moderate
+Aop:218	Relationship:1496	adjacent	Low	Low
+Aop:218	Relationship:1497	adjacent	High	Moderate
+Aop:218	Relationship:1500	adjacent	Not Specified	Not Specified
+Aop:218	Relationship:2635	adjacent	Not Specified	Not Specified
+Aop:218	Relationship:1494	non-adjacent	Low	Low
+Aop:218	Relationship:1495	non-adjacent	High	Moderate
+Aop:219	Relationship:1493	adjacent	Not Specified	Not Specified
+Aop:219	Relationship:1496	adjacent	Not Specified	Not Specified
+Aop:219	Relationship:1499	adjacent	Not Specified	Not Specified
+Aop:219	Relationship:1502	adjacent	Not Specified	Not Specified
+Aop:219	Relationship:2635	adjacent	Not Specified	Not Specified
+Aop:219	Relationship:1498	non-adjacent	Not Specified	Not Specified
+Aop:220	Relationship:1512	adjacent	High	Not Specified
+Aop:220	Relationship:1513	adjacent	High	Not Specified
+Aop:220	Relationship:1514	adjacent	High	Not Specified
+Aop:220	Relationship:1515	non-adjacent	High	Not Specified
+Aop:220	Relationship:1516	non-adjacent	Moderate	Not Specified
+Aop:220	Relationship:1517	non-adjacent	Moderate	Not Specified
+Aop:220	Relationship:1518	non-adjacent	Moderate	Not Specified
+Aop:221	Relationship:3849	adjacent	Not Specified	Not Specified
+Aop:221	Relationship:3847	adjacent	Not Specified	Not Specified
+Aop:221	Relationship:1449	adjacent	Not Specified	Not Specified
+Aop:221	Relationship:1436	adjacent	Not Specified	Not Specified
+Aop:221	Relationship:1430	adjacent	Not Specified	Not Specified
+Aop:221	Relationship:1431	adjacent	Not Specified	Not Specified
+Aop:221	Relationship:1432	adjacent	Not Specified	Not Specified
+Aop:221	Relationship:1433	adjacent	Not Specified	Not Specified
+Aop:221	Relationship:1434	adjacent	Not Specified	Not Specified
+Aop:222	Relationship:3849	adjacent	Not Specified	Not Specified
+Aop:222	Relationship:1447	adjacent	Not Specified	Not Specified
+Aop:222	Relationship:1448	adjacent	Not Specified	Not Specified
+Aop:222	Relationship:3851	adjacent	Not Specified	Not Specified
+Aop:222	Relationship:1436	adjacent	Not Specified	Not Specified
+Aop:222	Relationship:1430	adjacent	Not Specified	Not Specified
+Aop:222	Relationship:1431	adjacent	Not Specified	Not Specified
+Aop:222	Relationship:1432	adjacent	Not Specified	Not Specified
+Aop:222	Relationship:1433	adjacent	Not Specified	Not Specified
+Aop:222	Relationship:1434	adjacent	Not Specified	Not Specified
+Aop:223	Relationship:1524	adjacent	Not Specified	Not Specified
+Aop:223	Relationship:1525	adjacent	Not Specified	Not Specified
+Aop:223	Relationship:1526	adjacent	Not Specified	Not Specified
+Aop:223	Relationship:1527	adjacent	Not Specified	Not Specified
+Aop:223	Relationship:1528	adjacent	Not Specified	Not Specified
+Aop:223	Relationship:1529	adjacent	Not Specified	Not Specified
+Aop:223	Relationship:1530	adjacent	Not Specified	Not Specified
+Aop:224	Relationship:1449	adjacent	Not Specified	Not Specified
+Aop:224	Relationship:1447	adjacent	Not Specified	Not Specified
+Aop:224	Relationship:1446	adjacent	Not Specified	Not Specified
+Aop:224	Relationship:1436	adjacent	Not Specified	Not Specified
+Aop:224	Relationship:1528	adjacent	Not Specified	Not Specified
+Aop:224	Relationship:1524	adjacent	Not Specified	Not Specified
+Aop:224	Relationship:1525	adjacent	Not Specified	Not Specified
+Aop:224	Relationship:1526	adjacent	Not Specified	Not Specified
+Aop:224	Relationship:1527	adjacent	Not Specified	Not Specified
+Aop:225	Relationship:1436	adjacent	Not Specified	Not Specified
+Aop:225	Relationship:1446	adjacent	Not Specified	Not Specified
+Aop:225	Relationship:1447	adjacent	Not Specified	Not Specified
+Aop:225	Relationship:1448	adjacent	Not Specified	Not Specified
+Aop:225	Relationship:1524	adjacent	Not Specified	Not Specified
+Aop:225	Relationship:1525	adjacent	Not Specified	Not Specified
+Aop:225	Relationship:1526	adjacent	Not Specified	Not Specified
+Aop:225	Relationship:1527	adjacent	Not Specified	Not Specified
+Aop:225	Relationship:1528	adjacent	Not Specified	Not Specified
+Aop:226	Relationship:1431	adjacent	Not Specified	Not Specified
+Aop:226	Relationship:1432	adjacent	Not Specified	Not Specified
+Aop:226	Relationship:1433	adjacent	Not Specified	Not Specified
+Aop:226	Relationship:1434	adjacent	Not Specified	Not Specified
+Aop:226	Relationship:1430	adjacent	Not Specified	Not Specified
+Aop:226	Relationship:1531	adjacent	Not Specified	Not Specified
+Aop:226	Relationship:1438	adjacent	Not Specified	Not Specified
+Aop:226	Relationship:1439	adjacent	Not Specified	Not Specified
+Aop:226	Relationship:1440	adjacent	Not Specified	Not Specified
+Aop:226	Relationship:1441	adjacent	Not Specified	Not Specified
+Aop:226	Relationship:1442	adjacent	Not Specified	Not Specified
+Aop:226	Relationship:1443	adjacent	Not Specified	Not Specified
+Aop:226	Relationship:1444	adjacent	Not Specified	Not Specified
+Aop:227	Relationship:1532	adjacent	Not Specified	Not Specified
+Aop:227	Relationship:1533	adjacent	Not Specified	Not Specified
+Aop:227	Relationship:1534	adjacent	Not Specified	Not Specified
+Aop:227	Relationship:1535	adjacent	Not Specified	Not Specified
+Aop:227	Relationship:1536	adjacent	Not Specified	Not Specified
+Aop:227	Relationship:1537	adjacent	Not Specified	Not Specified
+Aop:227	Relationship:1538	adjacent	Not Specified	Not Specified
+Aop:227	Relationship:1539	adjacent	Not Specified	Not Specified
+Aop:227	Relationship:1540	adjacent	Not Specified	Not Specified
+Aop:228	Relationship:1541	adjacent	Not Specified	Not Specified
+Aop:228	Relationship:1542	adjacent	Not Specified	Not Specified
+Aop:228	Relationship:1543	adjacent	Not Specified	Not Specified
+Aop:228	Relationship:1544	adjacent	Not Specified	Not Specified
+Aop:228	Relationship:1545	adjacent	Not Specified	Not Specified
+Aop:229	Relationship:1546	adjacent	Not Specified	Not Specified
+Aop:229	Relationship:1487	adjacent	Not Specified	Not Specified
+Aop:229	Relationship:1488	adjacent	Not Specified	Not Specified
+Aop:229	Relationship:1547	adjacent	Not Specified	Not Specified
+Aop:229	Relationship:1536	adjacent	Not Specified	Not Specified
+Aop:230	Relationship:1452	adjacent	Not Specified	Not Specified
+Aop:230	Relationship:1453	adjacent	Not Specified	Not Specified
+Aop:230	Relationship:1454	adjacent	Not Specified	Not Specified
+Aop:230	Relationship:1455	adjacent	Not Specified	Not Specified
+Aop:230	Relationship:1457	adjacent	Not Specified	Not Specified
+Aop:230	Relationship:1458	adjacent	Not Specified	Not Specified
+Aop:230	Relationship:1549	adjacent	Not Specified	Not Specified
+Aop:230	Relationship:1550	adjacent	Not Specified	Not Specified
+Aop:230	Relationship:1456	adjacent	Not Specified	Not Specified
+Aop:231	Relationship:1551	adjacent	Not Specified	Not Specified
+Aop:231	Relationship:1552	adjacent	Not Specified	Not Specified
+Aop:231	Relationship:1553	adjacent	Not Specified	Not Specified
+Aop:231	Relationship:1554	adjacent	Not Specified	Not Specified
+Aop:231	Relationship:1458	adjacent	Not Specified	Not Specified
+Aop:231	Relationship:1549	adjacent	Not Specified	Not Specified
+Aop:231	Relationship:1550	adjacent	Not Specified	Not Specified
+Aop:231	Relationship:1555	adjacent	Not Specified	Not Specified
+Aop:232	Relationship:3794	adjacent	Not Specified	Not Specified
+Aop:232	Relationship:3795	adjacent	Not Specified	Not Specified
+Aop:232	Relationship:3796	adjacent	Not Specified	Not Specified
+Aop:232	Relationship:1559	adjacent	Not Specified	Not Specified
+Aop:232	Relationship:1560	adjacent	Not Specified	Not Specified
+Aop:232	Relationship:1561	adjacent	Not Specified	Not Specified
+Aop:232	Relationship:3215	adjacent	Not Specified	Not Specified
+Aop:233	Relationship:1563	adjacent	High	Not Specified
+Aop:233	Relationship:1564	adjacent	High	Not Specified
+Aop:233	Relationship:1565	adjacent	High	Not Specified
+Aop:233	Relationship:1566	non-adjacent	High	Not Specified
+Aop:234	Relationship:1563	adjacent	High	Not Specified
+Aop:234	Relationship:1568	adjacent	High	Not Specified
+Aop:234	Relationship:1569	adjacent	High	Not Specified
+Aop:234	Relationship:1570	non-adjacent	High	Not Specified
+Aop:235	Relationship:1571	adjacent	High	Not Specified
+Aop:235	Relationship:1564	adjacent	High	Not Specified
+Aop:235	Relationship:1565	adjacent	High	Not Specified
+Aop:235	Relationship:1572	non-adjacent	High	Not Specified
+Aop:236	Relationship:1571	adjacent	High	Not Specified
+Aop:236	Relationship:1568	adjacent	High	Not Specified
+Aop:236	Relationship:1569	adjacent	High	Not Specified
+Aop:236	Relationship:1573	non-adjacent	High	Not Specified
+Aop:237	Relationship:1702	adjacent	Moderate	Moderate
+Aop:237	Relationship:2053	adjacent	High	Moderate
+Aop:237	Relationship:1589	adjacent	High	Moderate
+Aop:237	Relationship:2860	adjacent	High	High
+Aop:237	Relationship:2958	non-adjacent	High	Moderate
+Aop:237	Relationship:2959	non-adjacent	High	Moderate
+Aop:237	Relationship:3052	non-adjacent	High	Moderate
+Aop:237	Relationship:2960	non-adjacent	High	Moderate
+Aop:238	Relationship:1977	adjacent	Not Specified	Not Specified
+Aop:238	Relationship:2589	adjacent	Not Specified	Not Specified
+Aop:238	Relationship:2104	adjacent	Not Specified	Not Specified
+Aop:238	Relationship:2588	adjacent	Not Specified	Not Specified
+Aop:238	Relationship:94	adjacent	Not Specified	Not Specified
+Aop:241	Relationship:1629	adjacent	High	Not Specified
+Aop:241	Relationship:1651	adjacent	High	Not Specified
+Aop:241	Relationship:1652	adjacent	High	Not Specified
+Aop:241	Relationship:1653	adjacent	High	Not Specified
+Aop:241	Relationship:1654	adjacent	High	Not Specified
+Aop:241	Relationship:1655	adjacent	High	Not Specified
+Aop:242	Relationship:1636	adjacent	Low	Not Specified
+Aop:242	Relationship:1637	adjacent	High	Not Specified
+Aop:242	Relationship:1638	adjacent	Low	Not Specified
+Aop:242	Relationship:1639	adjacent	Low	Not Specified
+Aop:242	Relationship:1640	adjacent	Low	Not Specified
+Aop:242	Relationship:1641	adjacent	Low	Not Specified
+Aop:242	Relationship:1642	adjacent	Low	Not Specified
+Aop:245	Relationship:1663	adjacent	High	Not Specified
+Aop:245	Relationship:1664	adjacent	Low	Not Specified
+Aop:245	Relationship:1665	adjacent	High	Not Specified
+Aop:245	Relationship:1666	adjacent	High	Not Specified
+Aop:245	Relationship:1667	adjacent	Moderate	Not Specified
+Aop:245	Relationship:1668	adjacent	High	Not Specified
+Aop:245	Relationship:1669	adjacent	High	Not Specified
+Aop:245	Relationship:1670	adjacent	Moderate	Not Specified
+Aop:245	Relationship:1671	adjacent	High	Not Specified
+Aop:245	Relationship:2283	adjacent	Not Specified	Not Specified
+Aop:256	Relationship:1673	adjacent	Moderate	Low
+Aop:256	Relationship:3133	adjacent	High	Low
+Aop:256	Relationship:3134	adjacent	High	Low
+Aop:256	Relationship:1676	adjacent	High	Moderate
+Aop:257	Relationship:1677	adjacent	High	Low
+Aop:257	Relationship:1678	adjacent	High	Low
+Aop:257	Relationship:1679	adjacent	High	Low
+Aop:257	Relationship:1676	adjacent	High	Moderate
+Aop:258	Relationship:3135	adjacent	Not Specified	Low
+Aop:258	Relationship:2822	adjacent	High	Low
+Aop:258	Relationship:1682	adjacent	High	Low
+Aop:258	Relationship:1676	adjacent	High	Moderate
+Aop:260	Relationship:3309	adjacent	Moderate	Moderate
+Aop:260	Relationship:3310	adjacent	High	High
+Aop:260	Relationship:1728	adjacent	High	High
+Aop:260	Relationship:1729	adjacent	Moderate	Moderate
+Aop:260	Relationship:3311	adjacent	Moderate	Moderate
+Aop:260	Relationship:1731	adjacent	High	High
+Aop:260	Relationship:1732	adjacent	High	High
+Aop:260	Relationship:1733	adjacent	High	High
+Aop:261	Relationship:1755	adjacent	High	High
+Aop:261	Relationship:1756	adjacent	High	High
+Aop:261	Relationship:1757	adjacent	High	High
+Aop:261	Relationship:1758	adjacent	High	High
+Aop:261	Relationship:1759	adjacent	High	High
+Aop:261	Relationship:1760	adjacent	High	Moderate
+Aop:261	Relationship:1761	adjacent	Moderate	Low
+Aop:261	Relationship:1762	adjacent	High	Low
+Aop:263	Relationship:2203	adjacent	High	High
+Aop:263	Relationship:2204	adjacent	Moderate	Moderate
+Aop:263	Relationship:2205	adjacent	Moderate	Moderate
+Aop:264	Relationship:2203	adjacent	Moderate	Not Specified
+Aop:264	Relationship:2768	adjacent	Moderate	Not Specified
+Aop:264	Relationship:2767	adjacent	Moderate	Not Specified
+Aop:265	Relationship:2763	adjacent	Moderate	Not Specified
+Aop:265	Relationship:2766	adjacent	Moderate	Not Specified
+Aop:265	Relationship:2767	adjacent	Moderate	Not Specified
+Aop:266	Relationship:2203	adjacent	Not Specified	Not Specified
+Aop:266	Relationship:2786	adjacent	Not Specified	Not Specified
+Aop:266	Relationship:2787	adjacent	Not Specified	Not Specified
+Aop:266	Relationship:2788	adjacent	Not Specified	Not Specified
+Aop:266	Relationship:2767	adjacent	Not Specified	Not Specified
+Aop:267	Relationship:2793	adjacent	Not Specified	Not Specified
+Aop:267	Relationship:2794	adjacent	Not Specified	Not Specified
+Aop:267	Relationship:2795	adjacent	Not Specified	Not Specified
+Aop:267	Relationship:2205	adjacent	Not Specified	Not Specified
+Aop:268	Relationship:2796	adjacent	Not Specified	Not Specified
+Aop:268	Relationship:2797	adjacent	Not Specified	Not Specified
+Aop:268	Relationship:2767	adjacent	Not Specified	Not Specified
+Aop:271	Relationship:309	adjacent	High	High
+Aop:271	Relationship:1768	adjacent	Not Specified	Not Specified
+Aop:271	Relationship:1386	adjacent	High	High
+Aop:271	Relationship:1769	adjacent	High	High
+Aop:272	Relationship:1977	adjacent	High	High
+Aop:272	Relationship:1911	adjacent	Moderate	Moderate
+Aop:272	Relationship:164	adjacent	Moderate	Moderate
+Aop:272	Relationship:1912	adjacent	High	Low
+Aop:272	Relationship:1978	adjacent	High	Low
+Aop:272	Relationship:1979	adjacent	Moderate	Low
+Aop:272	Relationship:1980	adjacent	High	Low
+Aop:272	Relationship:1981	non-adjacent	High	High
+Aop:272	Relationship:1982	non-adjacent	High	High
+Aop:272	Relationship:1983	non-adjacent	Moderate	Moderate
+Aop:272	Relationship:1931	non-adjacent	High	Low
+Aop:272	Relationship:1939	non-adjacent	High	Low
+Aop:272	Relationship:1984	non-adjacent	High	Low
+Aop:272	Relationship:1985	non-adjacent	Moderate	Moderate
+Aop:273	Relationship:1781	adjacent	High	High
+Aop:273	Relationship:1782	adjacent	High	High
+Aop:273	Relationship:1783	adjacent	High	High
+Aop:273	Relationship:1789	adjacent	High	High
+Aop:273	Relationship:933	adjacent	Not Specified	Not Specified
+Aop:273	Relationship:1940	adjacent	Not Specified	Not Specified
+Aop:273	Relationship:1943	adjacent	Not Specified	Not Specified
+Aop:273	Relationship:1830	adjacent	Not Specified	Not Specified
+Aop:273	Relationship:1944	adjacent	Not Specified	Not Specified
+Aop:273	Relationship:1945	adjacent	Not Specified	Not Specified
+Aop:273	Relationship:1946	adjacent	Not Specified	Not Specified
+Aop:273	Relationship:1956	adjacent	Not Specified	Not Specified
+Aop:273	Relationship:3496	adjacent	High	High
+Aop:273	Relationship:3141	adjacent	High	High
+Aop:273	Relationship:904	adjacent	Not Specified	Not Specified
+Aop:274	Relationship:1802	adjacent	Not Specified	Not Specified
+Aop:274	Relationship:1803	adjacent	Not Specified	Not Specified
+Aop:274	Relationship:1804	adjacent	Not Specified	Not Specified
+Aop:274	Relationship:1805	non-adjacent	Not Specified	Not Specified
+Aop:275	Relationship:1709	adjacent	Not Specified	Not Specified
+Aop:275	Relationship:1806	adjacent	Not Specified	Not Specified
+Aop:275	Relationship:1807	adjacent	Not Specified	Not Specified
+Aop:275	Relationship:1808	adjacent	Not Specified	Not Specified
+Aop:276	Relationship:933	adjacent	Not Specified	Not Specified
+Aop:276	Relationship:1809	adjacent	Not Specified	Not Specified
+Aop:276	Relationship:1810	adjacent	Not Specified	Not Specified
+Aop:276	Relationship:1811	adjacent	Not Specified	Not Specified
+Aop:276	Relationship:1812	adjacent	Not Specified	Not Specified
+Aop:277	Relationship:2002	adjacent	High	Moderate
+Aop:277	Relationship:2003	adjacent	High	Moderate
+Aop:277	Relationship:2928	adjacent	High	High
+Aop:278	Relationship:1827	adjacent	High	High
+Aop:278	Relationship:1828	adjacent	Moderate	Moderate
+Aop:278	Relationship:1829	adjacent	High	High
+Aop:278	Relationship:1830	adjacent	High	High
+Aop:278	Relationship:1789	adjacent	High	High
+Aop:278	Relationship:1832	adjacent	High	High
+Aop:278	Relationship:1831	non-adjacent	Moderate	Moderate
+Aop:279	Relationship:1833	adjacent	Not Specified	Not Specified
+Aop:279	Relationship:1834	adjacent	Not Specified	Not Specified
+Aop:279	Relationship:1835	adjacent	Not Specified	Not Specified
+Aop:280	Relationship:1836	adjacent	Not Specified	Not Specified
+Aop:280	Relationship:1837	adjacent	Not Specified	Not Specified
+Aop:280	Relationship:1838	adjacent	Not Specified	Not Specified
+Aop:280	Relationship:1724	adjacent	Not Specified	Not Specified
+Aop:280	Relationship:1839	adjacent	Not Specified	Not Specified
+Aop:280	Relationship:1840	adjacent	Not Specified	Not Specified
+Aop:280	Relationship:1841	adjacent	Not Specified	Not Specified
+Aop:281	Relationship:11	adjacent	High	Moderate
+Aop:281	Relationship:1857	adjacent	Moderate	High
+Aop:281	Relationship:1889	adjacent	Moderate	Low
+Aop:281	Relationship:1890	adjacent	Moderate	Low
+Aop:281	Relationship:1859	adjacent	Moderate	High
+Aop:281	Relationship:2781	adjacent	Moderate	Low
+Aop:281	Relationship:2782	adjacent	Moderate	Low
+Aop:281	Relationship:361	adjacent	High	Moderate
+Aop:281	Relationship:2783	adjacent	High	Low
+Aop:281	Relationship:1862	adjacent	High	Low
+Aop:281	Relationship:364	adjacent	High	Low
+Aop:282	Relationship:3513	adjacent	High	Low
+Aop:282	Relationship:3514	adjacent	High	Low
+Aop:282	Relationship:1850	adjacent	High	Low
+Aop:282	Relationship:1851	adjacent	High	Low
+Aop:285	Relationship:1864	adjacent	Not Specified	Not Specified
+Aop:285	Relationship:1865	adjacent	Not Specified	Not Specified
+Aop:285	Relationship:1866	adjacent	Not Specified	Not Specified
+Aop:285	Relationship:1867	adjacent	Not Specified	Not Specified
+Aop:285	Relationship:1868	adjacent	Not Specified	Not Specified
+Aop:285	Relationship:1869	adjacent	Not Specified	Not Specified
+Aop:286	Relationship:2230	adjacent	Not Specified	Not Specified
+Aop:286	Relationship:2204	adjacent	Not Specified	Not Specified
+Aop:286	Relationship:2205	adjacent	Not Specified	Not Specified
+Aop:288	Relationship:1878	adjacent	High	Not Specified
+Aop:288	Relationship:1879	adjacent	High	Not Specified
+Aop:288	Relationship:3228	adjacent	High	High
+Aop:288	Relationship:3229	adjacent	High	High
+Aop:288	Relationship:2126	adjacent	High	High
+Aop:288	Relationship:1935	adjacent	High	High
+Aop:288	Relationship:2131	adjacent	High	High
+Aop:288	Relationship:1937	adjacent	Moderate	Moderate
+Aop:288	Relationship:1938	adjacent	High	High
+Aop:289	Relationship:1880	adjacent	High	High
+Aop:289	Relationship:1881	adjacent	Low	Low
+Aop:289	Relationship:1386	adjacent	High	High
+Aop:289	Relationship:1769	adjacent	High	High
+Aop:289	Relationship:94	adjacent	High	High
+Aop:290	Relationship:2229	adjacent	Not Specified	Not Specified
+Aop:290	Relationship:2204	adjacent	Not Specified	Not Specified
+Aop:290	Relationship:2205	adjacent	Not Specified	Not Specified
+Aop:291	Relationship:2229	adjacent	Not Specified	Not Specified
+Aop:291	Relationship:2214	adjacent	Not Specified	Not Specified
+Aop:291	Relationship:2215	adjacent	Not Specified	Not Specified
+Aop:292	Relationship:1891	adjacent	High	High
+Aop:292	Relationship:1892	adjacent	High	High
+Aop:292	Relationship:1893	adjacent	High	High
+Aop:292	Relationship:1894	adjacent	High	High
+Aop:292	Relationship:1895	adjacent	Moderate	Low
+Aop:293	Relationship:1897	adjacent	High	Not Specified
+Aop:293	Relationship:1896	adjacent	Moderate	Not Specified
+Aop:293	Relationship:1907	adjacent	Not Specified	Not Specified
+Aop:293	Relationship:1247	adjacent	Not Specified	Not Specified
+Aop:293	Relationship:1252	adjacent	High	Not Specified
+Aop:293	Relationship:1906	adjacent	Moderate	Not Specified
+Aop:293	Relationship:1904	adjacent	High	Not Specified
+Aop:293	Relationship:1763	adjacent	Moderate	Not Specified
+Aop:293	Relationship:1777	adjacent	Moderate	Not Specified
+Aop:293	Relationship:1903	adjacent	High	Not Specified
+Aop:293	Relationship:1905	adjacent	High	Not Specified
+Aop:293	Relationship:1898	adjacent	Moderate	Not Specified
+Aop:293	Relationship:1908	adjacent	Moderate	Not Specified
+Aop:293	Relationship:1902	adjacent	Moderate	Not Specified
+Aop:294	Relationship:1904	adjacent	High	Not Specified
+Aop:294	Relationship:1897	adjacent	High	Not Specified
+Aop:294	Relationship:1896	adjacent	Moderate	Not Specified
+Aop:294	Relationship:1907	adjacent	High	Not Specified
+Aop:294	Relationship:1247	adjacent	Not Specified	Not Specified
+Aop:294	Relationship:1252	adjacent	High	Not Specified
+Aop:294	Relationship:1906	adjacent	Moderate	Not Specified
+Aop:294	Relationship:1898	adjacent	Moderate	Not Specified
+Aop:294	Relationship:1763	adjacent	Moderate	Not Specified
+Aop:294	Relationship:1777	adjacent	Moderate	Not Specified
+Aop:294	Relationship:1905	adjacent	High	Not Specified
+Aop:294	Relationship:1903	adjacent	High	Not Specified
+Aop:294	Relationship:1908	adjacent	Moderate	Not Specified
+Aop:294	Relationship:1902	adjacent	Moderate	Not Specified
+Aop:296	Relationship:1909	adjacent	High	Low
+Aop:296	Relationship:1910	adjacent	High	Low
+Aop:296	Relationship:1911	adjacent	High	Low
+Aop:296	Relationship:164	adjacent	High	Low
+Aop:296	Relationship:1912	adjacent	High	Low
+Aop:296	Relationship:1913	non-adjacent	Moderate	Low
+Aop:296	Relationship:1914	non-adjacent	High	Low
+Aop:296	Relationship:1931	non-adjacent	High	Low
+Aop:296	Relationship:1939	non-adjacent	High	Low
+Aop:297	Relationship:2401	adjacent	High	Not Specified
+Aop:297	Relationship:3776	adjacent	Not Specified	Not Specified
+Aop:297	Relationship:3862	adjacent	Not Specified	Not Specified
+Aop:297	Relationship:1918	adjacent	Moderate	Moderate
+Aop:297	Relationship:2143	adjacent	Low	Low
+Aop:298	Relationship:3505	adjacent	Moderate	Moderate
+Aop:298	Relationship:2070	adjacent	Moderate	Moderate
+Aop:298	Relationship:3199	adjacent	Moderate	Moderate
+Aop:298	Relationship:3200	adjacent	Moderate	Moderate
+Aop:299	Relationship:2548	adjacent	Not Specified	Not Specified
+Aop:299	Relationship:3490	adjacent	Not Specified	Not Specified
+Aop:299	Relationship:2591	adjacent	Not Specified	Not Specified
+Aop:299	Relationship:1597	adjacent	Not Specified	Not Specified
+Aop:299	Relationship:2588	adjacent	Not Specified	Not Specified
+Aop:299	Relationship:94	adjacent	Not Specified	Not Specified
+Aop:300	Relationship:1947	adjacent	Moderate	Low
+Aop:300	Relationship:747	adjacent	Moderate	Low
+Aop:300	Relationship:749	adjacent	Moderate	Low
+Aop:300	Relationship:748	adjacent	High	Moderate
+Aop:300	Relationship:1948	non-adjacent	Moderate	Low
+Aop:301	Relationship:1949	adjacent	High	Low
+Aop:301	Relationship:1959	adjacent	High	Moderate
+Aop:301	Relationship:1960	adjacent	Moderate	Low
+Aop:301	Relationship:1961	adjacent	Moderate	Low
+Aop:302	Relationship:1969	adjacent	Not Specified	Not Specified
+Aop:302	Relationship:1974	adjacent	Not Specified	Not Specified
+Aop:302	Relationship:2284	adjacent	Not Specified	Not Specified
+Aop:302	Relationship:2367	adjacent	Not Specified	Not Specified
+Aop:302	Relationship:2368	adjacent	Not Specified	Not Specified
+Aop:302	Relationship:2369	adjacent	Not Specified	Not Specified
+Aop:302	Relationship:2370	non-adjacent	Not Specified	Not Specified
+Aop:302	Relationship:2371	non-adjacent	Not Specified	Not Specified
+Aop:302	Relationship:2372	non-adjacent	Not Specified	Not Specified
+Aop:303	Relationship:1962	adjacent	Not Specified	Not Specified
+Aop:303	Relationship:1963	adjacent	Not Specified	Not Specified
+Aop:303	Relationship:1964	adjacent	Not Specified	Not Specified
+Aop:303	Relationship:1965	adjacent	Not Specified	Not Specified
+Aop:303	Relationship:1966	adjacent	Not Specified	Not Specified
+Aop:303	Relationship:1967	adjacent	Not Specified	Not Specified
+Aop:305	Relationship:1880	adjacent	High	High
+Aop:305	Relationship:1935	adjacent	High	Not Specified
+Aop:305	Relationship:2124	adjacent	High	Not Specified
+Aop:305	Relationship:2820	non-adjacent	High	Not Specified
+Aop:305	Relationship:2127	non-adjacent	Moderate	Not Specified
+Aop:306	Relationship:2130	adjacent	High	High
+Aop:306	Relationship:2124	adjacent	Moderate	Not Specified
+Aop:306	Relationship:2820	non-adjacent	High	Not Specified
+Aop:306	Relationship:2127	non-adjacent	Moderate	Not Specified
+Aop:307	Relationship:3448	adjacent	High	Moderate
+Aop:307	Relationship:2131	adjacent	High	Moderate
+Aop:307	Relationship:2124	adjacent	Moderate	Low
+Aop:307	Relationship:2127	non-adjacent	Moderate	Low
+Aop:307	Relationship:2820	non-adjacent	High	Moderate
+Aop:307	Relationship:3449	non-adjacent	Moderate	Moderate
+Aop:307	Relationship:3349	non-adjacent	High	Moderate
+Aop:309	Relationship:1986	adjacent	Moderate	Moderate
+Aop:309	Relationship:1987	adjacent	High	Moderate
+Aop:309	Relationship:1988	adjacent	High	Moderate
+Aop:309	Relationship:1989	adjacent	High	High
+Aop:309	Relationship:1990	adjacent	High	Moderate
+Aop:309	Relationship:1991	adjacent	High	High
+Aop:310	Relationship:972	adjacent	High	Moderate
+Aop:310	Relationship:1996	adjacent	Moderate	Low
+Aop:310	Relationship:1993	adjacent	Moderate	Low
+Aop:310	Relationship:1994	adjacent	Low	Low
+Aop:310	Relationship:1995	adjacent	Low	Low
+Aop:310	Relationship:5	adjacent	High	Moderate
+Aop:310	Relationship:252	adjacent	High	Moderate
+Aop:310	Relationship:315	adjacent	High	Moderate
+Aop:310	Relationship:255	adjacent	Moderate	Low
+Aop:310	Relationship:337	adjacent	Moderate	Moderate
+Aop:310	Relationship:94	adjacent	Moderate	Moderate
+Aop:310	Relationship:1386	non-adjacent	High	Moderate
+Aop:311	Relationship:2548	adjacent	Not Specified	Not Specified
+Aop:311	Relationship:3490	adjacent	Not Specified	Not Specified
+Aop:311	Relationship:2592	adjacent	Not Specified	Not Specified
+Aop:311	Relationship:2104	adjacent	Not Specified	Not Specified
+Aop:311	Relationship:2588	adjacent	Not Specified	Not Specified
+Aop:311	Relationship:94	adjacent	Not Specified	Not Specified
+Aop:312	Relationship:11	adjacent	Not Specified	Not Specified
+Aop:312	Relationship:456	adjacent	Not Specified	Not Specified
+Aop:312	Relationship:2011	adjacent	Not Specified	Not Specified
+Aop:312	Relationship:2012	adjacent	Not Specified	Not Specified
+Aop:312	Relationship:2013	adjacent	Not Specified	Not Specified
+Aop:312	Relationship:451	non-adjacent	Not Specified	Not Specified
+Aop:312	Relationship:2014	non-adjacent	Not Specified	Not Specified
+Aop:312	Relationship:2015	non-adjacent	Not Specified	Not Specified
+Aop:313	Relationship:2017	adjacent	High	High
+Aop:313	Relationship:2018	adjacent	High	High
+Aop:313	Relationship:2019	adjacent	High	High
+Aop:314	Relationship:2020	adjacent	Moderate	Moderate
+Aop:314	Relationship:2021	adjacent	Moderate	Moderate
+Aop:314	Relationship:2022	adjacent	Moderate	Moderate
+Aop:314	Relationship:2023	adjacent	Moderate	Moderate
+Aop:315	Relationship:2024	adjacent	High	High
+Aop:315	Relationship:2025	adjacent	High	High
+Aop:315	Relationship:2026	adjacent	High	High
+Aop:315	Relationship:2027	adjacent	High	High
+Aop:316	Relationship:2028	adjacent	Moderate	Low
+Aop:316	Relationship:2029	adjacent	High	Moderate
+Aop:316	Relationship:2030	adjacent	High	High
+Aop:316	Relationship:2031	adjacent	High	Moderate
+Aop:316	Relationship:2032	adjacent	High	High
+Aop:318	Relationship:2266	adjacent	Not Specified	Not Specified
+Aop:318	Relationship:2267	adjacent	Not Specified	Not Specified
+Aop:318	Relationship:2264	adjacent	Not Specified	Not Specified
+Aop:318	Relationship:2265	adjacent	Not Specified	Not Specified
+Aop:319	Relationship:2065	adjacent	High	Moderate
+Aop:319	Relationship:2593	adjacent	High	High
+Aop:319	Relationship:2319	adjacent	Moderate	Moderate
+Aop:319	Relationship:2320	adjacent	Moderate	Moderate
+Aop:319	Relationship:2309	adjacent	Moderate	Moderate
+Aop:319	Relationship:2307	adjacent	Moderate	Moderate
+Aop:319	Relationship:2139	adjacent	Low	Not Specified
+Aop:320	Relationship:2056	adjacent	High	High
+Aop:320	Relationship:2351	adjacent	Moderate	Not Specified
+Aop:320	Relationship:2303	adjacent	High	Not Specified
+Aop:320	Relationship:2061	adjacent	High	Low
+Aop:320	Relationship:2062	adjacent	Moderate	Low
+Aop:320	Relationship:2135	adjacent	Moderate	Not Specified
+Aop:320	Relationship:2496	adjacent	High	Not Specified
+Aop:320	Relationship:2497	adjacent	High	Not Specified
+Aop:322	Relationship:24	adjacent	High	Moderate
+Aop:322	Relationship:1910	adjacent	High	Moderate
+Aop:322	Relationship:3801	adjacent	High	Moderate
+Aop:322	Relationship:3802	adjacent	High	Low
+Aop:322	Relationship:3771	non-adjacent	High	Low
+Aop:323	Relationship:2073	adjacent	High	Low
+Aop:323	Relationship:2072	adjacent	High	Low
+Aop:323	Relationship:2076	adjacent	High	Low
+Aop:323	Relationship:2937	adjacent	Moderate	Low
+Aop:323	Relationship:2938	adjacent	Moderate	Low
+Aop:324	Relationship:2009	adjacent	High	Moderate
+Aop:324	Relationship:2810	adjacent	High	Moderate
+Aop:324	Relationship:1909	adjacent	High	Low
+Aop:324	Relationship:1910	adjacent	High	Low
+Aop:324	Relationship:3480	adjacent	High	Moderate
+Aop:324	Relationship:3363	adjacent	High	Moderate
+Aop:324	Relationship:2205	adjacent	High	Moderate
+Aop:325	Relationship:2009	adjacent	High	Moderate
+Aop:325	Relationship:2810	adjacent	High	Moderate
+Aop:325	Relationship:1909	adjacent	High	Low
+Aop:325	Relationship:1910	adjacent	High	Moderate
+Aop:325	Relationship:3797	adjacent	High	Moderate
+Aop:325	Relationship:2767	adjacent	High	Moderate
+Aop:326	Relationship:2009	adjacent	High	Moderate
+Aop:326	Relationship:3116	adjacent	High	Moderate
+Aop:326	Relationship:1599	adjacent	High	Moderate
+Aop:326	Relationship:2203	adjacent	High	High
+Aop:326	Relationship:2204	adjacent	High	Moderate
+Aop:326	Relationship:2205	adjacent	High	Moderate
+Aop:327	Relationship:2090	adjacent	Not Specified	Not Specified
+Aop:327	Relationship:2091	adjacent	Not Specified	Not Specified
+Aop:327	Relationship:2092	adjacent	Not Specified	Not Specified
+Aop:327	Relationship:3491	adjacent	Not Specified	Not Specified
+Aop:328	Relationship:2094	adjacent	Not Specified	Not Specified
+Aop:328	Relationship:2095	adjacent	Not Specified	Not Specified
+Aop:328	Relationship:2096	adjacent	Not Specified	Not Specified
+Aop:328	Relationship:2550	adjacent	Not Specified	Not Specified
+Aop:329	Relationship:2460	adjacent	Not Specified	Not Specified
+Aop:329	Relationship:2097	adjacent	Not Specified	Not Specified
+Aop:329	Relationship:2098	adjacent	Not Specified	Not Specified
+Aop:329	Relationship:2096	adjacent	Not Specified	Not Specified
+Aop:330	Relationship:3490	adjacent	Not Specified	Not Specified
+Aop:330	Relationship:3230	adjacent	Not Specified	Not Specified
+Aop:330	Relationship:3096	adjacent	Not Specified	Not Specified
+Aop:330	Relationship:1751	adjacent	Not Specified	Not Specified
+Aop:331	Relationship:2009	adjacent	High	Moderate
+Aop:331	Relationship:3116	adjacent	High	Moderate
+Aop:331	Relationship:1599	adjacent	High	Moderate
+Aop:331	Relationship:2203	adjacent	High	High
+Aop:331	Relationship:2768	adjacent	High	Moderate
+Aop:331	Relationship:2767	adjacent	High	Moderate
+Aop:332	Relationship:2009	adjacent	High	Moderate
+Aop:332	Relationship:3632	adjacent	High	Moderate
+Aop:332	Relationship:3633	adjacent	Moderate	Low
+Aop:332	Relationship:2203	adjacent	High	High
+Aop:332	Relationship:2204	adjacent	High	Moderate
+Aop:332	Relationship:2205	adjacent	High	Moderate
+Aop:333	Relationship:2009	adjacent	High	Moderate
+Aop:333	Relationship:3632	adjacent	High	Moderate
+Aop:333	Relationship:3633	adjacent	Moderate	Low
+Aop:333	Relationship:2203	adjacent	High	High
+Aop:333	Relationship:2768	adjacent	High	Moderate
+Aop:333	Relationship:2767	adjacent	High	Moderate
+Aop:334	Relationship:3526	adjacent	High	Not Specified
+Aop:334	Relationship:3320	adjacent	High	Moderate
+Aop:334	Relationship:3527	adjacent	Moderate	Not Specified
+Aop:334	Relationship:2080	adjacent	High	Not Specified
+Aop:334	Relationship:2081	adjacent	High	Not Specified
+Aop:335	Relationship:3150	adjacent	Not Specified	Not Specified
+Aop:335	Relationship:2084	adjacent	Not Specified	Not Specified
+Aop:335	Relationship:797	adjacent	Not Specified	Not Specified
+Aop:335	Relationship:2085	adjacent	Not Specified	Not Specified
+Aop:336	Relationship:2101	adjacent	High	Low
+Aop:336	Relationship:2102	adjacent	Moderate	Low
+Aop:336	Relationship:2103	adjacent	Moderate	Low
+Aop:336	Relationship:2104	adjacent	Moderate	Low
+Aop:336	Relationship:1752	adjacent	Moderate	Low
+Aop:336	Relationship:1886	adjacent	Moderate	Low
+Aop:337	Relationship:2101	adjacent	High	Low
+Aop:337	Relationship:2102	adjacent	Moderate	Low
+Aop:337	Relationship:2105	adjacent	Moderate	Low
+Aop:337	Relationship:2106	adjacent	Moderate	Low
+Aop:337	Relationship:2107	adjacent	Moderate	Low
+Aop:337	Relationship:1752	adjacent	Moderate	Low
+Aop:337	Relationship:1886	adjacent	Moderate	Low
+Aop:338	Relationship:3098	adjacent	High	Low
+Aop:338	Relationship:3099	adjacent	Moderate	Low
+Aop:338	Relationship:2103	adjacent	Moderate	Low
+Aop:338	Relationship:2104	adjacent	Moderate	Low
+Aop:338	Relationship:1752	adjacent	Moderate	Low
+Aop:338	Relationship:1886	adjacent	Moderate	Low
+Aop:340	Relationship:2101	adjacent	High	Low
+Aop:340	Relationship:2110	adjacent	Moderate	Low
+Aop:340	Relationship:2111	adjacent	Moderate	Low
+Aop:340	Relationship:2112	adjacent	Moderate	Low
+Aop:340	Relationship:2113	adjacent	Moderate	Low
+Aop:340	Relationship:2114	adjacent	Moderate	Low
+Aop:340	Relationship:2115	adjacent	Moderate	Low
+Aop:341	Relationship:2101	adjacent	High	Low
+Aop:341	Relationship:2110	adjacent	Moderate	Low
+Aop:341	Relationship:2111	adjacent	Moderate	Low
+Aop:341	Relationship:2116	adjacent	Moderate	Low
+Aop:341	Relationship:2117	adjacent	Moderate	Low
+Aop:341	Relationship:2118	adjacent	Moderate	Low
+Aop:341	Relationship:2114	adjacent	Moderate	Low
+Aop:341	Relationship:2115	adjacent	Moderate	Low
+Aop:342	Relationship:3640	adjacent	High	Not Specified
+Aop:342	Relationship:3641	adjacent	Moderate	Not Specified
+Aop:342	Relationship:1346	adjacent	Moderate	Not Specified
+Aop:342	Relationship:1347	adjacent	Moderate	Not Specified
+Aop:342	Relationship:3639	adjacent	Moderate	Not Specified
+Aop:342	Relationship:1010	adjacent	Moderate	Not Specified
+Aop:342	Relationship:1002	adjacent	High	Not Specified
+Aop:343	Relationship:3642	adjacent	Not Specified	Not Specified
+Aop:343	Relationship:3643	adjacent	Not Specified	Not Specified
+Aop:343	Relationship:1346	adjacent	Not Specified	Not Specified
+Aop:343	Relationship:1347	adjacent	Not Specified	Not Specified
+Aop:343	Relationship:3639	adjacent	Not Specified	Not Specified
+Aop:343	Relationship:1010	adjacent	Not Specified	Not Specified
+Aop:343	Relationship:1002	adjacent	Not Specified	Not Specified
+Aop:344	Relationship:2130	adjacent	High	Not Specified
+Aop:344	Relationship:2124	adjacent	High	Not Specified
+Aop:344	Relationship:2133	non-adjacent	High	Not Specified
+Aop:344	Relationship:3348	non-adjacent	High	Not Specified
+Aop:345	Relationship:2130	adjacent	High	Moderate
+Aop:345	Relationship:2124	adjacent	High	Moderate
+Aop:345	Relationship:2273	adjacent	Moderate	Low
+Aop:345	Relationship:3142	adjacent	High	Low
+Aop:345	Relationship:394	adjacent	High	Low
+Aop:346	Relationship:2144	adjacent	High	Not Specified
+Aop:346	Relationship:2145	adjacent	Moderate	Not Specified
+Aop:346	Relationship:2146	adjacent	High	Not Specified
+Aop:346	Relationship:2147	adjacent	Low	Not Specified
+Aop:346	Relationship:2167	non-adjacent	High	Not Specified
+Aop:346	Relationship:2350	non-adjacent	Moderate	Not Specified
+Aop:347	Relationship:2148	adjacent	Not Specified	Not Specified
+Aop:347	Relationship:2149	adjacent	Not Specified	Not Specified
+Aop:347	Relationship:2150	adjacent	Not Specified	Not Specified
+Aop:347	Relationship:2151	adjacent	Not Specified	Not Specified
+Aop:347	Relationship:2152	adjacent	Not Specified	Not Specified
+Aop:347	Relationship:2153	adjacent	Not Specified	Not Specified
+Aop:347	Relationship:2154	adjacent	Not Specified	Not Specified
+Aop:347	Relationship:2156	adjacent	Not Specified	Not Specified
+Aop:347	Relationship:2157	adjacent	Not Specified	Not Specified
+Aop:348	Relationship:2162	adjacent	High	Moderate
+Aop:348	Relationship:2076	adjacent	High	Moderate
+Aop:348	Relationship:2274	adjacent	High	High
+Aop:348	Relationship:2292	adjacent	High	High
+Aop:349	Relationship:2275	adjacent	High	Moderate
+Aop:349	Relationship:2277	adjacent	High	Moderate
+Aop:349	Relationship:2276	adjacent	High	Moderate
+Aop:349	Relationship:2166	adjacent	Moderate	Moderate
+Aop:349	Relationship:2278	adjacent	Moderate	Moderate
+Aop:349	Relationship:2161	adjacent	High	High
+Aop:349	Relationship:2293	adjacent	High	High
+Aop:349	Relationship:2292	adjacent	High	High
+Aop:358	Relationship:2170	adjacent	Moderate	Low
+Aop:358	Relationship:2171	adjacent	Moderate	Low
+Aop:358	Relationship:1744	adjacent	Moderate	Low
+Aop:359	Relationship:2172	adjacent	Moderate	Low
+Aop:359	Relationship:2171	adjacent	Moderate	Low
+Aop:359	Relationship:1744	adjacent	Moderate	Low
+Aop:360	Relationship:1742	adjacent	Moderate	Low
+Aop:360	Relationship:1743	adjacent	Moderate	Low
+Aop:360	Relationship:1744	adjacent	Moderate	Low
+Aop:361	Relationship:1745	adjacent	Low	Low
+Aop:361	Relationship:1746	adjacent	Low	Low
+Aop:361	Relationship:1747	adjacent	Low	Low
+Aop:361	Relationship:1743	adjacent	Moderate	Moderate
+Aop:361	Relationship:1744	adjacent	High	High
+Aop:362	Relationship:3151	adjacent	High	High
+Aop:362	Relationship:3152	adjacent	High	High
+Aop:362	Relationship:2194	adjacent	High	High
+Aop:362	Relationship:3153	adjacent	High	High
+Aop:362	Relationship:2196	adjacent	High	Low
+Aop:362	Relationship:2197	adjacent	High	Low
+Aop:362	Relationship:2198	adjacent	High	Moderate
+Aop:362	Relationship:2199	adjacent	High	High
+Aop:362	Relationship:2200	adjacent	High	High
+Aop:363	Relationship:309	adjacent	High	Moderate
+Aop:363	Relationship:305	adjacent	Moderate	Moderate
+Aop:363	Relationship:2038	adjacent	Moderate	Moderate
+Aop:363	Relationship:2373	adjacent	Moderate	Low
+Aop:363	Relationship:2374	adjacent	High	Low
+Aop:363	Relationship:2375	adjacent	Moderate	Low
+Aop:363	Relationship:2013	adjacent	Moderate	Moderate
+Aop:363	Relationship:366	non-adjacent	High	Moderate
+Aop:364	Relationship:309	adjacent	Not Specified	Not Specified
+Aop:364	Relationship:305	adjacent	Not Specified	Not Specified
+Aop:364	Relationship:2038	adjacent	Not Specified	Not Specified
+Aop:364	Relationship:2376	adjacent	Not Specified	Not Specified
+Aop:364	Relationship:2377	adjacent	Not Specified	Not Specified
+Aop:364	Relationship:2375	adjacent	Not Specified	Not Specified
+Aop:364	Relationship:2013	adjacent	Not Specified	Not Specified
+Aop:365	Relationship:309	adjacent	Not Specified	Not Specified
+Aop:365	Relationship:305	adjacent	Not Specified	Not Specified
+Aop:365	Relationship:2038	adjacent	Not Specified	Not Specified
+Aop:365	Relationship:2378	adjacent	Not Specified	Not Specified
+Aop:365	Relationship:1918	adjacent	Not Specified	Not Specified
+Aop:365	Relationship:2375	adjacent	Not Specified	Not Specified
+Aop:365	Relationship:2013	adjacent	Not Specified	Not Specified
+Aop:366	Relationship:2248	adjacent	Moderate	Low
+Aop:366	Relationship:2249	adjacent	Moderate	Low
+Aop:366	Relationship:2247	adjacent	Moderate	Low
+Aop:366	Relationship:2237	adjacent	Moderate	Low
+Aop:366	Relationship:2479	adjacent	Moderate	Low
+Aop:366	Relationship:2270	adjacent	Moderate	Low
+Aop:366	Relationship:2168	non-adjacent	High	High
+Aop:367	Relationship:2250	adjacent	Moderate	Low
+Aop:367	Relationship:2249	adjacent	Moderate	Low
+Aop:367	Relationship:2247	adjacent	Moderate	Low
+Aop:367	Relationship:2237	adjacent	Moderate	Low
+Aop:367	Relationship:2270	adjacent	Moderate	Low
+Aop:367	Relationship:2479	non-adjacent	Moderate	Low
+Aop:367	Relationship:2168	non-adjacent	High	High
+Aop:368	Relationship:3503	adjacent	High	Not Specified
+Aop:368	Relationship:3504	adjacent	High	Not Specified
+Aop:374	Relationship:2286	adjacent	High	Low
+Aop:374	Relationship:208	adjacent	High	Not Specified
+Aop:374	Relationship:2287	adjacent	Low	Low
+Aop:374	Relationship:2288	adjacent	High	Low
+Aop:376	Relationship:2260	adjacent	Not Specified	Not Specified
+Aop:376	Relationship:2146	adjacent	Not Specified	Not Specified
+Aop:376	Relationship:2147	adjacent	Not Specified	Not Specified
+Aop:376	Relationship:2349	non-adjacent	Not Specified	Not Specified
+Aop:377	Relationship:2429	adjacent	High	High
+Aop:377	Relationship:2433	adjacent	Moderate	Not Specified
+Aop:377	Relationship:2430	adjacent	High	High
+Aop:377	Relationship:2431	adjacent	High	High
+Aop:377	Relationship:2432	adjacent	High	High
+Aop:377	Relationship:2309	adjacent	High	High
+Aop:377	Relationship:1963	adjacent	High	High
+Aop:379	Relationship:2056	adjacent	High	Moderate
+Aop:379	Relationship:2496	adjacent	Moderate	Moderate
+Aop:379	Relationship:2497	adjacent	Moderate	Moderate
+Aop:379	Relationship:2358	adjacent	Moderate	Not Specified
+Aop:379	Relationship:2359	adjacent	Moderate	Not Specified
+Aop:379	Relationship:2360	adjacent	Moderate	Not Specified
+Aop:379	Relationship:2290	adjacent	High	Not Specified
+Aop:381	Relationship:2312	adjacent	Moderate	Not Specified
+Aop:381	Relationship:2137	adjacent	Low	Not Specified
+Aop:381	Relationship:2317	adjacent	Low	Not Specified
+Aop:381	Relationship:2296	adjacent	Low	Not Specified
+Aop:381	Relationship:2318	adjacent	Low	Not Specified
+Aop:382	Relationship:2319	adjacent	Moderate	Moderate
+Aop:382	Relationship:2320	adjacent	Moderate	Moderate
+Aop:382	Relationship:2309	adjacent	Moderate	Moderate
+Aop:382	Relationship:2307	adjacent	Moderate	Moderate
+Aop:382	Relationship:2139	adjacent	Low	Not Specified
+Aop:383	Relationship:2323	adjacent	Moderate	Moderate
+Aop:383	Relationship:2435	adjacent	High	High
+Aop:383	Relationship:2324	adjacent	Moderate	Moderate
+Aop:383	Relationship:2325	adjacent	Moderate	Not Specified
+Aop:383	Relationship:2434	adjacent	High	High
+Aop:384	Relationship:2326	adjacent	High	High
+Aop:384	Relationship:2327	adjacent	Moderate	Moderate
+Aop:384	Relationship:2323	adjacent	Moderate	Moderate
+Aop:384	Relationship:2328	adjacent	Moderate	Not Specified
+Aop:384	Relationship:2329	adjacent	Moderate	Not Specified
+Aop:385	Relationship:2311	adjacent	Not Specified	Not Specified
+Aop:385	Relationship:2312	adjacent	Not Specified	Not Specified
+Aop:385	Relationship:2831	adjacent	Not Specified	Not Specified
+Aop:386	Relationship:2548	adjacent	High	High
+Aop:386	Relationship:2549	adjacent	High	High
+Aop:386	Relationship:2333	adjacent	High	High
+Aop:386	Relationship:2334	adjacent	High	High
+Aop:386	Relationship:2547	adjacent	Moderate	Moderate
+Aop:386	Relationship:2336	adjacent	High	High
+Aop:386	Relationship:3611	adjacent	High	High
+Aop:386	Relationship:3612	adjacent	High	High
+Aop:387	Relationship:2548	adjacent	High	High
+Aop:387	Relationship:2550	adjacent	High	High
+Aop:387	Relationship:2094	adjacent	Moderate	Moderate
+Aop:387	Relationship:1669	adjacent	High	High
+Aop:387	Relationship:2336	adjacent	High	High
+Aop:387	Relationship:2551	adjacent	Moderate	Moderate
+Aop:387	Relationship:3613	adjacent	High	High
+Aop:388	Relationship:2552	adjacent	High	High
+Aop:388	Relationship:2338	adjacent	High	High
+Aop:388	Relationship:2553	adjacent	High	High
+Aop:388	Relationship:2336	adjacent	High	High
+Aop:389	Relationship:2340	adjacent	High	High
+Aop:389	Relationship:2333	adjacent	High	High
+Aop:389	Relationship:2334	adjacent	High	High
+Aop:389	Relationship:2341	adjacent	Moderate	Moderate
+Aop:389	Relationship:2335	adjacent	Moderate	Moderate
+Aop:389	Relationship:2336	adjacent	High	High
+Aop:392	Relationship:2352	adjacent	Not Specified	Not Specified
+Aop:392	Relationship:2355	adjacent	Not Specified	Not Specified
+Aop:392	Relationship:2353	adjacent	Not Specified	Not Specified
+Aop:392	Relationship:1703	adjacent	Not Specified	Not Specified
+Aop:392	Relationship:2354	adjacent	Not Specified	Not Specified
+Aop:392	Relationship:2356	non-adjacent	Not Specified	Not Specified
+Aop:392	Relationship:2357	non-adjacent	Not Specified	Not Specified
+Aop:394	Relationship:2056	adjacent	Not Specified	Not Specified
+Aop:394	Relationship:2310	adjacent	Not Specified	Not Specified
+Aop:394	Relationship:2545	adjacent	Not Specified	Not Specified
+Aop:394	Relationship:2362	adjacent	Not Specified	Not Specified
+Aop:394	Relationship:2363	adjacent	Not Specified	Not Specified
+Aop:394	Relationship:2364	adjacent	Not Specified	Not Specified
+Aop:394	Relationship:2365	non-adjacent	Not Specified	Not Specified
+Aop:394	Relationship:2366	non-adjacent	Not Specified	Not Specified
+Aop:396	Relationship:2380	adjacent	High	High
+Aop:396	Relationship:2381	adjacent	Moderate	Moderate
+Aop:396	Relationship:2382	adjacent	High	High
+Aop:396	Relationship:2383	adjacent	Moderate	Moderate
+Aop:396	Relationship:2384	adjacent	High	High
+Aop:396	Relationship:3239	adjacent	Moderate	Moderate
+Aop:396	Relationship:2790	adjacent	Moderate	Low
+Aop:396	Relationship:2791	adjacent	Low	Low
+Aop:396	Relationship:2104	adjacent	Moderate	Low
+Aop:396	Relationship:2386	adjacent	High	Moderate
+Aop:396	Relationship:2161	adjacent	High	High
+Aop:396	Relationship:2388	adjacent	High	High
+Aop:396	Relationship:2387	adjacent	High	High
+Aop:396	Relationship:2389	adjacent	High	High
+Aop:396	Relationship:2379	adjacent	High	Moderate
+Aop:396	Relationship:2009	adjacent	High	Moderate
+Aop:396	Relationship:3240	non-adjacent	High	High
+Aop:396	Relationship:2397	non-adjacent	Moderate	Moderate
+Aop:396	Relationship:2400	non-adjacent	Moderate	Moderate
+Aop:396	Relationship:2392	non-adjacent	Moderate	Moderate
+Aop:396	Relationship:2393	non-adjacent	Moderate	Moderate
+Aop:396	Relationship:2394	non-adjacent	Moderate	Moderate
+Aop:396	Relationship:2395	non-adjacent	Moderate	Moderate
+Aop:396	Relationship:2396	non-adjacent	Moderate	Moderate
+Aop:397	Relationship:2398	adjacent	Not Specified	Not Specified
+Aop:397	Relationship:164	adjacent	Not Specified	Not Specified
+Aop:397	Relationship:2399	non-adjacent	Not Specified	Not Specified
+Aop:398	Relationship:2401	adjacent	High	Moderate
+Aop:398	Relationship:3776	adjacent	Not Specified	Not Specified
+Aop:398	Relationship:3777	adjacent	Not Specified	Not Specified
+Aop:398	Relationship:2481	adjacent	High	Moderate
+Aop:398	Relationship:2525	adjacent	Moderate	Low
+Aop:398	Relationship:394	adjacent	High	Low
+Aop:398	Relationship:2477	non-adjacent	Not Specified	Not Specified
+Aop:399	Relationship:2402	adjacent	Moderate	Low
+Aop:399	Relationship:2403	adjacent	Low	Low
+Aop:399	Relationship:2404	adjacent	High	Low
+Aop:399	Relationship:2405	adjacent	High	Low
+Aop:399	Relationship:2377	adjacent	Not Specified	Not Specified
+Aop:399	Relationship:2375	adjacent	Not Specified	Not Specified
+Aop:399	Relationship:2013	adjacent	High	High
+Aop:400	Relationship:3778	adjacent	Not Specified	Not Specified
+Aop:400	Relationship:3779	adjacent	Not Specified	Not Specified
+Aop:400	Relationship:3780	adjacent	Not Specified	Not Specified
+Aop:400	Relationship:3781	adjacent	Not Specified	Not Specified
+Aop:400	Relationship:3782	adjacent	Not Specified	Not Specified
+Aop:400	Relationship:3783	adjacent	Not Specified	Not Specified
+Aop:400	Relationship:2527	non-adjacent	Not Specified	Not Specified
+Aop:405	Relationship:11	adjacent	High	Moderate
+Aop:405	Relationship:456	adjacent	High	Low
+Aop:405	Relationship:2410	adjacent	Moderate	Moderate
+Aop:405	Relationship:2411	non-adjacent	Moderate	Moderate
+Aop:405	Relationship:2412	non-adjacent	Moderate	Moderate
+Aop:406	Relationship:2056	adjacent	Not Specified	Not Specified
+Aop:406	Relationship:2310	adjacent	Not Specified	Not Specified
+Aop:406	Relationship:2358	adjacent	Not Specified	Not Specified
+Aop:406	Relationship:2413	adjacent	Not Specified	Not Specified
+Aop:406	Relationship:2414	adjacent	Not Specified	Not Specified
+Aop:409	Relationship:2415	adjacent	High	Not Specified
+Aop:409	Relationship:1703	adjacent	High	Not Specified
+Aop:409	Relationship:1964	adjacent	High	Not Specified
+Aop:409	Relationship:1965	adjacent	High	Not Specified
+Aop:409	Relationship:2417	adjacent	High	Not Specified
+Aop:409	Relationship:2418	adjacent	Not Specified	Not Specified
+Aop:409	Relationship:2419	adjacent	High	Not Specified
+Aop:409	Relationship:2416	non-adjacent	High	Not Specified
+Aop:410	Relationship:2485	adjacent	High	Low
+Aop:410	Relationship:2436	adjacent	Moderate	Low
+Aop:410	Relationship:2437	adjacent	Low	Low
+Aop:410	Relationship:2438	adjacent	Low	Low
+Aop:410	Relationship:2439	adjacent	High	Low
+Aop:410	Relationship:2467	adjacent	High	Low
+Aop:410	Relationship:2468	adjacent	High	Low
+Aop:410	Relationship:2231	adjacent	High	Low
+Aop:410	Relationship:2013	adjacent	High	High
+Aop:411	Relationship:2451	adjacent	High	High
+Aop:411	Relationship:2442	adjacent	High	Moderate
+Aop:411	Relationship:2443	adjacent	Moderate	Moderate
+Aop:412	Relationship:2453	adjacent	Not Specified	Not Specified
+Aop:412	Relationship:2454	adjacent	Not Specified	Not Specified
+Aop:412	Relationship:2455	adjacent	Not Specified	Not Specified
+Aop:412	Relationship:2456	adjacent	Not Specified	Not Specified
+Aop:412	Relationship:2457	adjacent	Not Specified	Not Specified
+Aop:412	Relationship:2458	adjacent	Not Specified	Not Specified
+Aop:413	Relationship:2459	adjacent	Moderate	Moderate
+Aop:413	Relationship:2460	adjacent	High	Moderate
+Aop:413	Relationship:2464	adjacent	Moderate	Moderate
+Aop:413	Relationship:2465	adjacent	Moderate	Moderate
+Aop:413	Relationship:2466	adjacent	High	High
+Aop:422	Relationship:2056	adjacent	High	High
+Aop:422	Relationship:2496	adjacent	Low	Not Specified
+Aop:422	Relationship:2497	adjacent	Low	Not Specified
+Aop:422	Relationship:2546	adjacent	Low	Low
+Aop:423	Relationship:2719	adjacent	Moderate	Moderate
+Aop:424	Relationship:2449	adjacent	High	High
+Aop:424	Relationship:2440	adjacent	High	Moderate
+Aop:424	Relationship:2441	adjacent	Moderate	Low
+Aop:424	Relationship:2442	adjacent	High	Moderate
+Aop:424	Relationship:2443	adjacent	Moderate	Moderate
+Aop:425	Relationship:2450	adjacent	Not Specified	Not Specified
+Aop:425	Relationship:2447	adjacent	Not Specified	Not Specified
+Aop:425	Relationship:2448	adjacent	Not Specified	Not Specified
+Aop:425	Relationship:2442	adjacent	Not Specified	Not Specified
+Aop:425	Relationship:2443	adjacent	Not Specified	Not Specified
+Aop:428	Relationship:2311	adjacent	Moderate	Not Specified
+Aop:428	Relationship:2532	adjacent	Moderate	Moderate
+Aop:429	Relationship:2499	adjacent	Moderate	Not Specified
+Aop:429	Relationship:2505	adjacent	High	Not Specified
+Aop:429	Relationship:2502	adjacent	Moderate	Not Specified
+Aop:429	Relationship:2503	adjacent	Moderate	Not Specified
+Aop:429	Relationship:2506	adjacent	Moderate	Not Specified
+Aop:429	Relationship:2504	adjacent	High	Not Specified
+Aop:429	Relationship:2507	adjacent	High	Not Specified
+Aop:429	Relationship:2500	adjacent	High	Not Specified
+Aop:429	Relationship:2501	adjacent	Moderate	Not Specified
+Aop:430	Relationship:2056	adjacent	High	Moderate
+Aop:430	Relationship:2496	adjacent	High	Not Specified
+Aop:430	Relationship:2497	adjacent	High	Not Specified
+Aop:430	Relationship:2498	adjacent	High	Not Specified
+Aop:431	Relationship:2528	adjacent	High	Not Specified
+Aop:431	Relationship:2529	adjacent	High	Not Specified
+Aop:431	Relationship:2530	adjacent	High	Not Specified
+Aop:431	Relationship:2531	adjacent	High	Not Specified
+Aop:433	Relationship:2850	adjacent	High	Not Specified
+Aop:433	Relationship:2851	adjacent	High	Not Specified
+Aop:433	Relationship:2540	adjacent	High	Not Specified
+Aop:433	Relationship:2541	adjacent	Low	Not Specified
+Aop:433	Relationship:2542	adjacent	Low	Not Specified
+Aop:435	Relationship:2552	adjacent	High	High
+Aop:435	Relationship:2381	adjacent	High	Moderate
+Aop:435	Relationship:2554	adjacent	High	Moderate
+Aop:435	Relationship:2555	adjacent	High	High
+Aop:435	Relationship:2556	adjacent	High	High
+Aop:436	Relationship:2401	adjacent	High	Moderate
+Aop:436	Relationship:2561	adjacent	High	Low
+Aop:436	Relationship:2562	adjacent	Moderate	Low
+Aop:436	Relationship:2563	adjacent	High	Low
+Aop:437	Relationship:3241	adjacent	Not Specified	Not Specified
+Aop:437	Relationship:3129	adjacent	Not Specified	Not Specified
+Aop:437	Relationship:3134	adjacent	Not Specified	Not Specified
+Aop:437	Relationship:1676	adjacent	Not Specified	Not Specified
+Aop:439	Relationship:2568	adjacent	High	Not Specified
+Aop:439	Relationship:2569	adjacent	High	Not Specified
+Aop:439	Relationship:2570	adjacent	High	Not Specified
+Aop:439	Relationship:2571	adjacent	Moderate	Not Specified
+Aop:439	Relationship:2572	adjacent	Moderate	Not Specified
+Aop:439	Relationship:2573	adjacent	Moderate	Not Specified
+Aop:439	Relationship:2574	adjacent	High	Not Specified
+Aop:439	Relationship:1306	adjacent	High	Not Specified
+Aop:439	Relationship:2575	adjacent	High	Not Specified
+Aop:439	Relationship:2577	adjacent	High	Not Specified
+Aop:439	Relationship:3137	adjacent	High	High
+Aop:439	Relationship:3138	adjacent	High	High
+Aop:439	Relationship:3139	adjacent	High	High
+Aop:440	Relationship:2580	adjacent	High	Not Specified
+Aop:440	Relationship:1089	adjacent	High	Moderate
+Aop:440	Relationship:2581	adjacent	High	Moderate
+Aop:440	Relationship:2582	adjacent	High	Moderate
+Aop:440	Relationship:2583	adjacent	High	Moderate
+Aop:440	Relationship:2585	non-adjacent	High	Not Specified
+Aop:440	Relationship:1093	non-adjacent	High	Not Specified
+Aop:440	Relationship:2829	non-adjacent	Moderate	Low
+Aop:441	Relationship:2552	adjacent	High	Not Specified
+Aop:441	Relationship:2595	adjacent	High	Not Specified
+Aop:441	Relationship:2606	adjacent	Moderate	Not Specified
+Aop:441	Relationship:3105	adjacent	Moderate	Low
+Aop:441	Relationship:3106	adjacent	High	Low
+Aop:441	Relationship:3107	adjacent	Low	Low
+Aop:441	Relationship:3108	adjacent	High	Low
+Aop:441	Relationship:2604	non-adjacent	High	Not Specified
+Aop:442	Relationship:2605	adjacent	Not Specified	Not Specified
+Aop:442	Relationship:2625	adjacent	Not Specified	Not Specified
+Aop:442	Relationship:3242	adjacent	Not Specified	Not Specified
+Aop:442	Relationship:3243	adjacent	Not Specified	Not Specified
+Aop:442	Relationship:749	adjacent	Not Specified	Not Specified
+Aop:442	Relationship:748	adjacent	Not Specified	Not Specified
+Aop:443	Relationship:2608	adjacent	High	High
+Aop:443	Relationship:164	adjacent	High	High
+Aop:443	Relationship:2609	adjacent	Moderate	Moderate
+Aop:443	Relationship:2610	adjacent	Moderate	Moderate
+Aop:443	Relationship:2611	adjacent	Moderate	Moderate
+Aop:443	Relationship:2612	adjacent	Moderate	Moderate
+Aop:443	Relationship:2613	adjacent	High	High
+Aop:443	Relationship:2614	adjacent	High	High
+Aop:443	Relationship:2728	non-adjacent	High	High
+Aop:443	Relationship:2729	non-adjacent	High	High
+Aop:444	Relationship:2616	adjacent	Moderate	Not Specified
+Aop:444	Relationship:2552	adjacent	High	High
+Aop:444	Relationship:1904	adjacent	Moderate	Moderate
+Aop:444	Relationship:3268	adjacent	Moderate	Not Specified
+Aop:444	Relationship:3267	adjacent	Moderate	Not Specified
+Aop:444	Relationship:1468	adjacent	Not Specified	Not Specified
+Aop:444	Relationship:2622	adjacent	High	High
+Aop:444	Relationship:3270	adjacent	Low	Not Specified
+Aop:444	Relationship:2619	adjacent	Not Specified	Not Specified
+Aop:444	Relationship:2620	adjacent	Moderate	Moderate
+Aop:444	Relationship:2621	adjacent	Moderate	Moderate
+Aop:444	Relationship:2336	adjacent	Moderate	Moderate
+Aop:444	Relationship:2623	non-adjacent	Moderate	Moderate
+Aop:444	Relationship:1886	non-adjacent	Moderate	Moderate
+Aop:444	Relationship:2624	non-adjacent	Moderate	Moderate
+Aop:445	Relationship:2665	adjacent	High	Moderate
+Aop:445	Relationship:2627	adjacent	High	Moderate
+Aop:445	Relationship:2629	adjacent	Not Specified	Not Specified
+Aop:445	Relationship:2630	adjacent	Not Specified	Not Specified
+Aop:445	Relationship:2631	adjacent	Not Specified	Not Specified
+Aop:445	Relationship:2632	adjacent	Not Specified	Not Specified
+Aop:445	Relationship:2633	adjacent	Not Specified	Not Specified
+Aop:445	Relationship:2666	non-adjacent	Moderate	Moderate
+Aop:445	Relationship:2730	non-adjacent	High	Moderate
+Aop:447	Relationship:2636	adjacent	Not Specified	Not Specified
+Aop:447	Relationship:3163	adjacent	Not Specified	Not Specified
+Aop:447	Relationship:3164	adjacent	Not Specified	Not Specified
+Aop:447	Relationship:3165	adjacent	Not Specified	Not Specified
+Aop:447	Relationship:3131	adjacent	Not Specified	Not Specified
+Aop:447	Relationship:2641	adjacent	Not Specified	Not Specified
+Aop:447	Relationship:3271	adjacent	Not Specified	Not Specified
+Aop:447	Relationship:2643	adjacent	Not Specified	Not Specified
+Aop:447	Relationship:2644	adjacent	Not Specified	Not Specified
+Aop:447	Relationship:3264	adjacent	Not Specified	Not Specified
+Aop:447	Relationship:2645	adjacent	Not Specified	Not Specified
+Aop:447	Relationship:2646	adjacent	Not Specified	Not Specified
+Aop:447	Relationship:2647	adjacent	Not Specified	Not Specified
+Aop:447	Relationship:2648	adjacent	Not Specified	Not Specified
+Aop:449	Relationship:2694	adjacent	High	Not Specified
+Aop:449	Relationship:2695	adjacent	Moderate	Not Specified
+Aop:449	Relationship:2696	adjacent	Not Specified	Not Specified
+Aop:449	Relationship:2697	adjacent	Not Specified	Not Specified
+Aop:449	Relationship:2698	adjacent	Not Specified	Not Specified
+Aop:449	Relationship:2699	non-adjacent	Not Specified	Not Specified
+Aop:449	Relationship:2700	non-adjacent	High	Not Specified
+Aop:450	Relationship:2653	adjacent	Low	Moderate
+Aop:450	Relationship:1512	adjacent	Moderate	Moderate
+Aop:450	Relationship:3312	adjacent	High	High
+Aop:450	Relationship:647	adjacent	High	High
+Aop:450	Relationship:2656	adjacent	Moderate	Low
+Aop:450	Relationship:2657	non-adjacent	Low	Low
+Aop:451	Relationship:1702	adjacent	Moderate	Moderate
+Aop:451	Relationship:1703	adjacent	Moderate	Low
+Aop:451	Relationship:2658	adjacent	Moderate	Moderate
+Aop:451	Relationship:2659	adjacent	Not Specified	Not Specified
+Aop:451	Relationship:2660	adjacent	Not Specified	Not Specified
+Aop:451	Relationship:2661	adjacent	Not Specified	Not Specified
+Aop:451	Relationship:1966	adjacent	Not Specified	Not Specified
+Aop:451	Relationship:1967	adjacent	High	Low
+Aop:451	Relationship:2662	non-adjacent	Not Specified	Not Specified
+Aop:451	Relationship:2663	non-adjacent	Not Specified	Not Specified
+Aop:451	Relationship:2664	non-adjacent	Not Specified	Not Specified
+Aop:452	Relationship:2667	adjacent	Not Specified	Not Specified
+Aop:452	Relationship:2668	adjacent	Not Specified	Not Specified
+Aop:452	Relationship:3203	adjacent	Not Specified	Not Specified
+Aop:452	Relationship:2670	adjacent	Not Specified	Not Specified
+Aop:452	Relationship:2671	adjacent	Not Specified	Not Specified
+Aop:452	Relationship:2672	adjacent	Not Specified	Not Specified
+Aop:452	Relationship:2673	adjacent	Not Specified	Not Specified
+Aop:452	Relationship:2674	adjacent	Not Specified	Not Specified
+Aop:452	Relationship:2675	adjacent	Not Specified	Not Specified
+Aop:452	Relationship:2676	adjacent	Not Specified	Not Specified
+Aop:452	Relationship:3204	adjacent	Not Specified	Not Specified
+Aop:452	Relationship:2678	adjacent	Not Specified	Not Specified
+Aop:452	Relationship:2679	adjacent	Not Specified	Not Specified
+Aop:452	Relationship:2680	adjacent	Not Specified	Not Specified
+Aop:452	Relationship:2681	adjacent	Not Specified	Not Specified
+Aop:455	Relationship:972	adjacent	High	Moderate
+Aop:455	Relationship:2683	adjacent	Moderate	Moderate
+Aop:455	Relationship:2684	adjacent	Moderate	Moderate
+Aop:455	Relationship:2685	adjacent	High	Low
+Aop:455	Relationship:2686	adjacent	Low	Low
+Aop:455	Relationship:2688	non-adjacent	Moderate	Low
+Aop:455	Relationship:2690	non-adjacent	Moderate	Moderate
+Aop:455	Relationship:984	non-adjacent	High	Moderate
+Aop:455	Relationship:2689	non-adjacent	High	High
+Aop:456	Relationship:972	adjacent	High	Moderate
+Aop:456	Relationship:2683	adjacent	Moderate	Moderate
+Aop:456	Relationship:2684	adjacent	Moderate	Moderate
+Aop:456	Relationship:2691	adjacent	Moderate	Moderate
+Aop:456	Relationship:1567	adjacent	High	Low
+Aop:456	Relationship:2688	non-adjacent	High	Low
+Aop:456	Relationship:2727	non-adjacent	Moderate	Moderate
+Aop:456	Relationship:984	non-adjacent	High	Moderate
+Aop:456	Relationship:2765	non-adjacent	High	Low
+Aop:457	Relationship:2866	adjacent	High	Low
+Aop:457	Relationship:3273	adjacent	High	Low
+Aop:457	Relationship:3274	adjacent	Moderate	Low
+Aop:457	Relationship:305	adjacent	High	Not Specified
+Aop:457	Relationship:2865	adjacent	Moderate	Moderate
+Aop:458	Relationship:2883	adjacent	High	High
+Aop:458	Relationship:2478	adjacent	High	High
+Aop:458	Relationship:2270	adjacent	High	High
+Aop:458	Relationship:312	adjacent	High	Moderate
+Aop:458	Relationship:746	adjacent	High	Moderate
+Aop:458	Relationship:2886	adjacent	Moderate	Low
+Aop:458	Relationship:748	adjacent	Low	Low
+Aop:458	Relationship:403	non-adjacent	High	High
+Aop:459	Relationship:869	adjacent	High	Moderate
+Aop:459	Relationship:3275	adjacent	Moderate	Low
+Aop:459	Relationship:3274	adjacent	Moderate	Low
+Aop:459	Relationship:305	adjacent	High	High
+Aop:459	Relationship:312	adjacent	High	Moderate
+Aop:459	Relationship:746	adjacent	Moderate	Moderate
+Aop:459	Relationship:2886	adjacent	Moderate	Moderate
+Aop:459	Relationship:748	adjacent	Moderate	Moderate
+Aop:460	Relationship:2734	adjacent	Moderate	Low
+Aop:460	Relationship:2735	adjacent	Moderate	Low
+Aop:460	Relationship:2721	adjacent	Low	Low
+Aop:460	Relationship:2731	adjacent	Low	Low
+Aop:460	Relationship:2732	adjacent	Low	Low
+Aop:460	Relationship:2724	adjacent	Low	Low
+Aop:460	Relationship:2726	adjacent	Moderate	Low
+Aop:460	Relationship:2792	adjacent	Low	Low
+Aop:460	Relationship:2882	adjacent	Low	Low
+Aop:460	Relationship:2894	non-adjacent	High	Moderate
+Aop:462	Relationship:2009	adjacent	High	Not Specified
+Aop:462	Relationship:2776	adjacent	High	Not Specified
+Aop:462	Relationship:3373	adjacent	Moderate	Not Specified
+Aop:462	Relationship:3374	adjacent	Moderate	Not Specified
+Aop:462	Relationship:3376	adjacent	Moderate	Not Specified
+Aop:462	Relationship:3442	adjacent	Moderate	Not Specified
+Aop:462	Relationship:3443	adjacent	Moderate	Not Specified
+Aop:464	Relationship:2703	adjacent	Not Specified	Not Specified
+Aop:464	Relationship:2702	adjacent	Not Specified	Not Specified
+Aop:464	Relationship:361	adjacent	Not Specified	Not Specified
+Aop:464	Relationship:3038	adjacent	Not Specified	Not Specified
+Aop:464	Relationship:2707	adjacent	Not Specified	Not Specified
+Aop:464	Relationship:3039	adjacent	Not Specified	Not Specified
+Aop:464	Relationship:3040	adjacent	Not Specified	Not Specified
+Aop:464	Relationship:2704	adjacent	Not Specified	Not Specified
+Aop:464	Relationship:2705	adjacent	Not Specified	Not Specified
+Aop:464	Relationship:2710	adjacent	Not Specified	Not Specified
+Aop:464	Relationship:2711	adjacent	Not Specified	Not Specified
+Aop:464	Relationship:3041	adjacent	Not Specified	Not Specified
+Aop:464	Relationship:362	adjacent	Not Specified	Not Specified
+Aop:464	Relationship:3136	adjacent	Not Specified	Not Specified
+Aop:464	Relationship:3044	adjacent	Not Specified	Not Specified
+Aop:464	Relationship:3045	adjacent	Not Specified	Not Specified
+Aop:464	Relationship:3046	adjacent	Not Specified	Not Specified
+Aop:464	Relationship:1684	adjacent	Not Specified	Not Specified
+Aop:464	Relationship:3048	adjacent	Not Specified	Not Specified
+Aop:464	Relationship:3047	adjacent	Not Specified	Not Specified
+Aop:464	Relationship:2714	adjacent	Not Specified	Not Specified
+Aop:464	Relationship:3049	adjacent	Not Specified	Not Specified
+Aop:464	Relationship:3050	adjacent	Not Specified	Not Specified
+Aop:464	Relationship:3051	adjacent	Not Specified	Not Specified
+Aop:464	Relationship:2706	adjacent	Not Specified	Not Specified
+Aop:465	Relationship:2736	adjacent	Moderate	Moderate
+Aop:465	Relationship:2737	adjacent	Moderate	Moderate
+Aop:465	Relationship:2738	adjacent	Moderate	Moderate
+Aop:465	Relationship:2739	adjacent	Moderate	Moderate
+Aop:465	Relationship:2740	adjacent	Moderate	Moderate
+Aop:465	Relationship:2741	adjacent	Moderate	Moderate
+Aop:465	Relationship:2742	adjacent	Moderate	Moderate
+Aop:465	Relationship:2743	adjacent	Moderate	Moderate
+Aop:466	Relationship:2744	adjacent	Moderate	Moderate
+Aop:466	Relationship:2745	adjacent	Moderate	Moderate
+Aop:466	Relationship:2746	adjacent	Moderate	Moderate
+Aop:466	Relationship:2747	adjacent	Moderate	Moderate
+Aop:466	Relationship:2748	adjacent	Moderate	Moderate
+Aop:466	Relationship:2749	adjacent	Moderate	Moderate
+Aop:466	Relationship:2750	adjacent	Moderate	Moderate
+Aop:466	Relationship:1002	adjacent	Moderate	Moderate
+Aop:466	Relationship:2751	adjacent	Moderate	Moderate
+Aop:467	Relationship:2752	adjacent	Moderate	Moderate
+Aop:467	Relationship:2753	adjacent	Moderate	Moderate
+Aop:467	Relationship:2754	adjacent	Moderate	Moderate
+Aop:467	Relationship:2755	adjacent	Moderate	Moderate
+Aop:467	Relationship:2756	adjacent	Moderate	Moderate
+Aop:467	Relationship:2757	adjacent	Moderate	Moderate
+Aop:467	Relationship:2758	adjacent	Moderate	Moderate
+Aop:467	Relationship:2759	adjacent	Moderate	Moderate
+Aop:467	Relationship:2743	adjacent	Moderate	Moderate
+Aop:468	Relationship:2056	adjacent	High	High
+Aop:468	Relationship:2496	adjacent	High	Moderate
+Aop:468	Relationship:2497	adjacent	High	Moderate
+Aop:468	Relationship:2488	adjacent	High	Moderate
+Aop:468	Relationship:2760	adjacent	Not Specified	Not Specified
+Aop:468	Relationship:1703	adjacent	High	High
+Aop:468	Relationship:2354	adjacent	Not Specified	Not Specified
+Aop:468	Relationship:2761	non-adjacent	Not Specified	Not Specified
+Aop:470	Relationship:2769	adjacent	High	High
+Aop:470	Relationship:1977	adjacent	High	High
+Aop:470	Relationship:2811	adjacent	High	Moderate
+Aop:470	Relationship:3315	adjacent	High	Moderate
+Aop:470	Relationship:3316	adjacent	High	Low
+Aop:470	Relationship:2772	adjacent	Moderate	Moderate
+Aop:470	Relationship:3317	adjacent	Moderate	Low
+Aop:470	Relationship:2774	adjacent	Moderate	Low
+Aop:470	Relationship:3318	adjacent	Moderate	Low
+Aop:470	Relationship:2777	adjacent	Moderate	Low
+Aop:470	Relationship:2784	adjacent	Moderate	Low
+Aop:470	Relationship:2789	adjacent	Moderate	Low
+Aop:470	Relationship:2779	non-adjacent	High	Low
+Aop:470	Relationship:2780	non-adjacent	Moderate	Low
+Aop:470	Relationship:2785	non-adjacent	High	Low
+Aop:470	Relationship:2776	non-adjacent	Moderate	Low
+Aop:471	Relationship:3056	adjacent	Moderate	Moderate
+Aop:471	Relationship:3057	adjacent	Moderate	Moderate
+Aop:471	Relationship:3058	adjacent	Moderate	Moderate
+Aop:471	Relationship:3059	adjacent	Moderate	Moderate
+Aop:471	Relationship:3060	adjacent	Moderate	Moderate
+Aop:471	Relationship:3061	adjacent	Moderate	Moderate
+Aop:471	Relationship:208	adjacent	Moderate	Moderate
+Aop:471	Relationship:3312	adjacent	Moderate	Moderate
+Aop:471	Relationship:3322	adjacent	Moderate	Moderate
+Aop:471	Relationship:459	adjacent	Moderate	Moderate
+Aop:471	Relationship:3063	adjacent	Moderate	Moderate
+Aop:471	Relationship:3064	adjacent	Moderate	Moderate
+Aop:471	Relationship:3065	adjacent	Moderate	Moderate
+Aop:471	Relationship:1835	adjacent	Moderate	Moderate
+Aop:471	Relationship:3066	adjacent	Moderate	Moderate
+Aop:471	Relationship:3068	adjacent	Moderate	Moderate
+Aop:471	Relationship:3069	adjacent	Moderate	Moderate
+Aop:471	Relationship:3070	adjacent	Moderate	Moderate
+Aop:471	Relationship:3071	adjacent	Moderate	Moderate
+Aop:471	Relationship:3072	adjacent	Moderate	Moderate
+Aop:471	Relationship:2941	adjacent	Moderate	Moderate
+Aop:471	Relationship:3073	adjacent	Moderate	Moderate
+Aop:471	Relationship:906	adjacent	Moderate	Moderate
+Aop:471	Relationship:3075	adjacent	Moderate	Moderate
+Aop:471	Relationship:3076	adjacent	Moderate	Moderate
+Aop:471	Relationship:3077	adjacent	Moderate	Moderate
+Aop:471	Relationship:2287	adjacent	Moderate	Moderate
+Aop:471	Relationship:3078	adjacent	Moderate	Moderate
+Aop:471	Relationship:2807	adjacent	Moderate	Moderate
+Aop:471	Relationship:3079	adjacent	Moderate	Moderate
+Aop:471	Relationship:3080	adjacent	Moderate	Moderate
+Aop:471	Relationship:3081	adjacent	Moderate	Moderate
+Aop:471	Relationship:1460	adjacent	Moderate	Moderate
+Aop:471	Relationship:3082	adjacent	Moderate	Moderate
+Aop:471	Relationship:3083	adjacent	Moderate	Moderate
+Aop:471	Relationship:3084	adjacent	Moderate	Moderate
+Aop:471	Relationship:3085	adjacent	Moderate	Moderate
+Aop:471	Relationship:3086	adjacent	Moderate	Moderate
+Aop:471	Relationship:3087	adjacent	Moderate	Moderate
+Aop:471	Relationship:3088	adjacent	Moderate	Moderate
+Aop:471	Relationship:1054	adjacent	Moderate	Moderate
+Aop:471	Relationship:3089	adjacent	Moderate	Moderate
+Aop:471	Relationship:3090	adjacent	Moderate	Moderate
+Aop:472	Relationship:3762	adjacent	High	High
+Aop:472	Relationship:3763	adjacent	High	High
+Aop:472	Relationship:3141	adjacent	Moderate	Moderate
+Aop:472	Relationship:2009	adjacent	High	High
+Aop:472	Relationship:2975	adjacent	Moderate	Moderate
+Aop:472	Relationship:3764	adjacent	Moderate	Moderate
+Aop:472	Relationship:3765	adjacent	High	High
+Aop:472	Relationship:3766	adjacent	Moderate	Moderate
+Aop:473	Relationship:2616	adjacent	High	Low
+Aop:473	Relationship:2798	adjacent	Moderate	Low
+Aop:473	Relationship:2799	adjacent	Moderate	Low
+Aop:473	Relationship:2800	adjacent	Not Specified	Not Specified
+Aop:473	Relationship:2801	adjacent	Not Specified	Not Specified
+Aop:473	Relationship:2802	adjacent	Not Specified	Not Specified
+Aop:473	Relationship:2803	adjacent	Not Specified	Not Specified
+Aop:473	Relationship:2804	adjacent	Not Specified	Not Specified
+Aop:474	Relationship:3302	adjacent	High	High
+Aop:474	Relationship:3303	adjacent	High	High
+Aop:474	Relationship:3305	adjacent	Moderate	Moderate
+Aop:474	Relationship:3306	adjacent	High	High
+Aop:475	Relationship:919	adjacent	High	Moderate
+Aop:475	Relationship:361	adjacent	High	High
+Aop:475	Relationship:3091	adjacent	High	Moderate
+Aop:475	Relationship:3298	adjacent	High	High
+Aop:475	Relationship:3301	adjacent	High	High
+Aop:475	Relationship:2504	adjacent	High	Moderate
+Aop:475	Relationship:359	adjacent	High	Moderate
+Aop:475	Relationship:3300	non-adjacent	High	High
+Aop:475	Relationship:3506	non-adjacent	High	High
+Aop:477	Relationship:2130	adjacent	High	Not Specified
+Aop:477	Relationship:2124	adjacent	High	Not Specified
+Aop:477	Relationship:2828	non-adjacent	High	Not Specified
+Aop:478	Relationship:1977	adjacent	High	High
+Aop:478	Relationship:2769	adjacent	High	High
+Aop:478	Relationship:2809	adjacent	Moderate	Moderate
+Aop:478	Relationship:2810	adjacent	Moderate	Low
+Aop:478	Relationship:2811	adjacent	Moderate	Low
+Aop:478	Relationship:2812	adjacent	Moderate	Low
+Aop:478	Relationship:1909	adjacent	Moderate	Low
+Aop:478	Relationship:1911	adjacent	Moderate	Moderate
+Aop:478	Relationship:164	adjacent	High	Low
+Aop:478	Relationship:1912	adjacent	Low	Low
+Aop:478	Relationship:1978	adjacent	Moderate	Low
+Aop:478	Relationship:1979	adjacent	Moderate	Low
+Aop:478	Relationship:2816	adjacent	Moderate	Low
+Aop:478	Relationship:2819	adjacent	Moderate	Low
+Aop:478	Relationship:1913	adjacent	Low	Low
+Aop:478	Relationship:2813	non-adjacent	Moderate	Moderate
+Aop:478	Relationship:1981	non-adjacent	High	High
+Aop:478	Relationship:1982	non-adjacent	High	High
+Aop:478	Relationship:2814	non-adjacent	Moderate	Moderate
+Aop:478	Relationship:2815	non-adjacent	High	High
+Aop:478	Relationship:2817	non-adjacent	Low	Low
+Aop:478	Relationship:2818	non-adjacent	Moderate	Low
+Aop:479	Relationship:2821	adjacent	Not Specified	Not Specified
+Aop:479	Relationship:1684	adjacent	Not Specified	Not Specified
+Aop:479	Relationship:1690	adjacent	Not Specified	Not Specified
+Aop:479	Relationship:3244	adjacent	Not Specified	Not Specified
+Aop:479	Relationship:3175	adjacent	Not Specified	Not Specified
+Aop:479	Relationship:3245	adjacent	Not Specified	Not Specified
+Aop:479	Relationship:3176	adjacent	Not Specified	Not Specified
+Aop:480	Relationship:2821	adjacent	Not Specified	Not Specified
+Aop:480	Relationship:2822	adjacent	Not Specified	Not Specified
+Aop:480	Relationship:2823	adjacent	Not Specified	Not Specified
+Aop:480	Relationship:3176	adjacent	Not Specified	Not Specified
+Aop:481	Relationship:2009	adjacent	High	High
+Aop:481	Relationship:3129	adjacent	High	High
+Aop:482	Relationship:2769	adjacent	High	Moderate
+Aop:482	Relationship:2716	adjacent	Moderate	Low
+Aop:482	Relationship:3319	adjacent	High	Low
+Aop:482	Relationship:2842	adjacent	High	Low
+Aop:482	Relationship:3320	adjacent	High	Moderate
+Aop:482	Relationship:2844	adjacent	Moderate	Low
+Aop:482	Relationship:2845	adjacent	Moderate	Low
+Aop:482	Relationship:2846	non-adjacent	Moderate	Low
+Aop:482	Relationship:2847	non-adjacent	High	Low
+Aop:482	Relationship:2848	non-adjacent	High	Low
+Aop:482	Relationship:2849	non-adjacent	High	Moderate
+Aop:483	Relationship:2769	adjacent	High	Moderate
+Aop:483	Relationship:2832	adjacent	Moderate	Moderate
+Aop:483	Relationship:3316	adjacent	High	Low
+Aop:483	Relationship:2833	adjacent	Moderate	Low
+Aop:483	Relationship:2834	adjacent	Moderate	Low
+Aop:483	Relationship:2835	adjacent	Moderate	Low
+Aop:483	Relationship:2836	adjacent	Moderate	Low
+Aop:483	Relationship:3321	adjacent	Moderate	Low
+Aop:483	Relationship:2841	adjacent	Moderate	Low
+Aop:483	Relationship:2811	adjacent	Moderate	Moderate
+Aop:483	Relationship:1977	adjacent	High	High
+Aop:483	Relationship:3315	adjacent	Moderate	Low
+Aop:483	Relationship:2837	non-adjacent	Moderate	Low
+Aop:483	Relationship:2838	non-adjacent	Moderate	Low
+Aop:483	Relationship:2839	non-adjacent	Moderate	Low
+Aop:490	Relationship:3037	adjacent	Moderate	Not Specified
+Aop:490	Relationship:3036	adjacent	Moderate	Not Specified
+Aop:490	Relationship:2868	adjacent	High	Not Specified
+Aop:490	Relationship:2869	adjacent	High	Not Specified
+Aop:490	Relationship:2861	adjacent	High	Not Specified
+Aop:490	Relationship:2862	adjacent	High	Not Specified
+Aop:490	Relationship:2870	adjacent	High	Not Specified
+Aop:490	Relationship:2871	adjacent	High	Not Specified
+Aop:490	Relationship:1687	adjacent	High	Not Specified
+Aop:490	Relationship:2875	adjacent	High	Not Specified
+Aop:490	Relationship:2864	adjacent	High	Not Specified
+Aop:490	Relationship:2872	adjacent	Moderate	Not Specified
+Aop:490	Relationship:2867	adjacent	High	Not Specified
+Aop:491	Relationship:2731	adjacent	Low	Low
+Aop:491	Relationship:2732	adjacent	Low	Low
+Aop:491	Relationship:2724	adjacent	Low	Low
+Aop:491	Relationship:2957	adjacent	Low	Low
+Aop:491	Relationship:2726	adjacent	Moderate	Low
+Aop:491	Relationship:2792	adjacent	Low	Low
+Aop:492	Relationship:2877	adjacent	High	High
+Aop:492	Relationship:2878	adjacent	High	High
+Aop:492	Relationship:2460	adjacent	High	High
+Aop:492	Relationship:2879	adjacent	High	High
+Aop:493	Relationship:2881	adjacent	High	Not Specified
+Aop:493	Relationship:2898	adjacent	High	Not Specified
+Aop:493	Relationship:2899	adjacent	High	Not Specified
+Aop:493	Relationship:2900	adjacent	High	Not Specified
+Aop:493	Relationship:2901	adjacent	High	Not Specified
+Aop:493	Relationship:2876	adjacent	High	Not Specified
+Aop:493	Relationship:2906	adjacent	High	Not Specified
+Aop:493	Relationship:2880	adjacent	High	Not Specified
+Aop:493	Relationship:2903	adjacent	High	Not Specified
+Aop:493	Relationship:2902	adjacent	High	Not Specified
+Aop:493	Relationship:3177	adjacent	High	Not Specified
+Aop:493	Relationship:3178	adjacent	High	Not Specified
+Aop:494	Relationship:3219	adjacent	High	Moderate
+Aop:494	Relationship:3218	adjacent	Moderate	Moderate
+Aop:494	Relationship:68	adjacent	Moderate	Moderate
+Aop:494	Relationship:295	adjacent	High	High
+Aop:494	Relationship:82	adjacent	High	High
+Aop:495	Relationship:3392	adjacent	High	High
+Aop:495	Relationship:2909	adjacent	High	High
+Aop:495	Relationship:2910	adjacent	High	High
+Aop:495	Relationship:2911	adjacent	Moderate	Moderate
+Aop:495	Relationship:2912	adjacent	High	High
+Aop:495	Relationship:3463	adjacent	High	High
+Aop:495	Relationship:2914	adjacent	High	High
+Aop:495	Relationship:3462	adjacent	High	High
+Aop:495	Relationship:2916	adjacent	High	High
+Aop:495	Relationship:2917	adjacent	High	High
+Aop:496	Relationship:3392	adjacent	Moderate	Not Specified
+Aop:496	Relationship:3213	adjacent	High	Moderate
+Aop:496	Relationship:2922	adjacent	High	Moderate
+Aop:496	Relationship:2923	adjacent	High	High
+Aop:496	Relationship:255	adjacent	Moderate	Moderate
+Aop:496	Relationship:337	adjacent	High	Moderate
+Aop:496	Relationship:2924	adjacent	High	Moderate
+Aop:496	Relationship:3214	adjacent	Moderate	Moderate
+Aop:496	Relationship:1386	non-adjacent	High	High
+Aop:496	Relationship:3393	non-adjacent	Not Specified	Not Specified
+Aop:497	Relationship:2929	adjacent	High	Not Specified
+Aop:497	Relationship:2930	adjacent	High	Not Specified
+Aop:497	Relationship:3159	adjacent	High	Not Specified
+Aop:497	Relationship:2009	adjacent	High	Not Specified
+Aop:497	Relationship:3161	adjacent	Moderate	Not Specified
+Aop:497	Relationship:3272	adjacent	High	Not Specified
+Aop:497	Relationship:3179	adjacent	High	Not Specified
+Aop:497	Relationship:3180	adjacent	High	Not Specified
+Aop:497	Relationship:3129	adjacent	High	Not Specified
+Aop:498	Relationship:2939	adjacent	Moderate	High
+Aop:498	Relationship:2940	adjacent	High	High
+Aop:498	Relationship:2941	adjacent	Moderate	Low
+Aop:499	Relationship:2942	adjacent	Moderate	Not Specified
+Aop:499	Relationship:2954	adjacent	Moderate	Not Specified
+Aop:499	Relationship:2955	adjacent	Moderate	Not Specified
+Aop:500	Relationship:2942	adjacent	Moderate	Not Specified
+Aop:500	Relationship:3140	adjacent	Moderate	Not Specified
+Aop:500	Relationship:3141	adjacent	High	Not Specified
+Aop:500	Relationship:2966	adjacent	High	Not Specified
+Aop:500	Relationship:2967	adjacent	High	Not Specified
+Aop:500	Relationship:1069	adjacent	High	Not Specified
+Aop:500	Relationship:2968	non-adjacent	High	Not Specified
+Aop:501	Relationship:3313	adjacent	Moderate	Not Specified
+Aop:501	Relationship:3314	adjacent	High	Not Specified
+Aop:501	Relationship:2953	adjacent	High	Not Specified
+Aop:503	Relationship:2969	adjacent	Not Specified	Not Specified
+Aop:503	Relationship:2970	adjacent	Not Specified	Not Specified
+Aop:503	Relationship:2971	adjacent	Not Specified	Not Specified
+Aop:503	Relationship:2972	adjacent	Not Specified	Not Specified
+Aop:503	Relationship:2973	adjacent	Not Specified	Not Specified
+Aop:504	Relationship:3390	adjacent	Not Specified	Not Specified
+Aop:504	Relationship:3391	adjacent	Not Specified	Not Specified
+Aop:505	Relationship:2009	adjacent	High	Not Specified
+Aop:505	Relationship:2975	adjacent	High	Not Specified
+Aop:505	Relationship:2976	adjacent	High	Not Specified
+Aop:505	Relationship:2977	adjacent	High	Not Specified
+Aop:506	Relationship:2978	adjacent	High	Not Specified
+Aop:506	Relationship:3030	adjacent	High	Not Specified
+Aop:506	Relationship:3054	adjacent	High	Not Specified
+Aop:506	Relationship:3053	adjacent	High	Moderate
+Aop:506	Relationship:3055	adjacent	High	Moderate
+Aop:507	Relationship:3276	adjacent	High	High
+Aop:507	Relationship:3277	adjacent	High	High
+Aop:507	Relationship:2981	adjacent	High	High
+Aop:507	Relationship:3031	adjacent	High	High
+Aop:507	Relationship:3032	adjacent	High	High
+Aop:507	Relationship:3035	non-adjacent	High	High
+Aop:508	Relationship:2984	adjacent	High	High
+Aop:508	Relationship:2985	adjacent	High	Moderate
+Aop:508	Relationship:2986	adjacent	Moderate	Moderate
+Aop:508	Relationship:2987	adjacent	High	High
+Aop:508	Relationship:3031	adjacent	High	High
+Aop:508	Relationship:3032	adjacent	High	High
+Aop:509	Relationship:3276	adjacent	High	High
+Aop:509	Relationship:3270	adjacent	High	High
+Aop:509	Relationship:3129	adjacent	High	High
+Aop:509	Relationship:3131	adjacent	High	High
+Aop:509	Relationship:3034	adjacent	High	High
+Aop:509	Relationship:3132	adjacent	High	High
+Aop:509	Relationship:3031	adjacent	High	High
+Aop:509	Relationship:3032	adjacent	High	High
+Aop:510	Relationship:2988	adjacent	High	High
+Aop:510	Relationship:3278	adjacent	High	High
+Aop:510	Relationship:2990	adjacent	High	High
+Aop:510	Relationship:2991	adjacent	High	High
+Aop:510	Relationship:2992	adjacent	High	High
+Aop:510	Relationship:3279	adjacent	High	High
+Aop:510	Relationship:2994	adjacent	Moderate	Moderate
+Aop:510	Relationship:2995	adjacent	High	High
+Aop:510	Relationship:2996	adjacent	High	High
+Aop:510	Relationship:2997	adjacent	High	High
+Aop:510	Relationship:3031	adjacent	High	High
+Aop:510	Relationship:3032	adjacent	High	High
+Aop:511	Relationship:2009	adjacent	High	High
+Aop:511	Relationship:3277	adjacent	High	High
+Aop:511	Relationship:3280	adjacent	Moderate	Moderate
+Aop:511	Relationship:3281	adjacent	High	High
+Aop:511	Relationship:3282	adjacent	Low	Low
+Aop:511	Relationship:3283	adjacent	Low	Low
+Aop:511	Relationship:3284	adjacent	High	High
+Aop:511	Relationship:3285	adjacent	Moderate	Moderate
+Aop:511	Relationship:3286	adjacent	High	High
+Aop:511	Relationship:3129	adjacent	High	High
+Aop:511	Relationship:2981	adjacent	High	High
+Aop:511	Relationship:3020	adjacent	High	High
+Aop:511	Relationship:2987	adjacent	High	High
+Aop:511	Relationship:3021	adjacent	High	High
+Aop:511	Relationship:3022	adjacent	High	High
+Aop:511	Relationship:3023	adjacent	High	High
+Aop:511	Relationship:3024	adjacent	High	High
+Aop:511	Relationship:3025	adjacent	High	High
+Aop:511	Relationship:3132	adjacent	High	High
+Aop:511	Relationship:3019	adjacent	High	High
+Aop:511	Relationship:3028	adjacent	High	High
+Aop:511	Relationship:3029	adjacent	High	High
+Aop:511	Relationship:3031	adjacent	High	High
+Aop:511	Relationship:3032	adjacent	High	High
+Aop:511	Relationship:3027	adjacent	High	High
+Aop:513	Relationship:3092	adjacent	High	Not Specified
+Aop:513	Relationship:3093	adjacent	High	Not Specified
+Aop:513	Relationship:3094	adjacent	High	Not Specified
+Aop:513	Relationship:2977	adjacent	High	Not Specified
+Aop:517	Relationship:3100	adjacent	High	Not Specified
+Aop:517	Relationship:66	adjacent	High	Not Specified
+Aop:517	Relationship:132	adjacent	High	Not Specified
+Aop:517	Relationship:2265	adjacent	High	Not Specified
+Aop:518	Relationship:3103	adjacent	High	Not Specified
+Aop:518	Relationship:3104	adjacent	High	Not Specified
+Aop:518	Relationship:110	adjacent	High	Not Specified
+Aop:518	Relationship:2265	adjacent	High	Not Specified
+Aop:519	Relationship:3410	adjacent	High	High
+Aop:519	Relationship:3411	adjacent	High	Moderate
+Aop:519	Relationship:3412	adjacent	Moderate	Moderate
+Aop:520	Relationship:3109	adjacent	High	Not Specified
+Aop:520	Relationship:3110	adjacent	High	Not Specified
+Aop:520	Relationship:3111	adjacent	High	Not Specified
+Aop:520	Relationship:3112	adjacent	High	Not Specified
+Aop:520	Relationship:3113	non-adjacent	Moderate	Not Specified
+Aop:520	Relationship:3114	non-adjacent	High	Not Specified
+Aop:521	Relationship:3115	adjacent	Not Specified	Not Specified
+Aop:521	Relationship:2009	adjacent	Not Specified	Not Specified
+Aop:521	Relationship:3116	adjacent	Not Specified	Not Specified
+Aop:521	Relationship:3117	adjacent	Not Specified	Not Specified
+Aop:521	Relationship:3118	adjacent	Not Specified	Not Specified
+Aop:521	Relationship:2937	adjacent	Not Specified	Not Specified
+Aop:521	Relationship:2460	non-adjacent	Not Specified	Not Specified
+Aop:522	Relationship:3120	adjacent	High	Not Specified
+Aop:522	Relationship:3121	adjacent	Moderate	Not Specified
+Aop:522	Relationship:3122	adjacent	Moderate	Not Specified
+Aop:522	Relationship:3123	adjacent	Low	Not Specified
+Aop:522	Relationship:3124	adjacent	Moderate	Not Specified
+Aop:523	Relationship:3109	adjacent	High	Not Specified
+Aop:523	Relationship:3110	adjacent	High	Not Specified
+Aop:523	Relationship:3126	adjacent	High	Not Specified
+Aop:523	Relationship:3143	adjacent	High	Not Specified
+Aop:523	Relationship:3113	non-adjacent	Moderate	Not Specified
+Aop:523	Relationship:3144	non-adjacent	Low	Not Specified
+Aop:524	Relationship:3383	adjacent	Moderate	Not Specified
+Aop:524	Relationship:3384	adjacent	Moderate	Not Specified
+Aop:524	Relationship:3385	adjacent	Moderate	Not Specified
+Aop:524	Relationship:3386	adjacent	Moderate	Not Specified
+Aop:524	Relationship:3341	adjacent	Moderate	Not Specified
+Aop:524	Relationship:3342	adjacent	Moderate	Not Specified
+Aop:524	Relationship:3333	adjacent	Moderate	Not Specified
+Aop:524	Relationship:3335	adjacent	Moderate	Not Specified
+Aop:525	Relationship:3181	adjacent	High	Not Specified
+Aop:525	Relationship:3182	adjacent	High	Not Specified
+Aop:525	Relationship:3183	adjacent	High	Not Specified
+Aop:525	Relationship:3185	adjacent	High	Not Specified
+Aop:525	Relationship:3186	adjacent	Moderate	Not Specified
+Aop:525	Relationship:3187	adjacent	Moderate	Not Specified
+Aop:525	Relationship:3188	adjacent	Moderate	Not Specified
+Aop:525	Relationship:3189	adjacent	Moderate	Not Specified
+Aop:525	Relationship:3190	adjacent	High	Not Specified
+Aop:525	Relationship:3191	adjacent	High	Not Specified
+Aop:525	Relationship:3192	adjacent	High	Not Specified
+Aop:525	Relationship:3196	adjacent	Moderate	Not Specified
+Aop:525	Relationship:3193	non-adjacent	Moderate	Not Specified
+Aop:525	Relationship:3194	non-adjacent	Moderate	Not Specified
+Aop:525	Relationship:3195	non-adjacent	Moderate	Not Specified
+Aop:526	Relationship:3167	adjacent	High	Not Specified
+Aop:526	Relationship:3168	adjacent	High	Not Specified
+Aop:526	Relationship:3169	adjacent	High	Not Specified
+Aop:526	Relationship:3170	adjacent	High	Not Specified
+Aop:527	Relationship:3167	adjacent	High	Not Specified
+Aop:527	Relationship:3171	adjacent	High	Not Specified
+Aop:527	Relationship:3172	adjacent	High	Not Specified
+Aop:527	Relationship:3173	adjacent	High	Not Specified
+Aop:528	Relationship:1938	adjacent	High	Not Specified
+Aop:528	Relationship:3174	non-adjacent	High	Not Specified
+Aop:529	Relationship:3220	adjacent	High	Moderate
+Aop:529	Relationship:3221	adjacent	High	Moderate
+Aop:529	Relationship:3224	adjacent	High	Moderate
+Aop:529	Relationship:3223	adjacent	High	Moderate
+Aop:529	Relationship:3209	adjacent	Moderate	Moderate
+Aop:529	Relationship:3210	adjacent	Moderate	Moderate
+Aop:529	Relationship:472	adjacent	Moderate	Moderate
+Aop:529	Relationship:2265	adjacent	High	Moderate
+Aop:529	Relationship:3211	non-adjacent	Moderate	Moderate
+Aop:530	Relationship:1775	adjacent	High	Not Specified
+Aop:530	Relationship:993	adjacent	High	Not Specified
+Aop:530	Relationship:363	adjacent	High	Not Specified
+Aop:530	Relationship:3197	adjacent	High	Not Specified
+Aop:534	Relationship:3233	adjacent	High	High
+Aop:534	Relationship:3495	adjacent	High	High
+Aop:534	Relationship:2009	adjacent	High	High
+Aop:535	Relationship:3246	adjacent	High	Not Specified
+Aop:535	Relationship:3247	adjacent	Moderate	Not Specified
+Aop:535	Relationship:3248	adjacent	Moderate	Not Specified
+Aop:535	Relationship:3249	adjacent	High	Not Specified
+Aop:535	Relationship:3250	adjacent	Moderate	Not Specified
+Aop:535	Relationship:3251	adjacent	Moderate	Not Specified
+Aop:535	Relationship:3252	adjacent	High	Not Specified
+Aop:535	Relationship:3253	adjacent	High	Not Specified
+Aop:535	Relationship:2955	adjacent	Moderate	Not Specified
+Aop:535	Relationship:3254	adjacent	Moderate	Not Specified
+Aop:535	Relationship:3255	adjacent	High	Not Specified
+Aop:535	Relationship:3256	adjacent	Moderate	Not Specified
+Aop:535	Relationship:3257	adjacent	Moderate	Not Specified
+Aop:536	Relationship:128	adjacent	High	Low
+Aop:536	Relationship:336	adjacent	High	Moderate
+Aop:536	Relationship:254	adjacent	Moderate	Low
+Aop:536	Relationship:3258	adjacent	Moderate	Low
+Aop:536	Relationship:2013	adjacent	Moderate	Moderate
+Aop:537	Relationship:128	adjacent	Not Specified	Not Specified
+Aop:537	Relationship:336	adjacent	Not Specified	Not Specified
+Aop:537	Relationship:3259	adjacent	Not Specified	Not Specified
+Aop:537	Relationship:3260	adjacent	Not Specified	Not Specified
+Aop:538	Relationship:3293	adjacent	High	High
+Aop:538	Relationship:3294	adjacent	High	Moderate
+Aop:538	Relationship:3295	adjacent	High	High
+Aop:538	Relationship:3296	adjacent	High	High
+Aop:538	Relationship:3297	adjacent	High	High
+Aop:539	Relationship:3287	adjacent	High	Not Specified
+Aop:539	Relationship:3288	adjacent	High	Not Specified
+Aop:539	Relationship:3346	adjacent	High	Not Specified
+Aop:539	Relationship:3347	adjacent	Moderate	Not Specified
+Aop:539	Relationship:3291	adjacent	High	Not Specified
+Aop:539	Relationship:3292	adjacent	High	Not Specified
+Aop:540	Relationship:2009	adjacent	High	Low
+Aop:540	Relationship:3326	adjacent	Not Specified	Not Specified
+Aop:540	Relationship:3249	adjacent	Not Specified	Not Specified
+Aop:540	Relationship:3327	adjacent	Not Specified	Not Specified
+Aop:540	Relationship:315	adjacent	High	Moderate
+Aop:540	Relationship:255	adjacent	Moderate	Low
+Aop:540	Relationship:337	adjacent	Moderate	Moderate
+Aop:540	Relationship:94	adjacent	Moderate	Moderate
+Aop:543	Relationship:3351	adjacent	Moderate	Not Specified
+Aop:543	Relationship:3352	adjacent	Moderate	Not Specified
+Aop:543	Relationship:3353	adjacent	Moderate	Not Specified
+Aop:543	Relationship:3354	adjacent	High	Not Specified
+Aop:543	Relationship:3355	adjacent	High	Not Specified
+Aop:544	Relationship:3351	adjacent	High	Not Specified
+Aop:544	Relationship:3356	adjacent	High	Not Specified
+Aop:544	Relationship:3357	adjacent	High	Not Specified
+Aop:544	Relationship:3354	adjacent	Low	Not Specified
+Aop:544	Relationship:3355	adjacent	High	Not Specified
+Aop:544	Relationship:3358	non-adjacent	Moderate	Not Specified
+Aop:545	Relationship:3365	adjacent	Moderate	Not Specified
+Aop:545	Relationship:3366	adjacent	High	Not Specified
+Aop:545	Relationship:3367	adjacent	High	Not Specified
+Aop:545	Relationship:3368	adjacent	High	Not Specified
+Aop:546	Relationship:3302	adjacent	High	High
+Aop:546	Relationship:3304	adjacent	High	High
+Aop:546	Relationship:3369	adjacent	High	High
+Aop:546	Relationship:3370	adjacent	High	High
+Aop:547	Relationship:3378	adjacent	High	Low
+Aop:547	Relationship:3628	adjacent	High	Low
+Aop:548	Relationship:3365	adjacent	Moderate	Not Specified
+Aop:548	Relationship:3366	adjacent	High	Not Specified
+Aop:548	Relationship:3388	adjacent	High	Not Specified
+Aop:548	Relationship:3389	adjacent	High	Not Specified
+Aop:549	Relationship:3394	adjacent	Not Specified	Not Specified
+Aop:549	Relationship:3395	adjacent	Not Specified	Not Specified
+Aop:549	Relationship:1386	adjacent	Not Specified	Not Specified
+Aop:549	Relationship:255	adjacent	Not Specified	Not Specified
+Aop:549	Relationship:337	adjacent	Not Specified	Not Specified
+Aop:549	Relationship:3396	adjacent	Not Specified	Not Specified
+Aop:549	Relationship:2924	adjacent	Not Specified	Not Specified
+Aop:550	Relationship:3398	adjacent	High	High
+Aop:550	Relationship:3399	adjacent	High	Moderate
+Aop:550	Relationship:3400	adjacent	Moderate	High
+Aop:550	Relationship:3413	adjacent	High	High
+Aop:551	Relationship:3402	adjacent	High	Moderate
+Aop:551	Relationship:3403	adjacent	High	Moderate
+Aop:551	Relationship:3404	adjacent	High	Moderate
+Aop:551	Relationship:3405	adjacent	High	Moderate
+Aop:552	Relationship:3406	adjacent	High	High
+Aop:552	Relationship:3407	adjacent	High	High
+Aop:552	Relationship:2541	adjacent	High	High
+Aop:552	Relationship:3408	adjacent	High	High
+Aop:552	Relationship:3447	adjacent	High	High
+Aop:553	Relationship:3414	adjacent	High	High
+Aop:553	Relationship:3415	adjacent	High	High
+Aop:553	Relationship:2824	adjacent	High	Moderate
+Aop:554	Relationship:3416	adjacent	High	High
+Aop:554	Relationship:3417	adjacent	High	Moderate
+Aop:554	Relationship:3418	adjacent	High	High
+Aop:555	Relationship:3419	adjacent	High	High
+Aop:555	Relationship:2540	adjacent	High	High
+Aop:555	Relationship:3420	adjacent	High	High
+Aop:555	Relationship:3421	adjacent	High	High
+Aop:556	Relationship:3424	adjacent	High	Moderate
+Aop:556	Relationship:3425	adjacent	High	Moderate
+Aop:556	Relationship:3426	adjacent	High	Moderate
+Aop:556	Relationship:2824	adjacent	Moderate	Moderate
+Aop:556	Relationship:3444	adjacent	High	High
+Aop:558	Relationship:3429	adjacent	High	High
+Aop:558	Relationship:2824	adjacent	Moderate	Low
+Aop:558	Relationship:3426	adjacent	High	Moderate
+Aop:558	Relationship:3445	adjacent	High	High
+Aop:558	Relationship:3446	adjacent	High	Moderate
+Aop:559	Relationship:3430	adjacent	High	High
+Aop:559	Relationship:3431	adjacent	High	High
+Aop:559	Relationship:3432	adjacent	High	Moderate
+Aop:559	Relationship:3405	adjacent	High	Low
+Aop:560	Relationship:3433	adjacent	High	Low
+Aop:560	Relationship:3434	adjacent	High	Moderate
+Aop:560	Relationship:3435	adjacent	Moderate	Moderate
+Aop:561	Relationship:3436	adjacent	Not Specified	Not Specified
+Aop:561	Relationship:3437	adjacent	Not Specified	Not Specified
+Aop:561	Relationship:3438	adjacent	Not Specified	Not Specified
+Aop:561	Relationship:3391	adjacent	Not Specified	Not Specified
+Aop:561	Relationship:3439	non-adjacent	Not Specified	Not Specified
+Aop:562	Relationship:3440	adjacent	Moderate	Moderate
+Aop:562	Relationship:3441	adjacent	High	Moderate
+Aop:562	Relationship:3434	adjacent	Moderate	Low
+Aop:562	Relationship:3435	adjacent	Low	Low
+Aop:563	Relationship:972	adjacent	High	Not Specified
+Aop:563	Relationship:3466	adjacent	Moderate	Not Specified
+Aop:563	Relationship:3467	adjacent	High	Not Specified
+Aop:563	Relationship:3468	adjacent	Moderate	Not Specified
+Aop:563	Relationship:3483	adjacent	High	Not Specified
+Aop:564	Relationship:3453	adjacent	High	High
+Aop:564	Relationship:3454	adjacent	High	High
+Aop:564	Relationship:188	adjacent	Moderate	Moderate
+Aop:564	Relationship:3455	adjacent	High	Moderate
+Aop:564	Relationship:3456	adjacent	Moderate	Moderate
+Aop:564	Relationship:3457	adjacent	High	High
+Aop:564	Relationship:3458	adjacent	High	High
+Aop:564	Relationship:3459	adjacent	Moderate	Moderate
+Aop:564	Relationship:3460	adjacent	Low	Low
+Aop:564	Relationship:3461	adjacent	Low	Low
+Aop:564	Relationship:2013	adjacent	High	High
+Aop:565	Relationship:3464	adjacent	Not Specified	Not Specified
+Aop:565	Relationship:3391	adjacent	Not Specified	Not Specified
+Aop:566	Relationship:3465	adjacent	High	High
+Aop:566	Relationship:3469	adjacent	High	High
+Aop:566	Relationship:3470	adjacent	Moderate	Moderate
+Aop:566	Relationship:3471	adjacent	Not Specified	Not Specified
+Aop:566	Relationship:3473	adjacent	Not Specified	Not Specified
+Aop:567	Relationship:3556	adjacent	High	Low
+Aop:567	Relationship:2333	adjacent	High	High
+Aop:567	Relationship:3557	adjacent	Moderate	Moderate
+Aop:567	Relationship:3558	adjacent	High	High
+Aop:567	Relationship:3772	adjacent	High	Moderate
+Aop:567	Relationship:2169	adjacent	High	Low
+Aop:568	Relationship:3474	adjacent	High	Not Specified
+Aop:568	Relationship:3475	adjacent	High	Not Specified
+Aop:568	Relationship:3476	adjacent	Moderate	Not Specified
+Aop:568	Relationship:3489	non-adjacent	Moderate	Not Specified
+Aop:569	Relationship:3497	adjacent	Moderate	Moderate
+Aop:569	Relationship:3498	adjacent	Moderate	Low
+Aop:569	Relationship:3536	adjacent	Moderate	Low
+Aop:569	Relationship:3537	adjacent	High	Low
+Aop:569	Relationship:3501	adjacent	Moderate	Low
+Aop:569	Relationship:3502	non-adjacent	High	High
+Aop:570	Relationship:3448	adjacent	High	Not Specified
+Aop:570	Relationship:2131	adjacent	High	Not Specified
+Aop:570	Relationship:2124	adjacent	High	Not Specified
+Aop:570	Relationship:3488	non-adjacent	Moderate	Not Specified
+Aop:570	Relationship:3350	non-adjacent	Low	Not Specified
+Aop:570	Relationship:2828	non-adjacent	High	Not Specified
+Aop:571	Relationship:1880	adjacent	High	Not Specified
+Aop:571	Relationship:1935	adjacent	High	Not Specified
+Aop:571	Relationship:2124	adjacent	High	Not Specified
+Aop:571	Relationship:2828	non-adjacent	High	Not Specified
+Aop:573	Relationship:3503	adjacent	High	Not Specified
+Aop:573	Relationship:3507	adjacent	High	Not Specified
+Aop:574	Relationship:3503	adjacent	High	Not Specified
+Aop:574	Relationship:3508	adjacent	High	Not Specified
+Aop:575	Relationship:3448	adjacent	High	Not Specified
+Aop:575	Relationship:2131	adjacent	High	Not Specified
+Aop:575	Relationship:2124	adjacent	High	Not Specified
+Aop:575	Relationship:3487	non-adjacent	High	Not Specified
+Aop:575	Relationship:3486	non-adjacent	Moderate	Not Specified
+Aop:575	Relationship:3348	non-adjacent	High	Not Specified
+Aop:576	Relationship:1880	adjacent	High	Not Specified
+Aop:576	Relationship:1935	adjacent	High	Not Specified
+Aop:576	Relationship:2124	adjacent	High	Not Specified
+Aop:576	Relationship:3348	non-adjacent	High	Not Specified
+Aop:577	Relationship:3836	adjacent	Not Specified	Not Specified
+Aop:577	Relationship:3835	adjacent	Not Specified	Moderate
+Aop:577	Relationship:3856	adjacent	Not Specified	Not Specified
+Aop:578	Relationship:3533	adjacent	Not Specified	Not Specified
+Aop:578	Relationship:3534	adjacent	Not Specified	Not Specified
+Aop:578	Relationship:3538	adjacent	Not Specified	Not Specified
+Aop:578	Relationship:3541	adjacent	Not Specified	Not Specified
+Aop:580	Relationship:3543	adjacent	Moderate	Moderate
+Aop:580	Relationship:3544	adjacent	High	High
+Aop:580	Relationship:3545	adjacent	High	High
+Aop:580	Relationship:3546	adjacent	High	High
+Aop:580	Relationship:3547	adjacent	Moderate	Moderate
+Aop:580	Relationship:3548	adjacent	Moderate	Moderate
+Aop:580	Relationship:3549	adjacent	Low	Low
+Aop:580	Relationship:3550	adjacent	Low	Low
+Aop:580	Relationship:3551	adjacent	Low	Low
+Aop:580	Relationship:3552	adjacent	Low	Low
+Aop:587	Relationship:3637	adjacent	Not Specified	Not Specified
+Aop:587	Relationship:908	adjacent	Not Specified	Not Specified
+Aop:587	Relationship:910	adjacent	Not Specified	Not Specified
+Aop:588	Relationship:3554	adjacent	Not Specified	Not Specified
+Aop:588	Relationship:908	adjacent	Not Specified	Not Specified
+Aop:588	Relationship:910	adjacent	Not Specified	Not Specified
+Aop:589	Relationship:3555	adjacent	Not Specified	Not Specified
+Aop:589	Relationship:908	adjacent	Not Specified	Not Specified
+Aop:589	Relationship:910	adjacent	Not Specified	Not Specified
+Aop:590	Relationship:3571	adjacent	High	Moderate
+Aop:590	Relationship:3574	adjacent	Moderate	Not Specified
+Aop:590	Relationship:3577	adjacent	Not Specified	Not Specified
+Aop:590	Relationship:3578	adjacent	Not Specified	Not Specified
+Aop:590	Relationship:3579	adjacent	Not Specified	Not Specified
+Aop:590	Relationship:3572	adjacent	High	Not Specified
+Aop:590	Relationship:3580	adjacent	Not Specified	Not Specified
+Aop:590	Relationship:3573	adjacent	High	High
+Aop:590	Relationship:3576	adjacent	Moderate	Not Specified
+Aop:590	Relationship:3709	adjacent	High	Not Specified
+Aop:590	Relationship:3710	adjacent	High	Not Specified
+Aop:590	Relationship:188	adjacent	High	High
+Aop:591	Relationship:3582	adjacent	High	Moderate
+Aop:591	Relationship:3583	adjacent	High	High
+Aop:591	Relationship:3584	adjacent	Moderate	Moderate
+Aop:591	Relationship:3585	adjacent	High	High
+Aop:591	Relationship:3363	adjacent	Not Specified	Not Specified
+Aop:591	Relationship:3586	adjacent	High	High
+Aop:591	Relationship:3587	adjacent	Moderate	Moderate
+Aop:591	Relationship:3588	adjacent	High	High
+Aop:591	Relationship:3589	adjacent	High	High
+Aop:591	Relationship:2265	adjacent	High	High
+Aop:591	Relationship:3590	adjacent	High	High
+Aop:591	Relationship:3591	adjacent	High	High
+Aop:591	Relationship:3592	adjacent	High	High
+Aop:592	Relationship:3593	adjacent	High	High
+Aop:592	Relationship:3594	adjacent	High	High
+Aop:592	Relationship:3595	adjacent	High	High
+Aop:592	Relationship:3596	adjacent	High	High
+Aop:592	Relationship:3597	adjacent	High	High
+Aop:592	Relationship:3598	adjacent	High	High
+Aop:592	Relationship:3599	adjacent	Moderate	Moderate
+Aop:592	Relationship:3600	adjacent	High	High
+Aop:592	Relationship:3601	adjacent	High	High
+Aop:592	Relationship:2292	adjacent	High	High
+Aop:593	Relationship:3629	adjacent	Not Specified	Not Specified
+Aop:593	Relationship:3650	adjacent	Not Specified	Not Specified
+Aop:593	Relationship:905	adjacent	Not Specified	Not Specified
+Aop:593	Relationship:910	adjacent	Not Specified	Not Specified
+Aop:595	Relationship:3614	adjacent	High	High
+Aop:595	Relationship:2009	adjacent	High	High
+Aop:595	Relationship:3129	adjacent	High	High
+Aop:595	Relationship:3146	adjacent	High	High
+Aop:595	Relationship:3615	adjacent	High	High
+Aop:595	Relationship:3616	adjacent	High	High
+Aop:595	Relationship:3617	adjacent	High	High
+Aop:595	Relationship:3618	adjacent	High	High
+Aop:595	Relationship:3619	adjacent	High	High
+Aop:595	Relationship:3620	adjacent	High	High
+Aop:595	Relationship:3621	adjacent	High	High
+Aop:595	Relationship:3622	adjacent	High	High
+Aop:595	Relationship:3624	adjacent	High	High
+Aop:595	Relationship:3625	adjacent	High	High
+Aop:596	Relationship:2009	adjacent	High	Not Specified
+Aop:596	Relationship:3632	adjacent	High	Not Specified
+Aop:596	Relationship:3633	adjacent	Not Specified	Not Specified
+Aop:596	Relationship:2203	adjacent	Not Specified	Not Specified
+Aop:596	Relationship:2768	adjacent	Not Specified	Not Specified
+Aop:596	Relationship:2767	adjacent	Not Specified	Not Specified
+Aop:599	Relationship:2009	adjacent	Not Specified	Not Specified
+Aop:599	Relationship:3632	adjacent	Not Specified	Not Specified
+Aop:599	Relationship:3634	adjacent	Not Specified	Not Specified
+Aop:599	Relationship:3635	adjacent	Not Specified	Not Specified
+Aop:599	Relationship:2768	adjacent	Not Specified	Not Specified
+Aop:599	Relationship:2767	adjacent	Not Specified	Not Specified
+Aop:600	Relationship:2009	adjacent	Not Specified	Not Specified
+Aop:600	Relationship:3632	adjacent	Not Specified	Not Specified
+Aop:600	Relationship:3634	adjacent	Not Specified	Not Specified
+Aop:600	Relationship:3635	adjacent	Not Specified	Not Specified
+Aop:600	Relationship:3603	adjacent	Not Specified	Not Specified
+Aop:600	Relationship:3604	adjacent	Not Specified	Not Specified
+Aop:601	Relationship:2009	adjacent	Not Specified	Not Specified
+Aop:601	Relationship:3632	adjacent	Not Specified	Not Specified
+Aop:601	Relationship:3634	adjacent	Not Specified	Not Specified
+Aop:601	Relationship:3635	adjacent	Not Specified	Not Specified
+Aop:601	Relationship:2204	adjacent	Not Specified	Not Specified
+Aop:601	Relationship:2205	adjacent	Not Specified	Not Specified
+Aop:602	Relationship:2009	adjacent	Not Specified	Not Specified
+Aop:602	Relationship:2810	adjacent	Not Specified	Not Specified
+Aop:602	Relationship:1909	adjacent	Not Specified	Not Specified
+Aop:602	Relationship:1910	adjacent	Not Specified	Not Specified
+Aop:602	Relationship:3480	adjacent	Not Specified	Not Specified
+Aop:602	Relationship:3363	adjacent	Not Specified	Not Specified
+Aop:602	Relationship:2205	adjacent	Not Specified	Not Specified
+Aop:603	Relationship:2009	adjacent	Not Specified	Not Specified
+Aop:603	Relationship:3632	adjacent	Not Specified	Not Specified
+Aop:603	Relationship:3636	adjacent	Not Specified	Not Specified
+Aop:603	Relationship:3363	adjacent	Not Specified	Not Specified
+Aop:603	Relationship:2205	adjacent	Not Specified	Not Specified
+Aop:604	Relationship:3645	adjacent	High	Moderate
+Aop:604	Relationship:3846	adjacent	High	High
+Aop:604	Relationship:3847	adjacent	High	High
+Aop:604	Relationship:1449	adjacent	High	High
+Aop:606	Relationship:3642	adjacent	Moderate	Not Specified
+Aop:606	Relationship:3644	adjacent	Moderate	Not Specified
+Aop:606	Relationship:1742	adjacent	Moderate	Not Specified
+Aop:606	Relationship:1743	adjacent	Moderate	Not Specified
+Aop:606	Relationship:1744	adjacent	Moderate	Not Specified
+Aop:609	Relationship:3646	adjacent	Moderate	Not Specified
+Aop:609	Relationship:3647	adjacent	High	Not Specified
+Aop:609	Relationship:3832	adjacent	High	Not Specified
+Aop:609	Relationship:3649	adjacent	High	Not Specified
+Aop:610	Relationship:3651	adjacent	Not Specified	Not Specified
+Aop:610	Relationship:3652	adjacent	Not Specified	Not Specified
+Aop:610	Relationship:3653	adjacent	Not Specified	Not Specified
+Aop:610	Relationship:3654	adjacent	Not Specified	Not Specified
+Aop:610	Relationship:3655	adjacent	Not Specified	Not Specified
+Aop:610	Relationship:448	adjacent	Not Specified	Not Specified
+Aop:610	Relationship:3656	adjacent	Not Specified	Not Specified
+Aop:610	Relationship:3657	adjacent	Not Specified	Not Specified
+Aop:610	Relationship:3659	adjacent	Not Specified	Not Specified
+Aop:610	Relationship:3660	adjacent	Not Specified	Not Specified
+Aop:610	Relationship:3661	adjacent	Not Specified	Not Specified
+Aop:610	Relationship:3662	adjacent	Not Specified	Not Specified
+Aop:610	Relationship:3663	adjacent	Not Specified	Not Specified
+Aop:610	Relationship:3664	adjacent	Not Specified	Not Specified
+Aop:610	Relationship:3665	adjacent	Not Specified	Not Specified
+Aop:610	Relationship:3666	adjacent	Not Specified	Not Specified
+Aop:610	Relationship:3192	adjacent	Not Specified	Not Specified
+Aop:610	Relationship:3667	adjacent	Not Specified	Not Specified
+Aop:610	Relationship:3658	non-adjacent	Not Specified	Not Specified
+Aop:611	Relationship:3668	adjacent	Moderate	Moderate
+Aop:611	Relationship:3669	adjacent	Moderate	Moderate
+Aop:611	Relationship:3670	adjacent	Moderate	Moderate
+Aop:611	Relationship:3671	adjacent	Moderate	Moderate
+Aop:611	Relationship:3672	adjacent	Moderate	Moderate
+Aop:611	Relationship:3673	adjacent	Moderate	Moderate
+Aop:611	Relationship:3674	adjacent	Moderate	Moderate
+Aop:612	Relationship:3675	adjacent	Not Specified	Not Specified
+Aop:612	Relationship:3676	adjacent	Not Specified	Not Specified
+Aop:612	Relationship:2203	adjacent	Not Specified	Not Specified
+Aop:612	Relationship:3677	adjacent	Not Specified	Not Specified
+Aop:612	Relationship:3678	adjacent	Not Specified	Not Specified
+Aop:612	Relationship:3679	adjacent	Not Specified	Not Specified
+Aop:613	Relationship:3675	adjacent	Not Specified	Not Specified
+Aop:613	Relationship:3676	adjacent	Not Specified	Not Specified
+Aop:613	Relationship:3495	adjacent	Not Specified	Not Specified
+Aop:613	Relationship:3680	adjacent	Not Specified	Not Specified
+Aop:613	Relationship:3678	adjacent	Not Specified	Not Specified
+Aop:613	Relationship:3679	adjacent	Not Specified	Not Specified
+Aop:614	Relationship:3681	adjacent	Not Specified	Not Specified
+Aop:614	Relationship:3682	adjacent	Not Specified	Not Specified
+Aop:614	Relationship:3683	adjacent	Not Specified	Not Specified
+Aop:614	Relationship:3679	adjacent	Not Specified	Not Specified
+Aop:615	Relationship:3684	adjacent	High	Moderate
+Aop:615	Relationship:3687	adjacent	Moderate	Moderate
+Aop:615	Relationship:3712	adjacent	High	Moderate
+Aop:615	Relationship:3713	adjacent	High	Moderate
+Aop:616	Relationship:3688	adjacent	High	Moderate
+Aop:616	Relationship:3689	adjacent	Moderate	Low
+Aop:616	Relationship:3690	adjacent	Moderate	Moderate
+Aop:616	Relationship:3691	adjacent	Moderate	Low
+Aop:616	Relationship:3692	adjacent	High	Moderate
+Aop:616	Relationship:3693	adjacent	High	High
+Aop:616	Relationship:3694	adjacent	High	High
+Aop:616	Relationship:3695	non-adjacent	Not Specified	Not Specified
+Aop:616	Relationship:3696	non-adjacent	Low	Not Specified
+Aop:618	Relationship:3698	adjacent	Not Specified	Not Specified
+Aop:618	Relationship:3699	adjacent	Not Specified	Not Specified
+Aop:618	Relationship:3700	adjacent	Not Specified	Not Specified
+Aop:618	Relationship:3701	adjacent	Not Specified	Not Specified
+Aop:618	Relationship:3702	adjacent	Not Specified	Not Specified
+Aop:618	Relationship:3703	adjacent	Not Specified	Not Specified
+Aop:618	Relationship:3704	adjacent	Not Specified	Not Specified
+Aop:618	Relationship:3711	adjacent	Not Specified	Not Specified
+Aop:619	Relationship:3705	adjacent	High	High
+Aop:619	Relationship:3706	adjacent	High	Moderate
+Aop:619	Relationship:3707	adjacent	High	Moderate
+Aop:619	Relationship:3708	adjacent	High	Low
+Aop:623	Relationship:2665	adjacent	Moderate	Not Specified
+Aop:623	Relationship:3714	adjacent	High	Not Specified
+Aop:623	Relationship:3715	adjacent	High	Not Specified
+Aop:623	Relationship:3716	adjacent	High	Not Specified
+Aop:623	Relationship:3717	adjacent	High	Not Specified
+Aop:623	Relationship:3718	adjacent	High	Not Specified
+Aop:624	Relationship:3741	adjacent	Not Specified	Not Specified
+Aop:624	Relationship:3742	adjacent	Not Specified	Not Specified
+Aop:624	Relationship:3738	adjacent	Not Specified	Not Specified
+Aop:624	Relationship:3721	adjacent	Not Specified	Not Specified
+Aop:624	Relationship:3743	adjacent	Not Specified	Not Specified
+Aop:624	Relationship:3744	adjacent	Not Specified	Not Specified
+Aop:624	Relationship:3724	adjacent	Not Specified	Not Specified
+Aop:624	Relationship:363	adjacent	Not Specified	Not Specified
+Aop:624	Relationship:67	adjacent	Not Specified	Not Specified
+Aop:624	Relationship:3726	adjacent	Not Specified	Not Specified
+Aop:624	Relationship:3727	adjacent	Not Specified	Not Specified
+Aop:624	Relationship:3728	adjacent	Not Specified	Not Specified
+Aop:624	Relationship:295	adjacent	Not Specified	Not Specified
+Aop:624	Relationship:82	adjacent	Not Specified	Not Specified
+Aop:624	Relationship:3729	adjacent	Not Specified	Not Specified
+Aop:624	Relationship:3730	adjacent	Not Specified	Not Specified
+Aop:625	Relationship:3741	adjacent	Not Specified	Not Specified
+Aop:625	Relationship:3742	adjacent	Not Specified	Not Specified
+Aop:625	Relationship:3738	adjacent	Not Specified	Not Specified
+Aop:625	Relationship:3721	adjacent	Not Specified	Not Specified
+Aop:625	Relationship:3743	adjacent	Not Specified	Not Specified
+Aop:625	Relationship:3744	adjacent	Not Specified	Not Specified
+Aop:625	Relationship:3724	adjacent	Not Specified	Not Specified
+Aop:625	Relationship:3745	adjacent	Not Specified	Not Specified
+Aop:625	Relationship:1690	adjacent	Not Specified	Not Specified
+Aop:625	Relationship:67	adjacent	Not Specified	Not Specified
+Aop:625	Relationship:3726	adjacent	Not Specified	Not Specified
+Aop:625	Relationship:3727	adjacent	Not Specified	Not Specified
+Aop:625	Relationship:3728	adjacent	Not Specified	Not Specified
+Aop:625	Relationship:295	adjacent	Not Specified	Not Specified
+Aop:625	Relationship:82	adjacent	Not Specified	Not Specified
+Aop:625	Relationship:3729	adjacent	Not Specified	Not Specified
+Aop:625	Relationship:3730	adjacent	Not Specified	Not Specified
+Aop:626	Relationship:3741	adjacent	Not Specified	Not Specified
+Aop:626	Relationship:3742	adjacent	Not Specified	Not Specified
+Aop:626	Relationship:3738	adjacent	Not Specified	Not Specified
+Aop:626	Relationship:3721	adjacent	Not Specified	Not Specified
+Aop:626	Relationship:3743	adjacent	Not Specified	Not Specified
+Aop:626	Relationship:3744	adjacent	Not Specified	Not Specified
+Aop:626	Relationship:3724	adjacent	Not Specified	Not Specified
+Aop:626	Relationship:3736	adjacent	Not Specified	Not Specified
+Aop:626	Relationship:3737	adjacent	Not Specified	Not Specified
+Aop:626	Relationship:67	adjacent	Not Specified	Not Specified
+Aop:626	Relationship:3726	adjacent	Not Specified	Not Specified
+Aop:626	Relationship:3727	adjacent	Not Specified	Not Specified
+Aop:626	Relationship:3728	adjacent	Not Specified	Not Specified
+Aop:626	Relationship:295	adjacent	Not Specified	Not Specified
+Aop:626	Relationship:82	adjacent	Not Specified	Not Specified
+Aop:626	Relationship:3729	adjacent	Not Specified	Not Specified
+Aop:626	Relationship:3730	adjacent	Not Specified	Not Specified
+Aop:627	Relationship:3741	adjacent	Not Specified	Not Specified
+Aop:627	Relationship:3742	adjacent	Not Specified	Not Specified
+Aop:627	Relationship:3740	adjacent	Not Specified	Not Specified
+Aop:627	Relationship:3735	adjacent	Not Specified	Not Specified
+Aop:627	Relationship:3724	adjacent	Not Specified	Not Specified
+Aop:627	Relationship:3725	adjacent	Not Specified	Not Specified
+Aop:627	Relationship:67	adjacent	Not Specified	Not Specified
+Aop:627	Relationship:3726	adjacent	Not Specified	Not Specified
+Aop:627	Relationship:3727	adjacent	Not Specified	Not Specified
+Aop:627	Relationship:3728	adjacent	Not Specified	Not Specified
+Aop:627	Relationship:295	adjacent	Not Specified	Not Specified
+Aop:627	Relationship:82	adjacent	Not Specified	Not Specified
+Aop:627	Relationship:3729	adjacent	Not Specified	Not Specified
+Aop:627	Relationship:3730	adjacent	Not Specified	Not Specified
+Aop:628	Relationship:3741	adjacent	Not Specified	Not Specified
+Aop:628	Relationship:3742	adjacent	Not Specified	Not Specified
+Aop:628	Relationship:3740	adjacent	Not Specified	Not Specified
+Aop:628	Relationship:3735	adjacent	Not Specified	Not Specified
+Aop:628	Relationship:3724	adjacent	Not Specified	Not Specified
+Aop:628	Relationship:3745	adjacent	Not Specified	Not Specified
+Aop:628	Relationship:1690	adjacent	Not Specified	Not Specified
+Aop:628	Relationship:67	adjacent	Not Specified	Not Specified
+Aop:628	Relationship:3726	adjacent	Not Specified	Not Specified
+Aop:628	Relationship:3727	adjacent	Not Specified	Not Specified
+Aop:628	Relationship:3728	adjacent	Not Specified	Not Specified
+Aop:628	Relationship:295	adjacent	Not Specified	Not Specified
+Aop:628	Relationship:82	adjacent	Not Specified	Not Specified
+Aop:628	Relationship:3729	adjacent	Not Specified	Not Specified
+Aop:628	Relationship:3730	adjacent	Not Specified	Not Specified
+Aop:629	Relationship:3741	adjacent	Not Specified	Not Specified
+Aop:629	Relationship:3742	adjacent	Not Specified	Not Specified
+Aop:629	Relationship:3740	adjacent	Not Specified	Not Specified
+Aop:629	Relationship:3735	adjacent	Not Specified	Not Specified
+Aop:629	Relationship:3724	adjacent	Not Specified	Not Specified
+Aop:629	Relationship:3736	adjacent	Not Specified	Not Specified
+Aop:629	Relationship:3737	adjacent	Not Specified	Not Specified
+Aop:629	Relationship:67	adjacent	Not Specified	Not Specified
+Aop:629	Relationship:3726	adjacent	Not Specified	Not Specified
+Aop:629	Relationship:3727	adjacent	Not Specified	Not Specified
+Aop:629	Relationship:3728	adjacent	Not Specified	Not Specified
+Aop:629	Relationship:295	adjacent	Not Specified	Not Specified
+Aop:629	Relationship:82	adjacent	Not Specified	Not Specified
+Aop:629	Relationship:3729	adjacent	Not Specified	Not Specified
+Aop:629	Relationship:3730	adjacent	Not Specified	Not Specified
+Aop:636	Relationship:2009	adjacent	High	Not Specified
+Aop:636	Relationship:3857	adjacent	Moderate	Not Specified
+Aop:636	Relationship:3858	adjacent	Moderate	Not Specified
+Aop:636	Relationship:3767	adjacent	High	Not Specified
+Aop:636	Relationship:2500	adjacent	High	Not Specified
+Aop:636	Relationship:3768	adjacent	High	Not Specified
+Aop:636	Relationship:3496	adjacent	High	Not Specified
+Aop:637	Relationship:2665	adjacent	Moderate	Not Specified
+Aop:637	Relationship:3714	adjacent	High	Not Specified
+Aop:637	Relationship:3715	adjacent	High	Not Specified
+Aop:637	Relationship:3716	adjacent	High	Not Specified
+Aop:637	Relationship:3717	adjacent	High	Not Specified
+Aop:637	Relationship:3746	adjacent	High	Not Specified
+Aop:638	Relationship:3748	adjacent	High	Not Specified
+Aop:638	Relationship:3749	adjacent	Moderate	Not Specified
+Aop:638	Relationship:3750	adjacent	High	Not Specified
+Aop:638	Relationship:3751	adjacent	High	Not Specified
+Aop:638	Relationship:3752	adjacent	High	Not Specified
+Aop:638	Relationship:3753	adjacent	High	Not Specified
+Aop:638	Relationship:3754	adjacent	High	Not Specified
+Aop:638	Relationship:3755	adjacent	High	Not Specified
+Aop:638	Relationship:3756	adjacent	High	Not Specified
+Aop:638	Relationship:3757	adjacent	High	Not Specified
+Aop:638	Relationship:3758	adjacent	High	Not Specified
+Aop:638	Relationship:2966	adjacent	High	Not Specified
+Aop:638	Relationship:3759	adjacent	High	Not Specified
+Aop:638	Relationship:3760	adjacent	Moderate	Not Specified
+Aop:639	Relationship:2665	adjacent	Moderate	Not Specified
+Aop:639	Relationship:3714	adjacent	High	Not Specified
+Aop:639	Relationship:3715	adjacent	High	Not Specified
+Aop:639	Relationship:3716	adjacent	High	Not Specified
+Aop:639	Relationship:3717	adjacent	High	Not Specified
+Aop:639	Relationship:3761	adjacent	High	Not Specified
+Aop:640	Relationship:2665	adjacent	Moderate	Not Specified
+Aop:640	Relationship:3714	adjacent	High	Not Specified
+Aop:640	Relationship:3715	adjacent	High	Not Specified
+Aop:640	Relationship:3716	adjacent	High	Not Specified
+Aop:640	Relationship:3717	adjacent	High	Not Specified
+Aop:640	Relationship:3769	adjacent	High	Not Specified
+Aop:640	Relationship:3770	adjacent	High	Not Specified
+Aop:641	Relationship:3774	adjacent	High	Not Specified
+Aop:641	Relationship:3773	non-adjacent	Moderate	Not Specified
+Aop:642	Relationship:3775	adjacent	High	Moderate
+Aop:642	Relationship:3784	adjacent	High	Moderate
+Aop:642	Relationship:3785	adjacent	High	Moderate
+Aop:642	Relationship:3786	adjacent	Moderate	Low
+Aop:642	Relationship:3787	adjacent	Moderate	Low
+Aop:642	Relationship:3788	adjacent	Moderate	Low
+Aop:642	Relationship:3789	adjacent	High	Low
+Aop:642	Relationship:3790	adjacent	Moderate	Low
+Aop:642	Relationship:3791	adjacent	Moderate	Low
+Aop:642	Relationship:3793	adjacent	High	Moderate
+Aop:642	Relationship:3792	non-adjacent	Moderate	Low
+Aop:644	Relationship:2398	adjacent	Not Specified	Not Specified
+Aop:644	Relationship:1910	adjacent	High	Moderate
+Aop:644	Relationship:1911	adjacent	High	Moderate
+Aop:644	Relationship:164	adjacent	High	Moderate
+Aop:644	Relationship:1912	adjacent	High	Low
+Aop:644	Relationship:3800	non-adjacent	Not Specified	Not Specified
+Aop:644	Relationship:2399	non-adjacent	Not Specified	Not Specified
+Aop:644	Relationship:3799	non-adjacent	Not Specified	Not Specified
+Aop:644	Relationship:1931	non-adjacent	High	Low
+Aop:644	Relationship:1939	non-adjacent	High	Low
+Aop:645	Relationship:3803	adjacent	Moderate	High
+Aop:645	Relationship:3808	adjacent	High	High
+Aop:645	Relationship:3805	adjacent	High	High
+Aop:645	Relationship:3763	adjacent	High	High
+Aop:645	Relationship:3806	adjacent	High	High
+Aop:645	Relationship:3809	adjacent	High	High
+Aop:645	Relationship:2975	adjacent	High	High
+Aop:645	Relationship:3812	adjacent	High	High
+Aop:645	Relationship:3814	adjacent	Moderate	Moderate
+Aop:645	Relationship:3826	adjacent	High	High
+Aop:646	Relationship:3815	adjacent	High	High
+Aop:646	Relationship:3817	adjacent	High	High
+Aop:646	Relationship:3791	adjacent	High	High
+Aop:646	Relationship:3821	adjacent	High	High
+Aop:646	Relationship:3816	adjacent	High	High
+Aop:646	Relationship:3818	adjacent	High	High
+Aop:646	Relationship:3827	adjacent	High	High
+Aop:646	Relationship:3828	adjacent	High	High
+Aop:646	Relationship:3829	adjacent	High	High
+Aop:646	Relationship:3830	adjacent	High	High
+Aop:646	Relationship:3831	adjacent	High	High
+Aop:647	Relationship:2009	adjacent	High	High
+Aop:647	Relationship:3116	adjacent	High	High
+Aop:647	Relationship:3632	adjacent	High	Moderate
+Aop:647	Relationship:3870	adjacent	High	Low
+Aop:647	Relationship:3871	adjacent	High	Low
+Aop:647	Relationship:3840	adjacent	High	Low
+Aop:647	Relationship:2767	adjacent	High	High
+Aop:651	Relationship:3833	adjacent	Moderate	Not Specified
+Aop:651	Relationship:3834	adjacent	Moderate	Not Specified
+Aop:652	Relationship:3841	adjacent	Not Specified	Not Specified
+Aop:652	Relationship:3842	adjacent	Not Specified	Not Specified
+Aop:652	Relationship:3843	adjacent	Not Specified	Not Specified
+Aop:652	Relationship:3844	adjacent	Not Specified	Not Specified
+Aop:652	Relationship:3845	non-adjacent	Not Specified	Not Specified
+Aop:653	Relationship:3852	adjacent	High	Moderate
+Aop:653	Relationship:3853	adjacent	High	High
+Aop:653	Relationship:3854	adjacent	Moderate	Moderate
+Aop:653	Relationship:3855	adjacent	Not Specified	Not Specified
+Aop:655	Relationship:3859	adjacent	High	High
+Aop:655	Relationship:3860	adjacent	Moderate	Moderate
+Aop:655	Relationship:1723	adjacent	High	High
+Aop:655	Relationship:3861	adjacent	High	Moderate
+Aop:655	Relationship:1708	adjacent	High	High
+Aop:657	Relationship:3863	adjacent	Moderate	Low
+Aop:657	Relationship:3864	adjacent	Moderate	Low
+Aop:657	Relationship:3865	adjacent	Moderate	Low
+Aop:657	Relationship:3866	adjacent	Moderate	Low
+Aop:657	Relationship:3867	adjacent	Moderate	Low
+Aop:657	Relationship:3868	adjacent	Moderate	Low
+Aop:658	Relationship:2665	adjacent	Moderate	Not Specified
+Aop:658	Relationship:3714	adjacent	High	Not Specified
+Aop:658	Relationship:3715	adjacent	High	Not Specified
+Aop:658	Relationship:3716	adjacent	High	Not Specified
+Aop:658	Relationship:3717	adjacent	High	Not Specified
+Aop:658	Relationship:3869	adjacent	High	Not Specified
