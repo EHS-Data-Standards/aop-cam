@@ -8,13 +8,9 @@
       
       
       
-        <link rel="canonical" href="https://EHS-Data-Standards.github.io/aop-cam/elements/">
+        <link rel="canonical" href="https://EHS-Data-Standards.github.io/aop-cam/design-plan/">
       
       
-        <link rel="prev" href="..">
-      
-      
-        <link rel="next" href="../about/">
       
       
         
@@ -25,7 +21,7 @@
     
     
       
-        <title>Schema - aop-cam</title>
+        <title>Plan: A GO-CAM-style Schema for the AOP Framework - aop-cam</title>
       
     
     
@@ -78,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#aop-causal-activity-models" class="md-skip">
+        <a href="#plan-a-go-cam-style-schema-for-the-aop-framework" class="md-skip">
           Skip to content
         </a>
       
@@ -120,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Schema
+              Plan: A GO-CAM-style Schema for the AOP Framework
             
           </span>
         </div>
@@ -292,37 +288,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Schema
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../elements/" class="md-nav__link">
         
   
   
@@ -338,81 +307,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#classes" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Classes
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#slots" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Slots
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#enumerations" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Enumerations
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#types" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Types
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#subsets" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Subsets
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -471,10 +365,60 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#classes" class="md-nav__link">
+  <a href="#1-the-three-schemas-in-play-and-what-each-one-is" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Classes
+        1. The three schemas in play, and what each one is
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. The three schemas in play, and what each one is">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gocam-py-gocam-pysrcgocamschemagocamyaml-the-paradigm-donor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        gocam-py (../gocam-py/src/gocam/schema/gocam.yaml) — the paradigm donor
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#linkml-aop-ehs-data-standardslinkml-aop-the-data-reality" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        linkml-aop (EHS-Data-Standards/linkml-aop) — the data reality
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#somas-aop_frameworkyaml-the-current-in-between" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SOMA's aop_framework.yaml — the current in-between
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-the-core-mapping" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. The core mapping
       
     </span>
   </a>
@@ -482,10 +426,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#slots" class="md-nav__link">
+  <a href="#3-what-go-cam-does-not-cover-the-aop-extensions" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Slots
+        3. What GO-CAM does not cover (the AOP extensions)
       
     </span>
   </a>
@@ -493,10 +437,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#enumerations" class="md-nav__link">
+  <a href="#4-implementation-steps" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Enumerations
+        4. Implementation steps
       
     </span>
   </a>
@@ -504,10 +448,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#types" class="md-nav__link">
+  <a href="#5-open-questions" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Types
+        5. Open questions
       
     </span>
   </a>
@@ -515,10 +459,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#subsets" class="md-nav__link">
+  <a href="#6-suggested-first-milestone" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Subsets
+        6. Suggested first milestone
       
     </span>
   </a>
@@ -546,397 +490,192 @@
   
 
 
-<h1 id="aop-causal-activity-models">AOP Causal Activity Models</h1>
-<p>Adverse Outcome Pathways represented as causal activity models, following the GO-CAM paradigm: an AOP is a model (a named causal graph), each Key Event is a node defined by associations to ontology terms in context, each Key Event Relationship is a typed causal association drawn from the Relation Ontology, and evidence attaches to individual assertions rather than to whole records. The schema mirrors the GO-CAM pattern (Association hierarchy, per-assertion evidence, model lifecycle) without importing its gene-product machinery: a Key Event is not a molecular Activity, and the AOP extensions GO-CAM lacks - direction of change as node state, levels of biological organization up to population, and compositional outcome grounding with optional precomposed-term mappings - are first-class here. Instances can be loaded from AOP-Wiki exports; aopwiki_id slots keep the crosswalk.</p>
-<p>URI: <a href="https://w3id.org/EHS-Data-Standards/aop-cam">https://w3id.org/EHS-Data-Standards/aop-cam</a></p>
-<p>Name: aop_cam</p>
-<h2 id="classes">Classes</h2>
+<h1 id="plan-a-go-cam-style-schema-for-the-aop-framework">Plan: A GO-CAM-style Schema for the AOP Framework</h1>
+<p><strong>Date:</strong> 2026-11-09
+<strong>Context:</strong> Issue #76 proposes framing KE → KER → AOP as a GO-CAM-style causal
+activity model. This plan compares the three schemas in play and lays out how to
+draft the new AOP framework schema.</p>
+<hr />
+<h2 id="1-the-three-schemas-in-play-and-what-each-one-is">1. The three schemas in play, and what each one is</h2>
+<h3 id="gocam-py-gocam-pysrcgocamschemagocamyaml-the-paradigm-donor">gocam-py (<code>../gocam-py/src/gocam/schema/gocam.yaml</code>) — the paradigm donor</h3>
+<p>The GO-CAM schema is small (~950 lines) and its whole design fits in five ideas:</p>
+<ol>
+<li><strong>Model</strong> = one named causal graph (id, title, taxon, lifecycle <code>status</code>
+   with a rule that production models must have activities, <code>activities</code>,
+   shared <code>objects</code>, provenance, and an optional precomputed <code>query_index</code>).</li>
+<li><strong>Activity</strong> = one node, defined entirely by its <em>associations</em>: what
+   enables it (<code>enabled_by</code>), what it does (<code>molecular_function</code>), where
+   (<code>occurs_in</code>), what it is part of (<code>part_of</code>), and what it causes
+   (<code>causal_associations</code>).</li>
+<li><strong>Association</strong> = an abstract class holding <code>evidence[]</code> and
+   <code>provenances[]</code>, with a <code>designates_type</code> discriminator. Every edge and
+   every term assignment is an Association subtype. <strong>Evidence hangs off
+   every individual assertion, not off the node.</strong></li>
+<li><strong>CausalAssociation</strong> = <code>predicate</code> (an RO term) + <code>downstream_activity</code>.
+   Initial and terminal nodes are implicit: no incoming edge = initial, no
+   outgoing edge = terminal.</li>
+<li><strong>EvidenceItem</strong> = ECO term (with a binding enum) + publication reference +
+   supporting objects. Typed <code>TermObject</code> subclasses with <code>id_prefixes</code>
+   constrain what each slot can point at (same idea as SOMA's <code>*Reference</code>
+   classes).</li>
+</ol>
+<h3 id="linkml-aop-ehs-data-standardslinkml-aop-the-data-reality">linkml-aop (<code>EHS-Data-Standards/linkml-aop</code>) — the data reality</h3>
+<p>Your hunch is confirmed. The original hand-written schema
+(<code>linkml_aop.yaml</code>) is <strong>archived</strong> (September 2026). The current schema,
+<code>aop_emod_linkml.yaml</code>, is generated from the AOP-Wiki EMOD 3.0 database and
+is a faithful relational mirror of it: integer ids, join tables
+(<code>AopToEvent</code>, <code>KeRelationshipToTaxon</code>, ...), admin entities (License,
+Handbook, OecdStatus), and KER evidence as free-text narrative fields
+(<code>how_it_works</code>, <code>biological_plausibility</code>, <code>empirical_support</code>, ...). It is
+<strong>not</strong> GO-CAM-shaped: no typed causal predicates, no per-assertion evidence
+objects, causality expressed only as upstream/downstream id pairs plus an
+adjacency flag.</p>
+<p>It does carry two things the other schemas lack:</p>
+<ul>
+<li><strong>EventComponent</strong>: action + object + process per Key Event — AOP-Wiki's
+  proto-EQ decomposition, with ids so components can be shared.</li>
+<li><strong>The EMOD extension</strong>: Assay, Observation, Evidence, BioTargetFamily,
+  TestGuideline — a regulatory-flavored assay layer that overlaps SOMA's
+  territory (see section 5).</li>
+</ul>
+<h3 id="somas-aop_frameworkyaml-the-current-in-between">SOMA's <code>aop_framework.yaml</code> — the current in-between</h3>
+<p>Compositional KE slots (GO process, direction enum, CL/UBERON context),
+AdverseOutcome as a terminal KeyEvent (recent change), evidence attachable to
+KEs and KERs, assays linked via <code>informs_on_key_event</code>. Closer in spirit to
+GO-CAM than linkml-aop is, but ad hoc: <code>relationship_type</code> is a free string,
+evidence lives on records rather than on assertions, and there is no model
+lifecycle.</p>
+<h2 id="2-the-core-mapping">2. The core mapping</h2>
 <table>
 <thead>
 <tr>
-<th>Class</th>
-<th>Description</th>
+<th>GO-CAM</th>
+<th>New AOP schema</th>
+<th>Notes</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><a href="AopModel/">AopModel</a></td>
-<td>One Adverse Outcome Pathway as a causal activity model: a named graph of Key ...</td>
+<td>Model</td>
+<td>AopModel</td>
+<td>One AOP (or AOP network slice) as a named causal graph; adopt lifecycle status enum; taxon applicability</td>
 </tr>
 <tr>
-<td><a href="Association/">Association</a></td>
-<td>An individual assertion in a model, carrying its own evidence and provenance</td>
+<td>Activity</td>
+<td>KeyEventNode</td>
+<td>A KE instance in a model</td>
 </tr>
 <tr>
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="CausalAssociation/">CausalAssociation</a></td>
-<td>A typed causal edge between two key event nodes: the AOP framework's Key Even...</td>
+<td>enabled_by / molecular_function / occurs_in / part_of</td>
+<td>ProcessAssociation (GO/MESH), ObjectAssociation, DirectionAssociation (PATO), CellTypeAssociation (CL), AnatomyAssociation (UBERON), LevelAssociation</td>
+<td>The KE's contextual dimensions, each an Association subtype carrying its own evidence — this is the single biggest paradigm upgrade over current SOMA, where these are bare slot values</td>
 </tr>
 <tr>
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="TermAssociation/">TermAssociation</a></td>
-<td>An association between a node and an ontology term</td>
+<td>CausalAssociation</td>
+<td>CausalAssociation (KER)</td>
+<td><code>predicate</code> from an RO causal-predicate enum + <code>downstream_event</code>; keep AOP-Wiki's adjacency, weight of evidence, quantitative understanding as additional slots</td>
 </tr>
 <tr>
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="CellTypeAssociation/">CellTypeAssociation</a></td>
-<td>The cell type in which the key event occurs</td>
+<td>EvidenceItem</td>
+<td>EvidenceItem</td>
+<td>ECO-typed, with publication reference; <strong>a SOMA assay becomes the supporting object of an EvidenceItem</strong> — formalizing <code>informs_on_key_event</code> as evidence on an assertion</td>
 </tr>
 <tr>
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="DirectionAssociation/">DirectionAssociation</a></td>
-<td>Associates a key event with the direction of change, as a PATO quality (e</td>
+<td>initial / terminal activity (implicit)</td>
+<td>MIE / AO</td>
+<td>Keep explicit subtyping too (AOP practice names them), but the graph position becomes checkable: an AO with outgoing causal edges is a modeling error a validator can catch</td>
 </tr>
 <tr>
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="GrossAnatomyAssociation/">GrossAnatomyAssociation</a></td>
-<td>The anatomical location in which the key event occurs</td>
-</tr>
-<tr>
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="ObjectAssociation/">ObjectAssociation</a></td>
-<td>Associates a key event with the biological object acted on (a protein, chemic...</td>
-</tr>
-<tr>
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="ProcessAssociation/">ProcessAssociation</a></td>
-<td>Associates a key event with the biological process it perturbs</td>
-</tr>
-<tr>
-<td><a href="EvidenceItem/">EvidenceItem</a></td>
-<td>One piece of evidence supporting an assertion: an ECO evidence type, a public...</td>
-</tr>
-<tr>
-<td><a href="KeyEventNode/">KeyEventNode</a></td>
-<td>One Key Event as a node in a causal activity model</td>
-</tr>
-<tr>
-<td><a href="ModelCollection/">ModelCollection</a></td>
-<td>Root container for a set of AOP causal activity models, e</td>
-</tr>
-<tr>
-<td><a href="ProvenanceInfo/">ProvenanceInfo</a></td>
-<td>Who made or changed an assertion, and when</td>
-</tr>
-<tr>
-<td><a href="TermObject/">TermObject</a></td>
-<td>A pointer to an ontology term: an identifier plus its label</td>
-</tr>
-<tr>
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="AnatomyTermObject/">AnatomyTermObject</a></td>
-<td>An UBERON anatomy term</td>
-</tr>
-<tr>
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="CellTypeTermObject/">CellTypeTermObject</a></td>
-<td>A Cell Ontology term</td>
-</tr>
-<tr>
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="DirectionTermObject/">DirectionTermObject</a></td>
-<td>A PATO quality term for the direction of change</td>
-</tr>
-<tr>
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="ObjectTermObject/">ObjectTermObject</a></td>
-<td>A biological object term (protein, chemical, or other entity)</td>
-</tr>
-<tr>
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="ProcessTermObject/">ProcessTermObject</a></td>
-<td>A biological process term (GO preferred; MESH accepted for AOP-Wiki conversio...</td>
-</tr>
-<tr>
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="StressorTermObject/">StressorTermObject</a></td>
-<td>A stressor as an ontology term reference where one exists (CHEBI chemical, or...</td>
-</tr>
-<tr>
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="TaxonTermObject/">TaxonTermObject</a></td>
-<td>An NCBI Taxonomy term</td>
+<td>TermObject subclasses with id_prefixes</td>
+<td>SOMA's <code>*Reference</code> pattern</td>
+<td>Already aligned; converge naming conventions</td>
 </tr>
 </tbody>
 </table>
-<h2 id="slots">Slots</h2>
-<table>
-<thead>
-<tr>
-<th>Slot</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="aopwiki_id/">aopwiki_id</a></td>
-<td>AOP-Wiki identifier for this AOP (e</td>
-</tr>
-<tr>
-<td><a href="aopwiki_ker_id/">aopwiki_ker_id</a></td>
-<td>AOP-Wiki identifier for this relationship (e</td>
-</tr>
-<tr>
-<td><a href="causal_associations/">causal_associations</a></td>
-<td>The causal associations that flow out of this node</td>
-</tr>
-<tr>
-<td><a href="comments/">comments</a></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="contributor/">contributor</a></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="created/">created</a></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="description/">description</a></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="direction/">direction</a></td>
-<td>The direction of change, as a PATO quality</td>
-</tr>
-<tr>
-<td><a href="downstream_event/">downstream_event</a></td>
-<td>The key event node this edge points to</td>
-</tr>
-<tr>
-<td><a href="event_type/">event_type</a></td>
-<td>The curator-asserted role of this node in the pathway</td>
-</tr>
-<tr>
-<td><a href="evidence/">evidence</a></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="evidence_level/">evidence_level</a></td>
-<td>Weight of evidence for this relationship, as curated</td>
-</tr>
-<tr>
-<td><a href="id/">id</a></td>
-<td>A unique identifier</td>
-</tr>
-<tr>
-<td><a href="key_events/">key_events</a></td>
-<td>All Key Event nodes in this model</td>
-</tr>
-<tr>
-<td><a href="label/">label</a></td>
-<td>The human-readable label of the term, as given by its ontology</td>
-</tr>
-<tr>
-<td><a href="level_of_biological_organization/">level_of_biological_organization</a></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="models/">models</a></td>
-<td>The models in this collection</td>
-</tr>
-<tr>
-<td><a href="modified/">modified</a></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="object/">object</a></td>
-<td>The biological object (molecule, cell, structure) acted on</td>
-</tr>
-<tr>
-<td><a href="occurs_in_anatomy/">occurs_in_anatomy</a></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="occurs_in_cell_type/">occurs_in_cell_type</a></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="oecd_status/">oecd_status</a></td>
-<td>OECD endorsement status, carried over from AOP-Wiki</td>
-</tr>
-<tr>
-<td><a href="outcome_mappings/">outcome_mappings</a></td>
-<td>For adverse outcome nodes: precomposed terms equivalent or close to this outc...</td>
-</tr>
-<tr>
-<td><a href="predicate/">predicate</a></td>
-<td>The RO causal relation for this edge</td>
-</tr>
-<tr>
-<td><a href="process/">process</a></td>
-<td>The biological process this key event perturbs</td>
-</tr>
-<tr>
-<td><a href="provenances/">provenances</a></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="quantitative_understanding/">quantitative_understanding</a></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="reference/">reference</a></td>
-<td>The publication the evidence comes from (PMID, DOI, or AOPWIKI page)</td>
-</tr>
-<tr>
-<td><a href="snapshot_date/">snapshot_date</a></td>
-<td>Date of the AOP-Wiki snapshot these models were derived from, when applicable</td>
-</tr>
-<tr>
-<td><a href="source/">source</a></td>
-<td>Where this content came from, e</td>
-</tr>
-<tr>
-<td><a href="status/">status</a></td>
-<td>Lifecycle status of the model</td>
-</tr>
-<tr>
-<td><a href="stressors/">stressors</a></td>
-<td>Chemical or physical stressors known to trigger this pathway, as ontology ter...</td>
-</tr>
-<tr>
-<td><a href="supporting_objects/">supporting_objects</a></td>
-<td>Identifiers of supporting records, such as SOMA assay instances or database e...</td>
-</tr>
-<tr>
-<td><a href="taxa/">taxa</a></td>
-<td>Taxa this model is asserted to apply to</td>
-</tr>
-<tr>
-<td><a href="term/">term</a></td>
-<td>The ontology term this association assigns</td>
-</tr>
-<tr>
-<td><a href="title/">title</a></td>
-<td>Human-readable title of the model</td>
-</tr>
-<tr>
-<td><a href="type/">type</a></td>
-<td>Auto-populated association type discriminator</td>
-</tr>
-</tbody>
-</table>
-<h2 id="enumerations">Enumerations</h2>
-<table>
-<thead>
-<tr>
-<th>Enumeration</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="CausalPredicateEnum/">CausalPredicateEnum</a></td>
-<td>The causal relation between two key events, drawn from the "causally upstream...</td>
-</tr>
-<tr>
-<td><a href="ConfidenceLevelEnum/">ConfidenceLevelEnum</a></td>
-<td>Curated confidence levels, following AOP-Wiki usage</td>
-</tr>
-<tr>
-<td><a href="EventTypeEnum/">EventTypeEnum</a></td>
-<td>The curator-asserted role of a key event node in the pathway</td>
-</tr>
-<tr>
-<td><a href="LevelOfBiologicalOrganizationEnum/">LevelOfBiologicalOrganizationEnum</a></td>
-<td>Levels of biological organization, following AOP-Wiki usage</td>
-</tr>
-<tr>
-<td><a href="ModelStateEnum/">ModelStateEnum</a></td>
-<td>Where the model is in its development life cycle (GO-CAM semantics)</td>
-</tr>
-</tbody>
-</table>
-<h2 id="types">Types</h2>
-<table>
-<thead>
-<tr>
-<th>Type</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="Boolean/">Boolean</a></td>
-<td>A binary (true or false) value</td>
-</tr>
-<tr>
-<td><a href="Curie/">Curie</a></td>
-<td>a compact URI</td>
-</tr>
-<tr>
-<td><a href="Date/">Date</a></td>
-<td>a date (year, month and day) in an idealized calendar</td>
-</tr>
-<tr>
-<td><a href="DateOrDatetime/">DateOrDatetime</a></td>
-<td>Either a date or a datetime</td>
-</tr>
-<tr>
-<td><a href="Datetime/">Datetime</a></td>
-<td>The combination of a date and time</td>
-</tr>
-<tr>
-<td><a href="Decimal/">Decimal</a></td>
-<td>A real number with arbitrary precision that conforms to the xsd:decimal speci...</td>
-</tr>
-<tr>
-<td><a href="Double/">Double</a></td>
-<td>A real number that conforms to the xsd:double specification</td>
-</tr>
-<tr>
-<td><a href="Float/">Float</a></td>
-<td>A real number that conforms to the xsd:float specification</td>
-</tr>
-<tr>
-<td><a href="Integer/">Integer</a></td>
-<td>An integer</td>
-</tr>
-<tr>
-<td><a href="Jsonpath/">Jsonpath</a></td>
-<td>A string encoding a JSON Path</td>
-</tr>
-<tr>
-<td><a href="Jsonpointer/">Jsonpointer</a></td>
-<td>A string encoding a JSON Pointer</td>
-</tr>
-<tr>
-<td><a href="Ncname/">Ncname</a></td>
-<td>Prefix part of CURIE</td>
-</tr>
-<tr>
-<td><a href="Nodeidentifier/">Nodeidentifier</a></td>
-<td>A URI, CURIE or BNODE that represents a node in a model</td>
-</tr>
-<tr>
-<td><a href="Objectidentifier/">Objectidentifier</a></td>
-<td>A URI or CURIE that represents an object in the model</td>
-</tr>
-<tr>
-<td><a href="Sparqlpath/">Sparqlpath</a></td>
-<td>A string encoding a SPARQL Property Path</td>
-</tr>
-<tr>
-<td><a href="String/">String</a></td>
-<td>A character string</td>
-</tr>
-<tr>
-<td><a href="Time/">Time</a></td>
-<td>A time object represents a (local) time of day, independent of any particular...</td>
-</tr>
-<tr>
-<td><a href="Uri/">Uri</a></td>
-<td>a complete URI</td>
-</tr>
-<tr>
-<td><a href="Uriorcurie/">Uriorcurie</a></td>
-<td>a URI or a CURIE</td>
-</tr>
-</tbody>
-</table>
-<h2 id="subsets">Subsets</h2>
-<table>
-<thead>
-<tr>
-<th>Subset</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+<p>Mapping AOP-Wiki's edge semantics onto RO:
+- <code>adjacent</code> → RO:0002412 (immediately causally upstream of), or the
+  regulates variants where direction of effect is curated
+- <code>non-adjacent</code> → RO:0002411 (causally upstream of)
+- The 11 AOP-Wiki biological actions → PATO directional qualities (a tiny
+  hand-curated mapping table, done once)</p>
+<h2 id="3-what-go-cam-does-not-cover-the-aop-extensions">3. What GO-CAM does not cover (the AOP extensions)</h2>
+<p>These are additions, not deviations:</p>
+<ol>
+<li><strong>Direction of change as node state.</strong> GO-CAM expresses direction through
+   its relation types; AOPs need "decreased X" as part of the node itself.
+   DirectionAssociation (PATO quality) carries it.</li>
+<li><strong>Levels of biological organization.</strong> GO-CAM lives at molecular/cellular
+   scale; AOP nodes span molecular → population. A level slot (existing
+   enum), plus UBERON gross anatomy on nodes (GO-CAM has
+   GrossAnatomyAssociation already, so even this is nearly covered).</li>
+<li><strong>Outcome grounding.</strong> The AO is the terminal node, defined by its
+   composition; optional computed <code>outcome_mappings</code> (HP / MONDO / UPHENO)
+   decorate it (see the outcome-grounding discussion in issue #76).</li>
+<li><strong>Regulatory metadata.</strong> OECD status, test guidelines — keep as
+   model-level and evidence-level metadata, imported from the linkml-aop
+   vocabulary rather than reinvented.</li>
+</ol>
+<h2 id="4-implementation-steps">4. Implementation steps</h2>
+<ol>
+<li><strong>Placement decision (made 2026-11-09).</strong> The schema lives in its own
+   repo — this one (EHS-Data-Standards/aop-cam) — so that the schema and
+   the graph instances can be imported separately by soma, somamech, and
+   other consumers, each versioned on its own cadence. SOMA imports the
+   schema; instance releases are tagged to the AOP-Wiki snapshot they were
+   built from. EMOD is not a dependency.</li>
+<li><strong>Skeleton.</strong> AopModel, KeyEventNode, the Association hierarchy
+   (abstract Association with evidence/provenance + the TermAssociation
+   subtypes + CausalAssociation), EvidenceItem, ProvenanceInfo, and the
+   typed term-object/reference classes. Mirror the GO-CAM <em>pattern</em>; do not
+   import gocam.yaml directly (its id prefixes, GO-specific bindings, and
+   gene-product machinery don't transfer).</li>
+<li><strong>Causal predicate enum.</strong> Minimal RO subset needed by AOPs:
+   causally upstream of, immediately causally upstream of, the
+   positive/negative regulates pair, and causally upstream of with
+   positive/negative effect. Document the AOP-Wiki adjacency mapping.</li>
+<li><strong>ETL from the corpus.</strong> A loader from <code>data/*.tsv</code> (built
+   2026-11-09: aops, key_events, key_event_relationships, ke_components,
+   bio_* vocabularies) into instances of the new schema. The 11-row
+   action→PATO mapping table is part of this. Validate by round-tripping the
+   respiratory slice (Aop:148, 411, 424, 425) and comparing against the
+   hand-curated network in the paper's Figure 2.</li>
+<li><strong>SOMA integration.</strong> An assay's <code>informs_on_key_event</code> link becomes (or
+   is supplemented by) an EvidenceItem on the relevant node association —
+   assays are the experimental support layer of the model. AdverseOutcome
+   stays a KeyEvent subtype; <code>outcome_term</code> evolves into computed
+   <code>outcome_mappings</code> per the uPheno discussion.</li>
+<li><strong>Assay layer (decision 2026-11-09): SOMA assays are the evidence
+   layer.</strong> EMOD is ignored unless something it covers is modeled better
+   natively here; the only candidates worth absorbing later are
+   test-guideline references and target-family groupings, as small native
+   classes if a use case demands them.</li>
+<li><strong>Validation and docs.</strong> Examples + counter-examples (an AO with outgoing
+   causal edges; a causal edge with a non-RO predicate; a production model
+   with no events), gen-doc integration, and eventually a query_index
+   analog for precomputed network statistics.</li>
+</ol>
+<h2 id="5-open-questions">5. Open questions</h2>
+<ul>
+<li><strong>How literal to be with GO-CAM?</strong> Recommendation: mirror the pattern
+  (Association-with-evidence, typed predicates, model lifecycle), not the
+  vocabulary. A KE is not a molecular Activity; pretending otherwise would
+  confuse both communities.</li>
+<li><strong>Evidence granularity vs curation burden.</strong> Per-assertion evidence is the
+  paradigm's power, but AOP-Wiki data arrives with narrative-level evidence
+  only. Make evidence optional everywhere; let the loader attach what it can
+  (weight-of-evidence labels as model-level annotations) and let new
+  curation do better.</li>
+<li><strong>One model per AOP, or per network?</strong> GO-CAM models merge by shared
+  ontology ids; start with one model per AOP-Wiki AOP (keeps citation
+  clean), and treat networks (like Figure 2) as merged views.</li>
+<li><strong>Population-level outcomes</strong> sit outside every phenotype ontology;
+  composition carries them, mappings stay empty, and that is fine.</li>
+</ul>
+<h2 id="6-suggested-first-milestone">6. Suggested first milestone</h2>
+<p>A draft <code>aop_cam.yaml</code> plus a loader that round-trips the four respiratory
+AOPs from the TSV corpus into valid instances, with the Figure 2 network
+reproduced by a traversal query. That exercises every design decision above
+on data the working group already knows by heart.</p>
 
 
 
@@ -966,50 +705,6 @@
         
 
 <footer class="md-footer">
-  
-    <nav
-      class="md-footer__inner md-grid"
-      aria-label="footer.title"
-    >
-      
-        <a
-          href=".."
-          class="md-footer__link md-footer__link--prev"
-          rel="prev"
-        >
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
-          </div>
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Previous
-              </span>
-              Home
-            </div>
-          </div>
-        </a>
-      
-      
-        <a
-          href="../about/"
-          class="md-footer__link md-footer__link--next"
-          rel="next"
-        >
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              About
-            </div>
-          </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
-          </div>
-        </a>
-      
-    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">

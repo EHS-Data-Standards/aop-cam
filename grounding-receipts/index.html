@@ -8,7 +8,7 @@
       
       
       
-        <link rel="canonical" href="https://EHS-Data-Standards.github.io/aop-cam/elements/Jsonpointer/">
+        <link rel="canonical" href="https://EHS-Data-Standards.github.io/aop-cam/grounding-receipts/">
       
       
       
@@ -16,16 +16,16 @@
         
       
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.1">
     
     
       
-        <title>Jsonpointer - aop-cam</title>
+        <title>Grounding Receipts: assigning AOP-Wiki text to ontology terms - aop-cam</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.57a0d79d.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.57a0d79d.min.css">
       
       
 
@@ -35,8 +35,8 @@
 
       
     
-<script src="../../assets/pymdownx-extras/material-extra-theme-2ek1P7jT.js" type="text/javascript"></script>
-<script src="../../assets/pymdownx-extras/material-extra-3rdparty-BUCF4rjN.js" type="text/javascript"></script>
+<script src="../assets/pymdownx-extras/material-extra-theme-2ek1P7jT.js" type="text/javascript"></script>
+<script src="../assets/pymdownx-extras/material-extra-3rdparty-BUCF4rjN.js" type="text/javascript"></script>
 
     
       
@@ -48,15 +48,15 @@
       
     
     
-      <link rel="stylesheet" href="../../css/ansi-colours.css">
+      <link rel="stylesheet" href="../css/ansi-colours.css">
     
-      <link rel="stylesheet" href="../../css/jupyter-cells.css">
+      <link rel="stylesheet" href="../css/jupyter-cells.css">
     
-      <link rel="stylesheet" href="../../css/pandas-dataframe.css">
+      <link rel="stylesheet" href="../css/pandas-dataframe.css">
     
-      <link rel="stylesheet" href="../../assets/pymdownx-extras/extra-c6ab11540a.css">
+      <link rel="stylesheet" href="../assets/pymdownx-extras/extra-c6ab11540a.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -74,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#type-properties" class="md-skip">
+        <a href="#grounding-receipts-assigning-aop-wiki-text-to-ontology-terms" class="md-skip">
           Skip to content
         </a>
       
@@ -116,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Jsonpointer
+              Grounding Receipts: assigning AOP-Wiki text to ontology terms
             
           </span>
         </div>
@@ -234,7 +234,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="aop-cam" class="md-nav__button md-logo" aria-label="aop-cam" data-md-component="logo">
+    <a href=".." title="aop-cam" class="md-nav__button md-logo" aria-label="aop-cam" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m19 2-5 4.5v11l5-4.5zM6.5 5C4.55 5 2.45 5.4 1 6.5v14.66c0 .25.25.5.5.5.1 0 .15-.07.25-.07 1.35-.65 3.3-1.09 4.75-1.09 1.95 0 4.05.4 5.5 1.5 1.35-.85 3.8-1.5 5.5-1.5 1.65 0 3.35.31 4.75 1.06.1.05.15.03.25.03.25 0 .5-.25.5-.5V6.5c-.6-.45-1.25-.75-2-1V19c-1.1-.35-2.3-.5-3.5-.5-1.7 0-4.15.65-5.5 1.5V6.5C10.55 5.4 8.45 5 6.5 5"/></svg>
@@ -264,7 +264,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href=".." class="md-nav__link">
         
   
   
@@ -291,7 +291,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../" class="md-nav__link">
+      <a href="../elements/" class="md-nav__link">
         
   
   
@@ -318,7 +318,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../about/" class="md-nav__link">
+      <a href="../about/" class="md-nav__link">
         
   
   
@@ -355,6 +355,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -363,10 +365,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#type-properties" class="md-nav__link">
+  <a href="#1-upstream-asserted-aop-wiki-supplied-the-id" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Type Properties
+        1. Upstream-asserted (AOP-Wiki supplied the ID)
       
     </span>
   </a>
@@ -374,10 +376,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#notes" class="md-nav__link">
+  <a href="#2-mapping-table-deterministic-versioned-sssom" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Notes
+        2. Mapping-table (deterministic, versioned, SSSOM)
       
     </span>
   </a>
@@ -385,38 +387,43 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#identifier-and-mapping-information" class="md-nav__link">
+  <a href="#3-lexical-match-reproducible-automation" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Identifier and Mapping Information
+        3. Lexical-match (reproducible automation)
       
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="Identifier and Mapping Information">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#schema-source" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Schema Source
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#mappings" class="md-nav__link">
+  <a href="#4-curatoragent-judgment-the-fuzzy-residue" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Mappings
+        4. Curator/agent judgment (the fuzzy residue)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-compositional-and-negative-receipts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Compositional and negative receipts
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary-of-ci-checks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Summary of CI checks
       
     </span>
   </a>
@@ -444,67 +451,61 @@
   
 
 
-  <h1>Jsonpointer</h1>
-
-<hr />
-<p>search:
-  boost: 1.0
----# Type: Jsonpointer </p>
-<p><em>A string encoding a JSON Pointer. The value of the string MUST conform to JSON Point syntax and SHOULD dereference to a valid object within the current instance document when encoded in tree form.</em></p>
-<div>
-<p>URI: <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a></p>
-<h2 id="type-properties">Type Properties</h2>
-<table>
-<thead>
-<tr>
-<th>Property</th>
-<th>Value</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Base</td>
-<td><code>str</code></td>
-</tr>
-<tr>
-<td>Type URI</td>
-<td><a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a></td>
-</tr>
-<tr>
-<td>Representation</td>
-<td><code>str</code></td>
-</tr>
-</tbody>
-</table>
-<h2 id="notes">Notes</h2>
-<ul>
-<li>If you are authoring schemas in LinkML YAML, the type is referenced with the lower case "jsonpointer".</li>
-</ul>
-<h2 id="identifier-and-mapping-information">Identifier and Mapping Information</h2>
-<h3 id="schema-source">Schema Source</h3>
-<ul>
-<li>from schema: <a href="https://w3id.org/EHS-Data-Standards/aop-cam">https://w3id.org/EHS-Data-Standards/aop-cam</a></li>
-</ul>
-<h2 id="mappings">Mappings</h2>
-<table>
-<thead>
-<tr>
-<th>Mapping Type</th>
-<th>Mapped Value</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>self</td>
-<td>xsd:string</td>
-</tr>
-<tr>
-<td>native</td>
-<td>aop_cam:Jsonpointer</td>
-</tr>
-</tbody>
-</table>
-</div>
+<h1 id="grounding-receipts-assigning-aop-wiki-text-to-ontology-terms">Grounding Receipts: assigning AOP-Wiki text to ontology terms</h1>
+<p>Every ontology term in an aop_cam instance should be traceable: where the
+source text came from, what method assigned the term, and how the assignment
+can be re-verified. The schema supports this natively — every term assignment
+is an Association carrying its own <code>evidence[]</code> — so receipts live <em>in the
+data</em>, per assertion, with the canonical mapping records kept as versioned
+SSSOM files under <code>mappings/</code>.</p>
+<p>Receipt classes, strongest claim first:</p>
+<h2 id="1-upstream-asserted-aop-wiki-supplied-the-id">1. Upstream-asserted (AOP-Wiki supplied the ID)</h2>
+<p>Key event components (process/object ids like GO:0008283), cell terms (CL)
+and organ terms (UBERON) arrive from AOP-Wiki with ontology ids already
+assigned. The receipt is the AOP-Wiki record id plus the pinned snapshot
+(quarterly dump date + SHA-256 of the dump file; nightly dumps are
+overwritten daily and are not citable). Evidence type: <strong>ECO:0000311
+(imported information)</strong>. CI obligation: the <strong>label-drift check</strong> — the id
+still exists, is not obsolete, and the stored label still matches a current
+label or synonym (OAK validation).</p>
+<h2 id="2-mapping-table-deterministic-versioned-sssom">2. Mapping-table (deterministic, versioned, SSSOM)</h2>
+<p>Closed vocabularies map through committed SSSOM files — see
+<code>mappings/aopwiki-action-to-pato.sssom.tsv</code> for the 11 biological actions.
+Each row carries predicate (exact/closeMatch), <code>mapping_justification</code>,
+author, date, confidence, and a comment explaining any closeMatch. Evidence
+type: <strong>ECO:0000305 (curator inference used in manual assertion)</strong>, with the
+SSSOM record referenced from <code>supporting_objects</code>. CI obligation: the loader
+may only emit assignments present in the table; an unmapped source value
+fails the build instead of guessing.</p>
+<h2 id="3-lexical-match-reproducible-automation">3. Lexical-match (reproducible automation)</h2>
+<p>Free text matching an ontology label or synonym records: the source string
+verbatim, the matched label or synonym and its scope, the ontology version,
+and the matcher. Evidence type: <strong>ECO:0000203 (automatic assertion)</strong>. CI
+obligation: re-run the matcher against the pinned ontology version and
+require the same answer.</p>
+<h2 id="4-curatoragent-judgment-the-fuzzy-residue">4. Curator/agent judgment (the fuzzy residue)</h2>
+<p>Where no automation is honest, the receipt records the candidate set
+considered (with scores), the choice, proposer, confirmer, and date —
+<code>semapv:ManualMappingCuration</code> in SSSOM, alternatives retained. Evidence
+type: <strong>ECO:0000305</strong>.</p>
+<h2 id="5-compositional-and-negative-receipts">5. Compositional and negative receipts</h2>
+<p>Most adverse outcomes have no precomposed term; the assignment is a
+composition (process + PATO direction + anatomy), each piece carrying its
+own class 1–4 receipt. Record the <strong>negative receipt</strong> too: "searched the
+uPheno pattern space on date X, version Y; no equivalent above threshold."
+CI re-runs the search; a future hit surfaces as a proposed
+<code>outcome_mappings</code> candidate instead of silence.</p>
+<h2 id="summary-of-ci-checks">Summary of CI checks</h2>
+<ol>
+<li><strong>Source</strong>: quoted AOP-Wiki text occurs in the pinned, hashed dump.</li>
+<li><strong>Term</strong>: id exists, not obsolete, stored label matches (OAK).</li>
+<li><strong>Method</strong>: deterministic methods (tables, matchers) reproduce.</li>
+<li><strong>Composition</strong>: EQ pieces are type-consistent (PATO quality, GO
+   process, UBERON anatomy in the expected branches).</li>
+</ol>
+<p>ECO ids verified 2026-11-09 via OAK: ECO:0000311 "imported information",
+ECO:0000203 "automatic assertion", ECO:0000305 "curator inference used in
+manual assertion".</p>
 
 
 
@@ -567,12 +568,12 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["content.tabs.link", "header.autohide", "navigation.expand", "navigation.instant", "navigation.instant.progress", "navigation.tracking", "search.suggest", "content.code.copy"], "search": "../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["content.tabs.link", "header.autohide", "navigation.expand", "navigation.instant", "navigation.instant.progress", "navigation.tracking", "search.suggest", "content.code.copy"], "search": "../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.a5f9d56c.min.js"></script>
+      <script src="../assets/javascripts/bundle.a5f9d56c.min.js"></script>
       
-        <script src="../../assets/pymdownx-extras/extra-loader-B5CKpNQx.js"></script>
+        <script src="../assets/pymdownx-extras/extra-loader-B5CKpNQx.js"></script>
       
     
   </body>

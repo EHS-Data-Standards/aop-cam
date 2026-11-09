@@ -1681,6 +1681,6 @@ classes:
     class_uri: aop_cam:StressorTermObject
 metamodel_version: 1.12.0
 source_file: aop_cam.yaml
-source_file_date: '2026-11-09T21:05:41'
+source_file_date: '2026-11-09T21:11:24'
 source_file_size: 17929
 
