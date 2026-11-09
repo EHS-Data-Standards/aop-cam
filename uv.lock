@@ -49,7 +49,7 @@ wheels = [
 ]
 
 [[package]]
-name = "aop-cap"
+name = "aop-cam"
 source = { editable = "." }
 dependencies = [
     { name = "linkml-runtime" },

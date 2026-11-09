@@ -6,10 +6,10 @@
 
 # Note:
 # - just works fine with quoted variables of dot-env files like this one
-LINKML_SCHEMA_NAME="aop_cap"
+LINKML_SCHEMA_NAME="aop_cam"
 LINKML_SCHEMA_AUTHOR="Sierra Moxon <smoxon@lbl.gov>"
 LINKML_SCHEMA_DESCRIPTION="Adverse outcome pathways as causal activity models."
-LINKML_SCHEMA_SOURCE_DIR="src/aop_cap/schema"
+LINKML_SCHEMA_SOURCE_DIR="src/aop_cam/schema"
 
 ###### linkml generator variables, used by justfile
 

@@ -1,4 +1,4 @@
-# Example data for aop_cap
+# Example data for aop_cam
 
 This folder contains example data for testing and demonstrating the datamodel`
 sorted in subfolders:

@@ -1,0 +1,16 @@
+# Invalid: the causal association predicate is not a permitted RO causal
+# relation, and the outcome mapping is not an HP/MONDO/UPHENO curie.
+models:
+  - id: "aop_cam:model-bad"
+    title: "Model with a bad causal edge"
+    key_events:
+      - id: "aop_cam:ke-a"
+        title: "Some key event"
+        causal_associations:
+          - type: CausalAssociation
+            predicate: "leads to"
+            downstream_event: "aop_cam:ke-b"
+      - id: "aop_cam:ke-b"
+        title: "Another key event"
+        outcome_mappings:
+          - GO:0120197

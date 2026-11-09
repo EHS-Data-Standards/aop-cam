@@ -1,0 +1,533 @@
+name: aop_cam
+title: AOP Causal Activity Models
+id: https://w3id.org/EHS-Data-Standards/aop-cam
+description: >-
+  Adverse Outcome Pathways represented as causal activity models, following
+  the GO-CAM paradigm: an AOP is a model (a named causal graph), each Key
+  Event is a node defined by associations to ontology terms in context, each
+  Key Event Relationship is a typed causal association drawn from the
+  Relation Ontology, and evidence attaches to individual assertions rather
+  than to whole records. The schema mirrors the GO-CAM pattern (Association
+  hierarchy, per-assertion evidence, model lifecycle) without importing its
+  gene-product machinery: a Key Event is not a molecular Activity, and the
+  AOP extensions GO-CAM lacks - direction of change as node state, levels of
+  biological organization up to population, and compositional outcome
+  grounding with optional precomposed-term mappings - are first-class here.
+  Instances can be loaded from AOP-Wiki exports; aopwiki_id slots keep the
+  crosswalk.
+license: BSD-3
+
+prefixes:
+  aop_cam: https://w3id.org/EHS-Data-Standards/aop-cam/
+  linkml: https://w3id.org/linkml/
+  dcterms: http://purl.org/dc/terms/
+  RO: http://purl.obolibrary.org/obo/RO_
+  GO: http://purl.obolibrary.org/obo/GO_
+  PATO: http://purl.obolibrary.org/obo/PATO_
+  CL: http://purl.obolibrary.org/obo/CL_
+  UBERON: http://purl.obolibrary.org/obo/UBERON_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  ECO: http://purl.obolibrary.org/obo/ECO_
+  HP: http://purl.obolibrary.org/obo/HP_
+  MONDO: http://purl.obolibrary.org/obo/MONDO_
+  UPHENO: http://purl.obolibrary.org/obo/UPHENO_
+  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+  PR: http://purl.obolibrary.org/obo/PR_
+  MESH: http://id.nlm.nih.gov/mesh/
+  PMID: http://identifiers.org/pubmed/
+  DOI: http://doi.org/
+  AOPWIKI: https://aopwiki.org/
+
+default_prefix: aop_cam
+default_range: string
+
+imports:
+  - linkml:types
+
+# =============================================================================
+# CLASSES
+# =============================================================================
+
+classes:
+
+  # ---------------------------------------------------------------------------
+  # Root container
+  # ---------------------------------------------------------------------------
+
+  ModelCollection:
+    tree_root: true
+    description: >-
+      Root container for a set of AOP causal activity models, e.g. one
+      release of models converted from an AOP-Wiki snapshot, or a curated
+      network slice.
+    attributes:
+      models:
+        description: The models in this collection.
+        range: AopModel
+        multivalued: true
+        inlined_as_list: true
+      snapshot_date:
+        description: >-
+          Date of the AOP-Wiki snapshot these models were derived from,
+          when applicable. Nightly dumps are overwritten daily, so cite a
+          quarterly dump date wherever possible.
+        range: date
+
+  # ---------------------------------------------------------------------------
+  # Model
+  # ---------------------------------------------------------------------------
+
+  AopModel:
+    description: >-
+      One Adverse Outcome Pathway as a causal activity model: a named graph
+      of Key Event nodes connected by typed causal associations. Initial
+      nodes (no incoming causal association) are molecular initiating
+      events; terminal nodes (no outgoing causal association) are adverse
+      outcomes. The event_type on each node states the curator's intent;
+      the graph position is checkable against it.
+    attributes:
+      id:
+        identifier: true
+        range: uriorcurie
+      title:
+        description: Human-readable title of the model.
+        required: true
+        slot_uri: dcterms:title
+      description:
+        range: string
+      aopwiki_id:
+        description: 'AOP-Wiki identifier for this AOP (e.g. "Aop:425").'
+        range: string
+      status:
+        description: Lifecycle status of the model.
+        range: ModelStateEnum
+      oecd_status:
+        description: OECD endorsement status, carried over from AOP-Wiki.
+        range: string
+      taxa:
+        description: Taxa this model is asserted to apply to.
+        range: TaxonTermObject
+        multivalued: true
+        inlined_as_list: true
+      key_events:
+        description: All Key Event nodes in this model.
+        range: KeyEventNode
+        multivalued: true
+        inlined_as_list: true
+      stressors:
+        description: >-
+          Chemical or physical stressors known to trigger this pathway,
+          as ontology term references where possible.
+        range: StressorTermObject
+        multivalued: true
+        inlined_as_list: true
+      comments:
+        range: string
+        multivalued: true
+      provenances:
+        range: ProvenanceInfo
+        multivalued: true
+        inlined_as_list: true
+    rules:
+      - title: Production models must have key events
+        preconditions:
+          slot_conditions:
+            status:
+              equals_string: production
+        postconditions:
+          slot_conditions:
+            key_events:
+              required: true
+
+  # ---------------------------------------------------------------------------
+  # Key Event node
+  # ---------------------------------------------------------------------------
+
+  KeyEventNode:
+    description: >-
+      One Key Event as a node in a causal activity model. The node itself
+      is only an identifier and a label; its meaning comes from its
+      associations - the biological process affected, the object acted on,
+      the direction of change, and the cellular and anatomical context -
+      each of which can carry its own evidence. An adverse outcome is a
+      terminal KeyEventNode: its composition defines it, and
+      outcome_mappings optionally decorate it with precomposed phenotype
+      or disease terms where any exist.
+    attributes:
+      id:
+        identifier: true
+        range: uriorcurie
+      title:
+        description: Human-readable name of the key event.
+        required: true
+      aopwiki_id:
+        description: 'AOP-Wiki identifier for this key event (e.g. "Event:1656").'
+        range: string
+      event_type:
+        description: >-
+          The curator-asserted role of this node in the pathway. Must be
+          consistent with graph position: a molecular_initiating_event has
+          no incoming causal associations, an adverse_outcome has no
+          outgoing ones.
+        range: EventTypeEnum
+      level_of_biological_organization:
+        range: LevelOfBiologicalOrganizationEnum
+      process:
+        description: The biological process this key event perturbs.
+        range: ProcessAssociation
+        inlined: true
+      object:
+        description: The biological object (molecule, cell, structure) acted on.
+        range: ObjectAssociation
+        inlined: true
+      direction:
+        description: The direction of change, as a PATO quality.
+        range: DirectionAssociation
+        inlined: true
+      occurs_in_cell_type:
+        range: CellTypeAssociation
+        inlined: true
+      occurs_in_anatomy:
+        range: GrossAnatomyAssociation
+        inlined: true
+      causal_associations:
+        description: >-
+          The causal associations that flow out of this node. A node with
+          none is terminal in the model; a node no other node points at is
+          initial.
+        range: CausalAssociation
+        multivalued: true
+        inlined_as_list: true
+      outcome_mappings:
+        description: >-
+          For adverse outcome nodes: precomposed terms equivalent or close
+          to this outcome's compositional definition, where any exist
+          (HPO phenotype, MONDO disease, or uPheno class). A decoration
+          for discovery, not the definition; candidates can be generated
+          by matching the node's entity+quality composition against
+          uPheno's pattern space.
+        range: uriorcurie
+        multivalued: true
+        pattern: "^(HP:\\d{7}|MONDO:\\d{7}|UPHENO:\\d+)$"
+      provenances:
+        range: ProvenanceInfo
+        multivalued: true
+        inlined_as_list: true
+
+  # ---------------------------------------------------------------------------
+  # Association hierarchy (the GO-CAM pattern)
+  # ---------------------------------------------------------------------------
+
+  Association:
+    abstract: true
+    description: >-
+      An individual assertion in a model, carrying its own evidence and
+      provenance. Every term assignment and every causal edge is an
+      Association subtype, so support attaches to the claim itself rather
+      than to the record that contains it.
+    attributes:
+      type:
+        designates_type: true
+        description: Auto-populated association type discriminator.
+      evidence:
+        range: EvidenceItem
+        multivalued: true
+        inlined_as_list: true
+      provenances:
+        range: ProvenanceInfo
+        multivalued: true
+        inlined_as_list: true
+
+  TermAssociation:
+    abstract: true
+    is_a: Association
+    description: >-
+      An association between a node and an ontology term. Abstract; use the
+      typed subclasses so each dimension constrains its vocabulary.
+    slots:
+      - term
+
+  ProcessAssociation:
+    is_a: TermAssociation
+    description: Associates a key event with the biological process it perturbs.
+    slot_usage:
+      term:
+        range: ProcessTermObject
+
+  ObjectAssociation:
+    is_a: TermAssociation
+    description: >-
+      Associates a key event with the biological object acted on (a protein,
+      chemical, cell component, or other entity).
+    slot_usage:
+      term:
+        range: ObjectTermObject
+
+  DirectionAssociation:
+    is_a: TermAssociation
+    description: >-
+      Associates a key event with the direction of change, as a PATO
+      quality (e.g. increased amount, decreased functionality). Together
+      with the process or object this forms the entity+quality
+      decomposition of the event.
+    slot_usage:
+      term:
+        range: DirectionTermObject
+
+  CellTypeAssociation:
+    is_a: TermAssociation
+    description: The cell type in which the key event occurs.
+    slot_usage:
+      term:
+        range: CellTypeTermObject
+
+  GrossAnatomyAssociation:
+    is_a: TermAssociation
+    description: The anatomical location in which the key event occurs.
+    slot_usage:
+      term:
+        range: AnatomyTermObject
+
+  CausalAssociation:
+    is_a: Association
+    description: >-
+      A typed causal edge between two key event nodes: the AOP framework's
+      Key Event Relationship, with the relation drawn from the causal
+      branch of the Relation Ontology. AOP-Wiki adjacency maps onto the
+      predicate: adjacent KERs are immediately causally upstream of;
+      non-adjacent KERs are causally upstream of; use the positive/negative
+      effect or regulates forms where the direction of influence is curated.
+    attributes:
+      predicate:
+        description: The RO causal relation for this edge.
+        range: CausalPredicateEnum
+        required: true
+      downstream_event:
+        description: The key event node this edge points to.
+        range: KeyEventNode
+        required: true
+        inlined: false
+      aopwiki_ker_id:
+        description: 'AOP-Wiki identifier for this relationship (e.g. "Relationship:2555").'
+        range: string
+      evidence_level:
+        description: Weight of evidence for this relationship, as curated.
+        range: ConfidenceLevelEnum
+      quantitative_understanding:
+        range: ConfidenceLevelEnum
+
+  # ---------------------------------------------------------------------------
+  # Evidence and provenance
+  # ---------------------------------------------------------------------------
+
+  EvidenceItem:
+    description: >-
+      One piece of evidence supporting an assertion: an ECO evidence type,
+      a publication, and optionally the supporting records themselves -
+      for example the identifier of a SOMA assay whose measurements inform
+      the assertion. This is the joint between the knowledge layer (this
+      schema) and the experimental evidence layer (SOMA): an assay's
+      informs_on_key_event link materializes here as evidence on the
+      node's association.
+    attributes:
+      term:
+        description: The ECO term for the type of evidence.
+        range: uriorcurie
+        pattern: "^ECO:\\d{7}$"
+      reference:
+        description: The publication the evidence comes from (PMID, DOI, or AOPWIKI page).
+        range: uriorcurie
+      supporting_objects:
+        description: >-
+          Identifiers of supporting records, such as SOMA assay instances
+          or database entities.
+        range: uriorcurie
+        multivalued: true
+      description:
+        range: string
+      provenances:
+        range: ProvenanceInfo
+        multivalued: true
+        inlined_as_list: true
+
+  ProvenanceInfo:
+    description: Who made or changed an assertion, and when.
+    attributes:
+      contributor:
+        range: string
+      created:
+        range: datetime
+      modified:
+        range: datetime
+      source:
+        description: >-
+          Where this content came from, e.g. "AOPWiki" for converted
+          content or a curation project name for new assertions.
+        range: string
+
+  # ---------------------------------------------------------------------------
+  # Term objects (typed ontology-term pointers)
+  # ---------------------------------------------------------------------------
+
+  TermObject:
+    abstract: true
+    description: >-
+      A pointer to an ontology term: an identifier plus its label. Typed
+      subclasses constrain which vocabulary each slot draws from.
+    slots:
+      - id
+      - label
+
+  ProcessTermObject:
+    is_a: TermObject
+    description: A biological process term (GO preferred; MESH accepted for AOP-Wiki conversion).
+    id_prefixes:
+      - GO
+      - MESH
+
+  ObjectTermObject:
+    is_a: TermObject
+    description: A biological object term (protein, chemical, or other entity).
+    id_prefixes:
+      - PR
+      - CHEBI
+      - GO
+      - MESH
+
+  DirectionTermObject:
+    is_a: TermObject
+    description: A PATO quality term for the direction of change.
+    id_prefixes:
+      - PATO
+    slot_usage:
+      id:
+        pattern: "^PATO:\\d{7}$"
+
+  CellTypeTermObject:
+    is_a: TermObject
+    description: A Cell Ontology term.
+    id_prefixes:
+      - CL
+    slot_usage:
+      id:
+        pattern: "^CL:\\d{7}$"
+
+  AnatomyTermObject:
+    is_a: TermObject
+    description: An UBERON anatomy term.
+    id_prefixes:
+      - UBERON
+    slot_usage:
+      id:
+        pattern: "^UBERON:\\d{7}$"
+
+  TaxonTermObject:
+    is_a: TermObject
+    description: An NCBI Taxonomy term.
+    id_prefixes:
+      - NCBITaxon
+    slot_usage:
+      id:
+        pattern: "^NCBITaxon:\\d+$"
+
+  StressorTermObject:
+    is_a: TermObject
+    description: >-
+      A stressor as an ontology term reference where one exists (CHEBI
+      chemical, or an environmental material); free-text stressor names
+      from AOP-Wiki that cannot be grounded keep their label with an
+      AOPWIKI-prefixed id.
+    id_prefixes:
+      - CHEBI
+      - MESH
+
+# =============================================================================
+# SLOTS
+# =============================================================================
+
+slots:
+
+  id:
+    description: A unique identifier.
+    identifier: true
+    range: uriorcurie
+    required: true
+
+  label:
+    description: The human-readable label of the term, as given by its ontology.
+    range: string
+
+  term:
+    description: The ontology term this association assigns.
+    range: TermObject
+    inlined: true
+
+# =============================================================================
+# ENUMS
+# =============================================================================
+
+enums:
+
+  ModelStateEnum:
+    description: Where the model is in its development life cycle (GO-CAM semantics).
+    permissible_values:
+      development:
+        description: Still being worked on; not guaranteed accurate or complete.
+      production:
+        description: Declared ready for public consumption.
+      review:
+        description: Marked for curator review.
+      archived:
+        description: Retained for reference; no longer maintained.
+
+  EventTypeEnum:
+    description: The curator-asserted role of a key event node in the pathway.
+    permissible_values:
+      molecular_initiating_event:
+        description: The initial perturbation; no incoming causal associations.
+      key_event:
+        description: An intermediate measurable change.
+      adverse_outcome:
+        description: The apical endpoint; no outgoing causal associations.
+
+  LevelOfBiologicalOrganizationEnum:
+    description: Levels of biological organization, following AOP-Wiki usage.
+    permissible_values:
+      molecular:
+      cellular:
+      tissue:
+      organ:
+      individual:
+      population:
+
+  CausalPredicateEnum:
+    description: >-
+      The causal relation between two key events, drawn from the
+      "causally upstream or within" branch of the Relation Ontology.
+      Permissible values and meanings follow the GO-CAM schema's
+      CausalPredicateEnum.
+    permissible_values:
+      causally upstream of, positive effect:
+        meaning: RO:0002304
+      causally upstream of, negative effect:
+        meaning: RO:0002305
+      causally upstream of:
+        meaning: RO:0002411
+      immediately causally upstream of:
+        meaning: RO:0002412
+      causally upstream of or within:
+        meaning: RO:0002418
+      regulates:
+        meaning: RO:0002211
+      negatively regulates:
+        meaning: RO:0002212
+      positively regulates:
+        meaning: RO:0002213
+
+  ConfidenceLevelEnum:
+    description: Curated confidence levels, following AOP-Wiki usage.
+    permissible_values:
+      high:
+      moderate:
+      low:
+      not_specified:

@@ -3,7 +3,7 @@ requires = ["hatchling", "uv-dynamic-versioning"]
 build-backend = "hatchling.build"
 
 [project]
-name = "aop_cap"
+name = "aop_cam"
 description = "Adverse outcome pathways as causal activity models."
 authors = [
   {name = "Sierra Moxon", email = "smoxon@lbl.gov"},
@@ -47,7 +47,7 @@ testpaths = ["tests"]
 # https://docs.astral.sh/ruff/configuration/
 [tool.ruff]
 exclude = [
-    "src/aop_cap/_version.py",
+    "src/aop_cam/_version.py",
 ]
 # Set oldest supported Python version
 target-version = "py310"
@@ -59,8 +59,8 @@ skip = [
   "pyproject.toml",
   "uv.lock",
   "project/*",
-  "src/aop_cap/datamodel/aop_cap_pydantic.py",
-  "src/aop_cap/datamodel/aop_cap.py",
+  "src/aop_cam/datamodel/aop_cam_pydantic.py",
+  "src/aop_cam/datamodel/aop_cam.py",
 ]
 
 # Reminder: words have to be lowercased for the ignore-words-list
@@ -77,6 +77,6 @@ extend-exclude = [
   "uv.lock",
   "pyproject.toml",
   "project/*",
-  "src/aop_cap/datamodel/aop_cap_pydantic.py",
-  "src/aop_cap/datamodel/aop_cap.py",
+  "src/aop_cam/datamodel/aop_cam_pydantic.py",
+  "src/aop_cam/datamodel/aop_cam.py",
 ]

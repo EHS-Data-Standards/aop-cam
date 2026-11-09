@@ -1,9 +1,9 @@
-# Contributing to aop-cap
+# Contributing to aop-cam
 
 :+1: First of all: Thank you for taking the time to contribute!
 
 The following is a set of guidelines for contributing to
-aop-cap. These guidelines are not strict rules.
+aop-cam. These guidelines are not strict rules.
 Use your best judgment, and feel free to propose changes to this document
 in a pull request.
 
@@ -22,7 +22,7 @@ in a pull request.
 
 ## Code of Conduct
 
-The aop-cap team strives to create a
+The aop-cam team strives to create a
 welcoming environment for editors, users and other contributors.
 Please carefully read our [Code of Conduct](CODE_OF_CONDUCT.md).
 
@@ -73,7 +73,7 @@ Please submit a [Pull Request][pulls] to submit a new term for consideration.
     - Never work on the main branch, always work on an issue/feature branch
     - Core developers can work on branches off origin rather than forks
     - Always create a PR on a branch to maximize transparency of what you are doing
-    - PRs should be reviewed and merged in a timely fashion by the aop-cap technical leads
+    - PRs should be reviewed and merged in a timely fashion by the aop-cam technical leads
     - PRs that do not pass GitHub actions should never be merged
     - In the case of git conflicts, the contributor should try and resolve the conflict
     - If a PR fails a GitHub action check, the contributor should try and resolve the issue in a timely fashion
@@ -115,7 +115,7 @@ Core developers should read the material on the [LinkML site](https://linkml.io/
 [about-branches]: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches
 [about-issues]: https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues
 [about-pulls]: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests
-[issues]: https://github.com/EHS-Data-Standards/aop-cap/issues/
-[pulls]: https://github.com/EHS-Data-Standards/aop-cap/pulls/
+[issues]: https://github.com/EHS-Data-Standards/aop-cam/issues/
+[pulls]: https://github.com/EHS-Data-Standards/aop-cam/pulls/
 
 We recommend also reading [GitHub Pull Requests: 10 Tips to Know](https://blog.mergify.com/github-pull-requests-10-tips-to-know/)

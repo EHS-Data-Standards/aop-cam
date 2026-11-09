@@ -1,12 +1,12 @@
 <a href="https://github.com/linkml/linkml-project-copier"><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/copier-org/copier/master/img/badge/badge-grayscale-inverted-border-teal.json" alt="Copier Badge" style="max-width:100%;"/></a>
 
-# aop-cap
+# aop-cam
 
 Adverse outcome pathways as causal activity models.
 
 ## Documentation Website
 
-[https://EHS-Data-Standards.github.io/aop-cap](https://EHS-Data-Standards.github.io/aop-cap)
+[https://EHS-Data-Standards.github.io/aop-cam](https://EHS-Data-Standards.github.io/aop-cam)
 
 ## Repository Structure
 
@@ -15,10 +15,10 @@ Adverse outcome pathways as causal activity models.
 * [examples/](examples/) - Examples of using the schema
 * [project/](project/) - project files (these files are auto-generated, do not edit)
 * [src/](src/) - source files (edit these)
-  * [aop_cap](src/aop_cap)
-    * [schema/](src/aop_cap/schema) -- LinkML schema
+  * [aop_cam](src/aop_cam)
+    * [schema/](src/aop_cam/schema) -- LinkML schema
       (edit this)
-    * [datamodel/](src/aop_cap/datamodel) -- generated
+    * [datamodel/](src/aop_cam/datamodel) -- generated
       Python datamodel
 * [tests/](tests/) - Python tests
   * [data/](tests/data) - Example data

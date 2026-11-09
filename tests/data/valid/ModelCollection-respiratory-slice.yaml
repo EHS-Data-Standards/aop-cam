@@ -1,0 +1,69 @@
+# A minimal valid example: a two-node slice of the respiratory AOP network
+# (oxidative stress -> impaired mucociliary clearance -> decreased lung
+# function), demonstrating the GO-CAM pattern: nodes defined by term
+# associations, typed causal edges, per-assertion evidence, and an adverse
+# outcome grounded by composition with an optional precomposed-term mapping.
+snapshot_date: "2026-11-09"
+models:
+  - id: "aop_cam:model-respiratory-demo"
+    title: "Oxidative stress leading to decreased lung function (demo slice)"
+    aopwiki_id: "Aop:424"
+    status: production
+    taxa:
+      - id: NCBITaxon:9606
+        label: Homo sapiens
+    key_events:
+      - id: "aop_cam:ke-impaired-mcc"
+        title: "Impaired mucociliary clearance"
+        aopwiki_id: "Event:1656"
+        event_type: key_event
+        level_of_biological_organization: tissue
+        process:
+          type: ProcessAssociation
+          term:
+            id: GO:0120197
+            label: mucociliary clearance
+          evidence:
+            - term: ECO:0000314
+              reference: PMID:32075755
+        direction:
+          type: DirectionAssociation
+          term:
+            id: PATO:0001997
+            label: decreased amount
+        occurs_in_anatomy:
+          type: GrossAnatomyAssociation
+          term:
+            id: UBERON:0001005
+            label: respiratory airway
+        causal_associations:
+          - type: CausalAssociation
+            predicate: "immediately causally upstream of"
+            downstream_event: "aop_cam:ao-decreased-lung-function"
+            aopwiki_ker_id: "Relationship:2555"
+            evidence_level: moderate
+            quantitative_understanding: low
+      - id: "aop_cam:ao-decreased-lung-function"
+        title: "Decreased lung function"
+        event_type: adverse_outcome
+        level_of_biological_organization: individual
+        process:
+          type: ProcessAssociation
+          term:
+            id: GO:0003016
+            label: respiratory system process
+        direction:
+          type: DirectionAssociation
+          term:
+            id: PATO:0001997
+            label: decreased amount
+        occurs_in_anatomy:
+          type: GrossAnatomyAssociation
+          term:
+            id: UBERON:0002048
+            label: lung
+        outcome_mappings:
+          - HP:0032342
+    provenances:
+      - contributor: "aop-cam demo"
+        source: AOPWiki

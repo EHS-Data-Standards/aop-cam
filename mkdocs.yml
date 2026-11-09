@@ -1,5 +1,5 @@
 ---
-site_name: "aop-cap"
+site_name: "aop-cam"
 theme:
   # https://www.mkdocs.org/user-guide/configuration/#theme
   name: material
@@ -57,7 +57,7 @@ markdown_extensions:
   - md_in_html
 
 watch:
-  - src/aop_cap/schema
+  - src/aop_cam/schema
 
 nav:
   - Home: index.md
@@ -67,8 +67,8 @@ nav:
 exclude_docs: |
   /templates-linkml/
 
-site_url: https://EHS-Data-Standards.github.io/aop-cap
-repo_url: https://github.com/EHS-Data-Standards/aop-cap
+site_url: https://EHS-Data-Standards.github.io/aop-cam
+repo_url: https://github.com/EHS-Data-Standards/aop-cam
 
 # Uncomment this block to enable use of Google Analytics.
 # Replace the property value with your own ID.

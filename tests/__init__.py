@@ -1,1 +1,1 @@
-"""Tests for aop-cap."""
+"""Tests for aop-cam."""

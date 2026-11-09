@@ -1,4 +1,4 @@
-# Examples of using aop-cap
+# Examples of using aop-cam
 
 This folder contains examples using the datamodel.
 

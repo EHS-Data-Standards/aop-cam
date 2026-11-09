@@ -11,6 +11,6 @@ gh_action_pypi: true
 github_org: EHS-Data-Standards
 license: Apache-2.0
 project_description: Adverse outcome pathways as causal activity models.
-project_name: aop-cap
-project_slug: aop_cap
+project_name: aop-cam
+project_slug: aop_cam
 

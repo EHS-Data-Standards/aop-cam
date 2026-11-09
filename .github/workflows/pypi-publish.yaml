@@ -69,7 +69,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: pypi-release
-      url: https://pypi.org/p/aop_cap
+      url: https://pypi.org/p/aop_cam
     permissions:
       id-token: write  # this permission is mandatory for trusted publishing
     steps:
