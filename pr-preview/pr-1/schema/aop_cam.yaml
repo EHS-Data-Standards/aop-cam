@@ -1,0 +1,1686 @@
+name: aop_cam
+description: 'Adverse Outcome Pathways represented as causal activity models, following
+  the GO-CAM paradigm: an AOP is a model (a named causal graph), each Key Event is
+  a node defined by associations to ontology terms in context, each Key Event Relationship
+  is a typed causal association drawn from the Relation Ontology, and evidence attaches
+  to individual assertions rather than to whole records. The schema mirrors the GO-CAM
+  pattern (Association hierarchy, per-assertion evidence, model lifecycle) without
+  importing its gene-product machinery: a Key Event is not a molecular Activity, and
+  the AOP extensions GO-CAM lacks - direction of change as node state, levels of biological
+  organization up to population, and compositional outcome grounding with optional
+  precomposed-term mappings - are first-class here. Instances can be loaded from AOP-Wiki
+  exports; aopwiki_id slots keep the crosswalk.'
+title: AOP Causal Activity Models
+id: https://w3id.org/EHS-Data-Standards/aop-cam
+imports:
+- linkml:types
+license: BSD-3
+prefixes:
+  aop_cam:
+    prefix_prefix: aop_cam
+    prefix_reference: https://w3id.org/EHS-Data-Standards/aop-cam/
+  linkml:
+    prefix_prefix: linkml
+    prefix_reference: https://w3id.org/linkml/
+  dcterms:
+    prefix_prefix: dcterms
+    prefix_reference: http://purl.org/dc/terms/
+  RO:
+    prefix_prefix: RO
+    prefix_reference: http://purl.obolibrary.org/obo/RO_
+  GO:
+    prefix_prefix: GO
+    prefix_reference: http://purl.obolibrary.org/obo/GO_
+  PATO:
+    prefix_prefix: PATO
+    prefix_reference: http://purl.obolibrary.org/obo/PATO_
+  CL:
+    prefix_prefix: CL
+    prefix_reference: http://purl.obolibrary.org/obo/CL_
+  UBERON:
+    prefix_prefix: UBERON
+    prefix_reference: http://purl.obolibrary.org/obo/UBERON_
+  NCBITaxon:
+    prefix_prefix: NCBITaxon
+    prefix_reference: http://purl.obolibrary.org/obo/NCBITaxon_
+  ECO:
+    prefix_prefix: ECO
+    prefix_reference: http://purl.obolibrary.org/obo/ECO_
+  HP:
+    prefix_prefix: HP
+    prefix_reference: http://purl.obolibrary.org/obo/HP_
+  MONDO:
+    prefix_prefix: MONDO
+    prefix_reference: http://purl.obolibrary.org/obo/MONDO_
+  UPHENO:
+    prefix_prefix: UPHENO
+    prefix_reference: http://purl.obolibrary.org/obo/UPHENO_
+  CHEBI:
+    prefix_prefix: CHEBI
+    prefix_reference: http://purl.obolibrary.org/obo/CHEBI_
+  PR:
+    prefix_prefix: PR
+    prefix_reference: http://purl.obolibrary.org/obo/PR_
+  MESH:
+    prefix_prefix: MESH
+    prefix_reference: http://id.nlm.nih.gov/mesh/
+  PMID:
+    prefix_prefix: PMID
+    prefix_reference: http://identifiers.org/pubmed/
+  DOI:
+    prefix_prefix: DOI
+    prefix_reference: http://doi.org/
+  AOPWIKI:
+    prefix_prefix: AOPWIKI
+    prefix_reference: https://aopwiki.org/
+default_prefix: aop_cam
+default_range: string
+types:
+  string:
+    name: string
+    definition_uri: https://w3id.org/linkml/String
+    description: A character string
+    notes:
+    - In RDF serializations, a slot with range of string is treated as a literal or
+      type xsd:string. If you are authoring schemas in LinkML YAML, the type is referenced
+      with the lower case "string".
+    from_schema: https://w3id.org/linkml/types
+    imported_from: linkml:types
+    exact_mappings:
+    - schema:Text
+    base: str
+    uri: xsd:string
+  integer:
+    name: integer
+    definition_uri: https://w3id.org/linkml/Integer
+    description: An integer
+    notes:
+    - If you are authoring schemas in LinkML YAML, the type is referenced with the
+      lower case "integer".
+    from_schema: https://w3id.org/linkml/types
+    imported_from: linkml:types
+    exact_mappings:
+    - schema:Integer
+    base: int
+    uri: xsd:integer
+  boolean:
+    name: boolean
+    definition_uri: https://w3id.org/linkml/Boolean
+    description: A binary (true or false) value
+    notes:
+    - If you are authoring schemas in LinkML YAML, the type is referenced with the
+      lower case "boolean".
+    from_schema: https://w3id.org/linkml/types
+    imported_from: linkml:types
+    exact_mappings:
+    - schema:Boolean
+    base: Bool
+    uri: xsd:boolean
+    repr: bool
+  float:
+    name: float
+    definition_uri: https://w3id.org/linkml/Float
+    description: A real number that conforms to the xsd:float specification
+    notes:
+    - If you are authoring schemas in LinkML YAML, the type is referenced with the
+      lower case "float".
+    from_schema: https://w3id.org/linkml/types
+    imported_from: linkml:types
+    exact_mappings:
+    - schema:Float
+    base: float
+    uri: xsd:float
+  double:
+    name: double
+    definition_uri: https://w3id.org/linkml/Double
+    description: A real number that conforms to the xsd:double specification
+    notes:
+    - If you are authoring schemas in LinkML YAML, the type is referenced with the
+      lower case "double".
+    from_schema: https://w3id.org/linkml/types
+    imported_from: linkml:types
+    close_mappings:
+    - schema:Float
+    base: float
+    uri: xsd:double
+  decimal:
+    name: decimal
+    definition_uri: https://w3id.org/linkml/Decimal
+    description: A real number with arbitrary precision that conforms to the xsd:decimal
+      specification
+    notes:
+    - If you are authoring schemas in LinkML YAML, the type is referenced with the
+      lower case "decimal".
+    from_schema: https://w3id.org/linkml/types
+    imported_from: linkml:types
+    broad_mappings:
+    - schema:Number
+    base: Decimal
+    uri: xsd:decimal
+  time:
+    name: time
+    definition_uri: https://w3id.org/linkml/Time
+    description: A time object represents a (local) time of day, independent of any
+      particular day
+    notes:
+    - URI is dateTime because OWL reasoners do not work with straight date or time
+    - If you are authoring schemas in LinkML YAML, the type is referenced with the
+      lower case "time".
+    from_schema: https://w3id.org/linkml/types
+    imported_from: linkml:types
+    exact_mappings:
+    - schema:Time
+    base: XSDTime
+    uri: xsd:time
+    repr: str
+  date:
+    name: date
+    definition_uri: https://w3id.org/linkml/Date
+    description: a date (year, month and day) in an idealized calendar
+    notes:
+    - URI is dateTime because OWL reasoners don't work with straight date or time
+    - If you are authoring schemas in LinkML YAML, the type is referenced with the
+      lower case "date".
+    from_schema: https://w3id.org/linkml/types
+    imported_from: linkml:types
+    exact_mappings:
+    - schema:Date
+    base: XSDDate
+    uri: xsd:date
+    repr: str
+  datetime:
+    name: datetime
+    definition_uri: https://w3id.org/linkml/Datetime
+    description: The combination of a date and time
+    notes:
+    - If you are authoring schemas in LinkML YAML, the type is referenced with the
+      lower case "datetime".
+    from_schema: https://w3id.org/linkml/types
+    imported_from: linkml:types
+    exact_mappings:
+    - schema:DateTime
+    base: XSDDateTime
+    uri: xsd:dateTime
+    repr: str
+  date_or_datetime:
+    name: date_or_datetime
+    definition_uri: https://w3id.org/linkml/DateOrDatetime
+    description: Either a date or a datetime
+    notes:
+    - If you are authoring schemas in LinkML YAML, the type is referenced with the
+      lower case "date_or_datetime".
+    from_schema: https://w3id.org/linkml/types
+    imported_from: linkml:types
+    base: str
+    uri: linkml:DateOrDatetime
+    repr: str
+  uriorcurie:
+    name: uriorcurie
+    definition_uri: https://w3id.org/linkml/Uriorcurie
+    description: a URI or a CURIE
+    notes:
+    - If you are authoring schemas in LinkML YAML, the type is referenced with the
+      lower case "uriorcurie".
+    from_schema: https://w3id.org/linkml/types
+    imported_from: linkml:types
+    base: URIorCURIE
+    uri: xsd:anyURI
+    repr: str
+  curie:
+    name: curie
+    definition_uri: https://w3id.org/linkml/Curie
+    conforms_to: https://www.w3.org/TR/curie/
+    description: a compact URI
+    notes:
+    - If you are authoring schemas in LinkML YAML, the type is referenced with the
+      lower case "curie".
+    comments:
+    - in RDF serializations this MUST be expanded to a URI
+    - in non-RDF serializations MAY be serialized as the compact representation
+    from_schema: https://w3id.org/linkml/types
+    imported_from: linkml:types
+    base: Curie
+    uri: xsd:string
+    repr: str
+  uri:
+    name: uri
+    definition_uri: https://w3id.org/linkml/Uri
+    conforms_to: https://www.ietf.org/rfc/rfc3987.txt
+    description: a complete URI
+    notes:
+    - If you are authoring schemas in LinkML YAML, the type is referenced with the
+      lower case "uri".
+    comments:
+    - in RDF serializations a slot with range of uri is treated as a literal or type
+      xsd:anyURI unless it is an identifier or a reference to an identifier, in which
+      case it is translated directly to a node
+    from_schema: https://w3id.org/linkml/types
+    imported_from: linkml:types
+    close_mappings:
+    - schema:URL
+    base: URI
+    uri: xsd:anyURI
+    repr: str
+  ncname:
+    name: ncname
+    definition_uri: https://w3id.org/linkml/Ncname
+    description: Prefix part of CURIE
+    notes:
+    - If you are authoring schemas in LinkML YAML, the type is referenced with the
+      lower case "ncname".
+    from_schema: https://w3id.org/linkml/types
+    imported_from: linkml:types
+    base: NCName
+    uri: xsd:string
+    repr: str
+  objectidentifier:
+    name: objectidentifier
+    definition_uri: https://w3id.org/linkml/Objectidentifier
+    description: A URI or CURIE that represents an object in the model.
+    notes:
+    - If you are authoring schemas in LinkML YAML, the type is referenced with the
+      lower case "objectidentifier".
+    comments:
+    - Used for inheritance and type checking
+    from_schema: https://w3id.org/linkml/types
+    imported_from: linkml:types
+    base: ElementIdentifier
+    uri: shex:iri
+    repr: str
+  nodeidentifier:
+    name: nodeidentifier
+    definition_uri: https://w3id.org/linkml/Nodeidentifier
+    description: A URI, CURIE or BNODE that represents a node in a model.
+    notes:
+    - If you are authoring schemas in LinkML YAML, the type is referenced with the
+      lower case "nodeidentifier".
+    from_schema: https://w3id.org/linkml/types
+    imported_from: linkml:types
+    base: NodeIdentifier
+    uri: shex:nonLiteral
+    repr: str
+  jsonpointer:
+    name: jsonpointer
+    definition_uri: https://w3id.org/linkml/Jsonpointer
+    conforms_to: https://datatracker.ietf.org/doc/html/rfc6901
+    description: A string encoding a JSON Pointer. The value of the string MUST conform
+      to JSON Point syntax and SHOULD dereference to a valid object within the current
+      instance document when encoded in tree form.
+    notes:
+    - If you are authoring schemas in LinkML YAML, the type is referenced with the
+      lower case "jsonpointer".
+    from_schema: https://w3id.org/linkml/types
+    imported_from: linkml:types
+    base: str
+    uri: xsd:string
+    repr: str
+  jsonpath:
+    name: jsonpath
+    definition_uri: https://w3id.org/linkml/Jsonpath
+    conforms_to: https://www.ietf.org/archive/id/draft-goessner-dispatch-jsonpath-00.html
+    description: A string encoding a JSON Path. The value of the string MUST conform
+      to JSON Point syntax and SHOULD dereference to zero or more valid objects within
+      the current instance document when encoded in tree form.
+    notes:
+    - If you are authoring schemas in LinkML YAML, the type is referenced with the
+      lower case "jsonpath".
+    from_schema: https://w3id.org/linkml/types
+    imported_from: linkml:types
+    base: str
+    uri: xsd:string
+    repr: str
+  sparqlpath:
+    name: sparqlpath
+    definition_uri: https://w3id.org/linkml/Sparqlpath
+    conforms_to: https://www.w3.org/TR/sparql11-query/#propertypaths
+    description: A string encoding a SPARQL Property Path. The value of the string
+      MUST conform to SPARQL syntax and SHOULD dereference to zero or more valid objects
+      within the current instance document when encoded as RDF.
+    notes:
+    - If you are authoring schemas in LinkML YAML, the type is referenced with the
+      lower case "sparqlpath".
+    from_schema: https://w3id.org/linkml/types
+    imported_from: linkml:types
+    base: str
+    uri: xsd:string
+    repr: str
+enums:
+  ModelStateEnum:
+    name: ModelStateEnum
+    definition_uri: https://w3id.org/EHS-Data-Standards/aop-cam/ModelStateEnum
+    description: Where the model is in its development life cycle (GO-CAM semantics).
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    permissible_values:
+      development:
+        text: development
+        description: Still being worked on; not guaranteed accurate or complete.
+      production:
+        text: production
+        description: Declared ready for public consumption.
+      review:
+        text: review
+        description: Marked for curator review.
+      archived:
+        text: archived
+        description: Retained for reference; no longer maintained.
+  EventTypeEnum:
+    name: EventTypeEnum
+    definition_uri: https://w3id.org/EHS-Data-Standards/aop-cam/EventTypeEnum
+    description: The curator-asserted role of a key event node in the pathway.
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    permissible_values:
+      molecular_initiating_event:
+        text: molecular_initiating_event
+        description: The initial perturbation; no incoming causal associations.
+      key_event:
+        text: key_event
+        description: An intermediate measurable change.
+      adverse_outcome:
+        text: adverse_outcome
+        description: The apical endpoint; no outgoing causal associations.
+  LevelOfBiologicalOrganizationEnum:
+    name: LevelOfBiologicalOrganizationEnum
+    definition_uri: https://w3id.org/EHS-Data-Standards/aop-cam/LevelOfBiologicalOrganizationEnum
+    description: Levels of biological organization, following AOP-Wiki usage.
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    permissible_values:
+      molecular:
+        text: molecular
+      cellular:
+        text: cellular
+      tissue:
+        text: tissue
+      organ:
+        text: organ
+      individual:
+        text: individual
+      population:
+        text: population
+  CausalPredicateEnum:
+    name: CausalPredicateEnum
+    definition_uri: https://w3id.org/EHS-Data-Standards/aop-cam/CausalPredicateEnum
+    description: The causal relation between two key events, drawn from the "causally
+      upstream or within" branch of the Relation Ontology. Permissible values and
+      meanings follow the GO-CAM schema's CausalPredicateEnum.
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    permissible_values:
+      causally upstream of, positive effect:
+        text: causally upstream of, positive effect
+        meaning: RO:0002304
+      causally upstream of, negative effect:
+        text: causally upstream of, negative effect
+        meaning: RO:0002305
+      causally upstream of:
+        text: causally upstream of
+        meaning: RO:0002411
+      immediately causally upstream of:
+        text: immediately causally upstream of
+        meaning: RO:0002412
+      causally upstream of or within:
+        text: causally upstream of or within
+        meaning: RO:0002418
+      regulates:
+        text: regulates
+        meaning: RO:0002211
+      negatively regulates:
+        text: negatively regulates
+        meaning: RO:0002212
+      positively regulates:
+        text: positively regulates
+        meaning: RO:0002213
+  ConfidenceLevelEnum:
+    name: ConfidenceLevelEnum
+    definition_uri: https://w3id.org/EHS-Data-Standards/aop-cam/ConfidenceLevelEnum
+    description: Curated confidence levels, following AOP-Wiki usage.
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    permissible_values:
+      high:
+        text: high
+      moderate:
+        text: moderate
+      low:
+        text: low
+      not_specified:
+        text: not_specified
+slots:
+  id:
+    name: id
+    definition_uri: https://w3id.org/EHS-Data-Standards/aop-cam/id
+    description: A unique identifier.
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    slot_uri: aop_cam:id
+    identifier: true
+    owner: TermObject
+    domain_of:
+    - TermObject
+    range: uriorcurie
+    required: true
+  label:
+    name: label
+    definition_uri: https://w3id.org/EHS-Data-Standards/aop-cam/label
+    description: The human-readable label of the term, as given by its ontology.
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    slot_uri: aop_cam:label
+    owner: TermObject
+    domain_of:
+    - TermObject
+    range: string
+  term:
+    name: term
+    definition_uri: https://w3id.org/EHS-Data-Standards/aop-cam/term
+    description: The ontology term this association assigns.
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    slot_uri: aop_cam:term
+    owner: TermAssociation
+    domain_of:
+    - TermAssociation
+    range: TermObject
+    inlined: true
+    inlined_as_list: false
+  modelCollection__models:
+    name: modelCollection__models
+    description: The models in this collection.
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    slot_uri: aop_cam:models
+    alias: models
+    owner: ModelCollection
+    domain_of:
+    - ModelCollection
+    range: AopModel
+    multivalued: true
+    inlined: true
+    inlined_as_list: true
+  modelCollection__snapshot_date:
+    name: modelCollection__snapshot_date
+    description: Date of the AOP-Wiki snapshot these models were derived from, when
+      applicable. Nightly dumps are overwritten daily, so cite a quarterly dump date
+      wherever possible.
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    slot_uri: aop_cam:snapshot_date
+    alias: snapshot_date
+    owner: ModelCollection
+    domain_of:
+    - ModelCollection
+    range: date
+  aopModel__id:
+    name: aopModel__id
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    slot_uri: aop_cam:id
+    identifier: true
+    alias: id
+    owner: AopModel
+    domain_of:
+    - AopModel
+    range: uriorcurie
+    required: true
+  aopModel__title:
+    name: aopModel__title
+    description: Human-readable title of the model.
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    mappings:
+    - dcterms:title
+    slot_uri: dcterms:title
+    alias: title
+    owner: AopModel
+    domain_of:
+    - AopModel
+    range: string
+    required: true
+  aopModel__description:
+    name: aopModel__description
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    slot_uri: aop_cam:description
+    alias: description
+    owner: AopModel
+    domain_of:
+    - AopModel
+    range: string
+  aopModel__aopwiki_id:
+    name: aopModel__aopwiki_id
+    description: AOP-Wiki identifier for this AOP (e.g. "Aop:425").
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    slot_uri: aop_cam:aopwiki_id
+    alias: aopwiki_id
+    owner: AopModel
+    domain_of:
+    - AopModel
+    range: string
+  aopModel__status:
+    name: aopModel__status
+    description: Lifecycle status of the model.
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    slot_uri: aop_cam:status
+    alias: status
+    owner: AopModel
+    domain_of:
+    - AopModel
+    range: ModelStateEnum
+  aopModel__oecd_status:
+    name: aopModel__oecd_status
+    description: OECD endorsement status, carried over from AOP-Wiki.
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    slot_uri: aop_cam:oecd_status
+    alias: oecd_status
+    owner: AopModel
+    domain_of:
+    - AopModel
+    range: string
+  aopModel__taxa:
+    name: aopModel__taxa
+    description: Taxa this model is asserted to apply to.
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    slot_uri: aop_cam:taxa
+    alias: taxa
+    owner: AopModel
+    domain_of:
+    - AopModel
+    range: TaxonTermObject
+    multivalued: true
+    inlined: true
+    inlined_as_list: true
+  aopModel__key_events:
+    name: aopModel__key_events
+    description: All Key Event nodes in this model.
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    slot_uri: aop_cam:key_events
+    alias: key_events
+    owner: AopModel
+    domain_of:
+    - AopModel
+    range: KeyEventNode
+    multivalued: true
+    inlined: true
+    inlined_as_list: true
+  aopModel__stressors:
+    name: aopModel__stressors
+    description: Chemical or physical stressors known to trigger this pathway, as
+      ontology term references where possible.
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    slot_uri: aop_cam:stressors
+    alias: stressors
+    owner: AopModel
+    domain_of:
+    - AopModel
+    range: StressorTermObject
+    multivalued: true
+    inlined: true
+    inlined_as_list: true
+  aopModel__comments:
+    name: aopModel__comments
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    slot_uri: aop_cam:comments
+    alias: comments
+    owner: AopModel
+    domain_of:
+    - AopModel
+    range: string
+    multivalued: true
+  aopModel__provenances:
+    name: aopModel__provenances
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    slot_uri: aop_cam:provenances
+    alias: provenances
+    owner: AopModel
+    domain_of:
+    - AopModel
+    range: ProvenanceInfo
+    multivalued: true
+    inlined: true
+    inlined_as_list: true
+  keyEventNode__id:
+    name: keyEventNode__id
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    slot_uri: aop_cam:id
+    identifier: true
+    alias: id
+    owner: KeyEventNode
+    domain_of:
+    - KeyEventNode
+    range: uriorcurie
+    required: true
+  keyEventNode__title:
+    name: keyEventNode__title
+    description: Human-readable name of the key event.
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    slot_uri: aop_cam:title
+    alias: title
+    owner: KeyEventNode
+    domain_of:
+    - KeyEventNode
+    range: string
+    required: true
+  keyEventNode__aopwiki_id:
+    name: keyEventNode__aopwiki_id
+    description: AOP-Wiki identifier for this key event (e.g. "Event:1656").
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    slot_uri: aop_cam:aopwiki_id
+    alias: aopwiki_id
+    owner: KeyEventNode
+    domain_of:
+    - KeyEventNode
+    range: string
+  keyEventNode__event_type:
+    name: keyEventNode__event_type
+    description: 'The curator-asserted role of this node in the pathway. Must be consistent
+      with graph position: a molecular_initiating_event has no incoming causal associations,
+      an adverse_outcome has no outgoing ones.'
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    slot_uri: aop_cam:event_type
+    alias: event_type
+    owner: KeyEventNode
+    domain_of:
+    - KeyEventNode
+    range: EventTypeEnum
+  keyEventNode__level_of_biological_organization:
+    name: keyEventNode__level_of_biological_organization
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    slot_uri: aop_cam:level_of_biological_organization
+    alias: level_of_biological_organization
+    owner: KeyEventNode
+    domain_of:
+    - KeyEventNode
+    range: LevelOfBiologicalOrganizationEnum
+  keyEventNode__process:
+    name: keyEventNode__process
+    description: The biological process this key event perturbs.
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    slot_uri: aop_cam:process
+    alias: process
+    owner: KeyEventNode
+    domain_of:
+    - KeyEventNode
+    range: ProcessAssociation
+    inlined: true
+    inlined_as_list: true
+  keyEventNode__object:
+    name: keyEventNode__object
+    description: The biological object (molecule, cell, structure) acted on.
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    slot_uri: aop_cam:object
+    alias: object
+    owner: KeyEventNode
+    domain_of:
+    - KeyEventNode
+    range: ObjectAssociation
+    inlined: true
+    inlined_as_list: true
+  keyEventNode__direction:
+    name: keyEventNode__direction
+    description: The direction of change, as a PATO quality.
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    slot_uri: aop_cam:direction
+    alias: direction
+    owner: KeyEventNode
+    domain_of:
+    - KeyEventNode
+    range: DirectionAssociation
+    inlined: true
+    inlined_as_list: true
+  keyEventNode__occurs_in_cell_type:
+    name: keyEventNode__occurs_in_cell_type
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    slot_uri: aop_cam:occurs_in_cell_type
+    alias: occurs_in_cell_type
+    owner: KeyEventNode
+    domain_of:
+    - KeyEventNode
+    range: CellTypeAssociation
+    inlined: true
+    inlined_as_list: true
+  keyEventNode__occurs_in_anatomy:
+    name: keyEventNode__occurs_in_anatomy
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    slot_uri: aop_cam:occurs_in_anatomy
+    alias: occurs_in_anatomy
+    owner: KeyEventNode
+    domain_of:
+    - KeyEventNode
+    range: GrossAnatomyAssociation
+    inlined: true
+    inlined_as_list: true
+  keyEventNode__causal_associations:
+    name: keyEventNode__causal_associations
+    description: The causal associations that flow out of this node. A node with none
+      is terminal in the model; a node no other node points at is initial.
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    slot_uri: aop_cam:causal_associations
+    alias: causal_associations
+    owner: KeyEventNode
+    domain_of:
+    - KeyEventNode
+    range: CausalAssociation
+    multivalued: true
+    inlined: true
+    inlined_as_list: true
+  keyEventNode__outcome_mappings:
+    name: keyEventNode__outcome_mappings
+    description: 'For adverse outcome nodes: precomposed terms equivalent or close
+      to this outcome''s compositional definition, where any exist (HPO phenotype,
+      MONDO disease, or uPheno class). A decoration for discovery, not the definition;
+      candidates can be generated by matching the node''s entity+quality composition
+      against uPheno''s pattern space.'
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    slot_uri: aop_cam:outcome_mappings
+    alias: outcome_mappings
+    owner: KeyEventNode
+    domain_of:
+    - KeyEventNode
+    range: uriorcurie
+    multivalued: true
+    pattern: ^(HP:\d{7}|MONDO:\d{7}|UPHENO:\d+)$
+  keyEventNode__provenances:
+    name: keyEventNode__provenances
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    slot_uri: aop_cam:provenances
+    alias: provenances
+    owner: KeyEventNode
+    domain_of:
+    - KeyEventNode
+    range: ProvenanceInfo
+    multivalued: true
+    inlined: true
+    inlined_as_list: true
+  association__type:
+    name: association__type
+    description: Auto-populated association type discriminator.
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    slot_uri: aop_cam:type
+    designates_type: true
+    alias: type
+    owner: Association
+    domain_of:
+    - Association
+    range: string
+  association__evidence:
+    name: association__evidence
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    slot_uri: aop_cam:evidence
+    alias: evidence
+    owner: Association
+    domain_of:
+    - Association
+    range: EvidenceItem
+    multivalued: true
+    inlined: true
+    inlined_as_list: true
+  association__provenances:
+    name: association__provenances
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    slot_uri: aop_cam:provenances
+    alias: provenances
+    owner: Association
+    domain_of:
+    - Association
+    range: ProvenanceInfo
+    multivalued: true
+    inlined: true
+    inlined_as_list: true
+  causalAssociation__predicate:
+    name: causalAssociation__predicate
+    description: The RO causal relation for this edge.
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    slot_uri: aop_cam:predicate
+    alias: predicate
+    owner: CausalAssociation
+    domain_of:
+    - CausalAssociation
+    range: CausalPredicateEnum
+    required: true
+  causalAssociation__downstream_event:
+    name: causalAssociation__downstream_event
+    description: The key event node this edge points to.
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    slot_uri: aop_cam:downstream_event
+    alias: downstream_event
+    owner: CausalAssociation
+    domain_of:
+    - CausalAssociation
+    range: KeyEventNode
+    required: true
+    inlined: false
+  causalAssociation__aopwiki_ker_id:
+    name: causalAssociation__aopwiki_ker_id
+    description: AOP-Wiki identifier for this relationship (e.g. "Relationship:2555").
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    slot_uri: aop_cam:aopwiki_ker_id
+    alias: aopwiki_ker_id
+    owner: CausalAssociation
+    domain_of:
+    - CausalAssociation
+    range: string
+  causalAssociation__evidence_level:
+    name: causalAssociation__evidence_level
+    description: Weight of evidence for this relationship, as curated.
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    slot_uri: aop_cam:evidence_level
+    alias: evidence_level
+    owner: CausalAssociation
+    domain_of:
+    - CausalAssociation
+    range: ConfidenceLevelEnum
+  causalAssociation__quantitative_understanding:
+    name: causalAssociation__quantitative_understanding
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    slot_uri: aop_cam:quantitative_understanding
+    alias: quantitative_understanding
+    owner: CausalAssociation
+    domain_of:
+    - CausalAssociation
+    range: ConfidenceLevelEnum
+  evidenceItem__term:
+    name: evidenceItem__term
+    description: The ECO term for the type of evidence.
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    slot_uri: aop_cam:term
+    alias: term
+    owner: EvidenceItem
+    domain_of:
+    - EvidenceItem
+    range: uriorcurie
+    pattern: ^ECO:\d{7}$
+  evidenceItem__reference:
+    name: evidenceItem__reference
+    description: The publication the evidence comes from (PMID, DOI, or AOPWIKI page).
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    slot_uri: aop_cam:reference
+    alias: reference
+    owner: EvidenceItem
+    domain_of:
+    - EvidenceItem
+    range: uriorcurie
+  evidenceItem__supporting_objects:
+    name: evidenceItem__supporting_objects
+    description: Identifiers of supporting records, such as SOMA assay instances or
+      database entities.
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    slot_uri: aop_cam:supporting_objects
+    alias: supporting_objects
+    owner: EvidenceItem
+    domain_of:
+    - EvidenceItem
+    range: uriorcurie
+    multivalued: true
+  evidenceItem__description:
+    name: evidenceItem__description
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    slot_uri: aop_cam:description
+    alias: description
+    owner: EvidenceItem
+    domain_of:
+    - EvidenceItem
+    range: string
+  evidenceItem__provenances:
+    name: evidenceItem__provenances
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    slot_uri: aop_cam:provenances
+    alias: provenances
+    owner: EvidenceItem
+    domain_of:
+    - EvidenceItem
+    range: ProvenanceInfo
+    multivalued: true
+    inlined: true
+    inlined_as_list: true
+  provenanceInfo__contributor:
+    name: provenanceInfo__contributor
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    slot_uri: aop_cam:contributor
+    alias: contributor
+    owner: ProvenanceInfo
+    domain_of:
+    - ProvenanceInfo
+    range: string
+  provenanceInfo__created:
+    name: provenanceInfo__created
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    slot_uri: aop_cam:created
+    alias: created
+    owner: ProvenanceInfo
+    domain_of:
+    - ProvenanceInfo
+    range: datetime
+  provenanceInfo__modified:
+    name: provenanceInfo__modified
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    slot_uri: aop_cam:modified
+    alias: modified
+    owner: ProvenanceInfo
+    domain_of:
+    - ProvenanceInfo
+    range: datetime
+  provenanceInfo__source:
+    name: provenanceInfo__source
+    description: Where this content came from, e.g. "AOPWiki" for converted content
+      or a curation project name for new assertions.
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    slot_uri: aop_cam:source
+    alias: source
+    owner: ProvenanceInfo
+    domain_of:
+    - ProvenanceInfo
+    range: string
+  ProcessAssociation_term:
+    name: ProcessAssociation_term
+    definition_uri: https://w3id.org/EHS-Data-Standards/aop-cam/term
+    description: The ontology term this association assigns.
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    is_a: term
+    domain: ProcessAssociation
+    slot_uri: aop_cam:term
+    alias: term
+    owner: ProcessAssociation
+    domain_of:
+    - ProcessAssociation
+    is_usage_slot: true
+    usage_slot_name: term
+    range: ProcessTermObject
+    inlined: true
+    inlined_as_list: false
+  ObjectAssociation_term:
+    name: ObjectAssociation_term
+    definition_uri: https://w3id.org/EHS-Data-Standards/aop-cam/term
+    description: The ontology term this association assigns.
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    is_a: term
+    domain: ObjectAssociation
+    slot_uri: aop_cam:term
+    alias: term
+    owner: ObjectAssociation
+    domain_of:
+    - ObjectAssociation
+    is_usage_slot: true
+    usage_slot_name: term
+    range: ObjectTermObject
+    inlined: true
+    inlined_as_list: false
+  DirectionAssociation_term:
+    name: DirectionAssociation_term
+    definition_uri: https://w3id.org/EHS-Data-Standards/aop-cam/term
+    description: The ontology term this association assigns.
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    is_a: term
+    domain: DirectionAssociation
+    slot_uri: aop_cam:term
+    alias: term
+    owner: DirectionAssociation
+    domain_of:
+    - DirectionAssociation
+    is_usage_slot: true
+    usage_slot_name: term
+    range: DirectionTermObject
+    inlined: true
+    inlined_as_list: false
+  CellTypeAssociation_term:
+    name: CellTypeAssociation_term
+    definition_uri: https://w3id.org/EHS-Data-Standards/aop-cam/term
+    description: The ontology term this association assigns.
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    is_a: term
+    domain: CellTypeAssociation
+    slot_uri: aop_cam:term
+    alias: term
+    owner: CellTypeAssociation
+    domain_of:
+    - CellTypeAssociation
+    is_usage_slot: true
+    usage_slot_name: term
+    range: CellTypeTermObject
+    inlined: true
+    inlined_as_list: false
+  GrossAnatomyAssociation_term:
+    name: GrossAnatomyAssociation_term
+    definition_uri: https://w3id.org/EHS-Data-Standards/aop-cam/term
+    description: The ontology term this association assigns.
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    is_a: term
+    domain: GrossAnatomyAssociation
+    slot_uri: aop_cam:term
+    alias: term
+    owner: GrossAnatomyAssociation
+    domain_of:
+    - GrossAnatomyAssociation
+    is_usage_slot: true
+    usage_slot_name: term
+    range: AnatomyTermObject
+    inlined: true
+    inlined_as_list: false
+  DirectionTermObject_id:
+    name: DirectionTermObject_id
+    definition_uri: https://w3id.org/EHS-Data-Standards/aop-cam/id
+    description: A unique identifier.
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    is_a: id
+    domain: DirectionTermObject
+    slot_uri: aop_cam:id
+    identifier: true
+    alias: id
+    owner: DirectionTermObject
+    domain_of:
+    - DirectionTermObject
+    is_usage_slot: true
+    usage_slot_name: id
+    range: uriorcurie
+    required: true
+    pattern: ^PATO:\d{7}$
+  CellTypeTermObject_id:
+    name: CellTypeTermObject_id
+    definition_uri: https://w3id.org/EHS-Data-Standards/aop-cam/id
+    description: A unique identifier.
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    is_a: id
+    domain: CellTypeTermObject
+    slot_uri: aop_cam:id
+    identifier: true
+    alias: id
+    owner: CellTypeTermObject
+    domain_of:
+    - CellTypeTermObject
+    is_usage_slot: true
+    usage_slot_name: id
+    range: uriorcurie
+    required: true
+    pattern: ^CL:\d{7}$
+  AnatomyTermObject_id:
+    name: AnatomyTermObject_id
+    definition_uri: https://w3id.org/EHS-Data-Standards/aop-cam/id
+    description: A unique identifier.
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    is_a: id
+    domain: AnatomyTermObject
+    slot_uri: aop_cam:id
+    identifier: true
+    alias: id
+    owner: AnatomyTermObject
+    domain_of:
+    - AnatomyTermObject
+    is_usage_slot: true
+    usage_slot_name: id
+    range: uriorcurie
+    required: true
+    pattern: ^UBERON:\d{7}$
+  TaxonTermObject_id:
+    name: TaxonTermObject_id
+    definition_uri: https://w3id.org/EHS-Data-Standards/aop-cam/id
+    description: A unique identifier.
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    is_a: id
+    domain: TaxonTermObject
+    slot_uri: aop_cam:id
+    identifier: true
+    alias: id
+    owner: TaxonTermObject
+    domain_of:
+    - TaxonTermObject
+    is_usage_slot: true
+    usage_slot_name: id
+    range: uriorcurie
+    required: true
+    pattern: ^NCBITaxon:\d+$
+classes:
+  ModelCollection:
+    name: ModelCollection
+    definition_uri: https://w3id.org/EHS-Data-Standards/aop-cam/ModelCollection
+    description: Root container for a set of AOP causal activity models, e.g. one
+      release of models converted from an AOP-Wiki snapshot, or a curated network
+      slice.
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    slots:
+    - modelCollection__models
+    - modelCollection__snapshot_date
+    attributes:
+      models:
+        name: models
+        description: The models in this collection.
+        range: AopModel
+        multivalued: true
+        inlined_as_list: true
+      snapshot_date:
+        name: snapshot_date
+        description: Date of the AOP-Wiki snapshot these models were derived from,
+          when applicable. Nightly dumps are overwritten daily, so cite a quarterly
+          dump date wherever possible.
+        range: date
+    class_uri: aop_cam:ModelCollection
+    tree_root: true
+  AopModel:
+    name: AopModel
+    definition_uri: https://w3id.org/EHS-Data-Standards/aop-cam/AopModel
+    description: 'One Adverse Outcome Pathway as a causal activity model: a named
+      graph of Key Event nodes connected by typed causal associations. Initial nodes
+      (no incoming causal association) are molecular initiating events; terminal nodes
+      (no outgoing causal association) are adverse outcomes. The event_type on each
+      node states the curator''s intent; the graph position is checkable against it.'
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    slots:
+    - aopModel__id
+    - aopModel__title
+    - aopModel__description
+    - aopModel__aopwiki_id
+    - aopModel__status
+    - aopModel__oecd_status
+    - aopModel__taxa
+    - aopModel__key_events
+    - aopModel__stressors
+    - aopModel__comments
+    - aopModel__provenances
+    attributes:
+      id:
+        name: id
+        identifier: true
+        range: uriorcurie
+      title:
+        name: title
+        description: Human-readable title of the model.
+        slot_uri: dcterms:title
+        required: true
+      description:
+        name: description
+        range: string
+      aopwiki_id:
+        name: aopwiki_id
+        description: AOP-Wiki identifier for this AOP (e.g. "Aop:425").
+        range: string
+      status:
+        name: status
+        description: Lifecycle status of the model.
+        range: ModelStateEnum
+      oecd_status:
+        name: oecd_status
+        description: OECD endorsement status, carried over from AOP-Wiki.
+        range: string
+      taxa:
+        name: taxa
+        description: Taxa this model is asserted to apply to.
+        range: TaxonTermObject
+        multivalued: true
+        inlined_as_list: true
+      key_events:
+        name: key_events
+        description: All Key Event nodes in this model.
+        range: KeyEventNode
+        multivalued: true
+        inlined_as_list: true
+      stressors:
+        name: stressors
+        description: Chemical or physical stressors known to trigger this pathway,
+          as ontology term references where possible.
+        range: StressorTermObject
+        multivalued: true
+        inlined_as_list: true
+      comments:
+        name: comments
+        range: string
+        multivalued: true
+      provenances:
+        name: provenances
+        range: ProvenanceInfo
+        multivalued: true
+        inlined_as_list: true
+    class_uri: aop_cam:AopModel
+    rules:
+    - preconditions:
+        slot_conditions:
+          status:
+            name: status
+            equals_string: production
+      postconditions:
+        slot_conditions:
+          key_events:
+            name: key_events
+            required: true
+      title: Production models must have key events
+  KeyEventNode:
+    name: KeyEventNode
+    definition_uri: https://w3id.org/EHS-Data-Standards/aop-cam/KeyEventNode
+    description: 'One Key Event as a node in a causal activity model. The node itself
+      is only an identifier and a label; its meaning comes from its associations -
+      the biological process affected, the object acted on, the direction of change,
+      and the cellular and anatomical context - each of which can carry its own evidence.
+      An adverse outcome is a terminal KeyEventNode: its composition defines it, and
+      outcome_mappings optionally decorate it with precomposed phenotype or disease
+      terms where any exist.'
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    slots:
+    - keyEventNode__id
+    - keyEventNode__title
+    - keyEventNode__aopwiki_id
+    - keyEventNode__event_type
+    - keyEventNode__level_of_biological_organization
+    - keyEventNode__process
+    - keyEventNode__object
+    - keyEventNode__direction
+    - keyEventNode__occurs_in_cell_type
+    - keyEventNode__occurs_in_anatomy
+    - keyEventNode__causal_associations
+    - keyEventNode__outcome_mappings
+    - keyEventNode__provenances
+    attributes:
+      id:
+        name: id
+        identifier: true
+        range: uriorcurie
+      title:
+        name: title
+        description: Human-readable name of the key event.
+        required: true
+      aopwiki_id:
+        name: aopwiki_id
+        description: AOP-Wiki identifier for this key event (e.g. "Event:1656").
+        range: string
+      event_type:
+        name: event_type
+        description: 'The curator-asserted role of this node in the pathway. Must
+          be consistent with graph position: a molecular_initiating_event has no incoming
+          causal associations, an adverse_outcome has no outgoing ones.'
+        range: EventTypeEnum
+      level_of_biological_organization:
+        name: level_of_biological_organization
+        range: LevelOfBiologicalOrganizationEnum
+      process:
+        name: process
+        description: The biological process this key event perturbs.
+        range: ProcessAssociation
+        inlined: true
+      object:
+        name: object
+        description: The biological object (molecule, cell, structure) acted on.
+        range: ObjectAssociation
+        inlined: true
+      direction:
+        name: direction
+        description: The direction of change, as a PATO quality.
+        range: DirectionAssociation
+        inlined: true
+      occurs_in_cell_type:
+        name: occurs_in_cell_type
+        range: CellTypeAssociation
+        inlined: true
+      occurs_in_anatomy:
+        name: occurs_in_anatomy
+        range: GrossAnatomyAssociation
+        inlined: true
+      causal_associations:
+        name: causal_associations
+        description: The causal associations that flow out of this node. A node with
+          none is terminal in the model; a node no other node points at is initial.
+        range: CausalAssociation
+        multivalued: true
+        inlined_as_list: true
+      outcome_mappings:
+        name: outcome_mappings
+        description: 'For adverse outcome nodes: precomposed terms equivalent or close
+          to this outcome''s compositional definition, where any exist (HPO phenotype,
+          MONDO disease, or uPheno class). A decoration for discovery, not the definition;
+          candidates can be generated by matching the node''s entity+quality composition
+          against uPheno''s pattern space.'
+        range: uriorcurie
+        multivalued: true
+        pattern: ^(HP:\d{7}|MONDO:\d{7}|UPHENO:\d+)$
+      provenances:
+        name: provenances
+        range: ProvenanceInfo
+        multivalued: true
+        inlined_as_list: true
+    class_uri: aop_cam:KeyEventNode
+  Association:
+    name: Association
+    definition_uri: https://w3id.org/EHS-Data-Standards/aop-cam/Association
+    description: An individual assertion in a model, carrying its own evidence and
+      provenance. Every term assignment and every causal edge is an Association subtype,
+      so support attaches to the claim itself rather than to the record that contains
+      it.
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    abstract: true
+    slots:
+    - association__type
+    - association__evidence
+    - association__provenances
+    attributes:
+      type:
+        name: type
+        description: Auto-populated association type discriminator.
+        designates_type: true
+      evidence:
+        name: evidence
+        range: EvidenceItem
+        multivalued: true
+        inlined_as_list: true
+      provenances:
+        name: provenances
+        range: ProvenanceInfo
+        multivalued: true
+        inlined_as_list: true
+    class_uri: aop_cam:Association
+  TermAssociation:
+    name: TermAssociation
+    definition_uri: https://w3id.org/EHS-Data-Standards/aop-cam/TermAssociation
+    description: An association between a node and an ontology term. Abstract; use
+      the typed subclasses so each dimension constrains its vocabulary.
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    is_a: Association
+    abstract: true
+    slots:
+    - association__type
+    - association__evidence
+    - association__provenances
+    - term
+    class_uri: aop_cam:TermAssociation
+  ProcessAssociation:
+    name: ProcessAssociation
+    definition_uri: https://w3id.org/EHS-Data-Standards/aop-cam/ProcessAssociation
+    description: Associates a key event with the biological process it perturbs.
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    is_a: TermAssociation
+    slots:
+    - association__type
+    - association__evidence
+    - association__provenances
+    - ProcessAssociation_term
+    slot_usage:
+      term:
+        name: term
+        range: ProcessTermObject
+    class_uri: aop_cam:ProcessAssociation
+  ObjectAssociation:
+    name: ObjectAssociation
+    definition_uri: https://w3id.org/EHS-Data-Standards/aop-cam/ObjectAssociation
+    description: Associates a key event with the biological object acted on (a protein,
+      chemical, cell component, or other entity).
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    is_a: TermAssociation
+    slots:
+    - association__type
+    - association__evidence
+    - association__provenances
+    - ObjectAssociation_term
+    slot_usage:
+      term:
+        name: term
+        range: ObjectTermObject
+    class_uri: aop_cam:ObjectAssociation
+  DirectionAssociation:
+    name: DirectionAssociation
+    definition_uri: https://w3id.org/EHS-Data-Standards/aop-cam/DirectionAssociation
+    description: Associates a key event with the direction of change, as a PATO quality
+      (e.g. increased amount, decreased functionality). Together with the process
+      or object this forms the entity+quality decomposition of the event.
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    is_a: TermAssociation
+    slots:
+    - association__type
+    - association__evidence
+    - association__provenances
+    - DirectionAssociation_term
+    slot_usage:
+      term:
+        name: term
+        range: DirectionTermObject
+    class_uri: aop_cam:DirectionAssociation
+  CellTypeAssociation:
+    name: CellTypeAssociation
+    definition_uri: https://w3id.org/EHS-Data-Standards/aop-cam/CellTypeAssociation
+    description: The cell type in which the key event occurs.
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    is_a: TermAssociation
+    slots:
+    - association__type
+    - association__evidence
+    - association__provenances
+    - CellTypeAssociation_term
+    slot_usage:
+      term:
+        name: term
+        range: CellTypeTermObject
+    class_uri: aop_cam:CellTypeAssociation
+  GrossAnatomyAssociation:
+    name: GrossAnatomyAssociation
+    definition_uri: https://w3id.org/EHS-Data-Standards/aop-cam/GrossAnatomyAssociation
+    description: The anatomical location in which the key event occurs.
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    is_a: TermAssociation
+    slots:
+    - association__type
+    - association__evidence
+    - association__provenances
+    - GrossAnatomyAssociation_term
+    slot_usage:
+      term:
+        name: term
+        range: AnatomyTermObject
+    class_uri: aop_cam:GrossAnatomyAssociation
+  CausalAssociation:
+    name: CausalAssociation
+    definition_uri: https://w3id.org/EHS-Data-Standards/aop-cam/CausalAssociation
+    description: 'A typed causal edge between two key event nodes: the AOP framework''s
+      Key Event Relationship, with the relation drawn from the causal branch of the
+      Relation Ontology. AOP-Wiki adjacency maps onto the predicate: adjacent KERs
+      are immediately causally upstream of; non-adjacent KERs are causally upstream
+      of; use the positive/negative effect or regulates forms where the direction
+      of influence is curated.'
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    is_a: Association
+    slots:
+    - association__type
+    - association__evidence
+    - association__provenances
+    - causalAssociation__predicate
+    - causalAssociation__downstream_event
+    - causalAssociation__aopwiki_ker_id
+    - causalAssociation__evidence_level
+    - causalAssociation__quantitative_understanding
+    attributes:
+      predicate:
+        name: predicate
+        description: The RO causal relation for this edge.
+        range: CausalPredicateEnum
+        required: true
+      downstream_event:
+        name: downstream_event
+        description: The key event node this edge points to.
+        range: KeyEventNode
+        required: true
+        inlined: false
+      aopwiki_ker_id:
+        name: aopwiki_ker_id
+        description: AOP-Wiki identifier for this relationship (e.g. "Relationship:2555").
+        range: string
+      evidence_level:
+        name: evidence_level
+        description: Weight of evidence for this relationship, as curated.
+        range: ConfidenceLevelEnum
+      quantitative_understanding:
+        name: quantitative_understanding
+        range: ConfidenceLevelEnum
+    class_uri: aop_cam:CausalAssociation
+  EvidenceItem:
+    name: EvidenceItem
+    definition_uri: https://w3id.org/EHS-Data-Standards/aop-cam/EvidenceItem
+    description: 'One piece of evidence supporting an assertion: an ECO evidence type,
+      a publication, and optionally the supporting records themselves - for example
+      the identifier of a SOMA assay whose measurements inform the assertion. This
+      is the joint between the knowledge layer (this schema) and the experimental
+      evidence layer (SOMA): an assay''s informs_on_key_event link materializes here
+      as evidence on the node''s association.'
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    slots:
+    - evidenceItem__term
+    - evidenceItem__reference
+    - evidenceItem__supporting_objects
+    - evidenceItem__description
+    - evidenceItem__provenances
+    attributes:
+      term:
+        name: term
+        description: The ECO term for the type of evidence.
+        range: uriorcurie
+        pattern: ^ECO:\d{7}$
+      reference:
+        name: reference
+        description: The publication the evidence comes from (PMID, DOI, or AOPWIKI
+          page).
+        range: uriorcurie
+      supporting_objects:
+        name: supporting_objects
+        description: Identifiers of supporting records, such as SOMA assay instances
+          or database entities.
+        range: uriorcurie
+        multivalued: true
+      description:
+        name: description
+        range: string
+      provenances:
+        name: provenances
+        range: ProvenanceInfo
+        multivalued: true
+        inlined_as_list: true
+    class_uri: aop_cam:EvidenceItem
+  ProvenanceInfo:
+    name: ProvenanceInfo
+    definition_uri: https://w3id.org/EHS-Data-Standards/aop-cam/ProvenanceInfo
+    description: Who made or changed an assertion, and when.
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    slots:
+    - provenanceInfo__contributor
+    - provenanceInfo__created
+    - provenanceInfo__modified
+    - provenanceInfo__source
+    attributes:
+      contributor:
+        name: contributor
+        range: string
+      created:
+        name: created
+        range: datetime
+      modified:
+        name: modified
+        range: datetime
+      source:
+        name: source
+        description: Where this content came from, e.g. "AOPWiki" for converted content
+          or a curation project name for new assertions.
+        range: string
+    class_uri: aop_cam:ProvenanceInfo
+  TermObject:
+    name: TermObject
+    definition_uri: https://w3id.org/EHS-Data-Standards/aop-cam/TermObject
+    description: 'A pointer to an ontology term: an identifier plus its label. Typed
+      subclasses constrain which vocabulary each slot draws from.'
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    abstract: true
+    slots:
+    - id
+    - label
+    class_uri: aop_cam:TermObject
+  ProcessTermObject:
+    name: ProcessTermObject
+    id_prefixes:
+    - GO
+    - MESH
+    definition_uri: https://w3id.org/EHS-Data-Standards/aop-cam/ProcessTermObject
+    description: A biological process term (GO preferred; MESH accepted for AOP-Wiki
+      conversion).
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    is_a: TermObject
+    slots:
+    - id
+    - label
+    class_uri: aop_cam:ProcessTermObject
+  ObjectTermObject:
+    name: ObjectTermObject
+    id_prefixes:
+    - PR
+    - CHEBI
+    - GO
+    - MESH
+    definition_uri: https://w3id.org/EHS-Data-Standards/aop-cam/ObjectTermObject
+    description: A biological object term (protein, chemical, or other entity).
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    is_a: TermObject
+    slots:
+    - id
+    - label
+    class_uri: aop_cam:ObjectTermObject
+  DirectionTermObject:
+    name: DirectionTermObject
+    id_prefixes:
+    - PATO
+    definition_uri: https://w3id.org/EHS-Data-Standards/aop-cam/DirectionTermObject
+    description: A PATO quality term for the direction of change.
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    is_a: TermObject
+    slots:
+    - label
+    - DirectionTermObject_id
+    slot_usage:
+      id:
+        name: id
+        pattern: ^PATO:\d{7}$
+    class_uri: aop_cam:DirectionTermObject
+  CellTypeTermObject:
+    name: CellTypeTermObject
+    id_prefixes:
+    - CL
+    definition_uri: https://w3id.org/EHS-Data-Standards/aop-cam/CellTypeTermObject
+    description: A Cell Ontology term.
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    is_a: TermObject
+    slots:
+    - label
+    - CellTypeTermObject_id
+    slot_usage:
+      id:
+        name: id
+        pattern: ^CL:\d{7}$
+    class_uri: aop_cam:CellTypeTermObject
+  AnatomyTermObject:
+    name: AnatomyTermObject
+    id_prefixes:
+    - UBERON
+    definition_uri: https://w3id.org/EHS-Data-Standards/aop-cam/AnatomyTermObject
+    description: An UBERON anatomy term.
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    is_a: TermObject
+    slots:
+    - label
+    - AnatomyTermObject_id
+    slot_usage:
+      id:
+        name: id
+        pattern: ^UBERON:\d{7}$
+    class_uri: aop_cam:AnatomyTermObject
+  TaxonTermObject:
+    name: TaxonTermObject
+    id_prefixes:
+    - NCBITaxon
+    definition_uri: https://w3id.org/EHS-Data-Standards/aop-cam/TaxonTermObject
+    description: An NCBI Taxonomy term.
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    is_a: TermObject
+    slots:
+    - label
+    - TaxonTermObject_id
+    slot_usage:
+      id:
+        name: id
+        pattern: ^NCBITaxon:\d+$
+    class_uri: aop_cam:TaxonTermObject
+  StressorTermObject:
+    name: StressorTermObject
+    id_prefixes:
+    - CHEBI
+    - MESH
+    definition_uri: https://w3id.org/EHS-Data-Standards/aop-cam/StressorTermObject
+    description: A stressor as an ontology term reference where one exists (CHEBI
+      chemical, or an environmental material); free-text stressor names from AOP-Wiki
+      that cannot be grounded keep their label with an AOPWIKI-prefixed id.
+    from_schema: https://w3id.org/EHS-Data-Standards/aop-cam
+    is_a: TermObject
+    slots:
+    - id
+    - label
+    class_uri: aop_cam:StressorTermObject
+metamodel_version: 1.12.0
+source_file: aop_cam.yaml
+source_file_date: '2026-11-09T21:06:45'
+source_file_size: 17929
+
