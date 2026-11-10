@@ -120,17 +120,38 @@ Done:
 - `mappings/aopwiki-action-to-pato.sssom.tsv`: all 11 biological actions
   mapped to PATO, OAK-verified; closeMatch rows carry explanatory comments.
 - Receipts doc, design plan, issue #2.
+- **The loader** (`src/aop_cam/loader.py`, run as `python -m
+  aop_cam.loader`): `data/*.tsv` → ModelCollection instances with
+  per-assertion receipts (class 1 ECO:0000311 citing the hashed dump in
+  `data/aopwiki-snapshot.yaml`; class 2 ECO:0000305 citing the SSSOM row; an
+  action missing from the table fails the build). `src/aop_cam/network.py`
+  merges models on shared key events and checks event types against graph
+  position. First contact with real data forced two schema evolutions:
+  KeyEventNode now holds `components` (a list of KeyEventComponent
+  grouping process+object+direction, because Events 941/962 carry two
+  paired biological-event triples each and flat slots would lose the
+  pairing), and the process/object vocabularies widened (AOP-Wiki
+  processes also come from HP/MP/VT/NBO…, objects from CL/UBERON/FMA).
+  Milestone met: the four respiratory AOPs round-trip and the merged
+  traversal reproduces the paper's Figure 2 network exactly (11 nodes,
+  13 adjacent edges, MIEs {941, 1392}, AO 1250) — see
+  `tests/test_loader.py`. The full corpus also loads: 603 models, 3474
+  nodes, 3350 edges, with exactly 2 ungroundable assertions (the
+  "Acute phase proteins" object, source N/A). Known gaps, deliberate:
+  stressors keep AOPWIKI ids (no chemical grounding pass yet, and the
+  per-AOP stressor evidence level has nowhere to live on a TermObject);
+  no AOP-level taxon table in the corpus, so `taxa` stays empty;
+  AOP-Wiki's `wiki-status` is empty in the dump, so model `status` is
+  unset. The generated dataclasses carry a linkml pythongen bug (a
+  spurious `unknown_type` attribute from designates_type handling);
+  `loader.strip_unknown_type` works around it before dumping.
 
 Next (in order):
-1. **The loader**: `data/*.tsv` → ModelCollection instances, emitting
-   receipts per the rules; first milestone is round-tripping the four
-   respiratory AOPs and reproducing the paper's Figure 2 network by
-   traversal.
-2. **uPheno candidate mapper**: composition → candidate outcome_mappings,
+1. **uPheno candidate mapper**: composition → candidate outcome_mappings,
    as a CI/curation aid (and the negative-receipt generator).
-3. **Consistency checker** for extraction pipelines: assay context vs KE
+2. **Consistency checker** for extraction pipelines: assay context vs KE
    composition (the Layer-3 semantic receipt), consumable by somamech CI.
-4. **soma integration**: swap soma's AOP layer to import this schema;
+3. **soma integration**: swap soma's AOP layer to import this schema;
    evolve soma's outcome_term into outcome_mappings.
 
 ## Related repos

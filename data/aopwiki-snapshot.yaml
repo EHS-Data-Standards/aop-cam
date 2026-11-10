@@ -1,0 +1,14 @@
+# Provenance pin for the AOP-Wiki dump the TSV corpus in this directory was
+# built from (build_aopwiki_tsvs.py). Receipts emitted by the loader cite
+# these values so every upstream-asserted term assignment can be traced to a
+# hashed source file. NOTE: this is a *nightly* dump (overwritten daily at
+# the source URL and therefore not independently re-downloadable); instance
+# releases should be rebuilt against a quarterly dump when one is adopted,
+# per the project decision log. The hashes below are what make this nightly
+# citable at all: the exact file is archived locally at data/raw/.
+snapshot_date: "2026-11-09"
+source_url: https://aopwiki.org/downloads/aop-wiki-xml.gz
+dump_kind: nightly
+sha256:
+  aop-wiki-xml.gz: 8035e4b9e38191600511c502d265c8ee6383b38d522a025cee8da3ffa1590d27
+  aop-wiki-xml: 717d937a02224b1ddfdce99edf974f467d6c7c212a3e3ce3632f82fbed7ff71a

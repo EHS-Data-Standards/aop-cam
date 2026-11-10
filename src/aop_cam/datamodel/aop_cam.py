@@ -63,21 +63,30 @@ version = None
 
 # Namespaces
 AOPWIKI = CurieNamespace('AOPWIKI', 'https://aopwiki.org/')
+AOPWIKIBA = CurieNamespace('AOPWIKIBA', 'https://aopwiki.org/vocabularies/biological-actions/')
 CHEBI = CurieNamespace('CHEBI', 'http://purl.obolibrary.org/obo/CHEBI_')
 CL = CurieNamespace('CL', 'http://purl.obolibrary.org/obo/CL_')
 DOI = CurieNamespace('DOI', 'http://doi.org/')
 ECO = CurieNamespace('ECO', 'http://purl.obolibrary.org/obo/ECO_')
+FMA = CurieNamespace('FMA', 'http://purl.obolibrary.org/obo/FMA_')
 GO = CurieNamespace('GO', 'http://purl.obolibrary.org/obo/GO_')
 HP = CurieNamespace('HP', 'http://purl.obolibrary.org/obo/HP_')
+IDO = CurieNamespace('IDO', 'http://purl.obolibrary.org/obo/IDO_')
 MESH = CurieNamespace('MESH', 'http://id.nlm.nih.gov/mesh/')
+MI = CurieNamespace('MI', 'http://purl.obolibrary.org/obo/MI_')
 MONDO = CurieNamespace('MONDO', 'http://purl.obolibrary.org/obo/MONDO_')
+MP = CurieNamespace('MP', 'http://purl.obolibrary.org/obo/MP_')
+NBO = CurieNamespace('NBO', 'http://purl.obolibrary.org/obo/NBO_')
 NCBITAXON = CurieNamespace('NCBITaxon', 'http://purl.obolibrary.org/obo/NCBITaxon_')
 PATO = CurieNamespace('PATO', 'http://purl.obolibrary.org/obo/PATO_')
+PCO = CurieNamespace('PCO', 'http://purl.obolibrary.org/obo/PCO_')
 PMID = CurieNamespace('PMID', 'http://identifiers.org/pubmed/')
 PR = CurieNamespace('PR', 'http://purl.obolibrary.org/obo/PR_')
+RBO = CurieNamespace('RBO', 'http://purl.obolibrary.org/obo/RBO_')
 RO = CurieNamespace('RO', 'http://purl.obolibrary.org/obo/RO_')
 UBERON = CurieNamespace('UBERON', 'http://purl.obolibrary.org/obo/UBERON_')
 UPHENO = CurieNamespace('UPHENO', 'http://purl.obolibrary.org/obo/UPHENO_')
+VT = CurieNamespace('VT', 'http://purl.obolibrary.org/obo/VT_')
 AOP_CAM = CurieNamespace('aop_cam', 'https://w3id.org/EHS-Data-Standards/aop-cam/')
 DCTERMS = CurieNamespace('dcterms', 'http://purl.org/dc/terms/')
 LINKML = CurieNamespace('linkml', 'https://w3id.org/linkml/')
@@ -223,10 +232,10 @@ class AopModel(YAMLRoot):
 class KeyEventNode(YAMLRoot):
     """
     One Key Event as a node in a causal activity model. The node itself is only an identifier and a label; its meaning
-    comes from its associations - the biological process affected, the object acted on, the direction of change, and
-    the cellular and anatomical context - each of which can carry its own evidence. An adverse outcome is a terminal
-    KeyEventNode: its composition defines it, and outcome_mappings optionally decorate it with precomposed phenotype
-    or disease terms where any exist.
+    comes from its associations - one or more entity+quality components (the biological process affected and/or the
+    object acted on, with the direction of change) plus the cellular and anatomical context - each assignment carrying
+    its own evidence. An adverse outcome is a terminal KeyEventNode: its composition defines it, and outcome_mappings
+    optionally decorate it with precomposed phenotype or disease terms where any exist.
     """
     _inherited_slots: ClassVar[list[str]] = []
 
@@ -240,9 +249,7 @@ class KeyEventNode(YAMLRoot):
     aopwiki_id: Optional[str] = None
     event_type: Optional[Union[str, "EventTypeEnum"]] = None
     level_of_biological_organization: Optional[Union[str, "LevelOfBiologicalOrganizationEnum"]] = None
-    process: Optional[Union[dict, "ProcessAssociation"]] = None
-    object: Optional[Union[dict, "ObjectAssociation"]] = None
-    direction: Optional[Union[dict, "DirectionAssociation"]] = None
+    components: Optional[Union[Union[dict, "KeyEventComponent"], list[Union[dict, "KeyEventComponent"]]]] = empty_list()
     occurs_in_cell_type: Optional[Union[dict, "CellTypeAssociation"]] = None
     occurs_in_anatomy: Optional[Union[dict, "GrossAnatomyAssociation"]] = None
     causal_associations: Optional[Union[Union[dict, "CausalAssociation"], list[Union[dict, "CausalAssociation"]]]] = empty_list()
@@ -269,14 +276,9 @@ class KeyEventNode(YAMLRoot):
         if self.level_of_biological_organization is not None and not isinstance(self.level_of_biological_organization, LevelOfBiologicalOrganizationEnum):
             self.level_of_biological_organization = LevelOfBiologicalOrganizationEnum(self.level_of_biological_organization)
 
-        if self.process is not None and not isinstance(self.process, ProcessAssociation):
-            self.process = ProcessAssociation(**as_dict(self.process))
-
-        if self.object is not None and not isinstance(self.object, ObjectAssociation):
-            self.object = ObjectAssociation(**as_dict(self.object))
-
-        if self.direction is not None and not isinstance(self.direction, DirectionAssociation):
-            self.direction = DirectionAssociation(**as_dict(self.direction))
+        if not isinstance(self.components, list):
+            self.components = [self.components] if self.components is not None else []
+        self.components = [v if isinstance(v, KeyEventComponent) else KeyEventComponent(**as_dict(v)) for v in self.components]
 
         if self.occurs_in_cell_type is not None and not isinstance(self.occurs_in_cell_type, CellTypeAssociation):
             self.occurs_in_cell_type = CellTypeAssociation(**as_dict(self.occurs_in_cell_type))
@@ -293,6 +295,39 @@ class KeyEventNode(YAMLRoot):
         if not isinstance(self.provenances, list):
             self.provenances = [self.provenances] if self.provenances is not None else []
         self.provenances = [v if isinstance(v, ProvenanceInfo) else ProvenanceInfo(**as_dict(v)) for v in self.provenances]
+
+        super().__post_init__(**kwargs)
+
+
+@dataclass(repr=False)
+class KeyEventComponent(YAMLRoot):
+    """
+    One entity+quality decomposition of a key event: the biological process perturbed and/or the object acted on (the
+    entity), paired with the direction of change (the quality). Mirrors one AOP-Wiki biological-event triple (action +
+    process + object). Each leg is an Association carrying its own evidence receipt; the component holds them together
+    so a key event with several decompositions keeps each direction attached to the process and object it belongs
+    with.
+    """
+    _inherited_slots: ClassVar[list[str]] = []
+
+    class_class_uri: ClassVar[URIRef] = AOP_CAM["KeyEventComponent"]
+    class_class_curie: ClassVar[str] = "aop_cam:KeyEventComponent"
+    class_name: ClassVar[str] = "KeyEventComponent"
+    class_model_uri: ClassVar[URIRef] = AOP_CAM.KeyEventComponent
+
+    process: Optional[Union[dict, "ProcessAssociation"]] = None
+    object: Optional[Union[dict, "ObjectAssociation"]] = None
+    direction: Optional[Union[dict, "DirectionAssociation"]] = None
+
+    def __post_init__(self, *_: str, **kwargs: Any):
+        if self.process is not None and not isinstance(self.process, ProcessAssociation):
+            self.process = ProcessAssociation(**as_dict(self.process))
+
+        if self.object is not None and not isinstance(self.object, ObjectAssociation):
+            self.object = ObjectAssociation(**as_dict(self.object))
+
+        if self.direction is not None and not isinstance(self.direction, DirectionAssociation):
+            self.direction = DirectionAssociation(**as_dict(self.direction))
 
         super().__post_init__(**kwargs)
 
@@ -632,7 +667,9 @@ class TermObject(YAMLRoot):
 @dataclass(repr=False)
 class ProcessTermObject(TermObject):
     """
-    A biological process term (GO preferred; MESH accepted for AOP-Wiki conversion).
+    A biological process term. GO preferred; the other sources in AOP-Wiki's biological-process vocabulary (MESH, HP,
+    MP, VT, NBO and kin) are accepted for conversion so the upstream assertion is kept verbatim, with re-grounding to
+    GO left to curation.
     """
     _inherited_slots: ClassVar[list[str]] = []
 
@@ -655,7 +692,8 @@ class ProcessTermObject(TermObject):
 @dataclass(repr=False)
 class ObjectTermObject(TermObject):
     """
-    A biological object term (protein, chemical, or other entity).
+    A biological object term (protein, chemical, cell, anatomical structure, or other entity). AOP-Wiki's
+    biological-object vocabulary also draws on CL, UBERON and FMA; those assertions are kept verbatim.
     """
     _inherited_slots: ClassVar[list[str]] = []
 
@@ -975,14 +1013,8 @@ slots.keyEventNode__event_type = Slot(uri=AOP_CAM.event_type, name="keyEventNode
 slots.keyEventNode__level_of_biological_organization = Slot(uri=AOP_CAM.level_of_biological_organization, name="keyEventNode__level_of_biological_organization", curie=AOP_CAM.curie('level_of_biological_organization'),
                    model_uri=AOP_CAM.keyEventNode__level_of_biological_organization, domain=None, range=Optional[Union[str, "LevelOfBiologicalOrganizationEnum"]])
 
-slots.keyEventNode__process = Slot(uri=AOP_CAM.process, name="keyEventNode__process", curie=AOP_CAM.curie('process'),
-                   model_uri=AOP_CAM.keyEventNode__process, domain=None, range=Optional[Union[dict, ProcessAssociation]])
-
-slots.keyEventNode__object = Slot(uri=AOP_CAM.object, name="keyEventNode__object", curie=AOP_CAM.curie('object'),
-                   model_uri=AOP_CAM.keyEventNode__object, domain=None, range=Optional[Union[dict, ObjectAssociation]])
-
-slots.keyEventNode__direction = Slot(uri=AOP_CAM.direction, name="keyEventNode__direction", curie=AOP_CAM.curie('direction'),
-                   model_uri=AOP_CAM.keyEventNode__direction, domain=None, range=Optional[Union[dict, DirectionAssociation]])
+slots.keyEventNode__components = Slot(uri=AOP_CAM.components, name="keyEventNode__components", curie=AOP_CAM.curie('components'),
+                   model_uri=AOP_CAM.keyEventNode__components, domain=None, range=Optional[Union[Union[dict, KeyEventComponent], list[Union[dict, KeyEventComponent]]]])
 
 slots.keyEventNode__occurs_in_cell_type = Slot(uri=AOP_CAM.occurs_in_cell_type, name="keyEventNode__occurs_in_cell_type", curie=AOP_CAM.curie('occurs_in_cell_type'),
                    model_uri=AOP_CAM.keyEventNode__occurs_in_cell_type, domain=None, range=Optional[Union[dict, CellTypeAssociation]])
@@ -999,6 +1031,15 @@ slots.keyEventNode__outcome_mappings = Slot(uri=AOP_CAM.outcome_mappings, name="
 
 slots.keyEventNode__provenances = Slot(uri=AOP_CAM.provenances, name="keyEventNode__provenances", curie=AOP_CAM.curie('provenances'),
                    model_uri=AOP_CAM.keyEventNode__provenances, domain=None, range=Optional[Union[Union[dict, ProvenanceInfo], list[Union[dict, ProvenanceInfo]]]])
+
+slots.keyEventComponent__process = Slot(uri=AOP_CAM.process, name="keyEventComponent__process", curie=AOP_CAM.curie('process'),
+                   model_uri=AOP_CAM.keyEventComponent__process, domain=None, range=Optional[Union[dict, ProcessAssociation]])
+
+slots.keyEventComponent__object = Slot(uri=AOP_CAM.object, name="keyEventComponent__object", curie=AOP_CAM.curie('object'),
+                   model_uri=AOP_CAM.keyEventComponent__object, domain=None, range=Optional[Union[dict, ObjectAssociation]])
+
+slots.keyEventComponent__direction = Slot(uri=AOP_CAM.direction, name="keyEventComponent__direction", curie=AOP_CAM.curie('direction'),
+                   model_uri=AOP_CAM.keyEventComponent__direction, domain=None, range=Optional[Union[dict, DirectionAssociation]])
 
 slots.association__type = Slot(uri=AOP_CAM.type, name="association__type", curie=AOP_CAM.curie('type'),
                    model_uri=AOP_CAM.association__type, domain=None, range=Optional[str])
@@ -1082,3 +1123,4 @@ slots.AnatomyTermObject_id = Slot(uri=AOP_CAM.id, name="AnatomyTermObject_id", c
 slots.TaxonTermObject_id = Slot(uri=AOP_CAM.id, name="TaxonTermObject_id", curie=AOP_CAM.curie('id'),
                    model_uri=AOP_CAM.TaxonTermObject_id, domain=TaxonTermObject, range=Union[str, TaxonTermObjectId],
                    pattern=re.compile(r'^NCBITaxon:\d+$'))
+

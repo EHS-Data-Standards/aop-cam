@@ -18,19 +18,20 @@ models:
         aopwiki_id: "Event:1656"
         event_type: key_event
         level_of_biological_organization: tissue
-        process:
-          type: ProcessAssociation
-          term:
-            id: GO:0120197
-            label: mucociliary clearance
-          evidence:
-            - term: ECO:0000314
-              reference: PMID:32075755
-        direction:
-          type: DirectionAssociation
-          term:
-            id: PATO:0001997
-            label: decreased amount
+        components:
+          - process:
+              type: ProcessAssociation
+              term:
+                id: GO:0120197
+                label: mucociliary clearance
+              evidence:
+                - term: ECO:0000314
+                  reference: PMID:32075755
+            direction:
+              type: DirectionAssociation
+              term:
+                id: PATO:0001997
+                label: decreased amount
         occurs_in_anatomy:
           type: GrossAnatomyAssociation
           term:
@@ -47,16 +48,17 @@ models:
         title: "Decreased lung function"
         event_type: adverse_outcome
         level_of_biological_organization: individual
-        process:
-          type: ProcessAssociation
-          term:
-            id: GO:0003016
-            label: respiratory system process
-        direction:
-          type: DirectionAssociation
-          term:
-            id: PATO:0001997
-            label: decreased amount
+        components:
+          - process:
+              type: ProcessAssociation
+              term:
+                id: GO:0003016
+                label: respiratory system process
+            direction:
+              type: DirectionAssociation
+              term:
+                id: PATO:0001997
+                label: decreased amount
         occurs_in_anatomy:
           type: GrossAnatomyAssociation
           term:
