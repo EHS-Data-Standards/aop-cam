@@ -34,6 +34,15 @@ prefixes:
   CHEBI: http://purl.obolibrary.org/obo/CHEBI_
   PR: http://purl.obolibrary.org/obo/PR_
   MESH: http://id.nlm.nih.gov/mesh/
+  VT: http://purl.obolibrary.org/obo/VT_
+  MP: http://purl.obolibrary.org/obo/MP_
+  NBO: http://purl.obolibrary.org/obo/NBO_
+  FMA: http://purl.obolibrary.org/obo/FMA_
+  MI: http://purl.obolibrary.org/obo/MI_
+  PCO: http://purl.obolibrary.org/obo/PCO_
+  RBO: http://purl.obolibrary.org/obo/RBO_
+  IDO: http://purl.obolibrary.org/obo/IDO_
+  AOPWIKIBA: https://aopwiki.org/vocabularies/biological-actions/
   PMID: http://identifiers.org/pubmed/
   DOI: http://doi.org/
   AOPWIKI: https://aopwiki.org/
@@ -147,9 +156,10 @@ classes:
     description: >-
       One Key Event as a node in a causal activity model. The node itself
       is only an identifier and a label; its meaning comes from its
-      associations - the biological process affected, the object acted on,
-      the direction of change, and the cellular and anatomical context -
-      each of which can carry its own evidence. An adverse outcome is a
+      associations - one or more entity+quality components (the biological
+      process affected and/or the object acted on, with the direction of
+      change) plus the cellular and anatomical context - each assignment
+      carrying its own evidence. An adverse outcome is a
       terminal KeyEventNode: its composition defines it, and
       outcome_mappings optionally decorate it with precomposed phenotype
       or disease terms where any exist.
@@ -172,18 +182,16 @@ classes:
         range: EventTypeEnum
       level_of_biological_organization:
         range: LevelOfBiologicalOrganizationEnum
-      process:
-        description: The biological process this key event perturbs.
-        range: ProcessAssociation
-        inlined: true
-      object:
-        description: The biological object (molecule, cell, structure) acted on.
-        range: ObjectAssociation
-        inlined: true
-      direction:
-        description: The direction of change, as a PATO quality.
-        range: DirectionAssociation
-        inlined: true
+      components:
+        description: >-
+          The entity+quality decompositions of this key event. Mirrors
+          AOP-Wiki's biological-event triples (action, process, object):
+          most key events have exactly one; some carry several
+          complementary decompositions of the same change, so the pairing
+          of direction with process and object is preserved per component.
+        range: KeyEventComponent
+        multivalued: true
+        inlined_as_list: true
       occurs_in_cell_type:
         range: CellTypeAssociation
         inlined: true
@@ -213,6 +221,29 @@ classes:
         range: ProvenanceInfo
         multivalued: true
         inlined_as_list: true
+
+  KeyEventComponent:
+    description: >-
+      One entity+quality decomposition of a key event: the biological
+      process perturbed and/or the object acted on (the entity), paired
+      with the direction of change (the quality). Mirrors one AOP-Wiki
+      biological-event triple (action + process + object). Each leg is an
+      Association carrying its own evidence receipt; the component holds
+      them together so a key event with several decompositions keeps each
+      direction attached to the process and object it belongs with.
+    attributes:
+      process:
+        description: The biological process this component perturbs.
+        range: ProcessAssociation
+        inlined: true
+      object:
+        description: The biological object (molecule, cell, structure) acted on.
+        range: ObjectAssociation
+        inlined: true
+      direction:
+        description: The direction of change, as a PATO quality.
+        range: DirectionAssociation
+        inlined: true
 
   # ---------------------------------------------------------------------------
   # Association hierarchy (the GO-CAM pattern)
@@ -380,19 +411,37 @@ classes:
 
   ProcessTermObject:
     is_a: TermObject
-    description: A biological process term (GO preferred; MESH accepted for AOP-Wiki conversion).
+    description: >-
+      A biological process term. GO preferred; the other sources in
+      AOP-Wiki's biological-process vocabulary (MESH, HP, MP, VT, NBO and
+      kin) are accepted for conversion so the upstream assertion is kept
+      verbatim, with re-grounding to GO left to curation.
     id_prefixes:
       - GO
       - MESH
+      - HP
+      - MP
+      - VT
+      - NBO
+      - MI
+      - PCO
+      - RBO
+      - IDO
 
   ObjectTermObject:
     is_a: TermObject
-    description: A biological object term (protein, chemical, or other entity).
+    description: >-
+      A biological object term (protein, chemical, cell, anatomical
+      structure, or other entity). AOP-Wiki's biological-object vocabulary
+      also draws on CL, UBERON and FMA; those assertions are kept verbatim.
     id_prefixes:
       - PR
       - CHEBI
       - GO
       - MESH
+      - CL
+      - UBERON
+      - FMA
 
   DirectionTermObject:
     is_a: TermObject

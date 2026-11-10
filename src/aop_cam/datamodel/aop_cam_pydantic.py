@@ -90,6 +90,8 @@ linkml_meta = LinkMLMeta({'default_prefix': 'aop_cam',
      'name': 'aop_cam',
      'prefixes': {'AOPWIKI': {'prefix_prefix': 'AOPWIKI',
                               'prefix_reference': 'https://aopwiki.org/'},
+                  'AOPWIKIBA': {'prefix_prefix': 'AOPWIKIBA',
+                                'prefix_reference': 'https://aopwiki.org/vocabularies/biological-actions/'},
                   'CHEBI': {'prefix_prefix': 'CHEBI',
                             'prefix_reference': 'http://purl.obolibrary.org/obo/CHEBI_'},
                   'CL': {'prefix_prefix': 'CL',
@@ -98,28 +100,44 @@ linkml_meta = LinkMLMeta({'default_prefix': 'aop_cam',
                           'prefix_reference': 'http://doi.org/'},
                   'ECO': {'prefix_prefix': 'ECO',
                           'prefix_reference': 'http://purl.obolibrary.org/obo/ECO_'},
+                  'FMA': {'prefix_prefix': 'FMA',
+                          'prefix_reference': 'http://purl.obolibrary.org/obo/FMA_'},
                   'GO': {'prefix_prefix': 'GO',
                          'prefix_reference': 'http://purl.obolibrary.org/obo/GO_'},
                   'HP': {'prefix_prefix': 'HP',
                          'prefix_reference': 'http://purl.obolibrary.org/obo/HP_'},
+                  'IDO': {'prefix_prefix': 'IDO',
+                          'prefix_reference': 'http://purl.obolibrary.org/obo/IDO_'},
                   'MESH': {'prefix_prefix': 'MESH',
                            'prefix_reference': 'http://id.nlm.nih.gov/mesh/'},
+                  'MI': {'prefix_prefix': 'MI',
+                         'prefix_reference': 'http://purl.obolibrary.org/obo/MI_'},
                   'MONDO': {'prefix_prefix': 'MONDO',
                             'prefix_reference': 'http://purl.obolibrary.org/obo/MONDO_'},
+                  'MP': {'prefix_prefix': 'MP',
+                         'prefix_reference': 'http://purl.obolibrary.org/obo/MP_'},
+                  'NBO': {'prefix_prefix': 'NBO',
+                          'prefix_reference': 'http://purl.obolibrary.org/obo/NBO_'},
                   'NCBITaxon': {'prefix_prefix': 'NCBITaxon',
                                 'prefix_reference': 'http://purl.obolibrary.org/obo/NCBITaxon_'},
                   'PATO': {'prefix_prefix': 'PATO',
                            'prefix_reference': 'http://purl.obolibrary.org/obo/PATO_'},
+                  'PCO': {'prefix_prefix': 'PCO',
+                          'prefix_reference': 'http://purl.obolibrary.org/obo/PCO_'},
                   'PMID': {'prefix_prefix': 'PMID',
                            'prefix_reference': 'http://identifiers.org/pubmed/'},
                   'PR': {'prefix_prefix': 'PR',
                          'prefix_reference': 'http://purl.obolibrary.org/obo/PR_'},
+                  'RBO': {'prefix_prefix': 'RBO',
+                          'prefix_reference': 'http://purl.obolibrary.org/obo/RBO_'},
                   'RO': {'prefix_prefix': 'RO',
                          'prefix_reference': 'http://purl.obolibrary.org/obo/RO_'},
                   'UBERON': {'prefix_prefix': 'UBERON',
                              'prefix_reference': 'http://purl.obolibrary.org/obo/UBERON_'},
                   'UPHENO': {'prefix_prefix': 'UPHENO',
                              'prefix_reference': 'http://purl.obolibrary.org/obo/UPHENO_'},
+                  'VT': {'prefix_prefix': 'VT',
+                         'prefix_reference': 'http://purl.obolibrary.org/obo/VT_'},
                   'aop_cam': {'prefix_prefix': 'aop_cam',
                               'prefix_reference': 'https://w3id.org/EHS-Data-Standards/aop-cam/'},
                   'dcterms': {'prefix_prefix': 'dcterms',
@@ -243,7 +261,7 @@ class AopModel(ConfiguredBaseModel):
 
 class KeyEventNode(ConfiguredBaseModel):
     """
-    One Key Event as a node in a causal activity model. The node itself is only an identifier and a label; its meaning comes from its associations - the biological process affected, the object acted on, the direction of change, and the cellular and anatomical context - each of which can carry its own evidence. An adverse outcome is a terminal KeyEventNode: its composition defines it, and outcome_mappings optionally decorate it with precomposed phenotype or disease terms where any exist.
+    One Key Event as a node in a causal activity model. The node itself is only an identifier and a label; its meaning comes from its associations - one or more entity+quality components (the biological process affected and/or the object acted on, with the direction of change) plus the cellular and anatomical context - each assignment carrying its own evidence. An adverse outcome is a terminal KeyEventNode: its composition defines it, and outcome_mappings optionally decorate it with precomposed phenotype or disease terms where any exist.
     """
     linkml_meta: ClassVar[LinkMLMeta] = LinkMLMeta({'from_schema': 'https://w3id.org/EHS-Data-Standards/aop-cam'})
 
@@ -252,9 +270,7 @@ class KeyEventNode(ConfiguredBaseModel):
     aopwiki_id: Optional[str] = Field(default=None, description="""AOP-Wiki identifier for this key event (e.g. \"Event:1656\").""", json_schema_extra = { "linkml_meta": {'domain_of': ['AopModel', 'KeyEventNode']} })
     event_type: Optional[EventTypeEnum] = Field(default=None, description="""The curator-asserted role of this node in the pathway. Must be consistent with graph position: a molecular_initiating_event has no incoming causal associations, an adverse_outcome has no outgoing ones.""", json_schema_extra = { "linkml_meta": {'domain_of': ['KeyEventNode']} })
     level_of_biological_organization: Optional[LevelOfBiologicalOrganizationEnum] = Field(default=None, json_schema_extra = { "linkml_meta": {'domain_of': ['KeyEventNode']} })
-    process: Optional[ProcessAssociation] = Field(default=None, description="""The biological process this key event perturbs.""", json_schema_extra = { "linkml_meta": {'domain_of': ['KeyEventNode']} })
-    object: Optional[ObjectAssociation] = Field(default=None, description="""The biological object (molecule, cell, structure) acted on.""", json_schema_extra = { "linkml_meta": {'domain_of': ['KeyEventNode']} })
-    direction: Optional[DirectionAssociation] = Field(default=None, description="""The direction of change, as a PATO quality.""", json_schema_extra = { "linkml_meta": {'domain_of': ['KeyEventNode']} })
+    components: Optional[list[KeyEventComponent]] = Field(default=None, description="""The entity+quality decompositions of this key event. Mirrors AOP-Wiki's biological-event triples (action, process, object): most key events have exactly one; some carry several complementary decompositions of the same change, so the pairing of direction with process and object is preserved per component.""", json_schema_extra = { "linkml_meta": {'domain_of': ['KeyEventNode']} })
     occurs_in_cell_type: Optional[CellTypeAssociation] = Field(default=None, json_schema_extra = { "linkml_meta": {'domain_of': ['KeyEventNode']} })
     occurs_in_anatomy: Optional[GrossAnatomyAssociation] = Field(default=None, json_schema_extra = { "linkml_meta": {'domain_of': ['KeyEventNode']} })
     causal_associations: Optional[list[CausalAssociation]] = Field(default=None, description="""The causal associations that flow out of this node. A node with none is terminal in the model; a node no other node points at is initial.""", json_schema_extra = { "linkml_meta": {'domain_of': ['KeyEventNode']} })
@@ -273,6 +289,17 @@ class KeyEventNode(ConfiguredBaseModel):
             err_msg = f"Invalid outcome_mappings format: {v}"
             raise ValueError(err_msg)
         return v
+
+
+class KeyEventComponent(ConfiguredBaseModel):
+    """
+    One entity+quality decomposition of a key event: the biological process perturbed and/or the object acted on (the entity), paired with the direction of change (the quality). Mirrors one AOP-Wiki biological-event triple (action + process + object). Each leg is an Association carrying its own evidence receipt; the component holds them together so a key event with several decompositions keeps each direction attached to the process and object it belongs with.
+    """
+    linkml_meta: ClassVar[LinkMLMeta] = LinkMLMeta({'from_schema': 'https://w3id.org/EHS-Data-Standards/aop-cam'})
+
+    process: Optional[ProcessAssociation] = Field(default=None, description="""The biological process this component perturbs.""", json_schema_extra = { "linkml_meta": {'domain_of': ['KeyEventComponent']} })
+    object: Optional[ObjectAssociation] = Field(default=None, description="""The biological object (molecule, cell, structure) acted on.""", json_schema_extra = { "linkml_meta": {'domain_of': ['KeyEventComponent']} })
+    direction: Optional[DirectionAssociation] = Field(default=None, description="""The direction of change, as a PATO quality.""", json_schema_extra = { "linkml_meta": {'domain_of': ['KeyEventComponent']} })
 
 
 class Association(ConfiguredBaseModel):
@@ -429,10 +456,19 @@ class TermObject(ConfiguredBaseModel):
 
 class ProcessTermObject(TermObject):
     """
-    A biological process term (GO preferred; MESH accepted for AOP-Wiki conversion).
+    A biological process term. GO preferred; the other sources in AOP-Wiki's biological-process vocabulary (MESH, HP, MP, VT, NBO and kin) are accepted for conversion so the upstream assertion is kept verbatim, with re-grounding to GO left to curation.
     """
     linkml_meta: ClassVar[LinkMLMeta] = LinkMLMeta({'from_schema': 'https://w3id.org/EHS-Data-Standards/aop-cam',
-         'id_prefixes': ['GO', 'MESH']})
+         'id_prefixes': ['GO',
+                         'MESH',
+                         'HP',
+                         'MP',
+                         'VT',
+                         'NBO',
+                         'MI',
+                         'PCO',
+                         'RBO',
+                         'IDO']})
 
     id: str = Field(default=..., description="""A unique identifier.""", json_schema_extra = { "linkml_meta": {'domain_of': ['AopModel', 'KeyEventNode', 'TermObject']} })
     label: Optional[str] = Field(default=None, description="""The human-readable label of the term, as given by its ontology.""", json_schema_extra = { "linkml_meta": {'domain_of': ['TermObject']} })
@@ -440,10 +476,10 @@ class ProcessTermObject(TermObject):
 
 class ObjectTermObject(TermObject):
     """
-    A biological object term (protein, chemical, or other entity).
+    A biological object term (protein, chemical, cell, anatomical structure, or other entity). AOP-Wiki's biological-object vocabulary also draws on CL, UBERON and FMA; those assertions are kept verbatim.
     """
     linkml_meta: ClassVar[LinkMLMeta] = LinkMLMeta({'from_schema': 'https://w3id.org/EHS-Data-Standards/aop-cam',
-         'id_prefixes': ['PR', 'CHEBI', 'GO', 'MESH']})
+         'id_prefixes': ['PR', 'CHEBI', 'GO', 'MESH', 'CL', 'UBERON', 'FMA']})
 
     id: str = Field(default=..., description="""A unique identifier.""", json_schema_extra = { "linkml_meta": {'domain_of': ['AopModel', 'KeyEventNode', 'TermObject']} })
     label: Optional[str] = Field(default=None, description="""The human-readable label of the term, as given by its ontology.""", json_schema_extra = { "linkml_meta": {'domain_of': ['TermObject']} })
@@ -565,6 +601,7 @@ class StressorTermObject(TermObject):
 ModelCollection.model_rebuild()
 AopModel.model_rebuild()
 KeyEventNode.model_rebuild()
+KeyEventComponent.model_rebuild()
 Association.model_rebuild()
 TermAssociation.model_rebuild()
 ProcessAssociation.model_rebuild()
