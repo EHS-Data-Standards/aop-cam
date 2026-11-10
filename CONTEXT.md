@@ -123,7 +123,7 @@ Done:
 - **The loader** (`src/aop_cam/loader.py`, run as `python -m
   aop_cam.loader`): `data/*.tsv` → ModelCollection instances with
   per-assertion receipts (class 1 ECO:0000311 citing the hashed dump in
-  `data/SNAPSHOT.yaml`; class 2 ECO:0000305 citing the SSSOM row; an
+  `data/aopwiki-snapshot.yaml`; class 2 ECO:0000305 citing the SSSOM row; an
   action missing from the table fails the build). `src/aop_cam/network.py`
   merges models on shared key events and checks event types against graph
   position. First contact with real data forced two schema evolutions:

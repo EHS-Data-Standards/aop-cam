@@ -6,7 +6,7 @@ as per-assertion evidence (see docs/grounding-receipts.md):
 * Class 1, upstream-asserted (ECO:0000311 "imported information"): AOP-Wiki
   supplied the ontology id (key event components, cell terms, organ terms,
   and the causal edges themselves). The receipt cites the AOP-Wiki record
-  page and the pinned, hashed dump from data/SNAPSHOT.yaml.
+  page and the pinned, hashed dump from data/aopwiki-snapshot.yaml.
 * Class 2, mapping-table (ECO:0000305 "curator inference used in manual
   assertion"): the 11 biological actions map to PATO through the committed
   SSSOM file mappings/aopwiki-action-to-pato.sssom.tsv. The loader may only
@@ -154,7 +154,7 @@ def load_corpus(data_dir: Path) -> Corpus:
     }
     for r in _read_tsv(data_dir / "aop_stressors.tsv"):
         corpus.aop_stressors.setdefault(r["aop_id"], []).append(r)
-    snapshot_path = data_dir / "SNAPSHOT.yaml"
+    snapshot_path = data_dir / "aopwiki-snapshot.yaml"
     if snapshot_path.exists():
         with open(snapshot_path) as fh:
             corpus.snapshot = yaml.safe_load(fh)
